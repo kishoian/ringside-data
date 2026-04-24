@@ -121,8 +121,8 @@ async function fetchLiveBench() {
 
 // ─── Merge into {chat, code, image, video} ─────────────────────────────────
 
-function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
-  const out = { chat: [], code: [], image: [], video: [], aider: [] };
+function merge({ openrouter, arena, prevSnapshot }) {
+  const out = { chat: [], code: [], image: [], video: [] };
   const chatMap = new Map(), codeMap = new Map();
 
   // arena.ai — authoritative Elo for all 4 categories
@@ -178,23 +178,11 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
     }
   }
 
-  // Aider polyglot — separate category with its own pass-rate % scale (0-100).
-  // Kept distinct from arena.ai Elo so the two systems aren't mixed in one sort.
-  if (aider?.length) {
-    for (const e of aider) {
-      const name = e.model || e.dirname; if (!name) continue;
-      const rate = parseFloat(e.pass_rate_2 ?? e.pass_rate_1 ?? e.pass_rate); if (!rate) continue;
-      const cleanName = name.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/--.+$/, '');
-      const org = guessOrg(cleanName);
-      const row = mkRow(slug(cleanName), cleanName, org, Math.round(rate * 10) / 10, 0, 'aider');
-      out.aider.push(row);
-    }
-  }
 
   // OpenRouter — catalog enrichment (pricing, context)
   if (openrouter?.length) {
     const orMap = new Map(openrouter.map(m => [norm(m.name || m.id), m]));
-    for (const cat of ['chat', 'code', 'aider']) {
+    for (const cat of ['chat', 'code']) {
       for (const m of out[cat]) {
         const match = orMap.get(norm(m.name)) || orMap.get(norm(m.id));
         if (match) { m.context = match.context_length; m.pricing = match.pricing; }
@@ -204,7 +192,7 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
 
   // Dedup exact ID collisions within each category (preserves variants like
   // gpt-5 (high) / gpt-5 (medium) as separate rows).
-  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+  for (const cat of ['chat', 'code', 'image', 'video']) {
     const seen = new Map();
     for (const m of out[cat]) {
       const ex = seen.get(m.id);
@@ -218,7 +206,7 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
   // as `alts`. Lets the UI show a model's Aider % next to its arena Elo and
   // vice versa without merging the rows.
   const canonicalIndex = new Map(); // canonical → [{cat, score, name}]
-  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+  for (const cat of ['chat', 'code', 'image', 'video']) {
     for (const m of out[cat]) {
       const key = canonical(m.name);
       if (!key) continue;
@@ -226,7 +214,7 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
       canonicalIndex.get(key).push({ cat, score: m.scores[cat], name: m.name });
     }
   }
-  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+  for (const cat of ['chat', 'code', 'image', 'video']) {
     for (const m of out[cat]) {
       const key = canonical(m.name);
       const matches = canonicalIndex.get(key) || [];
@@ -244,7 +232,7 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
   // Delta vs previous snapshot (rolling weekly). Keyed on canonical name so
   // the key is stable even if the raw id changes between script versions.
   if (prevSnapshot) {
-    for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+    for (const cat of ['chat', 'code', 'image', 'video']) {
       for (const m of out[cat]) {
         const p = prevSnapshot[`${cat}:${canonical(m.name)}`];
         if (typeof p === 'number') m.delta = Math.round((m.scores[cat] - p) * 10) / 10;
@@ -341,25 +329,23 @@ try {
 } catch { /* first run */ }
 
 console.log('Fetching sources…');
-const [openrouter, aider, arena, livebench] = await Promise.all([
+const [openrouter, arena] = await Promise.all([
   tryFetch('openrouter', fetchOpenRouter),
-  tryFetch('aider', fetchAider),
   fetchArenaAll(),
-  tryFetch('livebench', fetchLiveBench),
 ]);
 
-const merged = merge({ openrouter, aider, arena, livebench, prevSnapshot });
+const merged = merge({ openrouter, arena, prevSnapshot });
 const payload = { ...merged, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
 console.log('Wrote', outFile);
-console.log(`Results: ${merged.chat.length} chat · ${merged.code.length} code · ${merged.aider.length} aider · ${merged.image.length} image · ${merged.video.length} video`);
+console.log(`Results: ${merged.chat.length} chat · ${merged.code.length} code · ${merged.image.length} image · ${merged.video.length} video`);
 console.log('Sources:', sources);
 
 // Refresh weekly snapshot
 if (!prevSnapshot) {
   const scores = {};
-  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+  for (const cat of ['chat', 'code', 'image', 'video']) {
     // For a given canonical name, keep the best score across variants —
     // matches how alts are computed so snapshot compares apples to apples.
     for (const m of merged[cat]) {
