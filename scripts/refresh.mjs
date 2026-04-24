@@ -122,7 +122,7 @@ async function fetchLiveBench() {
 // ─── Merge into {chat, code, image, video} ─────────────────────────────────
 
 function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
-  const out = { chat: [], code: [], image: [], video: [] };
+  const out = { chat: [], code: [], image: [], video: [], aider: [] };
   const chatMap = new Map(), codeMap = new Map();
 
   // arena.ai — authoritative Elo for all 4 categories
@@ -178,27 +178,23 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
     }
   }
 
-  // Aider polyglot — code rankings (pass_rate_2 is %)
+  // Aider polyglot — separate category with its own pass-rate % scale (0-100).
+  // Kept distinct from arena.ai Elo so the two systems aren't mixed in one sort.
   if (aider?.length) {
     for (const e of aider) {
       const name = e.model || e.dirname; if (!name) continue;
       const rate = parseFloat(e.pass_rate_2 ?? e.pass_rate_1 ?? e.pass_rate); if (!rate) continue;
       const cleanName = name.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/--.+$/, '');
       const org = guessOrg(cleanName);
-      const ex = codeMap.get(norm(cleanName));
-      const score = Math.round(rate * 10);
-      if (ex) { ex.scores.code = Math.max(ex.scores.code, score); }
-      else {
-        const row = mkRow(slug(cleanName), cleanName, org, score, 0, 'code');
-        out.code.push(row); codeMap.set(norm(cleanName), row);
-      }
+      const row = mkRow(slug(cleanName), cleanName, org, Math.round(rate * 10) / 10, 0, 'aider');
+      out.aider.push(row);
     }
   }
 
   // OpenRouter — catalog enrichment (pricing, context)
   if (openrouter?.length) {
     const orMap = new Map(openrouter.map(m => [norm(m.name || m.id), m]));
-    for (const cat of ['chat', 'code']) {
+    for (const cat of ['chat', 'code', 'aider']) {
       for (const m of out[cat]) {
         const match = orMap.get(norm(m.name)) || orMap.get(norm(m.id));
         if (match) { m.context = match.context_length; m.pricing = match.pricing; }
@@ -206,22 +202,35 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
     }
   }
 
-  // Dedup by id, sort
-  for (const cat of ['chat', 'code', 'image', 'video']) {
+  // Collapse variants (thinking/high/medium/default/32k/no-think/etc.) of the
+  // same base model to a single row with the best score + list of variants.
+  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
     const seen = new Map();
     for (const m of out[cat]) {
-      const ex = seen.get(m.id);
-      if (!ex || (m.scores[cat] || 0) > (ex.scores[cat] || 0)) seen.set(m.id, m);
+      const key = canonical(m.name);
+      const score = m.scores[cat] || 0;
+      const ex = seen.get(key);
+      if (!ex) {
+        seen.set(key, { ...m, id: key, name: displayName(m.name), variants: [variantLabel(m.name, score)] });
+      } else {
+        ex.variants.push(variantLabel(m.name, score));
+        if (score > (ex.scores[cat] || 0)) {
+          ex.scores[cat] = score;
+          ex.votes = Math.max(ex.votes, m.votes);
+        }
+      }
     }
-    out[cat] = Array.from(seen.values()).sort((a, b) => b.scores[cat] - a.scores[cat]);
+    out[cat] = Array.from(seen.values())
+      .map(m => { m.variants = m.variants.filter(Boolean); if (m.variants.length < 2) delete m.variants; return m; })
+      .sort((a, b) => b.scores[cat] - a.scores[cat]);
   }
 
   // Delta vs previous snapshot (rolling weekly)
   if (prevSnapshot) {
-    for (const cat of ['chat', 'code', 'image', 'video']) {
+    for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
       for (const m of out[cat]) {
         const p = prevSnapshot[`${cat}:${m.id}`];
-        if (typeof p === 'number') m.delta = m.scores[cat] - p;
+        if (typeof p === 'number') m.delta = Math.round((m.scores[cat] - p) * 10) / 10;
       }
     }
   }
@@ -249,6 +258,36 @@ function guessOrg(name) {
 }
 function mkRow(id, name, org, score, votes, cat) {
   return { id, name, org, color: ORG_COLOR[org] || '#888', votes: votes || 0, delta: 0, scores: { [cat]: score } };
+}
+
+// Strip variant markers to group the same underlying model together.
+// Examples collapsed to the same canonical id:
+//   claude-opus-4-7-thinking / claude-opus-4-7 (no think)          → claude-opus-4-7
+//   gpt-5 (high) / gpt-5 (medium) / gpt-5 (low)                    → gpt-5
+//   gemini-2.5-pro-preview-06-05 (32k think) / (default think)     → gemini-2.5-pro-preview-06-05
+const VARIANT_RE = /\s*[\(\[](?:high|medium|low|default|thinking|no[- ]?thinking|no[- ]?think|reasoner|chat|think|thinking tokens|default think|[\d]+k\s*(?:think|thinking)?|web[- ]?search|nano[- ]?banana[- ]?\d?|effort\s*[\d.]+|reasoning|audio|[\d]+p)[^)\]]*[\)\]]/gi;
+const SUFFIX_RE = /[-_\s](?:thinking|high|medium|low|no-?think)$/i;
+
+function canonical(name) {
+  return String(name || '')
+    .replace(VARIANT_RE, ' ')
+    .replace(SUFFIX_RE, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
+function displayName(name) {
+  // Strip variant markers but keep nice casing from the original name.
+  return String(name || '').replace(VARIANT_RE, '').replace(SUFFIX_RE, '').replace(/\s+/g, ' ').trim();
+}
+
+function variantLabel(name, score) {
+  const m = String(name || '').match(VARIANT_RE);
+  if (!m) return null;
+  return { label: m.join(' ').replace(/[\(\)\[\]]/g, '').trim(), score };
 }
 function norm(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 function slug(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
@@ -297,13 +336,13 @@ const payload = { ...merged, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
 console.log('Wrote', outFile);
-console.log(`Results: ${merged.chat.length} chat · ${merged.code.length} code · ${merged.image.length} image · ${merged.video.length} video`);
+console.log(`Results: ${merged.chat.length} chat · ${merged.code.length} code · ${merged.aider.length} aider · ${merged.image.length} image · ${merged.video.length} video`);
 console.log('Sources:', sources);
 
 // Refresh weekly snapshot
 if (!prevSnapshot) {
   const scores = {};
-  for (const cat of ['chat', 'code', 'image', 'video'])
+  for (const cat of ['chat', 'code', 'image', 'video', 'aider'])
     for (const m of merged[cat]) scores[`${cat}:${m.id}`] = m.scores[cat];
   await fs.writeFile(snapFile, JSON.stringify({ at: Date.now(), scores }, null, 2) + '\n');
   console.log('Wrote snapshot.json');
