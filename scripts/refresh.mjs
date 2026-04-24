@@ -60,50 +60,95 @@ async function fetchAider() {
   throw new Error('no aider yaml found');
 }
 
-// ─── arena.ai (new LMArena): scrape SSR'd leaderboard from Next.js chunks ──
-// Each category page embeds full leaderboard data in __next_f chunks as an
-// array of { rank, modelDisplayName, rating, votes, modelOrganization, ... }.
-// Updated by LMArena continuously — same source their own site shows.
-async function fetchArena(slug) {
-  const html = await (await fetch(`https://arena.ai/leaderboard/${slug}`, {
-    headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' },
-  })).text();
-  if (!html || html.length < 10000) throw new Error('html too small: ' + html.length);
+// ─── Artificial Analysis: scrape SSR'd leaderboards (no API key needed) ────
+// AA embeds full model data in Next.js __next_f stream chunks. They publish
+// the same data that powers OpenRouter's "Intelligence Index" ranking — so
+// we match what blogs & X accounts reference when calling out "newest top model".
+//
+// Pages we tap:
+//   /leaderboards/models — LLMs, fields: intelligenceIndex, codingIndex, …
+//   /image/models        — image models, field: qualityElo
+//   /video/models        — video models, field: qualityElo
+//
+// Scales are intentionally different per page. We surface them as-is rather
+// than normalizing so you can trust the numbers against AA's site directly.
 
-  // Concatenate all self.__next_f.push chunks; strings inside are JSON-escaped.
+function extractAAObjects(html, markerKey) {
   const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/gs)].map(m => m[1]);
-  const big = chunks.join('');
-
-  // Find { "entries": [...] } array and parse each entry object. The entries
-  // are JSON-escaped (\" instead of "), so unescape per-entry before JSON.parse.
-  const entries = [];
-  // Match object bodies inside entries array — each starts with {\"rank\":
-  const re = /\{\\"rank\\":\d+[^{}]*?\\"rating\\":[\d.]+[^{}]*?\}/g;
+  // Unescape once: JSON-escaped in chunk strings
+  const big = chunks.join('').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+  const markerRe = new RegExp(`"${markerKey}"\\s*:`, 'g');
+  const out = [];
+  const seen = new Set();
   let m;
-  while ((m = re.exec(big))) {
+  while ((m = markerRe.exec(big))) {
+    // Walk back to object start
+    let depth = 0, start = -1;
+    for (let i = m.index; i >= 0; i--) {
+      const c = big[i];
+      if (c === '}') depth++;
+      else if (c === '{') {
+        if (depth === 0) { start = i; break; }
+        depth--;
+      }
+    }
+    if (start < 0) continue;
+    if (seen.has(start)) continue;
+    seen.add(start);
+
+    // Walk forward honoring strings/escapes
+    let end = -1, inStr = false, esc = false;
+    depth = 0;
+    for (let j = start; j < big.length; j++) {
+      const c = big[j];
+      if (esc) { esc = false; continue; }
+      if (c === '\\') { esc = true; continue; }
+      if (c === '"') { inStr = !inStr; continue; }
+      if (inStr) continue;
+      if (c === '{') depth++;
+      else if (c === '}') { depth--; if (depth === 0) { end = j; break; } }
+    }
+    if (end < 0) continue;
     try {
-      const unescaped = m[0].replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-      const obj = JSON.parse(unescaped);
-      entries.push(obj);
-    } catch { /* skip malformed */ }
+      const obj = JSON.parse(big.slice(start, end + 1));
+      if (obj && obj[markerKey] !== undefined) out.push(obj);
+    } catch { /* skip malformed slice */ }
   }
-  if (!entries.length) throw new Error('no entries parsed');
-  return entries;
+  return out;
 }
 
-async function fetchArenaAll() {
-  // Map arena.ai category slugs to our internal categories.
-  const [text, code, image, video] = await Promise.all([
-    fetchArena('text').catch(e => (sources.arena_text = 'err: ' + e.message, null)),
-    fetchArena('code').catch(e => (sources.arena_code = 'err: ' + e.message, null)),
-    fetchArena('text-to-image').catch(e => (sources.arena_image = 'err: ' + e.message, null)),
-    fetchArena('text-to-video').catch(e => (sources.arena_video = 'err: ' + e.message, null)),
+async function fetchAA(url, markerKey) {
+  const html = await (await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' } })).text();
+  if (!html || html.length < 50000) throw new Error('html too small: ' + html.length);
+  const models = extractAAObjects(html, markerKey);
+  if (!models.length) throw new Error('no models extracted');
+  return models;
+}
+
+async function fetchAAVideo() {
+  // Video page nests elo inside an `elos` array (one per resolution variant).
+  // Marker `elos` selects the outer model object; we pick the max elo below.
+  const html = await (await fetch('https://artificialanalysis.ai/video/models', { headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' } })).text();
+  if (!html || html.length < 50000) throw new Error('html too small');
+  const models = extractAAObjects(html, 'elos')
+    .filter(m => Array.isArray(m.elos) && m.elos.length && m.name);
+  if (!models.length) throw new Error('no video models extracted');
+  for (const m of models) {
+    m.qualityElo = Math.max(...m.elos.map(e => e.elo || 0));
+  }
+  return models;
+}
+
+async function fetchAAAll() {
+  const [llm, image, video] = await Promise.all([
+    fetchAA('https://artificialanalysis.ai/leaderboards/models', 'intelligenceIndex').catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
+    fetchAA('https://artificialanalysis.ai/image/models', 'qualityElo').catch(e => (sources.aa_image = 'err: ' + e.message, null)),
+    fetchAAVideo().catch(e => (sources.aa_video = 'err: ' + e.message, null)),
   ]);
-  if (text)  sources.arena_text  = `ok (${text.length})`;
-  if (code)  sources.arena_code  = `ok (${code.length})`;
-  if (image) sources.arena_image = `ok (${image.length})`;
-  if (video) sources.arena_video = `ok (${video.length})`;
-  return { text, code, image, video };
+  if (llm)   sources.aa_llm = `ok (${llm.length})`;
+  if (image) sources.aa_image = `ok (${image.length})`;
+  if (video) sources.aa_video = `ok (${video.length})`;
+  return { llm, image, video };
 }
 
 // ─── LiveBench: CSV in GitHub repo ─────────────────────────────────────────
@@ -121,35 +166,56 @@ async function fetchLiveBench() {
 
 // ─── Merge into {chat, code, image, video} ─────────────────────────────────
 
-function merge({ openrouter, arena, prevSnapshot }) {
+function merge({ openrouter, aa, prevSnapshot }) {
   const out = { chat: [], code: [], image: [], video: [] };
-  const chatMap = new Map(), codeMap = new Map();
 
-  // arena.ai — authoritative Elo for all 4 categories
-  const arenaCatMap = { chat: 'text', code: 'code', image: 'image', video: 'video' };
-  for (const [cat, arenaKey] of Object.entries(arenaCatMap)) {
-    const entries = arena?.[arenaKey];
-    if (!entries?.length) continue;
-    for (const e of entries) {
-      const name = e.modelDisplayName || e.modelName;
+  // LLM page → chat (intelligenceIndex) + code (codingIndex)
+  if (aa?.llm?.length) {
+    for (const m of aa.llm) {
+      const name = m.name || m.shortName || m.slug;
       if (!name) continue;
-      const elo = Math.round(parseFloat(e.rating) || 0);
-      if (!elo) continue;
-      const org = e.modelOrganization || guessOrg(name);
-      const votes = parseInt(e.votes) || 0;
-      const row = mkRow(slug(name), name, org, elo, votes, cat);
-      if (e.inputPricePerMillion != null || e.outputPricePerMillion != null) {
-        row.pricing = {
-          prompt: e.inputPricePerMillion,
-          completion: e.outputPricePerMillion,
-          perImage: e.pricePerImage,
-          perSecond: e.pricePerSecond,
-        };
+      const org = m.modelCreatorName || m.modelCreator?.name || 'Unknown';
+      const color = m.modelCreatorColor || ORG_COLOR[org] || '#888';
+      const logo = m.modelCreatorLogo ? `https://artificialanalysis.ai/img/logos/${m.modelCreatorLogo}` : null;
+
+      const chat = m.intelligenceIndex;
+      const code = m.codingIndex;
+      if (typeof chat === 'number' && chat > 0) {
+        const row = mkAARow(name, org, color, logo, chat, 'chat', m);
+        out.chat.push(row);
       }
-      if (e.contextLength) row.context = e.contextLength;
-      out[cat].push(row);
-      if (cat === 'chat') chatMap.set(norm(name), row);
-      if (cat === 'code') codeMap.set(norm(name), row);
+      if (typeof code === 'number' && code > 0) {
+        const row = mkAARow(name, org, color, logo, code, 'code', m);
+        out.code.push(row);
+      }
+    }
+  }
+
+  // Image page → qualityElo
+  if (aa?.image?.length) {
+    for (const m of aa.image) {
+      const name = m.name || m.shortName;
+      if (!name) continue;
+      const org = m.creator?.name || m.modelCreatorName || 'Unknown';
+      const color = m.creator?.color || ORG_COLOR[org] || '#888';
+      const logo = m.creator?.logoSmall ? `https://artificialanalysis.ai${m.creator.logoSmall}` : null;
+      const elo = Math.round(m.qualityElo || 0);
+      if (!elo) continue;
+      out.image.push(mkAARow(name, org, color, logo, elo, 'image', m));
+    }
+  }
+
+  // Video page → qualityElo
+  if (aa?.video?.length) {
+    for (const m of aa.video) {
+      const name = m.name || m.shortName;
+      if (!name) continue;
+      const org = m.creator?.name || m.modelCreatorName || 'Unknown';
+      const color = m.creator?.color || ORG_COLOR[org] || '#888';
+      const logo = m.creator?.logoSmall ? `https://artificialanalysis.ai${m.creator.logoSmall}` : null;
+      const elo = Math.round(m.qualityElo || 0);
+      if (!elo) continue;
+      out.video.push(mkAARow(name, org, color, logo, elo, 'video', m));
     }
   }
 
@@ -239,6 +305,27 @@ function mkRow(id, name, org, score, votes, cat) {
   return { id, name, org, color: ORG_COLOR[org] || '#888', votes: votes || 0, delta: 0, scores: { [cat]: score } };
 }
 
+function mkAARow(name, org, color, logo, score, cat, raw) {
+  const row = {
+    id: slug(name),
+    name, org, color,
+    votes: 0, // AA is benchmark-based, not voting — keep field for schema parity
+    delta: 0,
+    scores: { [cat]: Math.round(score * 10) / 10 },
+  };
+  if (logo) row.logo = logo;
+  if (raw.releaseDate) row.releaseDate = raw.releaseDate;
+  // Pricing for LLMs
+  if (raw.price1mInputTokens != null || raw.price1mOutputTokens != null) {
+    row.pricing = {
+      prompt: raw.price1mInputTokens,
+      completion: raw.price1mOutputTokens,
+      blended: raw.price1mBlended3To1,
+    };
+  }
+  return row;
+}
+
 // Strip variant markers to group the same underlying model together.
 // Examples collapsed to the same canonical id:
 //   claude-opus-4-7-thinking / claude-opus-4-7 (no think)          → claude-opus-4-7
@@ -303,12 +390,12 @@ try {
 } catch { /* first run */ }
 
 console.log('Fetching sources…');
-const [openrouter, arena] = await Promise.all([
+const [openrouter, aa] = await Promise.all([
   tryFetch('openrouter', fetchOpenRouter),
-  fetchArenaAll(),
+  fetchAAAll(),
 ]);
 
-const merged = merge({ openrouter, arena, prevSnapshot });
+const merged = merge({ openrouter, aa, prevSnapshot });
 const payload = { ...merged, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
