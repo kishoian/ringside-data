@@ -153,32 +153,6 @@ function merge({ openrouter, arena, prevSnapshot }) {
     }
   }
 
-  // LiveBench — overlay chat + code if columns present
-  if (livebench?.length) {
-    const [header, ...body] = livebench;
-    const ci = (n) => header.findIndex(h => h.toLowerCase().trim() === n);
-    const iName = ci('model');
-    const iAvg = ci('global average');
-    const iCode = ci('coding average');
-    if (iName > -1) {
-      for (const r of body) {
-        const name = (r[iName] || '').trim(); if (!name) continue;
-        const avg = iAvg > -1 ? parseFloat(r[iAvg]) : 0;
-        const code = iCode > -1 ? parseFloat(r[iCode]) : 0;
-        const org = guessOrg(name);
-        if (code) {
-          const row = mkRow(slug(name), name, org, Math.round(code * 10), 0, 'code');
-          out.code.push(row);
-          codeMap.set(norm(name), row);
-        }
-        if (avg && !chatMap.has(norm(name))) {
-          out.chat.push(mkRow(slug(name), name, org, Math.round(avg * 10), 0, 'chat'));
-        }
-      }
-    }
-  }
-
-
   // OpenRouter — catalog enrichment (pricing, context)
   if (openrouter?.length) {
     const orMap = new Map(openrouter.map(m => [norm(m.name || m.id), m]));
