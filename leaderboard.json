@@ -1,29 +1,11 @@
 {
   "chat": [
     {
-      "id": "claude-opus-4-7-thinking",
-      "name": "claude-opus-4-7-thinking",
+      "id": "claude-opus-4-7",
+      "name": "claude-opus-4-7",
       "org": "Anthropic",
       "color": "#c96442",
       "votes": 5321,
-      "delta": 0,
-      "scores": {
-        "chat": 1503
-      },
-      "pricing": {
-        "prompt": 5,
-        "completion": 25,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1000000
-    },
-    {
-      "id": "claude-opus-4-6-thinking",
-      "name": "claude-opus-4-6-thinking",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 20192,
       "delta": 0,
       "scores": {
         "chat": 1503
@@ -41,28 +23,10 @@
       "name": "claude-opus-4-6",
       "org": "Anthropic",
       "color": "#c96442",
-      "votes": 21537,
+      "votes": 20192,
       "delta": 0,
       "scores": {
-        "chat": 1496
-      },
-      "pricing": {
-        "prompt": 5,
-        "completion": 25,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1000000
-    },
-    {
-      "id": "claude-opus-4-7",
-      "name": "claude-opus-4-7",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 6017,
-      "delta": 0,
-      "scores": {
-        "chat": 1494
+        "chat": 1503
       },
       "pricing": {
         "prompt": 5,
@@ -131,8 +95,8 @@
       }
     },
     {
-      "id": "gpt-5-4-high",
-      "name": "gpt-5.4-high",
+      "id": "gpt-5-4",
+      "name": "gpt-5.4",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 13593,
@@ -257,8 +221,8 @@
       "context": 202752
     },
     {
-      "id": "grok-4-1-thinking",
-      "name": "grok-4.1-thinking",
+      "id": "grok-4-1",
+      "name": "grok-4.1",
       "org": "xAI",
       "color": "#1a1a1a",
       "votes": 51489,
@@ -284,24 +248,6 @@
         "perSecond": null
       },
       "context": 200000
-    },
-    {
-      "id": "gpt-5-4",
-      "name": "gpt-5.4",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 14170,
-      "delta": 0,
-      "scores": {
-        "chat": 1467
-      },
-      "pricing": {
-        "prompt": 2.5,
-        "completion": 15,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1050000
     },
     {
       "id": "qwen3-5-max-preview",
@@ -351,53 +297,6 @@
       "context": 1000000
     },
     {
-      "id": "gemini-3-flash-thinking-minimal",
-      "name": "gemini-3-flash (thinking-minimal)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 37596,
-      "delta": 0,
-      "scores": {
-        "chat": 1463
-      },
-      "pricing": {
-        "prompt": 0.5,
-        "completion": 3,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1048576
-    },
-    {
-      "id": "deepseek-v4-pro-thinking",
-      "name": "deepseek-v4-pro-thinking",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 3783,
-      "delta": 0,
-      "scores": {
-        "chat": 1462
-      },
-      "pricing": {
-        "prompt": 1.74,
-        "completion": 3.48,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1048576
-    },
-    {
-      "id": "grok-4-1",
-      "name": "grok-4.1",
-      "org": "xAI",
-      "color": "#1a1a1a",
-      "votes": 55513,
-      "delta": 0,
-      "scores": {
-        "chat": 1461
-      }
-    },
-    {
       "id": "dola-seed-2-0-pro",
       "name": "dola-seed-2.0-pro",
       "org": "Bytedance",
@@ -427,8 +326,8 @@
       "context": 256000
     },
     {
-      "id": "gpt-5-4-mini-high",
-      "name": "gpt-5.4-mini-high",
+      "id": "gpt-5-4-mini",
+      "name": "gpt-5.4-mini",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 11237,
@@ -463,8 +362,8 @@
       "context": 202800
     },
     {
-      "id": "gpt-5-1-high",
-      "name": "gpt-5.1-high",
+      "id": "gpt-5-1",
+      "name": "gpt-5.1",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 40871,
@@ -575,8 +474,8 @@
       }
     },
     {
-      "id": "kimi-k2-5-thinking",
-      "name": "kimi-k2.5-thinking",
+      "id": "kimi-k2-5",
+      "name": "kimi-k2.5",
       "org": "Moonshot",
       "color": "#8b5cf6",
       "votes": 24213,
@@ -754,8 +653,8 @@
       "context": 202752
     },
     {
-      "id": "gpt-5-2-high",
-      "name": "gpt-5.2-high",
+      "id": "gpt-5-2",
+      "name": "gpt-5.2",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 34410,
@@ -772,8 +671,8 @@
       "context": 400000
     },
     {
-      "id": "deepseek-v4-flash-thinking",
-      "name": "deepseek-v4-flash-thinking",
+      "id": "deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
       "org": "DeepSeek",
       "color": "#4d6bfe",
       "votes": 3607,
@@ -819,42 +718,6 @@
       }
     },
     {
-      "id": "gpt-5-1",
-      "name": "gpt-5.1",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 43516,
-      "delta": 0,
-      "scores": {
-        "chat": 1439
-      },
-      "pricing": {
-        "prompt": 1.25,
-        "completion": 10,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 400000
-    },
-    {
-      "id": "gpt-5-2",
-      "name": "gpt-5.2",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 31577,
-      "delta": 0,
-      "scores": {
-        "chat": 1439
-      },
-      "pricing": {
-        "prompt": 1.75,
-        "completion": 14,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 400000
-    },
-    {
       "id": "qwen3-max-preview",
       "name": "qwen3-max-preview",
       "org": "Alibaba",
@@ -884,8 +747,8 @@
       }
     },
     {
-      "id": "gpt-5-high",
-      "name": "gpt-5-high",
+      "id": "gpt-5",
+      "name": "gpt-5",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 31986,
@@ -900,24 +763,6 @@
         "perSecond": null
       },
       "context": 400000
-    },
-    {
-      "id": "deepseek-v4-flash",
-      "name": "deepseek-v4-flash",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 3497,
-      "delta": 0,
-      "scores": {
-        "chat": 1433
-      },
-      "pricing": {
-        "prompt": 0.14,
-        "completion": 0.28,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1048576
     },
     {
       "id": "kimi-k2-5-instant",
@@ -1039,8 +884,8 @@
       "context": 204800
     },
     {
-      "id": "deepseek-v3-2-exp-thinking",
-      "name": "deepseek-v3.2-exp-thinking",
+      "id": "deepseek-v3-2-exp",
+      "name": "deepseek-v3.2-exp",
       "org": "DeepSeek",
       "color": "#4d6bfe",
       "votes": 9078,
@@ -1111,24 +956,6 @@
       "context": 200000
     },
     {
-      "id": "deepseek-v3-2-exp",
-      "name": "deepseek-v3.2-exp",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 11949,
-      "delta": 0,
-      "scores": {
-        "chat": 1423
-      },
-      "pricing": {
-        "prompt": 0.27,
-        "completion": 0.41,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 163840
-    },
-    {
       "id": "qwen3-235b-a22b-instruct-2507",
       "name": "qwen3-235b-a22b-instruct-2507",
       "org": "Alibaba",
@@ -1144,24 +971,6 @@
         "perImage": null,
         "perSecond": null
       }
-    },
-    {
-      "id": "deepseek-v3-2-thinking",
-      "name": "deepseek-v3.2-thinking",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 38982,
-      "delta": 0,
-      "scores": {
-        "chat": 1422
-      },
-      "pricing": {
-        "prompt": 0.252,
-        "completion": 0.378,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 131072
     },
     {
       "id": "deepseek-r1-0528",
@@ -1281,49 +1090,14 @@
       "context": 131072
     },
     {
-      "id": "deepseek-v3-1-terminus-thinking",
-      "name": "deepseek-v3.1-terminus-thinking",
+      "id": "deepseek-v3-1-terminus",
+      "name": "deepseek-v3.1-terminus",
       "org": "DeepSeek",
       "color": "#4d6bfe",
       "votes": 3469,
       "delta": 0,
       "scores": {
         "chat": 1417
-      },
-      "pricing": {
-        "prompt": 0.21,
-        "completion": 0.79,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 163840
-    },
-    {
-      "id": "deepseek-v3-1-thinking",
-      "name": "deepseek-v3.1-thinking",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 11759,
-      "delta": 0,
-      "scores": {
-        "chat": 1417
-      },
-      "pricing": {
-        "prompt": 1.23,
-        "completion": 4.94,
-        "perImage": null,
-        "perSecond": null
-      }
-    },
-    {
-      "id": "deepseek-v3-1-terminus",
-      "name": "deepseek-v3.1-terminus",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 3713,
-      "delta": 0,
-      "scores": {
-        "chat": 1416
       },
       "pricing": {
         "prompt": 0.21,
@@ -1560,8 +1334,8 @@
       "context": 1048576
     },
     {
-      "id": "gpt-5-4-nano-high",
-      "name": "gpt-5.4-nano-high",
+      "id": "gpt-5-4-nano",
+      "name": "gpt-5.4-nano",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 10607,
@@ -1614,8 +1388,8 @@
       "context": 196608
     },
     {
-      "id": "qwen3-235b-a22b-no-thinking",
-      "name": "qwen3-235b-a22b-no-thinking",
+      "id": "qwen3-235b-a22b-no",
+      "name": "qwen3-235b-a22b-no",
       "org": "Alibaba",
       "color": "#ff6a00",
       "votes": 38253,
@@ -1767,8 +1541,8 @@
       }
     },
     {
-      "id": "hunyuan-vision-1-5-thinking",
-      "name": "hunyuan-vision-1.5-thinking",
+      "id": "hunyuan-vision-1-5",
+      "name": "hunyuan-vision-1.5",
       "org": "Tencent",
       "color": "#888",
       "votes": 2218,
@@ -1778,8 +1552,8 @@
       }
     },
     {
-      "id": "qwen3-vl-235b-a22b-thinking",
-      "name": "qwen3-vl-235b-a22b-thinking",
+      "id": "qwen3-vl-235b-a22b",
+      "name": "qwen3-vl-235b-a22b",
       "org": "Alibaba",
       "color": "#ff6a00",
       "votes": 7947,
@@ -1890,8 +1664,8 @@
       "context": 262144
     },
     {
-      "id": "gpt-5-mini-high",
-      "name": "gpt-5-mini-high",
+      "id": "gpt-5-mini",
+      "name": "gpt-5-mini",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 27067,
@@ -1972,8 +1746,8 @@
       }
     },
     {
-      "id": "mimo-v2-flash-thinking",
-      "name": "mimo-v2-flash (thinking)",
+      "id": "mimo-v2-flash",
+      "name": "mimo-v2-flash",
       "org": "Xiaomi",
       "color": "#888",
       "votes": 10980,
@@ -2109,8 +1883,8 @@
       "context": 1047576
     },
     {
-      "id": "gemini-2-5-flash-lite-preview-09-2025-no-thinking",
-      "name": "gemini-2.5-flash-lite-preview-09-2025-no-thinking",
+      "id": "gemini-2-5-flash-lite-preview-09-2025-no",
+      "name": "gemini-2.5-flash-lite-preview-09-2025-no",
       "org": "Google",
       "color": "#4285f4",
       "votes": 47291,
@@ -2181,8 +1955,8 @@
       "context": 131000
     },
     {
-      "id": "gemini-2-5-flash-lite-preview-06-17-thinking",
-      "name": "gemini-2.5-flash-lite-preview-06-17-thinking",
+      "id": "gemini-2-5-flash-lite-preview-06-17",
+      "name": "gemini-2.5-flash-lite-preview-06-17",
       "org": "Google",
       "color": "#4285f4",
       "votes": 32957,
@@ -2264,8 +2038,8 @@
       "context": 200000
     },
     {
-      "id": "qwen3-next-80b-a3b-thinking",
-      "name": "qwen3-next-80b-a3b-thinking",
+      "id": "qwen3-next-80b-a3b",
+      "name": "qwen3-next-80b-a3b",
       "org": "Alibaba",
       "color": "#ff6a00",
       "votes": 13718,
@@ -2347,8 +2121,8 @@
       "context": 1000000
     },
     {
-      "id": "o3-mini-high",
-      "name": "o3-mini-high",
+      "id": "o3-mini",
+      "name": "o3-mini",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 18589,
@@ -2365,8 +2139,8 @@
       "context": 200000
     },
     {
-      "id": "grok-3-mini-high",
-      "name": "grok-3-mini-high",
+      "id": "grok-3-mini",
+      "name": "grok-3-mini",
       "org": "xAI",
       "color": "#1a1a1a",
       "votes": 16979,
@@ -2613,24 +2387,6 @@
       "context": 65536
     },
     {
-      "id": "o3-mini",
-      "name": "o3-mini",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 57375,
-      "delta": 0,
-      "scores": {
-        "chat": 1348
-      },
-      "pricing": {
-        "prompt": 1.1,
-        "completion": 4.4,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 200000
-    },
-    {
       "id": "amazon-nova-experimental-chat-10-09",
       "name": "amazon-nova-experimental-chat-10-09",
       "org": "Amazon",
@@ -2853,8 +2609,8 @@
       "context": 1000000
     },
     {
-      "id": "gpt-5-nano-high",
-      "name": "gpt-5-nano-high",
+      "id": "gpt-5-nano",
+      "name": "gpt-5-nano",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 8281,
@@ -4414,8 +4170,8 @@
       }
     },
     {
-      "id": "mistral-medium",
-      "name": "mistral-medium",
+      "id": "mistral",
+      "name": "mistral",
       "org": "Mistral",
       "color": "#ff7000",
       "votes": 34550,
@@ -5568,8 +5324,8 @@
   ],
   "code": [
     {
-      "id": "claude-opus-4-7-thinking",
-      "name": "claude-opus-4-7-thinking",
+      "id": "claude-opus-4-7",
+      "name": "claude-opus-4-7",
       "org": "Anthropic",
       "color": "#c96442",
       "votes": 1393,
@@ -5586,50 +5342,14 @@
       "context": 1000000
     },
     {
-      "id": "claude-opus-4-7",
-      "name": "claude-opus-4-7",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 1782,
-      "delta": 0,
-      "scores": {
-        "code": 1566
-      },
-      "pricing": {
-        "prompt": 5,
-        "completion": 25,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1000000
-    },
-    {
-      "id": "claude-opus-4-6-thinking",
-      "name": "claude-opus-4-6-thinking",
+      "id": "claude-opus-4-6",
+      "name": "claude-opus-4-6",
       "org": "Anthropic",
       "color": "#c96442",
       "votes": 4922,
       "delta": 0,
       "scores": {
         "code": 1552
-      },
-      "pricing": {
-        "prompt": 5,
-        "completion": 25,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1000000
-    },
-    {
-      "id": "claude-opus-4-6",
-      "name": "claude-opus-4-6",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 5821,
-      "delta": 0,
-      "scores": {
-        "code": 1545
       },
       "pricing": {
         "prompt": 5,
@@ -5795,8 +5515,8 @@
       "context": 1050000
     },
     {
-      "id": "deepseek-v4-pro-thinking",
-      "name": "deepseek-v4-pro-thinking",
+      "id": "deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
       "org": "DeepSeek",
       "color": "#4d6bfe",
       "votes": 1066,
@@ -5903,8 +5623,8 @@
       "context": 202800
     },
     {
-      "id": "kimi-k2-5-thinking",
-      "name": "kimi-k2.5-thinking",
+      "id": "kimi-k2-5",
+      "name": "kimi-k2.5",
       "org": "Moonshot",
       "color": "#8b5cf6",
       "votes": 7913,
@@ -6028,8 +5748,8 @@
       "context": 2000000
     },
     {
-      "id": "gpt-5-4-mini-high",
-      "name": "gpt-5.4-mini-high",
+      "id": "gpt-5-4-mini",
+      "name": "gpt-5.4-mini",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 2541,
@@ -6046,12 +5766,12 @@
       "context": 1050000
     },
     {
-      "id": "gpt-5-medium",
-      "name": "gpt-5-medium",
+      "id": "gpt-5",
+      "name": "gpt-5",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 3755,
-      "delta": 526,
+      "delta": 0,
       "scores": {
         "code": 1393
       },
@@ -6082,8 +5802,8 @@
       "context": 196608
     },
     {
-      "id": "gpt-5-1-medium",
-      "name": "gpt-5.1-medium",
+      "id": "gpt-5-1",
+      "name": "gpt-5.1",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 6122,
@@ -6098,24 +5818,6 @@
         "perSecond": null
       },
       "context": 400000
-    },
-    {
-      "id": "gemini-3-flash-thinking-minimal",
-      "name": "gemini-3-flash (thinking-minimal)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 13385,
-      "delta": 0,
-      "scores": {
-        "code": 1389
-      },
-      "pricing": {
-        "prompt": 0.5,
-        "completion": 3,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 1048576
     },
     {
       "id": "qwen3-5-397b-a17b",
@@ -6208,8 +5910,8 @@
       "context": 196608
     },
     {
-      "id": "deepseek-v3-2-thinking",
-      "name": "deepseek-v3.2-thinking",
+      "id": "deepseek-v3-2",
+      "name": "deepseek-v3.2",
       "org": "DeepSeek",
       "color": "#4d6bfe",
       "votes": 7904,
@@ -6280,24 +5982,6 @@
       "context": 262144
     },
     {
-      "id": "gpt-5-1",
-      "name": "gpt-5.1",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 12872,
-      "delta": 0,
-      "scores": {
-        "code": 1339
-      },
-      "pricing": {
-        "prompt": 1.25,
-        "completion": 10,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 400000
-    },
-    {
       "id": "mimo-v2-flash-non-thinking",
       "name": "mimo-v2-flash (non-thinking)",
       "org": "Xiaomi",
@@ -6332,24 +6016,6 @@
         "perSecond": null
       },
       "context": 400000
-    },
-    {
-      "id": "deepseek-v3-2",
-      "name": "deepseek-v3.2",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 10427,
-      "delta": 0,
-      "scores": {
-        "code": 1332
-      },
-      "pricing": {
-        "prompt": 0.252,
-        "completion": 0.378,
-        "perImage": null,
-        "perSecond": null
-      },
-      "context": 131072
     },
     {
       "id": "kimi-k2-thinking-turbo",
@@ -6424,8 +6090,8 @@
       "context": 196608
     },
     {
-      "id": "mimo-v2-flash-thinking",
-      "name": "mimo-v2-flash (thinking)",
+      "id": "mimo-v2-flash",
+      "name": "mimo-v2-flash",
       "org": "Xiaomi",
       "color": "#888",
       "votes": 2096,
@@ -6596,8 +6262,8 @@
       }
     },
     {
-      "id": "grok-4-1-thinking",
-      "name": "grok-4.1-thinking",
+      "id": "grok-4-1",
+      "name": "grok-4.1",
       "org": "xAI",
       "color": "#1a1a1a",
       "votes": 1209,
@@ -6706,765 +6372,12 @@
         "perSecond": null
       },
       "context": 128000
-    },
-    {
-      "id": "gpt-5-high",
-      "name": "gpt-5 (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 880
-      }
-    },
-    {
-      "id": "o3-pro-high",
-      "name": "o3-pro (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 849
-      }
-    },
-    {
-      "id": "gemini-2-5-pro-preview-06-05-32k-think",
-      "name": "gemini-2.5-pro-preview-06-05 (32k think)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 831
-      }
-    },
-    {
-      "id": "o3-high",
-      "name": "o3 (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 813
-      }
-    },
-    {
-      "id": "gpt-5-low",
-      "name": "gpt-5 (low)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 813
-      }
-    },
-    {
-      "id": "grok-4-high",
-      "name": "grok-4 (high)",
-      "org": "xAI",
-      "color": "#1a1a1a",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 796
-      }
-    },
-    {
-      "id": "gemini-2-5-pro-preview-06-05-default-think",
-      "name": "gemini-2.5-pro-preview-06-05 (default think)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 791
-      }
-    },
-    {
-      "id": "o3-high-gpt-4-1",
-      "name": "o3 (high) + gpt-4.1",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 782
-      }
-    },
-    {
-      "id": "gemini-2-5-pro-preview-05-06",
-      "name": "Gemini 2.5 Pro Preview 05-06",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 769
-      }
-    },
-    {
-      "id": "o3",
-      "name": "o3",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 769
-      }
-    },
-    {
-      "id": "deepseek-v3-2-exp-reasoner",
-      "name": "DeepSeek-V3.2-Exp (Reasoner)",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 742
-      }
-    },
-    {
-      "id": "gemini-2-5-pro-preview-03-25",
-      "name": "Gemini 2.5 Pro Preview 03-25",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 729
-      }
-    },
-    {
-      "id": "o4-mini-high",
-      "name": "o4-mini (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 720
-      }
-    },
-    {
-      "id": "claude-opus-4-20250514-32k-thinking",
-      "name": "claude-opus-4-20250514 (32k thinking)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 720
-      }
-    },
-    {
-      "id": "deepseek-r1-0528",
-      "name": "DeepSeek R1 (0528)",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 714
-      },
-      "context": 163840,
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.00000215",
-        "input_cache_read": "0.00000035"
-      }
-    },
-    {
-      "id": "claude-opus-4-20250514-no-think",
-      "name": "claude-opus-4-20250514 (no think)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 707
-      }
-    },
-    {
-      "id": "deepseek-v3-2-exp-chat",
-      "name": "DeepSeek-V3.2-Exp (Chat)",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 702
-      }
-    },
-    {
-      "id": "claude-3-7-sonnet-20250219-32k-thinking-tokens",
-      "name": "claude-3-7-sonnet-20250219 (32k thinking tokens)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 649
-      }
-    },
-    {
-      "id": "deepseek-r1-claude-3-5-sonnet-20241022",
-      "name": "DeepSeek R1 + claude-3-5-sonnet-20241022",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 640
-      }
-    },
-    {
-      "id": "o1-2024-12-17-high",
-      "name": "o1-2024-12-17 (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 617
-      }
-    },
-    {
-      "id": "claude-sonnet-4-20250514-32k-thinking",
-      "name": "claude-sonnet-4-20250514 (32k thinking)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 613
-      }
-    },
-    {
-      "id": "o3-mini-high",
-      "name": "o3-mini (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 604
-      }
-    },
-    {
-      "id": "claude-3-7-sonnet-20250219-no-thinking",
-      "name": "claude-3-7-sonnet-20250219 (no thinking)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 604
-      }
-    },
-    {
-      "id": "qwen3-235b-a22b-diff-no-think-alibaba-api",
-      "name": "Qwen3 235B A22B diff, no think, Alibaba API",
-      "org": "Qwen",
-      "color": "#ff6a00",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 596
-      }
-    },
-    {
-      "id": "kimi-k2",
-      "name": "Kimi K2",
-      "org": "Moonshot",
-      "color": "#8b5cf6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 591
-      }
-    },
-    {
-      "id": "deepseek-r1",
-      "name": "DeepSeek R1",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 569
-      },
-      "context": 64000,
-      "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.0000025"
-      }
-    },
-    {
-      "id": "claude-sonnet-4-20250514-no-thinking",
-      "name": "claude-sonnet-4-20250514 (no thinking)",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 564
-      }
-    },
-    {
-      "id": "deepseek-v3-0324",
-      "name": "DeepSeek V3 (0324)",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 551
-      }
-    },
-    {
-      "id": "gemini-2-5-flash-preview-05-20-24k-think",
-      "name": "gemini-2.5-flash-preview-05-20 (24k think)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 551
-      }
-    },
-    {
-      "id": "quasar-alpha",
-      "name": "Quasar Alpha",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 547
-      }
-    },
-    {
-      "id": "o3-mini-medium",
-      "name": "o3-mini (medium)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 538
-      }
-    },
-    {
-      "id": "grok-3-beta",
-      "name": "Grok 3 Beta",
-      "org": "xAI",
-      "color": "#1a1a1a",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 533
-      }
-    },
-    {
-      "id": "optimus-alpha",
-      "name": "Optimus Alpha",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 529
-      }
-    },
-    {
-      "id": "gpt-4-1",
-      "name": "gpt-4.1",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 524
-      }
-    },
-    {
-      "id": "claude-3-5-sonnet-20241022",
-      "name": "claude-3-5-sonnet-20241022",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 516
-      }
-    },
-    {
-      "id": "grok-3-mini-beta-high",
-      "name": "Grok 3 Mini Beta (high)",
-      "org": "xAI",
-      "color": "#1a1a1a",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 493
-      }
-    },
-    {
-      "id": "deepseek-chat-v3-prev",
-      "name": "DeepSeek Chat V3 (prev)",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 484
-      }
-    },
-    {
-      "id": "gemini-2-5-flash-preview-04-17-default",
-      "name": "gemini-2.5-flash-preview-04-17 (default)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 471
-      }
-    },
-    {
-      "id": "chatgpt-4o-latest-2025-03-29",
-      "name": "chatgpt-4o-latest (2025-03-29)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 453
-      }
-    },
-    {
-      "id": "gpt-4-5-preview",
-      "name": "gpt-4.5-preview",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 449
-      }
-    },
-    {
-      "id": "gemini-2-5-flash-preview-05-20-no-think",
-      "name": "gemini-2.5-flash-preview-05-20 (no think)",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 440
-      }
-    },
-    {
-      "id": "gpt-oss-120b-high",
-      "name": "gpt-oss-120b (high)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 418
-      }
-    },
-    {
-      "id": "qwen3-32b",
-      "name": "Qwen3 32B",
-      "org": "Qwen",
-      "color": "#ff6a00",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 400
-      }
-    },
-    {
-      "id": "gemini-exp-1206",
-      "name": "gemini-exp-1206",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 382
-      }
-    },
-    {
-      "id": "gemini-2-0-pro-exp-02-05",
-      "name": "Gemini 2.0 Pro exp-02-05",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 356
-      }
-    },
-    {
-      "id": "grok-3-mini-beta-low",
-      "name": "Grok 3 Mini Beta (low)",
-      "org": "xAI",
-      "color": "#1a1a1a",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 347
-      }
-    },
-    {
-      "id": "o1-mini-2024-09-12",
-      "name": "o1-mini-2024-09-12",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 329
-      }
-    },
-    {
-      "id": "gpt-4-1-mini",
-      "name": "gpt-4.1-mini",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 324
-      }
-    },
-    {
-      "id": "claude-3-5-haiku-20241022",
-      "name": "claude-3-5-haiku-20241022",
-      "org": "Anthropic",
-      "color": "#c96442",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 280
-      }
-    },
-    {
-      "id": "chatgpt-4o-latest-2025-02-15",
-      "name": "chatgpt-4o-latest (2025-02-15)",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 271
-      }
-    },
-    {
-      "id": "qwq-32b-qwen-2-5-coder-instruct",
-      "name": "QwQ-32B + Qwen 2.5 Coder Instruct",
-      "org": "Qwen",
-      "color": "#ff6a00",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 262
-      }
-    },
-    {
-      "id": "gpt-4o-2024-08-06",
-      "name": "gpt-4o-2024-08-06",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 231
-      }
-    },
-    {
-      "id": "gemini-2-0-flash-exp",
-      "name": "gemini-2.0-flash-exp",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 222
-      }
-    },
-    {
-      "id": "qwen-max-2025-01-25",
-      "name": "qwen-max-2025-01-25",
-      "org": "Qwen",
-      "color": "#ff6a00",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 218
-      }
-    },
-    {
-      "id": "qwq-32b",
-      "name": "QwQ-32B",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 209
-      }
-    },
-    {
-      "id": "gpt-4o-2024-11-20",
-      "name": "gpt-4o-2024-11-20",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 182
-      }
-    },
-    {
-      "id": "gemini-2-0-flash-thinking-exp-01-21",
-      "name": "gemini-2.0-flash-thinking-exp-01-21",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 182
-      }
-    },
-    {
-      "id": "deepseek-chat-v2-5",
-      "name": "DeepSeek Chat V2.5",
-      "org": "DeepSeek",
-      "color": "#4d6bfe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 178
-      }
-    },
-    {
-      "id": "qwen2-5-coder-32b-instruct",
-      "name": "Qwen2.5-Coder-32B-Instruct",
-      "org": "Qwen",
-      "color": "#ff6a00",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 164
-      },
-      "context": 32768,
-      "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.000001"
-      }
-    },
-    {
-      "id": "llama-4-maverick",
-      "name": "Llama 4 Maverick",
-      "org": "Meta",
-      "color": "#0866ff",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 156
-      }
-    },
-    {
-      "id": "yi-lightning",
-      "name": "yi-lightning",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 129
-      }
-    },
-    {
-      "id": "command-a-03-2025-quality",
-      "name": "command-a-03-2025-quality",
-      "org": "Cohere",
-      "color": "#39594d",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 120
-      }
-    },
-    {
-      "id": "codestral-25-01",
-      "name": "Codestral 25.01",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 111
-      }
-    },
-    {
-      "id": "openhands-lm-32b-v0-1",
-      "name": "openhands-lm-32b-v0.1",
-      "org": "Unknown",
-      "color": "#888",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 102
-      }
-    },
-    {
-      "id": "gpt-4-1-nano",
-      "name": "gpt-4.1-nano",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 89
-      }
-    },
-    {
-      "id": "gemma-3-27b-it",
-      "name": "gemma-3-27b-it",
-      "org": "Google",
-      "color": "#4285f4",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 49
-      }
-    },
-    {
-      "id": "gpt-4o-mini-2024-07-18",
-      "name": "gpt-4o-mini-2024-07-18",
-      "org": "OpenAI",
-      "color": "#10a37f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 36
-      }
     }
   ],
   "image": [
     {
-      "id": "gpt-image-2-medium",
-      "name": "gpt-image-2 (medium)",
+      "id": "gpt-image-2",
+      "name": "gpt-image-2",
       "org": "OpenAI",
       "color": "#10a37f",
       "votes": 15391,
@@ -7474,8 +6387,8 @@
       }
     },
     {
-      "id": "gemini-3-1-flash-image-preview-nano-banana-2-web-search",
-      "name": "gemini-3.1-flash-image-preview (nano-banana-2) [web-search]",
+      "id": "gemini-3-1-flash-image-preview",
+      "name": "gemini-3.1-flash-image-preview",
       "org": "Google",
       "color": "#4285f4",
       "votes": 55988,
@@ -7485,8 +6398,8 @@
       }
     },
     {
-      "id": "gemini-3-pro-image-preview-2k-nano-banana-pro",
-      "name": "gemini-3-pro-image-preview-2k (nano-banana-pro)",
+      "id": "gemini-3-pro-image-preview-2k",
+      "name": "gemini-3-pro-image-preview-2k",
       "org": "Google",
       "color": "#4285f4",
       "votes": 94356,
@@ -7514,8 +6427,8 @@
       }
     },
     {
-      "id": "gemini-3-pro-image-preview-nano-banana-pro",
-      "name": "gemini-3-pro-image-preview (nano-banana-pro)",
+      "id": "gemini-3-pro-image-preview",
+      "name": "gemini-3-pro-image-preview",
       "org": "Google",
       "color": "#4285f4",
       "votes": 82657,
@@ -7620,8 +6533,8 @@
       }
     },
     {
-      "id": "gemini-2-5-flash-image-preview-nano-banana",
-      "name": "gemini-2.5-flash-image-preview (nano-banana)",
+      "id": "gemini-2-5-flash-image-preview",
+      "name": "gemini-2.5-flash-image-preview",
       "org": "Google",
       "color": "#4285f4",
       "votes": 757256,
@@ -8640,16 +7553,755 @@
       }
     }
   ],
+  "aider": [
+    {
+      "id": "gpt-5",
+      "name": "gpt-5",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 88
+      },
+      "variants": [
+        {
+          "label": "high",
+          "score": 88
+        },
+        {
+          "label": "medium",
+          "score": 86.7
+        },
+        {
+          "label": "low",
+          "score": 81.3
+        }
+      ]
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3-pro",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 84.9
+      }
+    },
+    {
+      "id": "gemini-2-5-pro-preview-06-05",
+      "name": "gemini-2.5-pro-preview-06-05",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 83.1
+      },
+      "variants": [
+        {
+          "label": "default think",
+          "score": 79.1
+        },
+        {
+          "label": "32k think",
+          "score": 83.1
+        }
+      ]
+    },
+    {
+      "id": "o3",
+      "name": "o3",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 81.3
+      }
+    },
+    {
+      "id": "grok-4",
+      "name": "grok-4",
+      "org": "xAI",
+      "color": "#1a1a1a",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 79.6
+      }
+    },
+    {
+      "id": "o3-gpt-4-1",
+      "name": "o3 + gpt-4.1",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 78.2
+      }
+    },
+    {
+      "id": "gemini-2-5-pro-preview-05-06",
+      "name": "Gemini 2.5 Pro Preview 05-06",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 76.9
+      }
+    },
+    {
+      "id": "deepseek-v3-2-exp",
+      "name": "DeepSeek-V3.2-Exp",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 74.2
+      },
+      "variants": [
+        {
+          "label": "Reasoner",
+          "score": 74.2
+        },
+        {
+          "label": "Chat",
+          "score": 70.2
+        }
+      ]
+    },
+    {
+      "id": "gemini-2-5-pro-preview-03-25",
+      "name": "Gemini 2.5 Pro Preview 03-25",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 72.9
+      }
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4-mini",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 72
+      }
+    },
+    {
+      "id": "claude-opus-4-20250514",
+      "name": "claude-opus-4-20250514",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 72
+      },
+      "variants": [
+        {
+          "label": "no think",
+          "score": 70.7
+        },
+        {
+          "label": "32k thinking",
+          "score": 72
+        }
+      ]
+    },
+    {
+      "id": "deepseek-r1-0528",
+      "name": "DeepSeek R1 (0528)",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 71.4
+      },
+      "context": 163840,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.00000215",
+        "input_cache_read": "0.00000035"
+      }
+    },
+    {
+      "id": "claude-3-7-sonnet-20250219",
+      "name": "claude-3-7-sonnet-20250219",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 64.9
+      },
+      "variants": [
+        {
+          "label": "no thinking",
+          "score": 60.4
+        },
+        {
+          "label": "32k thinking tokens",
+          "score": 64.9
+        }
+      ]
+    },
+    {
+      "id": "deepseek-r1-claude-3-5-sonnet-20241022",
+      "name": "DeepSeek R1 + claude-3-5-sonnet-20241022",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 64
+      }
+    },
+    {
+      "id": "o1-2024-12-17",
+      "name": "o1-2024-12-17",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 61.7
+      }
+    },
+    {
+      "id": "claude-sonnet-4-20250514",
+      "name": "claude-sonnet-4-20250514",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 61.3
+      },
+      "variants": [
+        {
+          "label": "no thinking",
+          "score": 56.4
+        },
+        {
+          "label": "32k thinking",
+          "score": 61.3
+        }
+      ]
+    },
+    {
+      "id": "o3-mini",
+      "name": "o3-mini",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 60.4
+      },
+      "variants": [
+        {
+          "label": "medium",
+          "score": 53.8
+        },
+        {
+          "label": "high",
+          "score": 60.4
+        }
+      ]
+    },
+    {
+      "id": "qwen3-235b-a22b-diff-no-think-alibaba-api",
+      "name": "Qwen3 235B A22B diff, no think, Alibaba API",
+      "org": "Qwen",
+      "color": "#ff6a00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 59.6
+      }
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2",
+      "org": "Moonshot",
+      "color": "#8b5cf6",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 59.1
+      }
+    },
+    {
+      "id": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 56.9
+      },
+      "context": 64000,
+      "pricing": {
+        "prompt": "0.0000007",
+        "completion": "0.0000025"
+      }
+    },
+    {
+      "id": "deepseek-v3-0324",
+      "name": "DeepSeek V3 (0324)",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 55.1
+      }
+    },
+    {
+      "id": "gemini-2-5-flash-preview-05-20",
+      "name": "gemini-2.5-flash-preview-05-20",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 55.1
+      },
+      "variants": [
+        {
+          "label": "no think",
+          "score": 44
+        },
+        {
+          "label": "24k think",
+          "score": 55.1
+        }
+      ]
+    },
+    {
+      "id": "quasar-alpha",
+      "name": "Quasar Alpha",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 54.7
+      }
+    },
+    {
+      "id": "grok-3-beta",
+      "name": "Grok 3 Beta",
+      "org": "xAI",
+      "color": "#1a1a1a",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 53.3
+      }
+    },
+    {
+      "id": "optimus-alpha",
+      "name": "Optimus Alpha",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 52.9
+      }
+    },
+    {
+      "id": "gpt-4-1",
+      "name": "gpt-4.1",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 52.4
+      }
+    },
+    {
+      "id": "claude-3-5-sonnet-20241022",
+      "name": "claude-3-5-sonnet-20241022",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 51.6
+      }
+    },
+    {
+      "id": "grok-3-mini-beta",
+      "name": "Grok 3 Mini Beta",
+      "org": "xAI",
+      "color": "#1a1a1a",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 49.3
+      },
+      "variants": [
+        {
+          "label": "low",
+          "score": 34.7
+        },
+        {
+          "label": "high",
+          "score": 49.3
+        }
+      ]
+    },
+    {
+      "id": "deepseek-chat-v3-prev",
+      "name": "DeepSeek Chat V3 (prev)",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 48.4
+      }
+    },
+    {
+      "id": "gemini-2-5-flash-preview-04-17",
+      "name": "gemini-2.5-flash-preview-04-17",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 47.1
+      }
+    },
+    {
+      "id": "chatgpt-4o-latest-2025-03-29",
+      "name": "chatgpt-4o-latest (2025-03-29)",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 45.3
+      }
+    },
+    {
+      "id": "gpt-4-5-preview",
+      "name": "gpt-4.5-preview",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 44.9
+      }
+    },
+    {
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 41.8
+      }
+    },
+    {
+      "id": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "org": "Qwen",
+      "color": "#ff6a00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 40
+      }
+    },
+    {
+      "id": "gemini-exp-1206",
+      "name": "gemini-exp-1206",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 38.2
+      }
+    },
+    {
+      "id": "gemini-2-0-pro-exp-02-05",
+      "name": "Gemini 2.0 Pro exp-02-05",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 35.6
+      }
+    },
+    {
+      "id": "o1-mini-2024-09-12",
+      "name": "o1-mini-2024-09-12",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 32.9
+      }
+    },
+    {
+      "id": "gpt-4-1-mini",
+      "name": "gpt-4.1-mini",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 32.4
+      }
+    },
+    {
+      "id": "claude-3-5-haiku-20241022",
+      "name": "claude-3-5-haiku-20241022",
+      "org": "Anthropic",
+      "color": "#c96442",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 28
+      }
+    },
+    {
+      "id": "chatgpt-4o-latest-2025-02-15",
+      "name": "chatgpt-4o-latest (2025-02-15)",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 27.1
+      }
+    },
+    {
+      "id": "qwq-32b-qwen-2-5-coder-instruct",
+      "name": "QwQ-32B + Qwen 2.5 Coder Instruct",
+      "org": "Qwen",
+      "color": "#ff6a00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 26.2
+      }
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "name": "gpt-4o-2024-08-06",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 23.1
+      }
+    },
+    {
+      "id": "gemini-2-0-flash-exp",
+      "name": "gemini-2.0-flash-exp",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 22.2
+      }
+    },
+    {
+      "id": "qwen-max-2025-01-25",
+      "name": "qwen-max-2025-01-25",
+      "org": "Qwen",
+      "color": "#ff6a00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 21.8
+      }
+    },
+    {
+      "id": "qwq-32b",
+      "name": "QwQ-32B",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 20.9
+      }
+    },
+    {
+      "id": "gpt-4o-2024-11-20",
+      "name": "gpt-4o-2024-11-20",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 18.2
+      }
+    },
+    {
+      "id": "gemini-2-0-flash-thinking-exp-01-21",
+      "name": "gemini-2.0-flash-thinking-exp-01-21",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 18.2
+      }
+    },
+    {
+      "id": "deepseek-chat-v2-5",
+      "name": "DeepSeek Chat V2.5",
+      "org": "DeepSeek",
+      "color": "#4d6bfe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 17.8
+      }
+    },
+    {
+      "id": "qwen2-5-coder-32b-instruct",
+      "name": "Qwen2.5-Coder-32B-Instruct",
+      "org": "Qwen",
+      "color": "#ff6a00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 16.4
+      },
+      "context": 32768,
+      "pricing": {
+        "prompt": "0.00000066",
+        "completion": "0.000001"
+      }
+    },
+    {
+      "id": "llama-4-maverick",
+      "name": "Llama 4 Maverick",
+      "org": "Meta",
+      "color": "#0866ff",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 15.6
+      }
+    },
+    {
+      "id": "yi-lightning",
+      "name": "yi-lightning",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 12.9
+      }
+    },
+    {
+      "id": "command-a-03-2025-quality",
+      "name": "command-a-03-2025-quality",
+      "org": "Cohere",
+      "color": "#39594d",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 12
+      }
+    },
+    {
+      "id": "codestral-25-01",
+      "name": "Codestral 25.01",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 11.1
+      }
+    },
+    {
+      "id": "openhands-lm-32b-v0-1",
+      "name": "openhands-lm-32b-v0.1",
+      "org": "Unknown",
+      "color": "#888",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 10.2
+      }
+    },
+    {
+      "id": "gpt-4-1-nano",
+      "name": "gpt-4.1-nano",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 8.9
+      }
+    },
+    {
+      "id": "gemma-3-27b-it",
+      "name": "gemma-3-27b-it",
+      "org": "Google",
+      "color": "#4285f4",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 4.9
+      }
+    },
+    {
+      "id": "gpt-4o-mini-2024-07-18",
+      "name": "gpt-4o-mini-2024-07-18",
+      "org": "OpenAI",
+      "color": "#10a37f",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "aider": 3.6
+      }
+    }
+  ],
   "sources": {
     "aider": "ok (69)",
-    "livebench": "err: no leaderboard.csv in LiveBench repo",
     "openrouter": "ok (355)",
+    "livebench": "err: no leaderboard.csv in LiveBench repo",
     "arena_text": "ok (347)",
     "arena_code": "ok (65)",
     "arena_image": "ok (57)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1777063577962,
+  "updatedAt": 1777064609162,
   "errors": [
     "livebench: no leaderboard.csv in LiveBench repo"
   ]
