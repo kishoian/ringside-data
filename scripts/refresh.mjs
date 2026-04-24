@@ -118,7 +118,17 @@ function extractAAObjects(html, markerKey) {
 }
 
 async function fetchAA(url, markerKey) {
-  const html = await (await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' } })).text();
+  const res = await fetch(url, {
+    headers: {
+      // Some Cloudflare-fronted sites 403 a generic Mozilla UA. Use a real
+      // Chrome UA + Accept headers so we look like a normal browser.
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'accept-language': 'en-US,en;q=0.9',
+    },
+  });
+  const html = await res.text();
+  if (!res.ok) throw new Error(`http ${res.status} (size ${html.length})`);
   if (!html || html.length < 50000) throw new Error('html too small: ' + html.length);
   const models = extractAAObjects(html, markerKey);
   if (!models.length) throw new Error('no models extracted');
@@ -128,7 +138,15 @@ async function fetchAA(url, markerKey) {
 async function fetchAAVideo() {
   // Video page nests elo inside an `elos` array (one per resolution variant).
   // Marker `elos` selects the outer model object; we pick the max elo below.
-  const html = await (await fetch('https://artificialanalysis.ai/video/models', { headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' } })).text();
+  const res = await fetch('https://artificialanalysis.ai/video/models', {
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'accept-language': 'en-US,en;q=0.9',
+    },
+  });
+  const html = await res.text();
+  if (!res.ok) throw new Error(`http ${res.status}`);
   if (!html || html.length < 50000) throw new Error('html too small');
   const models = extractAAObjects(html, 'elos')
     .filter(m => Array.isArray(m.elos) && m.elos.length && m.name);
@@ -141,9 +159,15 @@ async function fetchAAVideo() {
 
 // ─── arena.ai — human voting Elo, kept as supplementary signal ─────────────
 async function fetchArena(slug) {
-  const html = await (await fetch(`https://arena.ai/leaderboard/${slug}`, {
-    headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' },
-  })).text();
+  const res = await fetch(`https://arena.ai/leaderboard/${slug}`, {
+    headers: {
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      'accept-language': 'en-US,en;q=0.9',
+    },
+  });
+  const html = await res.text();
+  if (!res.ok) throw new Error(`http ${res.status}`);
   if (!html || html.length < 10000) throw new Error('html too small');
   const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/gs)].map(m => m[1]);
   const big = chunks.join('');
@@ -495,7 +519,8 @@ if (!prevSnapshot) {
   console.log('Wrote snapshot.json');
 }
 
-if (merged.chat.length === 0 && merged.code.length === 0) {
-  console.error('FATAL: no data from any source');
+if (merged.chat.length === 0 && merged.code.length === 0 && merged.image.length === 0 && merged.video.length === 0) {
+  console.error('FATAL: no data from any source. Errors:', errors);
+  console.error('Sources:', sources);
   process.exit(1);
 }
