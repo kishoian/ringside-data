@@ -139,6 +139,41 @@ async function fetchAAVideo() {
   return models;
 }
 
+// ─── arena.ai — human voting Elo, kept as supplementary signal ─────────────
+async function fetchArena(slug) {
+  const html = await (await fetch(`https://arena.ai/leaderboard/${slug}`, {
+    headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' },
+  })).text();
+  if (!html || html.length < 10000) throw new Error('html too small');
+  const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/gs)].map(m => m[1]);
+  const big = chunks.join('');
+  const entries = [];
+  const re = /\{\\"rank\\":\d+[^{}]*?\\"rating\\":[\d.]+[^{}]*?\}/g;
+  let m;
+  while ((m = re.exec(big))) {
+    try {
+      const obj = JSON.parse(m[0].replace(/\\"/g, '"').replace(/\\\\/g, '\\'));
+      entries.push(obj);
+    } catch { /* skip */ }
+  }
+  if (!entries.length) throw new Error('no entries');
+  return entries;
+}
+
+async function fetchArenaAll() {
+  const [text, code, image, video] = await Promise.all([
+    fetchArena('text').catch(e => (sources.arena_text = 'err: ' + e.message, null)),
+    fetchArena('code').catch(e => (sources.arena_code = 'err: ' + e.message, null)),
+    fetchArena('text-to-image').catch(e => (sources.arena_image = 'err: ' + e.message, null)),
+    fetchArena('text-to-video').catch(e => (sources.arena_video = 'err: ' + e.message, null)),
+  ]);
+  if (text)  sources.arena_text  = `ok (${text.length})`;
+  if (code)  sources.arena_code  = `ok (${code.length})`;
+  if (image) sources.arena_image = `ok (${image.length})`;
+  if (video) sources.arena_video = `ok (${video.length})`;
+  return { chat: text, code, image, video };
+}
+
 async function fetchAAAll() {
   const [llm, image, video] = await Promise.all([
     fetchAA('https://artificialanalysis.ai/leaderboards/models', 'intelligenceIndex').catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
@@ -166,7 +201,7 @@ async function fetchLiveBench() {
 
 // ─── Merge into {chat, code, image, video} ─────────────────────────────────
 
-function merge({ openrouter, aa, prevSnapshot }) {
+function merge({ openrouter, aa, arena, prevSnapshot }) {
   const out = { chat: [], code: [], image: [], video: [] };
 
   // LLM page → chat (intelligenceIndex) + code (codingIndex)
@@ -216,6 +251,27 @@ function merge({ openrouter, aa, prevSnapshot }) {
       const elo = Math.round(m.qualityElo || 0);
       if (!elo) continue;
       out.video.push(mkAARow(name, org, color, logo, elo, 'video', m));
+    }
+  }
+
+  // Arena.ai — human-vote Elo attached as supplementary `arenaElo` field.
+  // Matched by canonical name; unmatched models simply leave the field empty.
+  for (const cat of ['chat', 'code', 'image', 'video']) {
+    const arenaEntries = arena?.[cat];
+    if (!arenaEntries?.length) continue;
+    const arenaMap = new Map();
+    for (const e of arenaEntries) {
+      const n = e.modelDisplayName || e.modelName;
+      if (!n) continue;
+      const key = canonical(n);
+      const elo = Math.round(parseFloat(e.rating) || 0);
+      if (!elo) continue;
+      // Keep the best Elo per canonical name (variants collapse for display)
+      if (!arenaMap.has(key) || arenaMap.get(key) < elo) arenaMap.set(key, elo);
+    }
+    for (const m of out[cat]) {
+      const e = arenaMap.get(canonical(m.name));
+      if (e) m.arenaElo = e;
     }
   }
 
@@ -327,12 +383,14 @@ function mkAARow(name, org, color, logo, score, cat, raw) {
 }
 
 // Strip variant markers to group the same underlying model together.
+// Aggressive: any parenthetical/bracket annotation is treated as a variant tag.
 // Examples collapsed to the same canonical id:
-//   claude-opus-4-7-thinking / claude-opus-4-7 (no think)          → claude-opus-4-7
-//   gpt-5 (high) / gpt-5 (medium) / gpt-5 (low)                    → gpt-5
-//   gemini-2.5-pro-preview-06-05 (32k think) / (default think)     → gemini-2.5-pro-preview-06-05
-const VARIANT_RE = /\s*[\(\[](?:high|medium|low|default|thinking|no[- ]?thinking|no[- ]?think|reasoner|chat|think|thinking tokens|default think|[\d]+k\s*(?:think|thinking)?|web[- ]?search|nano[- ]?banana[- ]?\d?|effort\s*[\d.]+|reasoning|audio|[\d]+p)[^)\]]*[\)\]]/gi;
-const SUFFIX_RE = /[-_\s](?:thinking|high|medium|low|no-?think)$/i;
+//   claude-opus-4-7-thinking / claude-opus-4-7 (no think)            → claude-opus-4-7
+//   gpt-5 (high) / gpt-5 (medium) / gpt-5 (low)                      → gpt-5
+//   Claude Opus 4.7 (Adaptive Reasoning, Max Effort) / (Non-reason.) → claude-opus-4-7
+//   Gemini 3.1 Pro Preview / gemini-3.1-pro-preview                  → gemini-3-1-pro-preview
+const VARIANT_RE = /\s*[\(\[][^)\]]*[\)\]]/g;
+const SUFFIX_RE = /[-_\s](?:thinking|high|medium|low|xhigh|no-?think|reasoner|non-reasoning)$/i;
 
 function canonical(name) {
   return String(name || '')
@@ -390,12 +448,13 @@ try {
 } catch { /* first run */ }
 
 console.log('Fetching sources…');
-const [openrouter, aa] = await Promise.all([
+const [openrouter, aa, arena] = await Promise.all([
   tryFetch('openrouter', fetchOpenRouter),
   fetchAAAll(),
+  fetchArenaAll(),
 ]);
 
-const merged = merge({ openrouter, aa, prevSnapshot });
+const merged = merge({ openrouter, aa, arena, prevSnapshot });
 const payload = { ...merged, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
