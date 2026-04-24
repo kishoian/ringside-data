@@ -60,18 +60,50 @@ async function fetchAider() {
   throw new Error('no aider yaml found');
 }
 
-// ─── LMArena: try CSV in HF space (may be stale) ───────────────────────────
-async function fetchLMArena() {
-  const r = await fetch('https://huggingface.co/api/spaces/lmarena-ai/chatbot-arena-leaderboard/tree/main');
-  if (!r.ok) throw new Error('HF tree http ' + r.status);
-  const tree = await r.json();
-  const csvs = tree
-    .filter(f => /leaderboard_table_.*\.csv$/i.test(f.path))
-    .sort((a, b) => b.path.localeCompare(a.path));
-  if (!csvs.length) throw new Error('no CSV in HF space (pkl-only)');
-  const file = csvs[0].path;
-  const csv = await (await fetch(`https://huggingface.co/spaces/lmarena-ai/chatbot-arena-leaderboard/resolve/main/${file}`)).text();
-  return { file, rows: parseCSV(csv) };
+// ─── arena.ai (new LMArena): scrape SSR'd leaderboard from Next.js chunks ──
+// Each category page embeds full leaderboard data in __next_f chunks as an
+// array of { rank, modelDisplayName, rating, votes, modelOrganization, ... }.
+// Updated by LMArena continuously — same source their own site shows.
+async function fetchArena(slug) {
+  const html = await (await fetch(`https://arena.ai/leaderboard/${slug}`, {
+    headers: { 'user-agent': 'Mozilla/5.0 Ringside/1.0' },
+  })).text();
+  if (!html || html.length < 10000) throw new Error('html too small: ' + html.length);
+
+  // Concatenate all self.__next_f.push chunks; strings inside are JSON-escaped.
+  const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/gs)].map(m => m[1]);
+  const big = chunks.join('');
+
+  // Find { "entries": [...] } array and parse each entry object. The entries
+  // are JSON-escaped (\" instead of "), so unescape per-entry before JSON.parse.
+  const entries = [];
+  // Match object bodies inside entries array — each starts with {\"rank\":
+  const re = /\{\\"rank\\":\d+[^{}]*?\\"rating\\":[\d.]+[^{}]*?\}/g;
+  let m;
+  while ((m = re.exec(big))) {
+    try {
+      const unescaped = m[0].replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+      const obj = JSON.parse(unescaped);
+      entries.push(obj);
+    } catch { /* skip malformed */ }
+  }
+  if (!entries.length) throw new Error('no entries parsed');
+  return entries;
+}
+
+async function fetchArenaAll() {
+  // Map arena.ai category slugs to our internal categories.
+  const [text, code, image, video] = await Promise.all([
+    fetchArena('text').catch(e => (sources.arena_text = 'err: ' + e.message, null)),
+    fetchArena('code').catch(e => (sources.arena_code = 'err: ' + e.message, null)),
+    fetchArena('text-to-image').catch(e => (sources.arena_image = 'err: ' + e.message, null)),
+    fetchArena('text-to-video').catch(e => (sources.arena_video = 'err: ' + e.message, null)),
+  ]);
+  if (text)  sources.arena_text  = `ok (${text.length})`;
+  if (code)  sources.arena_code  = `ok (${code.length})`;
+  if (image) sources.arena_image = `ok (${image.length})`;
+  if (video) sources.arena_video = `ok (${video.length})`;
+  return { text, code, image, video };
 }
 
 // ─── LiveBench: CSV in GitHub repo ─────────────────────────────────────────
@@ -89,28 +121,35 @@ async function fetchLiveBench() {
 
 // ─── Merge into {chat, code, image, video} ─────────────────────────────────
 
-function merge({ openrouter, aider, lmarena, livebench, prevSnapshot }) {
+function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
   const out = { chat: [], code: [], image: [], video: [] };
   const chatMap = new Map(), codeMap = new Map();
 
-  // LMArena chat Elo
-  if (lmarena?.rows?.length) {
-    const [header, ...body] = lmarena.rows;
-    const ci = (n) => header.findIndex(h => h.toLowerCase().trim().replace(/"/g, '') === n);
-    const iName = ci('model') !== -1 ? ci('model') : ci('key');
-    const iElo = [ci('arena score'), ci('arena elo rating'), ci('rating'), ci('score')].find(i => i > -1);
-    const iVotes = ci('votes');
-    const iOrg = ci('organization');
-    if (iName > -1 && iElo > -1) {
-      for (const r of body) {
-        const name = (r[iName] || '').trim(); if (!name) continue;
-        const elo = Math.round(parseFloat(r[iElo])); if (!elo) continue;
-        const org = (iOrg > -1 ? r[iOrg] : 'Unknown') || 'Unknown';
-        const votes = iVotes > -1 ? parseInt(r[iVotes]) || 0 : 0;
-        const row = mkRow(slug(name), name, org, elo, votes, 'chat');
-        out.chat.push(row);
-        chatMap.set(norm(name), row);
+  // arena.ai — authoritative Elo for all 4 categories
+  const arenaCatMap = { chat: 'text', code: 'code', image: 'image', video: 'video' };
+  for (const [cat, arenaKey] of Object.entries(arenaCatMap)) {
+    const entries = arena?.[arenaKey];
+    if (!entries?.length) continue;
+    for (const e of entries) {
+      const name = e.modelDisplayName || e.modelName;
+      if (!name) continue;
+      const elo = Math.round(parseFloat(e.rating) || 0);
+      if (!elo) continue;
+      const org = e.modelOrganization || guessOrg(name);
+      const votes = parseInt(e.votes) || 0;
+      const row = mkRow(slug(name), name, org, elo, votes, cat);
+      if (e.inputPricePerMillion != null || e.outputPricePerMillion != null) {
+        row.pricing = {
+          prompt: e.inputPricePerMillion,
+          completion: e.outputPricePerMillion,
+          perImage: e.pricePerImage,
+          perSecond: e.pricePerSecond,
+        };
       }
+      if (e.contextLength) row.context = e.contextLength;
+      out[cat].push(row);
+      if (cat === 'chat') chatMap.set(norm(name), row);
+      if (cat === 'code') codeMap.set(norm(name), row);
     }
   }
 
@@ -246,14 +285,14 @@ try {
 } catch { /* first run */ }
 
 console.log('Fetching sources…');
-const [openrouter, aider, lmarena, livebench] = await Promise.all([
+const [openrouter, aider, arena, livebench] = await Promise.all([
   tryFetch('openrouter', fetchOpenRouter),
   tryFetch('aider', fetchAider),
-  tryFetch('lmarena', fetchLMArena),
+  fetchArenaAll(),
   tryFetch('livebench', fetchLiveBench),
 ]);
 
-const merged = merge({ openrouter, aider, lmarena, livebench, prevSnapshot });
+const merged = merge({ openrouter, aider, arena, livebench, prevSnapshot });
 const payload = { ...merged, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
