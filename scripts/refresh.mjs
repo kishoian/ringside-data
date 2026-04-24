@@ -241,11 +241,12 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
     }
   }
 
-  // Delta vs previous snapshot (rolling weekly)
+  // Delta vs previous snapshot (rolling weekly). Keyed on canonical name so
+  // the key is stable even if the raw id changes between script versions.
   if (prevSnapshot) {
     for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
       for (const m of out[cat]) {
-        const p = prevSnapshot[`${cat}:${m.id}`];
+        const p = prevSnapshot[`${cat}:${canonical(m.name)}`];
         if (typeof p === 'number') m.delta = Math.round((m.scores[cat] - p) * 10) / 10;
       }
     }
@@ -358,8 +359,14 @@ console.log('Sources:', sources);
 // Refresh weekly snapshot
 if (!prevSnapshot) {
   const scores = {};
-  for (const cat of ['chat', 'code', 'image', 'video', 'aider'])
-    for (const m of merged[cat]) scores[`${cat}:${m.id}`] = m.scores[cat];
+  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+    // For a given canonical name, keep the best score across variants —
+    // matches how alts are computed so snapshot compares apples to apples.
+    for (const m of merged[cat]) {
+      const key = `${cat}:${canonical(m.name)}`;
+      if (scores[key] == null || m.scores[cat] > scores[key]) scores[key] = m.scores[cat];
+    }
+  }
   await fs.writeFile(snapFile, JSON.stringify({ at: Date.now(), scores }, null, 2) + '\n');
   console.log('Wrote snapshot.json');
 }
