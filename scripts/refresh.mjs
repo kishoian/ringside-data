@@ -255,7 +255,8 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
   }
 
   // Arena.ai — human-vote Elo attached as supplementary `arenaElo` field.
-  // Matched by canonical name; unmatched models simply leave the field empty.
+  // Match via multi-alias (canonical name + parenthesized fragments) so
+  // marketing names cross-link with model IDs.
   for (const cat of ['chat', 'code', 'image', 'video']) {
     const arenaEntries = arena?.[cat];
     if (!arenaEntries?.length) continue;
@@ -263,15 +264,17 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
     for (const e of arenaEntries) {
       const n = e.modelDisplayName || e.modelName;
       if (!n) continue;
-      const key = canonical(n);
       const elo = Math.round(parseFloat(e.rating) || 0);
       if (!elo) continue;
-      // Keep the best Elo per canonical name (variants collapse for display)
-      if (!arenaMap.has(key) || arenaMap.get(key) < elo) arenaMap.set(key, elo);
+      for (const k of aliases(n)) {
+        if (!arenaMap.has(k) || arenaMap.get(k) < elo) arenaMap.set(k, elo);
+      }
     }
     for (const m of out[cat]) {
-      const e = arenaMap.get(canonical(m.name));
-      if (e) m.arenaElo = e;
+      for (const a of aliases(m.name)) {
+        const e = arenaMap.get(a);
+        if (e) { m.arenaElo = e; break; }
+      }
     }
   }
 
@@ -401,6 +404,21 @@ function canonical(name) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
+}
+
+// Multiple aliases for the same model — handles cross-source naming where
+// AA uses marketing names ("Nano Banana Pro") while arena uses model IDs
+// ("gemini-3-pro-image-preview"). Each parenthesized fragment also becomes
+// a candidate alias so they cross-match.
+function aliases(name) {
+  if (!name) return [];
+  const set = new Set();
+  set.add(canonical(name));
+  for (const m of String(name).matchAll(/[\(\[]([^)\]]+)[\)\]]/g)) {
+    const inner = m[1].trim();
+    if (inner.length > 2) set.add(canonical(inner));
+  }
+  return [...set].filter(Boolean);
 }
 
 function displayName(name) {
