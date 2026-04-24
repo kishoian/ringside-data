@@ -202,27 +202,43 @@ function merge({ openrouter, aider, arena, livebench, prevSnapshot }) {
     }
   }
 
-  // Collapse variants (thinking/high/medium/default/32k/no-think/etc.) of the
-  // same base model to a single row with the best score + list of variants.
+  // Dedup exact ID collisions within each category (preserves variants like
+  // gpt-5 (high) / gpt-5 (medium) as separate rows).
   for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
     const seen = new Map();
     for (const m of out[cat]) {
-      const key = canonical(m.name);
-      const score = m.scores[cat] || 0;
-      const ex = seen.get(key);
-      if (!ex) {
-        seen.set(key, { ...m, id: key, name: displayName(m.name), variants: [variantLabel(m.name, score)] });
-      } else {
-        ex.variants.push(variantLabel(m.name, score));
-        if (score > (ex.scores[cat] || 0)) {
-          ex.scores[cat] = score;
-          ex.votes = Math.max(ex.votes, m.votes);
-        }
-      }
+      const ex = seen.get(m.id);
+      if (!ex || (m.scores[cat] || 0) > (ex.scores[cat] || 0)) seen.set(m.id, m);
     }
-    out[cat] = Array.from(seen.values())
-      .map(m => { m.variants = m.variants.filter(Boolean); if (m.variants.length < 2) delete m.variants; return m; })
-      .sort((a, b) => b.scores[cat] - a.scores[cat]);
+    out[cat] = Array.from(seen.values()).sort((a, b) => b.scores[cat] - a.scores[cat]);
+  }
+
+  // Cross-source matching: for each row, find the same model in other
+  // categories by canonical (variant-stripped) name and attach those scores
+  // as `alts`. Lets the UI show a model's Aider % next to its arena Elo and
+  // vice versa without merging the rows.
+  const canonicalIndex = new Map(); // canonical → [{cat, score, name}]
+  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+    for (const m of out[cat]) {
+      const key = canonical(m.name);
+      if (!key) continue;
+      if (!canonicalIndex.has(key)) canonicalIndex.set(key, []);
+      canonicalIndex.get(key).push({ cat, score: m.scores[cat], name: m.name });
+    }
+  }
+  for (const cat of ['chat', 'code', 'image', 'video', 'aider']) {
+    for (const m of out[cat]) {
+      const key = canonical(m.name);
+      const matches = canonicalIndex.get(key) || [];
+      const alts = {};
+      for (const mt of matches) {
+        if (mt.cat === cat) continue;
+        // Keep best score per alt category (a model may have multiple variants
+        // in the same other category — pick the highest).
+        if (alts[mt.cat] == null || mt.score > alts[mt.cat]) alts[mt.cat] = mt.score;
+      }
+      if (Object.keys(alts).length) m.alts = alts;
+    }
   }
 
   // Delta vs previous snapshot (rolling weekly)
