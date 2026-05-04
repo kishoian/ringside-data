@@ -16702,9 +16702,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1116
+        "image": 1117
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
@@ -16778,9 +16778,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1107
+        "image": 1106
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg"
     },
@@ -16881,6 +16881,18 @@
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
     {
+      "id": "luma-photon",
+      "name": "Luma Photon",
+      "org": "Luma Labs",
+      "color": "#3face6",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1073
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/lumalabs_small.svg"
+    },
+    {
       "id": "recraft-v3",
       "name": "Recraft V3",
       "org": "Recraft",
@@ -16905,18 +16917,6 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg",
       "arenaElo": 1013
-    },
-    {
-      "id": "luma-photon",
-      "name": "Luma Photon",
-      "org": "Luma Labs",
-      "color": "#3face6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1072
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/lumalabs_small.svg"
     },
     {
       "id": "hidream-i1-dev",
@@ -16985,9 +16985,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1055
+        "image": 1056
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "arenaElo": 1011
@@ -17022,9 +17022,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -44,
+      "delta": -45,
       "scores": {
-        "image": 1037
+        "image": 1036
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -17034,9 +17034,9 @@
       "org": "Meituan",
       "color": "#f8d103",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1034
+        "image": 1035
       },
       "logo": "https://artificialanalysis.ai/img/logos/meituan_small.svg"
     },
@@ -17106,9 +17106,9 @@
       "org": "Playground AI",
       "color": "#6858F5",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1010
+        "image": 1011
       },
       "logo": "https://artificialanalysis.ai/img/logos/playgroundai_small.png"
     },
@@ -17311,9 +17311,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 652
+        "image": 653
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     }
@@ -17358,6 +17358,18 @@
       "releaseDate": "2026-01-27"
     },
     {
+      "id": "vidu-q3-pro",
+      "name": "Vidu Q3 Pro",
+      "org": "Vidu",
+      "color": "#1fcfff",
+      "votes": 0,
+      "delta": 3,
+      "scores": {
+        "video": 1413
+      },
+      "releaseDate": "2026-01-30"
+    },
+    {
       "id": "runway-gen-4-5",
       "name": "Runway Gen-4.5",
       "org": "Runway",
@@ -17369,18 +17381,6 @@
       },
       "releaseDate": "2025-12-01",
       "arenaElo": 1239
-    },
-    {
-      "id": "vidu-q3-pro",
-      "name": "Vidu Q3 Pro",
-      "org": "Vidu",
-      "color": "#1fcfff",
-      "votes": 0,
-      "delta": 2,
-      "scores": {
-        "video": 1412
-      },
-      "releaseDate": "2026-01-30"
     },
     {
       "id": "pixverse-v6",
@@ -18212,9 +18212,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "video": 1138
+        "video": 1137
       },
       "releaseDate": "2024-12-09",
       "arenaElo": 1070
@@ -18533,15 +18533,15 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (371)",
     "aa_llm": "ok (483)",
     "aa_image": "ok (134)",
     "aa_video": "ok (206)",
-    "openrouter": "ok (371)",
     "arena_text": "ok (356)",
     "arena_code": "ok (71)",
     "arena_image": "ok (57)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1777851800992,
+  "updatedAt": 1777862731781,
   "errors": []
 }
