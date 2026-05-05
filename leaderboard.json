@@ -570,6 +570,10 @@
         "chat": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+      "pricing": {
+        "prompt": 0.4,
+        "completion": 2
+      },
       "arenaElo": 1424,
       "alts": {
         "code": 42.1
@@ -9717,6 +9721,10 @@
         "code": 42.1
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+      "pricing": {
+        "prompt": 0.4,
+        "completion": 2
+      },
       "arenaElo": 1446,
       "alts": {
         "chat": 49
@@ -16560,9 +16568,9 @@
       "org": "xAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1182
+        "image": 1181
       },
       "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
       "arenaElo": 1170
@@ -16829,18 +16837,6 @@
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
     {
-      "id": "dreamina-3-1",
-      "name": "Dreamina 3.1",
-      "org": "Bytedance",
-      "color": "#3c8bff",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1091
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
-    },
-    {
       "id": "flux-1-kontext-pro",
       "name": "FLUX.1 Kontext [pro]",
       "org": "Black Forest Labs",
@@ -16851,6 +16847,18 @@
         "image": 1091
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
+    },
+    {
+      "id": "dreamina-3-1",
+      "name": "Dreamina 3.1",
+      "org": "Bytedance",
+      "color": "#3c8bff",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1090
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
     {
       "id": "flux1-1-pro",
@@ -16943,9 +16951,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1072
+        "image": 1073
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg",
       "arenaElo": 1013
@@ -16968,9 +16976,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -17857,6 +17865,18 @@
       "arenaElo": 1219
     },
     {
+      "id": "bach-1-0-preview",
+      "name": "Bach-1.0 Preview",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1317
+      },
+      "releaseDate": "2026-04-30"
+    },
+    {
       "id": "televideo-2-0",
       "name": "TeleVideo 2.0",
       "org": "TeleAI",
@@ -17869,18 +17889,6 @@
       "releaseDate": "2026-01-15"
     },
     {
-      "id": "bach-1-0-preview",
-      "name": "Bach-1.0 Preview",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1316
-      },
-      "releaseDate": "2026-04-30"
-    },
-    {
       "id": "veo-3-preview",
       "name": "Veo 3 Preview",
       "org": "Google",
@@ -17891,18 +17899,6 @@
         "video": 1315
       },
       "releaseDate": "2025-05-21"
-    },
-    {
-      "id": "wan-2-7",
-      "name": "Wan 2.7",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1309
-      },
-      "releaseDate": "2026-04-03"
     },
     {
       "id": "ray-3",
@@ -17928,6 +17924,18 @@
         "video": 1308
       },
       "releaseDate": "2025-05-29"
+    },
+    {
+      "id": "wan-2-7",
+      "name": "Wan 2.7",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1307
+      },
+      "releaseDate": "2026-04-03"
     },
     {
       "id": "wan-2-6",
@@ -18123,9 +18131,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "video": 1240
+        "video": 1241
       },
       "releaseDate": "2025-06-01"
     },
@@ -18305,9 +18313,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "video": 1123
+        "video": 1124
       },
       "releaseDate": "2025-01-28"
     },
@@ -18598,6 +18606,6 @@
     "arena_image": "ok (57)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1777948701979,
+  "updatedAt": 1777959754336,
   "errors": []
 }
