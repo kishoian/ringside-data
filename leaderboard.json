@@ -16781,6 +16781,18 @@
       "logo": "https://artificialanalysis.ai/img/logos/leonardoai_small.png"
     },
     {
+      "id": "imagen-4-standard",
+      "name": "Imagen 4 Standard",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 2,
+      "scores": {
+        "image": 1114
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
+    },
+    {
       "id": "vidu-q2",
       "name": "Vidu Q2",
       "org": "Vidu",
@@ -16794,18 +16806,6 @@
       "alts": {
         "video": 1282
       }
-    },
-    {
-      "id": "imagen-4-standard",
-      "name": "Imagen 4 Standard",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1113
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
     {
       "id": "z-image-turbo",
@@ -16838,9 +16838,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1107
+        "image": 1108
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg"
     },
@@ -17311,9 +17311,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 904
+        "image": 905
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17323,9 +17323,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 898
+        "image": 899
       },
       "logo": "https://artificialanalysis.ai/img/logos/bria_small.svg"
     },
@@ -17359,9 +17359,9 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 714
+        "image": 713
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg"
     },
@@ -17460,9 +17460,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 9,
+      "delta": 7,
       "scores": {
-        "video": 1405
+        "video": 1403
       },
       "releaseDate": "2026-02-25",
       "arenaElo": 1242
@@ -17618,9 +17618,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": -3,
+      "delta": -5,
       "scores": {
-        "video": 1362
+        "video": 1360
       },
       "releaseDate": "2025-08-26"
     },
@@ -17637,19 +17637,6 @@
       "releaseDate": "2025-10-15"
     },
     {
-      "id": "pixverse-v5-6-january",
-      "name": "PixVerse V5.6 (January)",
-      "org": "PixVerse",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -41,
-      "scores": {
-        "video": 1355
-      },
-      "releaseDate": "2026-01-26",
-      "arenaElo": 1242
-    },
-    {
       "id": "kling-2-6-pro-january",
       "name": "Kling 2.6 Pro (January)",
       "org": "KlingAI",
@@ -17661,6 +17648,19 @@
       },
       "releaseDate": "2026-01-13",
       "arenaElo": 1219
+    },
+    {
+      "id": "pixverse-v5-6-january",
+      "name": "PixVerse V5.6 (January)",
+      "org": "PixVerse",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -42,
+      "scores": {
+        "video": 1354
+      },
+      "releaseDate": "2026-01-26",
+      "arenaElo": 1242
     },
     {
       "id": "hailuo-2-3-fast",
@@ -17736,18 +17736,6 @@
       "releaseDate": "2025-12-03"
     },
     {
-      "id": "veo-3-1-lite",
-      "name": "Veo 3.1 Lite",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1341
-      },
-      "releaseDate": "2026-03-31"
-    },
-    {
       "id": "genflare",
       "name": "GenFlare",
       "org": "Baidu",
@@ -17758,6 +17746,18 @@
         "video": 1341
       },
       "releaseDate": "2025-10-17"
+    },
+    {
+      "id": "veo-3-1-lite",
+      "name": "Veo 3.1 Lite",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1340
+      },
+      "releaseDate": "2026-03-31"
     },
     {
       "id": "wan-2-5-preview",
@@ -17953,7 +17953,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "video": 1309
+        "video": 1307
       },
       "releaseDate": "2026-04-03"
     },
@@ -18034,6 +18034,18 @@
       "releaseDate": "2025-10-23"
     },
     {
+      "id": "pika-2-5",
+      "name": "Pika 2.5",
+      "org": "Pika Art",
+      "color": "#feedd1",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1272
+      },
+      "releaseDate": "2025-11-22"
+    },
+    {
       "id": "ltx-2-3-pro",
       "name": "LTX-2.3 Pro",
       "org": "Lightricks",
@@ -18044,18 +18056,6 @@
         "video": 1270
       },
       "releaseDate": "2026-03-05"
-    },
-    {
-      "id": "pika-2-5",
-      "name": "Pika 2.5",
-      "org": "Pika Art",
-      "color": "#feedd1",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "video": 1270
-      },
-      "releaseDate": "2025-11-22"
     },
     {
       "id": "sora-2-october",
@@ -18121,18 +18121,6 @@
       "arenaElo": 1206
     },
     {
-      "id": "kling-2-1-pro",
-      "name": "Kling 2.1 Pro",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 2,
-      "scores": {
-        "video": 1249
-      },
-      "releaseDate": "2025-05-29"
-    },
-    {
       "id": "kling-o1-pro-december",
       "name": "Kling O1 Pro (December)",
       "org": "KlingAI",
@@ -18144,6 +18132,18 @@
       },
       "releaseDate": "2025-12-01",
       "arenaElo": 1207
+    },
+    {
+      "id": "kling-2-1-pro",
+      "name": "Kling 2.1 Pro",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "video": 1248
+      },
+      "releaseDate": "2025-05-29"
     },
     {
       "id": "pixverse-v4-5",
@@ -18211,9 +18211,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -5,
+      "delta": -4,
       "scores": {
-        "video": 1219
+        "video": 1220
       },
       "releaseDate": "2025-04-15"
     },
@@ -18259,9 +18259,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -4,
+      "delta": -3,
       "scores": {
-        "video": 1187
+        "video": 1188
       },
       "releaseDate": "2024-12-16",
       "arenaElo": 1164
@@ -18381,9 +18381,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 5,
+      "delta": 4,
       "scores": {
-        "video": 1111
+        "video": 1110
       },
       "releaseDate": "2025-07-30"
     },
@@ -18393,9 +18393,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "video": 1106
+        "video": 1105
       },
       "releaseDate": "2024-09-01"
     },
@@ -18626,6 +18626,6 @@
     "arena_image": "ok (60)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1778104561236,
+  "updatedAt": 1778108046197,
   "errors": []
 }
