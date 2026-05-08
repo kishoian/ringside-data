@@ -455,6 +455,150 @@ function variantLabel(name, score) {
   if (!m) return null;
   return { label: m.join(' ').replace(/[\(\)\[\]]/g, '').trim(), score };
 }
+
+// ─── In-page mention dictionary ────────────────────────────────────────────
+// Builds a deduplicated list of model display names with best score per
+// category and per-cat ranks. Consumed by the extension's content script
+// to enrich AI model mentions on web pages with their AA Intelligence Index.
+//
+// Filtering rules — chosen to minimize false positives across the open web:
+//   • Skip names < 3 chars
+//   • Skip bare single-word names (Claude, GPT, Llama) unless on the
+//     ALWAYS_OK_SINGLE allow-list (Sora, Midjourney, DALL-E etc.)
+//   • Single-word names without digits & not on allow-list → skipped
+//   • Sort by name length DESC so longest-match wins (Claude 3.5 Sonnet
+//     before Claude 3.5 before Claude)
+const ALWAYS_OK_SINGLE = new Set([
+  'sora', 'midjourney', 'dall-e', 'dalle', 'flux', 'imagen', 'veo', 'kling',
+  'runway', 'pika', 'suno', 'udio', 'luma', 'ideogram', 'recraft', 'firefly',
+  'mochi', 'wan', 'hailuo', 'sana', 'lumiere',
+]);
+
+function shouldIncludeName(display) {
+  if (!display || display.length < 3) return false;
+  const lower = display.toLowerCase();
+  const hasDigit = /\d/.test(display);
+  const wordCount = display.split(/\s+/).length;
+  if (wordCount === 1) {
+    return hasDigit || ALWAYS_OK_SINGLE.has(lower);
+  }
+  // Multi-word — accept (covers "Claude Sonnet 4.5", "Gemini 2.5 Pro" etc.)
+  return true;
+}
+
+// Generate alternate textual forms ("aliases") that should map back to the
+// same model entry. Catches casual web-page phrasing — articles often write
+// "Sonnet 4.6", "K2.6" or "GPT 5.5" instead of the full canonical name.
+//
+// Heuristics — conservative to avoid false positives:
+//   • Word-order swap for "<Vendor> <Adjective> <Version>" → "<Vendor> <Version> <Adjective>"
+//     ("Claude Sonnet 4.6" → "Claude 4.6 Sonnet")
+//   • Strip leading vendor token if remainder still contains a digit
+//     ("Claude Sonnet 4.6" → "Sonnet 4.6"; "Kimi K2.6" → "K2.6"; "Llama 4" stays — no shorter form)
+//   • Common dash/space variants for digits: "GPT-5.5" → "GPT 5.5"
+//   • Skip alias if the resulting string is < 3 chars OR is just a digit/version w/o letters
+const VENDOR_PREFIXES = new Set([
+  'openai', 'anthropic', 'google', 'meta', 'xai', 'deepseek', 'mistral',
+  'mistralai', 'qwen', 'alibaba', 'cohere', 'microsoft', 'amazon',
+  'midjourney', 'kimi', 'moonshot', 'minimax', 'recraft', 'ideogram',
+  'stabilityai', 'stability', 'blackforestlabs', 'runway', 'luma', 'pika',
+  '01ai',
+]);
+
+function aliasesFor(displayName) {
+  if (!displayName) return [];
+  const out = new Set();
+  out.add(displayName);
+
+  const tokens = displayName.split(/\s+/);
+
+  // 1. Word-order swap: "Claude Sonnet 4.6" → "Claude 4.6 Sonnet"
+  if (tokens.length === 3 && /^[A-Za-z]+$/.test(tokens[1]) && /\d/.test(tokens[2])) {
+    out.add(`${tokens[0]} ${tokens[2]} ${tokens[1]}`);
+  }
+  // Reverse: "Claude 4.6 Sonnet" → "Claude Sonnet 4.6"
+  if (tokens.length === 3 && /\d/.test(tokens[1]) && /^[A-Za-z]+$/.test(tokens[2])) {
+    out.add(`${tokens[0]} ${tokens[2]} ${tokens[1]}`);
+  }
+
+  // 2. Drop leading vendor token if remainder has a digit AND is multi-char
+  //    "Kimi K2.6" → "K2.6"
+  //    "Claude Sonnet 4.6" → "Sonnet 4.6" (only if it has version digit too)
+  if (tokens.length >= 2) {
+    const head = tokens[0].toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (VENDOR_PREFIXES.has(head)) {
+      const tail = tokens.slice(1).join(' ');
+      if (tail.length >= 3 && /\d/.test(tail)) {
+        out.add(tail);
+      }
+    }
+  }
+
+  // 3. Punctuation variants on digit-bearing tokens
+  //    "GPT-5.5" → "GPT 5.5", "GPT5.5"
+  for (const variant of [...out]) {
+    if (/[A-Za-z]\d/.test(variant) || /-\d/.test(variant)) {
+      const noDash = variant.replace(/-(\d)/g, ' $1');
+      const tight = variant.replace(/-(\d)/g, '$1');
+      if (noDash !== variant) out.add(noDash);
+      if (tight !== variant && /\d.*\d/.test(tight)) out.add(tight);
+    }
+  }
+
+  // Filter: drop too-short or letter-less aliases
+  return [...out].filter(
+    (a) => a.length >= 3 && /[A-Za-z]/.test(a) && /[A-Za-z]\s*[A-Za-z\d]|[A-Za-z]\d|\d.*[A-Za-z]/.test(a)
+  );
+}
+
+function buildDict(merged) {
+  const map = new Map();
+  for (const cat of ['chat', 'code', 'image', 'video']) {
+    for (const m of merged[cat]) {
+      const display = displayName(m.name);
+      const key = canonical(m.name);
+      if (!key || !shouldIncludeName(display)) continue;
+      let entry = map.get(key);
+      if (!entry) {
+        entry = {
+          key,
+          name: display,
+          org: m.org,
+          color: m.color,
+          scores: {},
+          ranks: {},
+        };
+        if (m.logo) entry.logo = m.logo;
+        if (m.releaseDate) entry.releaseDate = m.releaseDate;
+        map.set(key, entry);
+      }
+      const sc = m.scores[cat];
+      if (sc != null && (entry.scores[cat] == null || sc > entry.scores[cat])) {
+        entry.scores[cat] = sc;
+      }
+      // Track latest release date across variants
+      if (m.releaseDate && (!entry.releaseDate || m.releaseDate > entry.releaseDate)) {
+        entry.releaseDate = m.releaseDate;
+      }
+    }
+  }
+  // Generate aliases per entry
+  for (const e of map.values()) {
+    const al = aliasesFor(e.name).filter((a) => a !== e.name);
+    if (al.length) e.aliases = al;
+  }
+  // Compute per-category ranks
+  for (const cat of ['chat', 'code', 'image', 'video']) {
+    const ranked = [...map.values()]
+      .filter(e => e.scores[cat] != null)
+      .sort((a, b) => b.scores[cat] - a.scores[cat]);
+    ranked.forEach((e, i) => { e.ranks[cat] = i + 1; });
+  }
+  // Sort dict by name length DESC for longest-match-first regex assembly
+  return [...map.values()]
+    .filter(e => Object.keys(e.scores).length > 0)
+    .sort((a, b) => b.name.length - a.name.length);
+}
 function norm(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]/g, ''); }
 function slug(s) { return String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
 
@@ -497,7 +641,8 @@ const [openrouter, aa, arena] = await Promise.all([
 ]);
 
 const merged = merge({ openrouter, aa, arena, prevSnapshot });
-const payload = { ...merged, sources, updatedAt: Date.now(), errors };
+const dict = buildDict(merged);
+const payload = { ...merged, dict, sources, updatedAt: Date.now(), errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
 console.log('Wrote', outFile);
