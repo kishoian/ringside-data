@@ -422,9 +422,9 @@ const SUFFIX_RE = /[-_\s](?:thinking|high|medium|low|xhigh|no-?think|reasoner|no
 function canonical(name) {
   return String(name || '')
     .replace(VARIANT_RE, ' ')
-    .replace(SUFFIX_RE, '')
     .replace(/\s+/g, ' ')
     .trim()
+    .replace(SUFFIX_RE, '')
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
