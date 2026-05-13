@@ -16768,9 +16768,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "image": 1161
+        "image": 1162
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
     },
@@ -17501,9 +17501,9 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 712
+        "image": 713
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg"
     },
@@ -17724,9 +17724,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -5,
+      "delta": -4,
       "scores": {
-        "video": 1361
+        "video": 1362
       },
       "releaseDate": "2026-01-30"
     },
@@ -17755,6 +17755,19 @@
       "releaseDate": "2025-12-03"
     },
     {
+      "id": "kling-2-6-pro-january",
+      "name": "Kling 2.6 Pro (January)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -4,
+      "scores": {
+        "video": 1349
+      },
+      "releaseDate": "2026-01-13",
+      "arenaElo": 1219
+    },
+    {
       "id": "pixverse-v5",
       "name": "PixVerse V5",
       "org": "PixVerse",
@@ -17765,19 +17778,6 @@
         "video": 1349
       },
       "releaseDate": "2025-08-26"
-    },
-    {
-      "id": "kling-2-6-pro-january",
-      "name": "Kling 2.6 Pro (January)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -5,
-      "scores": {
-        "video": 1348
-      },
-      "releaseDate": "2026-01-13",
-      "arenaElo": 1219
     },
     {
       "id": "kling-3-0-omni-1080p-pro",
@@ -18093,9 +18093,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1292
+        "video": 1291
       },
       "releaseDate": "2025-12-16"
     },
@@ -18144,9 +18144,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "video": 1277
+        "video": 1276
       },
       "releaseDate": "2025-09-30",
       "arenaElo": 1368
@@ -18691,9 +18691,9 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "votes": 0,
-      "delta": -4,
+      "delta": -3,
       "scores": {
-        "video": 1004
+        "video": 1005
       },
       "releaseDate": "2024-10-01"
     },
@@ -23582,10 +23582,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1348
+        "video": 1349
       },
       "ranks": {
-        "video": 20
+        "video": 19
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -24169,7 +24169,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1161
+        "image": 1162
       },
       "ranks": {
         "image": 8
@@ -24276,7 +24276,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1361
+        "video": 1362
       },
       "ranks": {
         "video": 16
@@ -25016,7 +25016,7 @@
         "video": 1349
       },
       "ranks": {
-        "video": 19
+        "video": 20
       },
       "releaseDate": "2025-08-26"
     },
@@ -25427,7 +25427,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "video": 1277
+        "video": 1276
       },
       "ranks": {
         "video": 46
@@ -25735,7 +25735,7 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "image": 712
+        "image": 713
       },
       "ranks": {
         "image": 61
@@ -26010,7 +26010,7 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1004
+        "video": 1005
       },
       "ranks": {
         "video": 87
@@ -26431,7 +26431,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1292
+        "video": 1291
       },
       "ranks": {
         "video": 42
@@ -26805,15 +26805,15 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (363)",
-    "aa_llm": "ok (488)",
-    "aa_image": "ok (135)",
-    "aa_video": "ok (207)",
+    "openrouter": "ok (364)",
     "arena_text": "ok (357)",
     "arena_code": "ok (77)",
     "arena_image": "ok (60)",
-    "arena_video": "ok (39)"
+    "arena_video": "ok (39)",
+    "aa_llm": "ok (488)",
+    "aa_image": "ok (135)",
+    "aa_video": "ok (207)"
   },
-  "updatedAt": 1778710236360,
+  "updatedAt": 1778716640570,
   "errors": []
 }
