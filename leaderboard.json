@@ -16768,19 +16768,6 @@
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
     {
-      "id": "grok-imagine-image-pro",
-      "name": "grok-imagine-image-pro",
-      "org": "xAI",
-      "color": "#736cd3",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 1150
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
-      "arenaElo": 1160
-    },
-    {
       "id": "flux-2-dev-flash",
       "name": "FLUX.2 [dev] Flash",
       "org": "Fal",
@@ -16961,9 +16948,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "image": 1096
+        "image": 1097
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -17301,9 +17288,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 984
+        "image": 985
       },
       "logo": "https://artificialanalysis.ai/img/logos/lumalabs_small.svg"
     },
@@ -18619,18 +18606,6 @@
       "releaseDate": "2024-10-21"
     },
     {
-      "id": "kling-1-0",
-      "name": "Kling 1.0",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1016
-      },
-      "releaseDate": "2024-06-01"
-    },
-    {
       "id": "ray-2",
       "name": "Ray 2",
       "org": "Luma Labs",
@@ -18641,6 +18616,18 @@
         "video": 1016
       },
       "releaseDate": "2025-02-10"
+    },
+    {
+      "id": "kling-1-0",
+      "name": "Kling 1.0",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1016
+      },
+      "releaseDate": "2024-06-01"
     },
     {
       "id": "pika-1-5",
@@ -18696,9 +18683,9 @@
       "org": "Open Source",
       "color": "#ffce19",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 850
+        "video": 849
       },
       "releaseDate": "2024-10-10"
     }
@@ -21225,7 +21212,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 984
+        "image": 985
       },
       "ranks": {
         "image": 48
@@ -23458,7 +23445,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1096
+        "image": 1097
       },
       "ranks": {
         "image": 24
@@ -24357,7 +24344,7 @@
       "org": "Open Source",
       "color": "#ffce19",
       "scores": {
-        "video": 850
+        "video": 849
       },
       "ranks": {
         "video": 90
@@ -25724,7 +25711,7 @@
         "video": 1016
       },
       "ranks": {
-        "video": 84
+        "video": 85
       },
       "releaseDate": "2024-06-01"
     },
@@ -26710,7 +26697,7 @@
         "video": 1016
       },
       "ranks": {
-        "video": 85
+        "video": 84
       },
       "releaseDate": "2025-02-10"
     },
@@ -26731,13 +26718,13 @@
   "sources": {
     "openrouter": "ok (364)",
     "aa_llm": "ok (487)",
-    "aa_image": "ok (135)",
+    "aa_image": "ok (134)",
     "aa_video": "ok (203)",
     "arena_text": "ok (357)",
     "arena_code": "ok (79)",
     "arena_image": "ok (60)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1778817298981,
+  "updatedAt": 1778828094538,
   "errors": []
 }
