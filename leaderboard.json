@@ -2440,7 +2440,7 @@
     },
     {
       "id": "gpt-oss-120b-high",
-      "name": "gpt-oss-120B (high)",
+      "name": "gpt-oss-120b (high)",
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
@@ -3951,7 +3951,7 @@
     },
     {
       "id": "gpt-oss-120b-low",
-      "name": "gpt-oss-120B (low)",
+      "name": "gpt-oss-120b (low)",
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
@@ -11655,7 +11655,7 @@
     },
     {
       "id": "gpt-oss-120b-high",
-      "name": "gpt-oss-120B (high)",
+      "name": "gpt-oss-120b (high)",
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
@@ -13692,7 +13692,7 @@
     },
     {
       "id": "gpt-oss-120b-low",
-      "name": "gpt-oss-120B (low)",
+      "name": "gpt-oss-120b (low)",
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
@@ -17269,9 +17269,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1019
+        "image": 1020
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -17536,9 +17536,9 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1481
+        "video": 1480
       },
       "releaseDate": "2026-04-07",
       "arenaElo": 1435
@@ -17709,9 +17709,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1371
+        "video": 1372
       },
       "releaseDate": "2025-06-18"
     },
@@ -17863,6 +17863,18 @@
       "releaseDate": "2025-09-29"
     },
     {
+      "id": "veo-3-1-lite",
+      "name": "Veo 3.1 Lite",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 10,
+      "scores": {
+        "video": 1346
+      },
+      "releaseDate": "2026-03-31"
+    },
+    {
       "id": "vidu-q2-turbo",
       "name": "Vidu Q2 Turbo",
       "org": "Vidu",
@@ -17885,18 +17897,6 @@
         "video": 1341
       },
       "releaseDate": "2025-10-17"
-    },
-    {
-      "id": "veo-3-1-lite",
-      "name": "Veo 3.1 Lite",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "video": 1337
-      },
-      "releaseDate": "2026-03-31"
     },
     {
       "id": "hailuo-02-pro",
@@ -20736,7 +20736,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1019
+        "image": 1020
       },
       "ranks": {
         "image": 43
@@ -22904,7 +22904,7 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "scores": {
-        "video": 1481
+        "video": 1480
       },
       "ranks": {
         "video": 1
@@ -22954,7 +22954,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1371
+        "video": 1372
       },
       "ranks": {
         "video": 14
@@ -23617,7 +23617,7 @@
         "video": 1342
       },
       "ranks": {
-        "video": 26
+        "video": 27
       },
       "releaseDate": "2025-09-29",
       "aliases": [
@@ -23930,7 +23930,7 @@
     },
     {
       "key": "gpt-oss-120b",
-      "name": "gpt-oss-120B",
+      "name": "gpt-oss-120b",
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
@@ -23944,8 +23944,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-08-05",
       "aliases": [
-        "gpt-oss 120B",
-        "gpt-oss120B"
+        "gpt-oss 120b",
+        "gpt-oss120b"
       ]
     },
     {
@@ -24309,10 +24309,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1337
+        "video": 1346
       },
       "ranks": {
-        "video": 27
+        "video": 26
       },
       "releaseDate": "2026-03-31",
       "aliases": [
@@ -26818,6 +26818,6 @@
     "arena_image": "ok (60)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1779228928657,
+  "updatedAt": 1779235462008,
   "errors": []
 }
