@@ -3851,6 +3851,7 @@
         "chat": 25.4
       },
       "logo": "https://artificialanalysis.ai/img/logos/china_mobile_small.png",
+      "releaseDate": "2026-04-15",
       "alts": {
         "code": 21.2
       }
@@ -12976,6 +12977,7 @@
         "code": 21.2
       },
       "logo": "https://artificialanalysis.ai/img/logos/china_mobile_small.png",
+      "releaseDate": "2026-04-15",
       "alts": {
         "chat": 25.4
       }
@@ -17973,18 +17975,6 @@
       "releaseDate": "2025-09-29"
     },
     {
-      "id": "vidu-q2-turbo",
-      "name": "Vidu Q2 Turbo",
-      "org": "Vidu",
-      "color": "#1fcfff",
-      "votes": 0,
-      "delta": 8,
-      "scores": {
-        "video": 1349
-      },
-      "releaseDate": "2025-09-29"
-    },
-    {
       "id": "kling-2-6-pro-january",
       "name": "Kling 2.6 Pro (January)",
       "org": "KlingAI",
@@ -17996,6 +17986,18 @@
       },
       "releaseDate": "2026-01-13",
       "arenaElo": 1219
+    },
+    {
+      "id": "vidu-q2-turbo",
+      "name": "Vidu Q2 Turbo",
+      "org": "Vidu",
+      "color": "#1fcfff",
+      "votes": 0,
+      "delta": 7,
+      "scores": {
+        "video": 1348
+      },
+      "releaseDate": "2025-09-29"
     },
     {
       "id": "pixverse-v5-6-january",
@@ -18040,9 +18042,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 6,
+      "delta": 5,
       "scores": {
-        "video": 1341
+        "video": 1340
       },
       "releaseDate": "2025-09-24"
     },
@@ -22497,7 +22499,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1341
+        "video": 1340
       },
       "ranks": {
         "video": 27
@@ -23770,22 +23772,6 @@
       "releaseDate": "2026-02-25"
     },
     {
-      "key": "vidu-q2-turbo",
-      "name": "Vidu Q2 Turbo",
-      "org": "Vidu",
-      "color": "#1fcfff",
-      "scores": {
-        "video": 1349
-      },
-      "ranks": {
-        "video": 24
-      },
-      "releaseDate": "2025-09-29",
-      "aliases": [
-        "Vidu Turbo Q2"
-      ]
-    },
-    {
       "key": "kling-2-6-pro",
       "name": "Kling 2.6 Pro",
       "org": "KlingAI",
@@ -23794,11 +23780,27 @@
         "video": 1348
       },
       "ranks": {
-        "video": 25
+        "video": 24
       },
       "releaseDate": "2026-01-13",
       "aliases": [
         "Kling Pro 2.6"
+      ]
+    },
+    {
+      "key": "vidu-q2-turbo",
+      "name": "Vidu Q2 Turbo",
+      "org": "Vidu",
+      "color": "#1fcfff",
+      "scores": {
+        "video": 1348
+      },
+      "ranks": {
+        "video": 25
+      },
+      "releaseDate": "2025-09-29",
+      "aliases": [
+        "Vidu Turbo Q2"
       ]
     },
     {
@@ -27040,6 +27042,6 @@
     "arena_image": "ok (61)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1779482570572,
+  "updatedAt": 1779487606199,
   "errors": []
 }
