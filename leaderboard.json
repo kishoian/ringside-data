@@ -16867,28 +16867,28 @@
       "arenaElo": 1243
     },
     {
-      "id": "flux-2-max",
-      "name": "FLUX.2 [max]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1196
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
-    },
-    {
       "id": "seedream-4-0",
       "name": "Seedream 4.0",
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1196
+        "image": 1197
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
+    },
+    {
+      "id": "flux-2-max",
+      "name": "FLUX.2 [max]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1195
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
     {
       "id": "flux-2-pro",
@@ -17056,9 +17056,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1128
+        "image": 1127
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17277,9 +17277,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1075
+        "image": 1076
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -17401,9 +17401,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1042
+        "image": 1043
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -17485,9 +17485,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1019
+        "image": 1020
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -24394,10 +24394,10 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1196
+        "image": 1197
       },
       "ranks": {
-        "image": 5
+        "image": 4
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
@@ -24459,7 +24459,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1128
+        "image": 1127
       },
       "ranks": {
         "image": 15
@@ -24501,7 +24501,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1042
+        "image": 1043
       },
       "ranks": {
         "image": 41
@@ -24514,7 +24514,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1019
+        "image": 1020
       },
       "ranks": {
         "image": 47
@@ -26869,10 +26869,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1196
+        "image": 1195
       },
       "ranks": {
-        "image": 4
+        "image": 5
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -26882,7 +26882,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1075
+        "image": 1076
       },
       "ranks": {
         "image": 32
@@ -27076,14 +27076,14 @@
   ],
   "sources": {
     "openrouter": "ok (358)",
-    "aa_llm": "ok (494)",
-    "aa_image": "ok (136)",
-    "aa_video": "ok (205)",
     "arena_text": "ok (360)",
     "arena_code": "ok (80)",
     "arena_image": "ok (63)",
-    "arena_video": "ok (39)"
+    "arena_video": "ok (39)",
+    "aa_llm": "ok (494)",
+    "aa_image": "ok (136)",
+    "aa_video": "ok (205)"
   },
-  "updatedAt": 1779521435766,
+  "updatedAt": 1779529879076,
   "errors": []
 }
