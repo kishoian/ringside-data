@@ -18322,9 +18322,9 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "video": 1302
+        "video": 1301
       },
       "releaseDate": "2026-04-30"
     },
@@ -18618,9 +18618,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "video": 1188
+        "video": 1190
       },
       "releaseDate": "2024-12-16",
       "arenaElo": 1164
@@ -18752,9 +18752,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1104
+        "video": 1103
       },
       "releaseDate": "2024-09-01"
     },
@@ -18807,6 +18807,18 @@
       "releaseDate": "2024-09-19"
     },
     {
+      "id": "kling-1-6-standard",
+      "name": "Kling 1.6 Standard",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1081
+      },
+      "releaseDate": "2024-12-19"
+    },
+    {
       "id": "hunyuan-video-fal",
       "name": "Hunyuan Video (Fal)",
       "org": "Tencent",
@@ -18817,18 +18829,6 @@
         "video": 1081
       },
       "releaseDate": "2024-12-03"
-    },
-    {
-      "id": "kling-1-6-standard",
-      "name": "Kling 1.6 Standard",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1080
-      },
-      "releaseDate": "2024-12-19"
     },
     {
       "id": "vidu-q1",
@@ -21123,10 +21123,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1080
+        "video": 1081
       },
       "ranks": {
-        "video": 78
+        "video": 77
       },
       "releaseDate": "2024-12-19",
       "aliases": [
@@ -21968,7 +21968,7 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1302
+        "video": 1301
       },
       "ranks": {
         "video": 41
@@ -24026,7 +24026,7 @@
         "video": 1081
       },
       "ranks": {
-        "video": 77
+        "video": 78
       },
       "releaseDate": "2024-12-03"
     },
@@ -26968,7 +26968,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1104
+        "video": 1103
       },
       "ranks": {
         "video": 72
@@ -27087,7 +27087,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1188
+        "video": 1190
       },
       "ranks": {
         "video": 62
@@ -27136,14 +27136,14 @@
   ],
   "sources": {
     "openrouter": "ok (357)",
-    "aa_llm": "ok (495)",
-    "aa_image": "ok (136)",
-    "aa_video": "ok (205)",
     "arena_text": "ok (360)",
     "arena_code": "ok (81)",
     "arena_image": "ok (63)",
-    "arena_video": "ok (39)"
+    "arena_video": "ok (39)",
+    "aa_llm": "ok (495)",
+    "aa_image": "ok (136)",
+    "aa_video": "ok (205)"
   },
-  "updatedAt": 1779753867564,
+  "updatedAt": 1779771761592,
   "errors": []
 }
