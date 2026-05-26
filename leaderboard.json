@@ -2525,8 +2525,8 @@
       }
     },
     {
-      "id": "gemini-3-1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash-Lite Preview",
+      "id": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
@@ -2540,7 +2540,6 @@
         "prompt": 0.25,
         "completion": 1.5
       },
-      "arenaElo": 1436,
       "alts": {
         "code": 30.1
       }
@@ -11668,8 +11667,8 @@
       }
     },
     {
-      "id": "gemini-3-1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash-Lite Preview",
+      "id": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
@@ -11683,7 +11682,6 @@
         "prompt": 0.25,
         "completion": 1.5
       },
-      "arenaElo": 1248,
       "alts": {
         "chat": 33.5
       }
@@ -16931,28 +16929,28 @@
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
     {
-      "id": "flux-2-pro",
-      "name": "FLUX.2 [pro]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -5,
-      "scores": {
-        "image": 1191
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
-    },
-    {
       "id": "recraft-v4-1-utility",
       "name": "Recraft V4.1 Utility",
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1191
+        "image": 1192
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
+    },
+    {
+      "id": "flux-2-pro",
+      "name": "FLUX.2 [pro]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -6,
+      "scores": {
+        "image": 1190
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
     {
       "id": "flux-2-flex",
@@ -16960,9 +16958,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -12,
+      "delta": -13,
       "scores": {
-        "image": 1184
+        "image": 1183
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -17083,9 +17081,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1132
+        "image": 1131
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png",
       "arenaElo": 1110
@@ -17096,9 +17094,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "image": 1131
+        "image": 1130
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17208,9 +17206,9 @@
       "org": "Eigen AI",
       "color": "#115792",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1108
+        "image": 1107
       },
       "logo": "https://artificialanalysis.ai/img/logos/eigenai_small.svg"
     },
@@ -17220,9 +17218,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1107
+        "image": 1106
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "arenaElo": 1084
@@ -17391,9 +17389,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1060
+        "image": 1059
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "arenaElo": 1057
@@ -17513,9 +17511,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1020
+        "image": 1019
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -17537,9 +17535,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1014
+        "image": 1013
       },
       "logo": "https://artificialanalysis.ai/img/logos/leonardoai_small.png"
     },
@@ -17609,9 +17607,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 960
+        "image": 959
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17645,9 +17643,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 919
+        "image": 918
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17730,9 +17728,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 741
+        "image": 740
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -19177,22 +19175,6 @@
       "releaseDate": "2025-10-28"
     },
     {
-      "key": "gemini-3-1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash-Lite Preview",
-      "org": "Google",
-      "color": "#34A853",
-      "scores": {
-        "chat": 33.5,
-        "code": 30.1
-      },
-      "ranks": {
-        "chat": 83,
-        "code": 82
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
-      "releaseDate": "2026-03-03"
-    },
-    {
       "key": "qwen3-235b-a22b-2507-instruct",
       "name": "Qwen3 235B A22B 2507 Instruct",
       "org": "Alibaba",
@@ -19941,6 +19923,22 @@
       "releaseDate": "2024-09-25"
     },
     {
+      "key": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "org": "Google",
+      "color": "#34A853",
+      "scores": {
+        "chat": 33.5,
+        "code": 30.1
+      },
+      "ranks": {
+        "chat": 83,
+        "code": 82
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "releaseDate": "2026-03-03"
+    },
+    {
       "key": "grok-3-mini-reasoning",
       "name": "Grok 3 mini Reasoning",
       "org": "xAI",
@@ -20389,7 +20387,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1191
+        "image": 1192
       },
       "ranks": {
         "image": 6
@@ -20997,7 +20995,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1020
+        "image": 1019
       },
       "ranks": {
         "image": 46
@@ -21014,7 +21012,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 919
+        "image": 918
       },
       "ranks": {
         "image": 56
@@ -21510,7 +21508,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1014
+        "image": 1013
       },
       "ranks": {
         "image": 48
@@ -23778,7 +23776,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1107
+        "image": 1106
       },
       "ranks": {
         "image": 25
@@ -24499,7 +24497,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1131
+        "image": 1130
       },
       "ranks": {
         "image": 15
@@ -25266,7 +25264,7 @@
       "org": "Eigen AI",
       "color": "#115792",
       "scores": {
-        "image": 1108
+        "image": 1107
       },
       "ranks": {
         "image": 24
@@ -25725,7 +25723,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1132
+        "image": 1131
       },
       "ranks": {
         "image": 14
@@ -25751,7 +25749,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1060
+        "image": 1059
       },
       "ranks": {
         "image": 38
@@ -25764,7 +25762,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 960
+        "image": 959
       },
       "ranks": {
         "image": 53
@@ -26735,7 +26733,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 741
+        "image": 740
       },
       "ranks": {
         "image": 62
@@ -27144,6 +27142,6 @@
     "arena_image": "ok (64)",
     "arena_video": "ok (39)"
   },
-  "updatedAt": 1779823270250,
+  "updatedAt": 1779831850767,
   "errors": []
 }
