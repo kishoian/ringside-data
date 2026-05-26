@@ -17730,9 +17730,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 741
+        "image": 740
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -18057,6 +18057,19 @@
       "releaseDate": "2025-09-29"
     },
     {
+      "id": "kling-2-6-pro-january",
+      "name": "Kling 2.6 Pro (January)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1348
+      },
+      "releaseDate": "2026-01-13",
+      "arenaElo": 1219
+    },
+    {
       "id": "vidu-q2-turbo",
       "name": "Vidu Q2 Turbo",
       "org": "Vidu",
@@ -18067,19 +18080,6 @@
         "video": 1348
       },
       "releaseDate": "2025-09-29"
-    },
-    {
-      "id": "kling-2-6-pro-january",
-      "name": "Kling 2.6 Pro (January)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1347
-      },
-      "releaseDate": "2026-01-13",
-      "arenaElo": 1219
     },
     {
       "id": "pixverse-v5-6-january",
@@ -18872,9 +18872,9 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1040
+        "video": 1041
       },
       "releaseDate": "2025-10-20"
     },
@@ -18920,9 +18920,9 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1006
+        "video": 1005
       },
       "releaseDate": "2024-10-01"
     },
@@ -23854,6 +23854,22 @@
       "releaseDate": "2026-02-25"
     },
     {
+      "key": "kling-2-6-pro",
+      "name": "Kling 2.6 Pro",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "scores": {
+        "video": 1348
+      },
+      "ranks": {
+        "video": 24
+      },
+      "releaseDate": "2026-01-13",
+      "aliases": [
+        "Kling Pro 2.6"
+      ]
+    },
+    {
       "key": "vidu-q2-turbo",
       "name": "Vidu Q2 Turbo",
       "org": "Vidu",
@@ -23862,27 +23878,11 @@
         "video": 1348
       },
       "ranks": {
-        "video": 24
+        "video": 25
       },
       "releaseDate": "2025-09-29",
       "aliases": [
         "Vidu Turbo Q2"
-      ]
-    },
-    {
-      "key": "kling-2-6-pro",
-      "name": "Kling 2.6 Pro",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "scores": {
-        "video": 1347
-      },
-      "ranks": {
-        "video": 25
-      },
-      "releaseDate": "2026-01-13",
-      "aliases": [
-        "Kling Pro 2.6"
       ]
     },
     {
@@ -24036,7 +24036,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "video": 1040
+        "video": 1041
       },
       "ranks": {
         "video": 82
@@ -26340,7 +26340,7 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1006
+        "video": 1005
       },
       "ranks": {
         "video": 86
@@ -26735,7 +26735,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 741
+        "image": 740
       },
       "ranks": {
         "image": 62
@@ -27136,14 +27136,14 @@
   ],
   "sources": {
     "openrouter": "ok (357)",
+    "aa_llm": "ok (495)",
+    "aa_image": "ok (136)",
+    "aa_video": "ok (205)",
     "arena_text": "ok (360)",
     "arena_code": "ok (81)",
     "arena_image": "ok (63)",
-    "arena_video": "ok (39)",
-    "aa_llm": "ok (495)",
-    "aa_image": "ok (136)",
-    "aa_video": "ok (205)"
+    "arena_video": "ok (39)"
   },
-  "updatedAt": 1779746840207,
+  "updatedAt": 1779753867564,
   "errors": []
 }
