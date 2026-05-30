@@ -2100,8 +2100,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-02-24",
       "pricing": {
-        "prompt": 0.28,
-        "completion": 2.5
+        "prompt": 0.3,
+        "completion": 2.6
       },
       "arenaElo": 1408,
       "alts": {
@@ -11300,8 +11300,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-02-24",
       "pricing": {
-        "prompt": 0.28,
-        "completion": 2.5
+        "prompt": 0.3,
+        "completion": 2.6
       },
       "arenaElo": 1358,
       "alts": {
@@ -17193,9 +17193,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1135
+        "image": 1136
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17205,9 +17205,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 7,
+      "delta": 8,
       "scores": {
-        "image": 1134
+        "image": 1135
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17291,9 +17291,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1109
+        "image": 1110
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg"
     },
@@ -17398,6 +17398,18 @@
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
     {
+      "id": "imagen-4-fast",
+      "name": "Imagen 4 Fast",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1080
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
+    },
+    {
       "id": "qwen-image-plus-2601",
       "name": "Qwen Image Plus 2601",
       "org": "Alibaba",
@@ -17408,18 +17420,6 @@
         "image": 1080
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
-    },
-    {
-      "id": "imagen-4-fast",
-      "name": "Imagen 4 Fast",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1079
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
     {
       "id": "ideogram-3-0",
@@ -17514,9 +17514,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1059
+        "image": 1058
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -17731,9 +17731,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 958
+        "image": 959
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17903,9 +17903,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1481
+        "video": 1482
       },
       "releaseDate": "2026-03-18",
       "arenaElo": 1463
@@ -17935,19 +17935,6 @@
       "releaseDate": "2026-03-23"
     },
     {
-      "id": "runway-gen-4-5",
-      "name": "Runway Gen-4.5",
-      "org": "Runway",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1411
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1237
-    },
-    {
       "id": "pixverse-v5-6",
       "name": "PixVerse V5.6",
       "org": "PixVerse",
@@ -17966,24 +17953,25 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 2,
+      "delta": 7,
       "scores": {
-        "video": 1403
+        "video": 1408
       },
       "releaseDate": "2025-09-23",
       "arenaElo": 1221
     },
     {
-      "id": "vidu-q3-pro",
-      "name": "Vidu Q3 Pro",
-      "org": "Vidu",
-      "color": "#1fcfff",
+      "id": "runway-gen-4-5",
+      "name": "Runway Gen-4.5",
+      "org": "Runway",
+      "color": "#000000",
       "votes": 0,
       "delta": -9,
       "scores": {
-        "video": 1400
+        "video": 1402
       },
-      "releaseDate": "2026-01-30"
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1237
     },
     {
       "id": "genflare-2-0",
@@ -18046,16 +18034,16 @@
       "releaseDate": "2026-02-04"
     },
     {
-      "id": "hailuo-02-0616",
-      "name": "Hailuo 02 0616",
-      "org": "MiniMax",
-      "color": "#EB3568",
+      "id": "vidu-q3-pro",
+      "name": "Vidu Q3 Pro",
+      "org": "Vidu",
+      "color": "#1fcfff",
       "votes": 0,
-      "delta": 0,
+      "delta": -22,
       "scores": {
-        "video": 1379
+        "video": 1387
       },
-      "releaseDate": "2025-06-18"
+      "releaseDate": "2026-01-30"
     },
     {
       "id": "seedance-1-5-pro",
@@ -18068,6 +18056,18 @@
         "video": 1368
       },
       "releaseDate": "2025-12-15"
+    },
+    {
+      "id": "hailuo-02-0616",
+      "name": "Hailuo 02 0616",
+      "org": "MiniMax",
+      "color": "#EB3568",
+      "votes": 0,
+      "delta": -11,
+      "scores": {
+        "video": 1368
+      },
+      "releaseDate": "2025-06-18"
     },
     {
       "id": "kling-3-0-omni-1080p-pro",
@@ -18094,43 +18094,6 @@
       "releaseDate": "2026-01-30"
     },
     {
-      "id": "veo-3-1-fast",
-      "name": "Veo 3.1 Fast",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -13,
-      "scores": {
-        "video": 1366
-      },
-      "releaseDate": "2026-01-30"
-    },
-    {
-      "id": "hailuo-2-3",
-      "name": "Hailuo 2.3",
-      "org": "MiniMax",
-      "color": "#EB3568",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1362
-      },
-      "releaseDate": "2025-10-28",
-      "arenaElo": 1199
-    },
-    {
-      "id": "pixverse-v5",
-      "name": "PixVerse V5",
-      "org": "PixVerse",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "video": 1361
-      },
-      "releaseDate": "2025-08-26"
-    },
-    {
       "id": "veo-3-1-preview",
       "name": "Veo 3.1 Preview",
       "org": "Google",
@@ -18141,6 +18104,19 @@
         "video": 1360
       },
       "releaseDate": "2025-10-15"
+    },
+    {
+      "id": "kling-2-6-pro-january",
+      "name": "Kling 2.6 Pro (January)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 12,
+      "scores": {
+        "video": 1360
+      },
+      "releaseDate": "2026-01-13",
+      "arenaElo": 1219
     },
     {
       "id": "hailuo-2-3-fast",
@@ -18155,17 +18131,29 @@
       "releaseDate": "2025-10-28"
     },
     {
-      "id": "kling-2-6-pro-january",
-      "name": "Kling 2.6 Pro (January)",
-      "org": "KlingAI",
-      "color": "#ff3417",
+      "id": "veo-3-1-fast",
+      "name": "Veo 3.1 Fast",
+      "org": "Google",
+      "color": "#34A853",
       "votes": 0,
-      "delta": 6,
+      "delta": -23,
+      "scores": {
+        "video": 1356
+      },
+      "releaseDate": "2026-01-30"
+    },
+    {
+      "id": "hailuo-2-3",
+      "name": "Hailuo 2.3",
+      "org": "MiniMax",
+      "color": "#EB3568",
+      "votes": 0,
+      "delta": -8,
       "scores": {
         "video": 1354
       },
-      "releaseDate": "2026-01-13",
-      "arenaElo": 1219
+      "releaseDate": "2025-10-28",
+      "arenaElo": 1199
     },
     {
       "id": "kling-3-0-omni-720p-standard",
@@ -18173,60 +18161,23 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1352
-      },
-      "releaseDate": "2026-02-04"
-    },
-    {
-      "id": "vidu-q2-pro",
-      "name": "Vidu Q2 Pro",
-      "org": "Vidu",
-      "color": "#1fcfff",
-      "votes": 0,
       "delta": -1,
       "scores": {
         "video": 1351
       },
-      "releaseDate": "2025-09-29"
+      "releaseDate": "2026-02-04"
     },
     {
-      "id": "vidu-q2-turbo",
-      "name": "Vidu Q2 Turbo",
-      "org": "Vidu",
-      "color": "#1fcfff",
+      "id": "pixverse-v5",
+      "name": "PixVerse V5",
+      "org": "PixVerse",
+      "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": -17,
       "scores": {
         "video": 1347
       },
-      "releaseDate": "2025-09-29"
-    },
-    {
-      "id": "pixverse-v5-6-january",
-      "name": "PixVerse V5.6 (January)",
-      "org": "PixVerse",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -63,
-      "scores": {
-        "video": 1346
-      },
-      "releaseDate": "2026-01-26",
-      "arenaElo": 1239
-    },
-    {
-      "id": "pixverse-v5-5",
-      "name": "PixVerse V5.5",
-      "org": "PixVerse",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1344
-      },
-      "releaseDate": "2025-12-03"
+      "releaseDate": "2025-08-26"
     },
     {
       "id": "genflare",
@@ -18241,16 +18192,16 @@
       "releaseDate": "2025-10-17"
     },
     {
-      "id": "wan-2-5-preview",
-      "name": "Wan 2.5 Preview",
-      "org": "Alibaba",
-      "color": "#ff7018",
+      "id": "vidu-q2-pro",
+      "name": "Vidu Q2 Pro",
+      "org": "Vidu",
+      "color": "#1fcfff",
       "votes": 0,
-      "delta": 1,
+      "delta": -12,
       "scores": {
-        "video": 1341
+        "video": 1340
       },
-      "releaseDate": "2025-09-24"
+      "releaseDate": "2025-09-29"
     },
     {
       "id": "hailuo-02-pro",
@@ -18258,12 +18209,61 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1340
+        "video": 1339
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1199
+    },
+    {
+      "id": "pixverse-v5-6-january",
+      "name": "PixVerse V5.6 (January)",
+      "org": "PixVerse",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -72,
+      "scores": {
+        "video": 1337
+      },
+      "releaseDate": "2026-01-26",
+      "arenaElo": 1239
+    },
+    {
+      "id": "pixverse-v5-5",
+      "name": "PixVerse V5.5",
+      "org": "PixVerse",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -8,
+      "scores": {
+        "video": 1336
+      },
+      "releaseDate": "2025-12-03"
+    },
+    {
+      "id": "vidu-q2-turbo",
+      "name": "Vidu Q2 Turbo",
+      "org": "Vidu",
+      "color": "#1fcfff",
+      "votes": 0,
+      "delta": -12,
+      "scores": {
+        "video": 1336
+      },
+      "releaseDate": "2025-09-29"
+    },
+    {
+      "id": "wan-2-5-preview",
+      "name": "Wan 2.5 Preview",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -6,
+      "scores": {
+        "video": 1334
+      },
+      "releaseDate": "2025-09-24"
     },
     {
       "id": "veo-3-1-lite",
@@ -18271,23 +18271,11 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -7,
       "scores": {
-        "video": 1339
+        "video": 1332
       },
       "releaseDate": "2026-03-31"
-    },
-    {
-      "id": "avenger-0-5-pro",
-      "name": "Avenger 0.5 Pro",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1337
-      },
-      "releaseDate": "2025-10-16"
     },
     {
       "id": "hailuo-02-standard",
@@ -18295,9 +18283,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 1,
+      "delta": 3,
       "scores": {
-        "video": 1330
+        "video": 1332
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1181
@@ -18339,14 +18327,26 @@
       "releaseDate": "2026-01-13"
     },
     {
+      "id": "avenger-0-5-pro",
+      "name": "Avenger 0.5 Pro",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -10,
+      "scores": {
+        "video": 1327
+      },
+      "releaseDate": "2025-10-16"
+    },
+    {
       "id": "televideo-2-0",
       "name": "TeleVideo 2.0",
       "org": "TeleAI",
       "color": "#02489d",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1324
+        "video": 1323
       },
       "releaseDate": "2026-01-15"
     },
@@ -18427,28 +18427,28 @@
       "arenaElo": 1254
     },
     {
-      "id": "wan-2-6",
-      "name": "Wan 2.6",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "video": 1305
-      },
-      "releaseDate": "2025-12-16"
-    },
-    {
       "id": "bach-1-0-preview",
       "name": "Bach-1.0 Preview",
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1302
+        "video": 1303
       },
       "releaseDate": "2026-04-30"
+    },
+    {
+      "id": "wan-2-6",
+      "name": "Wan 2.6",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -14,
+      "scores": {
+        "video": 1294
+      },
+      "releaseDate": "2025-12-16"
     },
     {
       "id": "avenger-0-5",
@@ -18456,9 +18456,9 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": 4,
+      "delta": 9,
       "scores": {
-        "video": 1289
+        "video": 1294
       },
       "releaseDate": "2025-07-14"
     },
@@ -18552,18 +18552,6 @@
       "releaseDate": "2026-03-05"
     },
     {
-      "id": "pika-2-5",
-      "name": "Pika 2.5",
-      "org": "Pika Art",
-      "color": "#feedd1",
-      "votes": 0,
-      "delta": 4,
-      "scores": {
-        "video": 1271
-      },
-      "releaseDate": "2025-11-22"
-    },
-    {
       "id": "sora-2-december",
       "name": "Sora 2 (December)",
       "org": "OpenAI",
@@ -18601,6 +18589,18 @@
       "releaseDate": "2025-06-19"
     },
     {
+      "id": "pika-2-5",
+      "name": "Pika 2.5",
+      "org": "Pika Art",
+      "color": "#feedd1",
+      "votes": 0,
+      "delta": -8,
+      "scores": {
+        "video": 1259
+      },
+      "releaseDate": "2025-11-22"
+    },
+    {
       "id": "p-video",
       "name": "P-Video",
       "org": "Pruna AI",
@@ -18619,9 +18619,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 3,
       "scores": {
-        "video": 1248
+        "video": 1250
       },
       "releaseDate": "2025-05-16"
     },
@@ -18704,9 +18704,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": 3,
+      "delta": 1,
       "scores": {
-        "video": 1222
+        "video": 1220
       },
       "releaseDate": "2026-03-05"
     },
@@ -18716,9 +18716,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": 3,
       "scores": {
-        "video": 1215
+        "video": 1218
       },
       "releaseDate": "2025-04-15"
     },
@@ -18740,24 +18740,12 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 4,
+      "delta": 2,
       "scores": {
-        "video": 1192
+        "video": 1190
       },
       "releaseDate": "2024-12-16",
       "arenaElo": 1164
-    },
-    {
-      "id": "runway-gen-4",
-      "name": "Runway Gen 4",
-      "org": "Runway",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 5,
-      "scores": {
-        "video": 1176
-      },
-      "releaseDate": "2025-03-31"
     },
     {
       "id": "kling-1-6-pro",
@@ -18765,11 +18753,23 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -4,
+      "delta": -2,
       "scores": {
-        "video": 1167
+        "video": 1169
       },
       "releaseDate": "2024-12-19"
+    },
+    {
+      "id": "runway-gen-4",
+      "name": "Runway Gen 4",
+      "org": "Runway",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -9,
+      "scores": {
+        "video": 1162
+      },
+      "releaseDate": "2025-03-31"
     },
     {
       "id": "runway-gen-3-alpha-turbo",
@@ -18808,6 +18808,18 @@
       "releaseDate": "2025-02-25"
     },
     {
+      "id": "pika-2-2",
+      "name": "Pika 2.2",
+      "org": "Pika Art",
+      "color": "#feedd1",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1124
+      },
+      "releaseDate": "2025-02-27"
+    },
+    {
       "id": "marey",
       "name": "Marey",
       "org": "Moonvalley",
@@ -18831,18 +18843,6 @@
       },
       "releaseDate": "2024-12-09",
       "arenaElo": 1070
-    },
-    {
-      "id": "pika-2-2",
-      "name": "Pika 2.2",
-      "org": "Pika Art",
-      "color": "#feedd1",
-      "votes": 0,
-      "delta": -7,
-      "scores": {
-        "video": 1119
-      },
-      "releaseDate": "2025-02-27"
     },
     {
       "id": "i2v-01-director",
@@ -18886,9 +18886,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": 7,
+      "delta": 4,
       "scores": {
-        "video": 1101
+        "video": 1098
       },
       "releaseDate": "2024-06-17"
     },
@@ -18903,18 +18903,6 @@
         "video": 1096
       },
       "releaseDate": "2025-05-07"
-    },
-    {
-      "id": "wan-2-2-5b",
-      "name": "Wan 2.2 5B",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1093
-      },
-      "releaseDate": "2025-07-28"
     },
     {
       "id": "hunyuan-video-fal",
@@ -18939,6 +18927,18 @@
         "video": 1089
       },
       "releaseDate": "2024-09-19"
+    },
+    {
+      "id": "wan-2-2-5b",
+      "name": "Wan 2.2 5B",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -4,
+      "scores": {
+        "video": 1089
+      },
+      "releaseDate": "2025-07-28"
     },
     {
       "id": "pika-2-0",
@@ -19078,9 +19078,9 @@
       "org": "Sapiens AI",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "video": 934
+        "video": 933
       },
       "releaseDate": "2026-05-20"
     },
@@ -19643,7 +19643,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "video": 1481
+        "video": 1482
       },
       "ranks": {
         "video": 2
@@ -19738,7 +19738,7 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 1109
+        "image": 1110
       },
       "ranks": {
         "image": 21
@@ -20276,10 +20276,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1403
+        "video": 1408
       },
       "ranks": {
-        "video": 6
+        "video": 5
       },
       "releaseDate": "2025-09-23"
     },
@@ -20531,7 +20531,7 @@
         "image": 1080
       },
       "ranks": {
-        "image": 29
+        "image": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "aliases": [
@@ -20595,7 +20595,7 @@
         "video": 1391
       },
       "ranks": {
-        "video": 9
+        "video": 8
       },
       "releaseDate": "2025-10-15"
     },
@@ -20850,10 +20850,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1352
+        "video": 1351
       },
       "ranks": {
-        "video": 23
+        "video": 22
       },
       "releaseDate": "2026-02-04"
     },
@@ -21171,7 +21171,7 @@
         "video": 1391
       },
       "ranks": {
-        "video": 10
+        "video": 9
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -21184,10 +21184,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1330
+        "video": 1332
       },
       "ranks": {
-        "video": 31
+        "video": 30
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -21229,7 +21229,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1101
+        "video": 1098
       },
       "ranks": {
         "video": 73
@@ -21664,7 +21664,7 @@
         "video": 1329
       },
       "ranks": {
-        "video": 32
+        "video": 31
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -22061,7 +22061,7 @@
         "video": 1368
       },
       "ranks": {
-        "video": 14
+        "video": 13
       },
       "releaseDate": "2025-12-15",
       "aliases": [
@@ -22090,10 +22090,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1302
+        "video": 1303
       },
       "ranks": {
-        "video": 41
+        "video": 40
       },
       "releaseDate": "2026-04-30",
       "aliases": [
@@ -22124,7 +22124,7 @@
       "org": "Sapiens AI",
       "color": "#000000",
       "scores": {
-        "video": 934
+        "video": 933
       },
       "ranks": {
         "video": 89
@@ -22671,7 +22671,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1059
+        "image": 1058
       },
       "ranks": {
         "image": 38
@@ -22700,7 +22700,7 @@
         "video": 1387
       },
       "ranks": {
-        "video": 12
+        "video": 11
       },
       "releaseDate": "2026-02-04"
     },
@@ -22713,7 +22713,7 @@
         "video": 1360
       },
       "ranks": {
-        "video": 20
+        "video": 17
       },
       "releaseDate": "2025-10-15",
       "aliases": [
@@ -22729,7 +22729,7 @@
         "video": 1358
       },
       "ranks": {
-        "video": 21
+        "video": 19
       },
       "releaseDate": "2025-10-28",
       "aliases": [
@@ -22742,10 +22742,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1341
+        "video": 1334
       },
       "ranks": {
-        "video": 27
+        "video": 28
       },
       "releaseDate": "2025-09-24",
       "aliases": [
@@ -22758,10 +22758,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1337
+        "video": 1327
       },
       "ranks": {
-        "video": 30
+        "video": 33
       },
       "releaseDate": "2025-10-16",
       "aliases": [
@@ -23283,7 +23283,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1135
+        "image": 1136
       },
       "ranks": {
         "image": 13
@@ -23356,10 +23356,10 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1411
+        "video": 1402
       },
       "ranks": {
-        "video": 4
+        "video": 6
       },
       "releaseDate": "2025-12-01",
       "aliases": [
@@ -23379,7 +23379,7 @@
         "video": 1390
       },
       "ranks": {
-        "video": 11
+        "video": 10
       },
       "releaseDate": "2026-02-04"
     },
@@ -23389,10 +23389,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1379
+        "video": 1368
       },
       "ranks": {
-        "video": 13
+        "video": 14
       },
       "releaseDate": "2025-06-18"
     },
@@ -23965,10 +23965,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1079
+        "image": 1080
       },
       "ranks": {
-        "image": 30
+        "image": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -24010,7 +24010,7 @@
         "video": 1410
       },
       "ranks": {
-        "video": 5
+        "video": 4
       },
       "releaseDate": "2026-02-25"
     },
@@ -24020,10 +24020,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1354
+        "video": 1360
       },
       "ranks": {
-        "video": 22
+        "video": 18
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -24031,19 +24031,19 @@
       ]
     },
     {
-      "key": "vidu-q2-turbo",
-      "name": "Vidu Q2 Turbo",
-      "org": "Vidu",
-      "color": "#1fcfff",
+      "key": "hailuo-02-pro",
+      "name": "Hailuo 02 Pro",
+      "org": "MiniMax",
+      "color": "#EB3568",
       "scores": {
-        "video": 1347
+        "video": 1339
       },
       "ranks": {
         "video": 25
       },
-      "releaseDate": "2025-09-29",
+      "releaseDate": "2025-06-18",
       "aliases": [
-        "Vidu Turbo Q2"
+        "Hailuo Pro 02"
       ]
     },
     {
@@ -24052,7 +24052,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1344
+        "video": 1336
       },
       "ranks": {
         "video": 26
@@ -24060,19 +24060,19 @@
       "releaseDate": "2025-12-03"
     },
     {
-      "key": "hailuo-02-pro",
-      "name": "Hailuo 02 Pro",
-      "org": "MiniMax",
-      "color": "#EB3568",
+      "key": "vidu-q2-turbo",
+      "name": "Vidu Q2 Turbo",
+      "org": "Vidu",
+      "color": "#1fcfff",
       "scores": {
-        "video": 1340
+        "video": 1336
       },
       "ranks": {
-        "video": 28
+        "video": 27
       },
-      "releaseDate": "2025-06-18",
+      "releaseDate": "2025-09-29",
       "aliases": [
-        "Hailuo Pro 02"
+        "Vidu Turbo Q2"
       ]
     },
     {
@@ -24081,7 +24081,7 @@
       "org": "TeleAI",
       "color": "#02489d",
       "scores": {
-        "video": 1324
+        "video": 1323
       },
       "ranks": {
         "video": 34
@@ -24129,7 +24129,7 @@
         "video": 1263
       },
       "ranks": {
-        "video": 52
+        "video": 51
       },
       "releaseDate": "2025-06-19"
     },
@@ -24139,7 +24139,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1248
+        "video": 1250
       },
       "ranks": {
         "video": 53
@@ -24152,10 +24152,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1167
+        "video": 1169
       },
       "ranks": {
-        "video": 64
+        "video": 63
       },
       "releaseDate": "2024-12-19",
       "aliases": [
@@ -24171,7 +24171,7 @@
         "video": 1090
       },
       "ranks": {
-        "video": 76
+        "video": 75
       },
       "releaseDate": "2024-12-03"
     },
@@ -24184,7 +24184,7 @@
         "video": 1089
       },
       "ranks": {
-        "video": 77
+        "video": 76
       },
       "releaseDate": "2024-09-19",
       "aliases": [
@@ -24660,7 +24660,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1134
+        "image": 1135
       },
       "ranks": {
         "image": 14
@@ -24734,7 +24734,7 @@
         "video": 1392
       },
       "ranks": {
-        "video": 8
+        "video": 7
       },
       "releaseDate": "2025-12-01"
     },
@@ -24744,10 +24744,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1366
+        "video": 1356
       },
       "ranks": {
-        "video": 17
+        "video": 20
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -24760,7 +24760,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1339
+        "video": 1332
       },
       "ranks": {
         "video": 29
@@ -24779,7 +24779,7 @@
         "video": 1329
       },
       "ranks": {
-        "video": 33
+        "video": 32
       },
       "releaseDate": "2025-06-09"
     },
@@ -24818,7 +24818,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1222
+        "video": 1220
       },
       "ranks": {
         "video": 59
@@ -24835,10 +24835,10 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1176
+        "video": 1162
       },
       "ranks": {
-        "video": 63
+        "video": 64
       },
       "releaseDate": "2025-03-31",
       "aliases": [
@@ -25508,10 +25508,10 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "video": 1400
+        "video": 1387
       },
       "ranks": {
-        "video": 7
+        "video": 12
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -25524,10 +25524,10 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1361
+        "video": 1347
       },
       "ranks": {
-        "video": 19
+        "video": 23
       },
       "releaseDate": "2025-08-26"
     },
@@ -25537,7 +25537,7 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "video": 1351
+        "video": 1340
       },
       "ranks": {
         "video": 24
@@ -25553,7 +25553,7 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1289
+        "video": 1294
       },
       "ranks": {
         "video": 42
@@ -25925,7 +25925,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 958
+        "image": 959
       },
       "ranks": {
         "image": 53
@@ -25941,10 +25941,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1362
+        "video": 1354
       },
       "ranks": {
-        "video": 18
+        "video": 21
       },
       "releaseDate": "2025-10-28"
     },
@@ -26012,10 +26012,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1093
+        "video": 1089
       },
       "ranks": {
-        "video": 75
+        "video": 77
       },
       "releaseDate": "2025-07-28"
     },
@@ -26262,7 +26262,7 @@
         "video": 1263
       },
       "ranks": {
-        "video": 51
+        "video": 50
       },
       "releaseDate": "2025-10-23",
       "aliases": [
@@ -26275,7 +26275,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1215
+        "video": 1218
       },
       "ranks": {
         "video": 60
@@ -26462,10 +26462,10 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1271
+        "video": 1259
       },
       "ranks": {
-        "video": 50
+        "video": 52
       },
       "releaseDate": "2025-11-22"
     },
@@ -26475,10 +26475,10 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1119
+        "video": 1124
       },
       "ranks": {
-        "video": 69
+        "video": 68
       },
       "releaseDate": "2025-02-27"
     },
@@ -26922,10 +26922,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1305
+        "video": 1294
       },
       "ranks": {
-        "video": 40
+        "video": 41
       },
       "releaseDate": "2025-12-16"
     },
@@ -27248,7 +27248,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1192
+        "video": 1190
       },
       "ranks": {
         "video": 62
@@ -27290,7 +27290,7 @@
         "video": 1121
       },
       "ranks": {
-        "video": 68
+        "video": 69
       },
       "releaseDate": "2024-12-09"
     }
@@ -27300,11 +27300,11 @@
     "arena_text": "ok (360)",
     "arena_code": "ok (81)",
     "arena_image": "ok (64)",
-    "arena_video": "ok (39)",
+    "arena_video": "ok (40)",
     "aa_llm": "ok (499)",
     "aa_image": "ok (136)",
     "aa_video": "ok (205)"
   },
-  "updatedAt": 1780096267823,
+  "updatedAt": 1780109752066,
   "errors": []
 }
