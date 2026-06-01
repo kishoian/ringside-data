@@ -17107,9 +17107,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1171
+        "image": 1170
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
@@ -17303,9 +17303,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1109
+        "image": 1108
       },
       "logo": "https://artificialanalysis.ai/img/logos/vidu_small.svg",
       "alts": {
@@ -17427,9 +17427,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1078
+        "image": 1077
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -17484,19 +17484,6 @@
       "arenaElo": 1021
     },
     {
-      "id": "qwen-image",
-      "name": "Qwen Image",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1061
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
-      "arenaElo": 1057
-    },
-    {
       "id": "hidream-i1-dev",
       "name": "HiDream-I1-Dev",
       "org": "HiDream",
@@ -17509,14 +17496,27 @@
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
     {
+      "id": "qwen-image",
+      "name": "Qwen Image",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1060
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "arenaElo": 1057
+    },
+    {
       "id": "hidream-i1-fast",
       "name": "HiDream-I1-Fast",
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1059
+        "image": 1058
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -17719,9 +17719,9 @@
       "org": "Playground AI",
       "color": "#6858F5",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 966
+        "image": 965
       },
       "logo": "https://artificialanalysis.ai/img/logos/playgroundai_small.png"
     },
@@ -17743,9 +17743,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 949
+        "image": 948
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17755,9 +17755,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 946
+        "image": 945
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17815,9 +17815,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 901
+        "image": 900
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg",
       "arenaElo": 898
@@ -17828,9 +17828,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 899
+        "image": 898
       },
       "logo": "https://artificialanalysis.ai/img/logos/bria_small.svg"
     },
@@ -17852,9 +17852,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 742
+        "image": 741
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17885,19 +17885,6 @@
   ],
   "video": [
     {
-      "id": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1483
-      },
-      "releaseDate": "2026-04-07",
-      "arenaElo": 1440
-    },
-    {
       "id": "dreamina-seedance-2-0-720p",
       "name": "Dreamina Seedance 2.0 720p",
       "org": "ByteDance Seed",
@@ -17909,6 +17896,19 @@
       },
       "releaseDate": "2026-03-18",
       "arenaElo": 1463
+    },
+    {
+      "id": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1481
+      },
+      "releaseDate": "2026-04-07",
+      "arenaElo": 1440
     },
     {
       "id": "grok-imagine-video",
@@ -17928,9 +17928,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1424
+        "video": 1423
       },
       "releaseDate": "2026-03-23"
     },
@@ -18511,7 +18511,7 @@
       },
       "releaseDate": "2025-10-15",
       "alts": {
-        "image": 1109
+        "image": 1108
       }
     },
     {
@@ -19646,7 +19646,7 @@
         "video": 1482
       },
       "ranks": {
-        "video": 2
+        "video": 1
       },
       "releaseDate": "2026-03-18"
     },
@@ -20544,7 +20544,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 946
+        "image": 945
       },
       "ranks": {
         "image": 55
@@ -22671,7 +22671,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1059
+        "image": 1058
       },
       "ranks": {
         "image": 38
@@ -22684,7 +22684,7 @@
       "org": "Playground AI",
       "color": "#6858F5",
       "scores": {
-        "image": 966
+        "image": 965
       },
       "ranks": {
         "image": 52
@@ -23267,7 +23267,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1171
+        "image": 1170
       },
       "ranks": {
         "image": 7
@@ -23316,7 +23316,7 @@
         "image": 1060
       },
       "ranks": {
-        "image": 37
+        "image": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -23339,10 +23339,10 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "scores": {
-        "video": 1483
+        "video": 1481
       },
       "ranks": {
-        "video": 1
+        "video": 2
       },
       "releaseDate": "2026-04-07",
       "aliases": [
@@ -24689,7 +24689,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1078
+        "image": 1077
       },
       "ranks": {
         "image": 31
@@ -25495,7 +25495,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1424
+        "video": 1423
       },
       "ranks": {
         "video": 3
@@ -25912,10 +25912,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1061
+        "image": 1060
       },
       "ranks": {
-        "image": 36
+        "image": 37
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -26449,7 +26449,7 @@
       "org": "Bria",
       "color": "#5200c8",
       "scores": {
-        "image": 899
+        "image": 898
       },
       "ranks": {
         "image": 60
@@ -26854,7 +26854,7 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "image": 1109,
+        "image": 1108,
         "video": 1283
       },
       "ranks": {
@@ -26883,7 +26883,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 949
+        "image": 948
       },
       "ranks": {
         "image": 54
@@ -26896,7 +26896,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 742
+        "image": 741
       },
       "ranks": {
         "image": 62
@@ -27296,7 +27296,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (344)",
+    "openrouter": "ok (345)",
     "arena_text": "ok (360)",
     "arena_code": "ok (81)",
     "arena_image": "ok (64)",
@@ -27305,6 +27305,6 @@
     "aa_image": "ok (136)",
     "aa_video": "ok (205)"
   },
-  "updatedAt": 1780268852310,
+  "updatedAt": 1780286201559,
   "errors": []
 }
