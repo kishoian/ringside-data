@@ -220,6 +220,10 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
       "releaseDate": "2026-06-01",
+      "pricing": {
+        "prompt": 0.3,
+        "completion": 1.2
+      },
       "arenaElo": 1449,
       "alts": {
         "code": 43.4
@@ -836,8 +840,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.685,
-        "completion": 2.04
+        "prompt": 0.675,
+        "completion": 2.675
       },
       "alts": {
         "code": 37.6
@@ -9993,6 +9997,10 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
       "releaseDate": "2026-06-01",
+      "pricing": {
+        "prompt": 0.3,
+        "completion": 1.2
+      },
       "arenaElo": 1531,
       "alts": {
         "chat": 54.7
@@ -10624,8 +10632,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.685,
-        "completion": 2.04
+        "prompt": 0.675,
+        "completion": 2.675
       },
       "alts": {
         "chat": 47.7
@@ -17122,9 +17130,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "image": 1197
+        "image": 1196
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17146,9 +17154,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1193
+        "image": 1194
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -17244,9 +17252,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1157
+        "image": 1158
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
     },
@@ -17367,9 +17375,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1112
+        "image": 1113
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg"
     },
@@ -17379,9 +17387,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1111
+        "image": 1112
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
@@ -17638,9 +17646,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1057
+        "image": 1056
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg"
     },
@@ -17711,9 +17719,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1029
+        "image": 1030
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17843,9 +17851,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 948
+        "image": 949
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17903,9 +17911,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 904
+        "image": 905
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg",
       "arenaElo": 898
@@ -17976,9 +17984,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 658
+        "image": 659
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     }
@@ -18171,18 +18179,6 @@
       "releaseDate": "2026-02-04"
     },
     {
-      "id": "veo-3-1-preview",
-      "name": "Veo 3.1 Preview",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 8,
-      "scores": {
-        "video": 1368
-      },
-      "releaseDate": "2025-10-15"
-    },
-    {
       "id": "veo-3-1-fast",
       "name": "Veo 3.1 Fast",
       "org": "Google",
@@ -18205,6 +18201,18 @@
         "video": 1367
       },
       "releaseDate": "2026-02-04"
+    },
+    {
+      "id": "veo-3-1-preview",
+      "name": "Veo 3.1 Preview",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 6,
+      "scores": {
+        "video": 1366
+      },
+      "releaseDate": "2025-10-15"
     },
     {
       "id": "seedance-1-5-pro",
@@ -19758,7 +19766,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1029
+        "image": 1030
       },
       "ranks": {
         "image": 45
@@ -19866,7 +19874,7 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 1112
+        "image": 1113
       },
       "ranks": {
         "image": 20
@@ -20636,7 +20644,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1197
+        "image": 1196
       },
       "ranks": {
         "image": 4
@@ -20701,7 +20709,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 658
+        "image": 659
       },
       "ranks": {
         "image": 65
@@ -20978,7 +20986,7 @@
         "video": 1367
       },
       "ranks": {
-        "video": 17
+        "video": 16
       },
       "releaseDate": "2026-02-04"
     },
@@ -22821,10 +22829,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1368
+        "video": 1366
       },
       "ranks": {
-        "video": 15
+        "video": 17
       },
       "releaseDate": "2025-10-15",
       "aliases": [
@@ -24770,7 +24778,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1157
+        "image": 1158
       },
       "ranks": {
         "image": 10
@@ -24896,7 +24904,7 @@
         "video": 1368
       },
       "ranks": {
-        "video": 16
+        "video": 15
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -26597,7 +26605,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1111
+        "image": 1112
       },
       "ranks": {
         "image": 21
@@ -26610,7 +26618,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1057
+        "image": 1056
       },
       "ranks": {
         "image": 41
@@ -27061,7 +27069,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 948
+        "image": 949
       },
       "ranks": {
         "image": 55
@@ -27268,7 +27276,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1193
+        "image": 1194
       },
       "ranks": {
         "image": 6
@@ -27483,6 +27491,6 @@
     "aa_image": "ok (137)",
     "aa_video": "ok (211)"
   },
-  "updatedAt": 1780603463379,
+  "updatedAt": 1780611606437,
   "errors": []
 }
