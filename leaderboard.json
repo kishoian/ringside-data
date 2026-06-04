@@ -836,8 +836,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.37,
-        "completion": 1.08
+        "prompt": 0.685,
+        "completion": 2.04
       },
       "alts": {
         "code": 37.6
@@ -10624,8 +10624,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.37,
-        "completion": 1.08
+        "prompt": 0.685,
+        "completion": 2.04
       },
       "alts": {
         "chat": 47.7
@@ -17084,9 +17084,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1340
+        "image": 1341
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "arenaElo": 1384
@@ -17163,6 +17163,18 @@
         "image": 1189
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
+    },
+    {
+      "id": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1184
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/krea_small.svg"
     },
     {
       "id": "flux-2-flex",
@@ -17292,9 +17304,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1135
+        "image": 1134
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "arenaElo": 1115
@@ -17355,9 +17367,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "image": 1113
+        "image": 1112
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg"
     },
@@ -17367,9 +17379,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1112
+        "image": 1111
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
@@ -17397,7 +17409,7 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/vidu_small.svg",
       "alts": {
-        "video": 1294
+        "video": 1295
       }
     },
     {
@@ -17699,9 +17711,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1030
+        "image": 1029
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17711,9 +17723,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1021
+        "image": 1020
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -17795,9 +17807,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 979
+        "image": 978
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -17831,9 +17843,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 949
+        "image": 948
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -17843,9 +17855,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 945
+        "image": 944
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -17964,27 +17976,14 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "image": 659
+        "image": 658
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     }
   ],
   "video": [
-    {
-      "id": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -8,
-      "scores": {
-        "video": 1475
-      },
-      "releaseDate": "2026-04-07",
-      "arenaElo": 1440
-    },
     {
       "id": "dreamina-seedance-2-0-720p",
       "name": "Dreamina Seedance 2.0 720p",
@@ -18096,6 +18095,19 @@
         "video": 1400
       },
       "releaseDate": "2025-06-18"
+    },
+    {
+      "id": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -89,
+      "scores": {
+        "video": 1394
+      },
+      "releaseDate": "2026-04-07",
+      "arenaElo": 1440
     },
     {
       "id": "kling-2-6-standard-january",
@@ -18489,6 +18501,18 @@
       "releaseDate": "2026-05-31"
     },
     {
+      "id": "bach-1-0-preview",
+      "name": "Bach-1.0 Preview",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 9,
+      "scores": {
+        "video": 1312
+      },
+      "releaseDate": "2026-04-30"
+    },
+    {
       "id": "veo-3-preview",
       "name": "Veo 3 Preview",
       "org": "Google",
@@ -18511,18 +18535,6 @@
         "video": 1312
       },
       "releaseDate": "2025-05-29"
-    },
-    {
-      "id": "bach-1-0-preview",
-      "name": "Bach-1.0 Preview",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 8,
-      "scores": {
-        "video": 1311
-      },
-      "releaseDate": "2026-04-30"
     },
     {
       "id": "veo-3",
@@ -18556,9 +18568,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": 11,
+      "delta": 12,
       "scores": {
-        "video": 1294
+        "video": 1295
       },
       "releaseDate": "2025-10-15",
       "alts": {
@@ -18780,9 +18792,9 @@
       "org": "Sapiens AI",
       "color": "#000000",
       "votes": 0,
-      "delta": 287,
+      "delta": 286,
       "scores": {
-        "video": 1220
+        "video": 1219
       },
       "releaseDate": "2026-05-20"
     },
@@ -19010,9 +19022,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 8,
+      "delta": 10,
       "scores": {
-        "video": 1097
+        "video": 1099
       },
       "releaseDate": "2024-09-19"
     },
@@ -19058,9 +19070,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": 5,
+      "delta": 6,
       "scores": {
-        "video": 1084
+        "video": 1085
       },
       "releaseDate": "2025-04-21"
     },
@@ -19283,7 +19295,7 @@
         "image": 1020
       },
       "ranks": {
-        "image": 46
+        "image": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -19746,10 +19758,10 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1030
+        "image": 1029
       },
       "ranks": {
-        "image": 44
+        "image": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -19762,7 +19774,7 @@
         "video": 1470
       },
       "ranks": {
-        "video": 2
+        "video": 1
       },
       "releaseDate": "2026-03-18"
     },
@@ -19854,10 +19866,10 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 1113
+        "image": 1112
       },
       "ranks": {
-        "image": 19
+        "image": 20
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
       "aliases": [
@@ -19988,7 +20000,7 @@
         "image": 873
       },
       "ranks": {
-        "image": 61
+        "image": 62
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png"
     },
@@ -20392,7 +20404,7 @@
         "video": 1408
       },
       "ranks": {
-        "video": 5
+        "video": 4
       },
       "releaseDate": "2025-09-23"
     },
@@ -20644,7 +20656,7 @@
         "image": 1078
       },
       "ranks": {
-        "image": 30
+        "image": 31
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "aliases": [
@@ -20657,10 +20669,10 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 945
+        "image": 944
       },
       "ranks": {
-        "image": 55
+        "image": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png",
       "aliases": [
@@ -20676,7 +20688,7 @@
         "image": 901
       },
       "ranks": {
-        "image": 60
+        "image": 61
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png",
       "aliases": [
@@ -20689,10 +20701,10 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 659
+        "image": 658
       },
       "ranks": {
-        "image": 64
+        "image": 65
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png",
       "aliases": [
@@ -21222,7 +21234,7 @@
         "image": 1121
       },
       "ranks": {
-        "image": 17
+        "image": 18
       },
       "logo": "https://artificialanalysis.ai/img/logos/leonardoai_small.png"
     },
@@ -21232,10 +21244,10 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1021
+        "image": 1020
       },
       "ranks": {
-        "image": 45
+        "image": 46
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg",
       "aliases": [
@@ -21252,7 +21264,7 @@
         "image": 915
       },
       "ranks": {
-        "image": 56
+        "image": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/stabilityai_small.png",
       "aliases": [
@@ -21268,7 +21280,7 @@
         "image": 908
       },
       "ranks": {
-        "image": 57
+        "image": 58
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
       "aliases": [
@@ -21686,7 +21698,7 @@
         "image": 1117
       },
       "ranks": {
-        "image": 18
+        "image": 19
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg",
       "aliases": [
@@ -21702,7 +21714,7 @@
         "image": 1110
       },
       "ranks": {
-        "image": 21
+        "image": 22
       },
       "logo": "https://artificialanalysis.ai/img/logos/leonardoai_small.png"
     },
@@ -21715,7 +21727,7 @@
         "image": 1105
       },
       "ranks": {
-        "image": 24
+        "image": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -21731,7 +21743,7 @@
         "image": 1057
       },
       "ranks": {
-        "image": 39
+        "image": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg",
       "aliases": [
@@ -21748,7 +21760,7 @@
         "image": 1013
       },
       "ranks": {
-        "image": 48
+        "image": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/leonardoai_small.png",
       "aliases": [
@@ -21764,7 +21776,7 @@
         "image": 988
       },
       "ranks": {
-        "image": 50
+        "image": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/lumalabs_small.svg"
     },
@@ -22182,6 +22194,23 @@
       ]
     },
     {
+      "key": "bach-1-0-preview",
+      "name": "Bach-1.0 Preview",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "scores": {
+        "video": 1312
+      },
+      "ranks": {
+        "video": 38
+      },
+      "releaseDate": "2026-04-30",
+      "aliases": [
+        "Bach 1.0 Preview",
+        "Bach1.0 Preview"
+      ]
+    },
+    {
       "key": "kling-2-1-master",
       "name": "Kling 2.1 Master",
       "org": "KlingAI",
@@ -22190,28 +22219,11 @@
         "video": 1312
       },
       "ranks": {
-        "video": 39
+        "video": 40
       },
       "releaseDate": "2025-05-29",
       "aliases": [
         "Kling Master 2.1"
-      ]
-    },
-    {
-      "key": "bach-1-0-preview",
-      "name": "Bach-1.0 Preview",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "scores": {
-        "video": 1311
-      },
-      "ranks": {
-        "video": 40
-      },
-      "releaseDate": "2026-04-30",
-      "aliases": [
-        "Bach 1.0 Preview",
-        "Bach1.0 Preview"
       ]
     },
     {
@@ -22237,7 +22249,7 @@
       "org": "Sapiens AI",
       "color": "#000000",
       "scores": {
-        "video": 1220
+        "video": 1219
       },
       "ranks": {
         "video": 58
@@ -22773,7 +22785,7 @@
         "image": 1061
       },
       "ranks": {
-        "image": 37
+        "image": 38
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -22786,7 +22798,7 @@
         "image": 966
       },
       "ranks": {
-        "image": 52
+        "image": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/playgroundai_small.png"
     },
@@ -23388,7 +23400,7 @@
         "image": 1172
       },
       "ranks": {
-        "image": 7
+        "image": 8
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -23404,7 +23416,7 @@
         "image": 1141
       },
       "ranks": {
-        "image": 11
+        "image": 12
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png",
       "aliases": [
@@ -23421,7 +23433,7 @@
         "image": 1123
       },
       "ranks": {
-        "image": 16
+        "image": 17
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -23434,7 +23446,7 @@
         "image": 1060
       },
       "ranks": {
-        "image": 38
+        "image": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/hidream_small.png"
     },
@@ -23447,26 +23459,9 @@
         "image": 908
       },
       "ranks": {
-        "image": 58
+        "image": 59
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
-    },
-    {
-      "key": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "scores": {
-        "video": 1475
-      },
-      "ranks": {
-        "video": 1
-      },
-      "releaseDate": "2026-04-07",
-      "aliases": [
-        "HappyHorse 1.0",
-        "HappyHorse1.0"
-      ]
     },
     {
       "key": "runway-gen-4-5",
@@ -23477,7 +23472,7 @@
         "video": 1416
       },
       "ranks": {
-        "video": 3
+        "video": 2
       },
       "releaseDate": "2025-12-01",
       "aliases": [
@@ -23497,9 +23492,26 @@
         "video": 1400
       },
       "ranks": {
-        "video": 9
+        "video": 8
       },
       "releaseDate": "2025-06-18"
+    },
+    {
+      "key": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "scores": {
+        "video": 1394
+      },
+      "ranks": {
+        "video": 9
+      },
+      "releaseDate": "2026-04-07",
+      "aliases": [
+        "HappyHorse 1.0",
+        "HappyHorse1.0"
+      ]
     },
     {
       "key": "kling-3-0-720p",
@@ -24060,7 +24072,7 @@
         "image": 1105
       },
       "ranks": {
-        "image": 25
+        "image": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -24073,7 +24085,7 @@
         "image": 1094
       },
       "ranks": {
-        "image": 26
+        "image": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -24086,7 +24098,7 @@
         "image": 1082
       },
       "ranks": {
-        "image": 29
+        "image": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -24102,7 +24114,7 @@
         "image": 1036
       },
       "ranks": {
-        "image": 43
+        "image": 44
       },
       "logo": "https://artificialanalysis.ai/img/logos/meituan_small.svg"
     },
@@ -24115,7 +24127,7 @@
         "image": 1009
       },
       "ranks": {
-        "image": 49
+        "image": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/playgroundai_small.png"
     },
@@ -24128,7 +24140,7 @@
         "video": 1403
       },
       "ranks": {
-        "video": 7
+        "video": 6
       },
       "releaseDate": "2026-02-25"
     },
@@ -24202,7 +24214,7 @@
         "video": 1312
       },
       "ranks": {
-        "video": 38
+        "video": 39
       },
       "releaseDate": "2025-05-21",
       "aliases": [
@@ -24273,7 +24285,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1097
+        "video": 1099
       },
       "ranks": {
         "video": 76
@@ -24724,6 +24736,22 @@
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
     {
+      "key": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "scores": {
+        "image": 1184
+      },
+      "ranks": {
+        "image": 7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/krea_small.svg",
+      "aliases": [
+        "Krea Large 2"
+      ]
+    },
+    {
       "key": "seedream-4-5",
       "name": "Seedream 4.5",
       "org": "ByteDance Seed",
@@ -24732,7 +24760,7 @@
         "image": 1167
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
@@ -24745,7 +24773,7 @@
         "image": 1157
       },
       "ranks": {
-        "image": 9
+        "image": 10
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
     },
@@ -24758,7 +24786,7 @@
         "image": 1151
       },
       "ranks": {
-        "image": 10
+        "image": 11
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
@@ -24771,7 +24799,7 @@
         "image": 1140
       },
       "ranks": {
-        "image": 12
+        "image": 13
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
     },
@@ -24784,7 +24812,7 @@
         "image": 1139
       },
       "ranks": {
-        "image": 13
+        "image": 14
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png",
       "aliases": [
@@ -24800,7 +24828,7 @@
         "image": 1087
       },
       "ranks": {
-        "image": 27
+        "image": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg"
     },
@@ -24813,7 +24841,7 @@
         "image": 1075
       },
       "ranks": {
-        "image": 31
+        "image": 32
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -24826,7 +24854,7 @@
         "image": 1039
       },
       "ranks": {
-        "image": 41
+        "image": 42
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -24839,7 +24867,7 @@
         "image": 1017
       },
       "ranks": {
-        "image": 47
+        "image": 48
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg",
       "aliases": [
@@ -24855,7 +24883,7 @@
         "video": 1400
       },
       "ranks": {
-        "video": 8
+        "video": 7
       },
       "releaseDate": "2025-12-01"
     },
@@ -25516,7 +25544,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1340
+        "image": 1341
       },
       "ranks": {
         "image": 1
@@ -25532,10 +25560,10 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1135
+        "image": 1134
       },
       "ranks": {
-        "image": 14
+        "image": 15
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "aliases": [
@@ -25551,7 +25579,7 @@
         "image": 1108
       },
       "ranks": {
-        "image": 23
+        "image": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/eigenai_small.svg"
     },
@@ -25564,7 +25592,7 @@
         "image": 1070
       },
       "ranks": {
-        "image": 33
+        "image": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos/ideogram_small.svg"
     },
@@ -25577,7 +25605,7 @@
         "image": 1066
       },
       "ranks": {
-        "image": 35
+        "image": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/lumalabs_small.svg"
     },
@@ -25590,7 +25618,7 @@
         "image": 1036
       },
       "ranks": {
-        "image": 42
+        "image": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -25600,10 +25628,10 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 979
+        "image": 978
       },
       "ranks": {
-        "image": 51
+        "image": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png",
       "aliases": [
@@ -25619,7 +25647,7 @@
         "video": 1408
       },
       "ranks": {
-        "video": 4
+        "video": 3
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -25635,7 +25663,7 @@
         "video": 1404
       },
       "ranks": {
-        "video": 6
+        "video": 5
       },
       "releaseDate": "2026-03-23"
     },
@@ -26039,7 +26067,7 @@
         "image": 1132
       },
       "ranks": {
-        "image": 15
+        "image": 16
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -26052,7 +26080,7 @@
         "image": 1068
       },
       "ranks": {
-        "image": 34
+        "image": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos/recraftai.png"
     },
@@ -26065,7 +26093,7 @@
         "image": 1062
       },
       "ranks": {
-        "image": 36
+        "image": 37
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -26078,7 +26106,7 @@
         "image": 959
       },
       "ranks": {
-        "image": 53
+        "image": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "aliases": [
@@ -26399,7 +26427,7 @@
         "image": 716
       },
       "ranks": {
-        "image": 63
+        "image": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg"
     },
@@ -26569,10 +26597,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1112
+        "image": 1111
       },
       "ranks": {
-        "image": 20
+        "image": 21
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
@@ -26585,7 +26613,7 @@
         "image": 1057
       },
       "ranks": {
-        "image": 40
+        "image": 41
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
       "aliases": [
@@ -26602,7 +26630,7 @@
         "image": 902
       },
       "ranks": {
-        "image": 59
+        "image": 60
       },
       "logo": "https://artificialanalysis.ai/img/logos/bria_small.svg"
     },
@@ -27005,10 +27033,10 @@
       "color": "#1fcfff",
       "scores": {
         "image": 1109,
-        "video": 1294
+        "video": 1295
       },
       "ranks": {
-        "image": 22,
+        "image": 23,
         "video": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/vidu_small.svg",
@@ -27023,7 +27051,7 @@
         "image": 1082
       },
       "ranks": {
-        "image": 28
+        "image": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -27033,10 +27061,10 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 949
+        "image": 948
       },
       "ranks": {
-        "image": 54
+        "image": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -27049,7 +27077,7 @@
         "image": 740
       },
       "ranks": {
-        "image": 62
+        "image": 63
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
     },
@@ -27085,7 +27113,7 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "video": 1084
+        "video": 1085
       },
       "ranks": {
         "video": 80
@@ -27256,7 +27284,7 @@
         "image": 1072
       },
       "ranks": {
-        "image": 32
+        "image": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
@@ -27452,9 +27480,9 @@
     "arena_image": "ok (66)",
     "arena_video": "ok (40)",
     "aa_llm": "ok (501)",
-    "aa_image": "ok (136)",
+    "aa_image": "ok (137)",
     "aa_video": "ok (211)"
   },
-  "updatedAt": 1780595273950,
+  "updatedAt": 1780603463379,
   "errors": []
 }
