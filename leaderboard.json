@@ -17435,18 +17435,6 @@
       "logo": "https://artificialanalysis.ai/img/logos/eigenai_small.svg"
     },
     {
-      "id": "imagen-4-standard",
-      "name": "Imagen 4 Standard",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1105
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
-    },
-    {
       "id": "z-image-turbo",
       "name": "Z-Image Turbo",
       "org": "Alibaba",
@@ -17458,6 +17446,18 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "arenaElo": 1081
+    },
+    {
+      "id": "imagen-4-standard",
+      "name": "Imagen 4 Standard",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1104
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg"
     },
     {
       "id": "flux1-1-pro-ultra",
@@ -17648,9 +17648,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1057
+        "image": 1056
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg"
     },
@@ -17913,9 +17913,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 5,
+      "delta": 4,
       "scores": {
-        "image": 906
+        "image": 905
       },
       "logo": "https://artificialanalysis.ai/img/logos/bytedance_small.svg",
       "arenaElo": 898
@@ -21734,10 +21734,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1105
+        "image": 1104
       },
       "ranks": {
-        "image": 25
+        "image": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -24082,7 +24082,7 @@
         "image": 1105
       },
       "ranks": {
-        "image": 26
+        "image": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -26620,7 +26620,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1057
+        "image": 1056
       },
       "ranks": {
         "image": 41
@@ -27493,6 +27493,6 @@
     "aa_image": "ok (137)",
     "aa_video": "ok (211)"
   },
-  "updatedAt": 1780681992967,
+  "updatedAt": 1780689174005,
   "errors": []
 }
