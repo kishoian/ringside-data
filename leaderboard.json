@@ -134,7 +134,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "chat": 50.7
+        "chat": 51.1
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
@@ -144,7 +144,7 @@
       },
       "arenaElo": 1471,
       "alts": {
-        "code": 67
+        "code": 50.7
       }
     },
     {
@@ -9521,27 +9521,6 @@
       }
     },
     {
-      "id": "glm-5-2-max",
-      "name": "GLM-5.2 (max)",
-      "org": "Z AI",
-      "color": "#1c7ff8",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 67
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
-      "releaseDate": "2026-06-16",
-      "pricing": {
-        "prompt": 1.4,
-        "completion": 4.4
-      },
-      "arenaElo": 1595,
-      "alts": {
-        "chat": 50.7
-      }
-    },
-    {
       "id": "gpt-5-5-high",
       "name": "GPT-5.5 (high)",
       "org": "OpenAI",
@@ -9728,6 +9707,27 @@
       "arenaElo": 1522,
       "alts": {
         "chat": 47.2
+      }
+    },
+    {
+      "id": "glm-5-2-max",
+      "name": "GLM-5.2 (max)",
+      "org": "Z AI",
+      "color": "#1c7ff8",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 50.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "releaseDate": "2026-06-16",
+      "pricing": {
+        "prompt": 1.4,
+        "completion": 4.4
+      },
+      "arenaElo": 1595,
+      "alts": {
+        "chat": 51.1
       }
     },
     {
@@ -18828,18 +18828,6 @@
       "releaseDate": "2025-12-03"
     },
     {
-      "id": "avenger-0-5-pro",
-      "name": "Avenger 0.5 Pro",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1342
-      },
-      "releaseDate": "2025-10-16"
-    },
-    {
       "id": "genflare",
       "name": "GenFlare",
       "org": "Baidu",
@@ -18865,6 +18853,30 @@
       "arenaElo": 1198
     },
     {
+      "id": "avenger-0-5-pro",
+      "name": "Avenger 0.5 Pro",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1341
+      },
+      "releaseDate": "2025-10-16"
+    },
+    {
+      "id": "veo-3-1-lite",
+      "name": "Veo 3.1 Lite",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1340
+      },
+      "releaseDate": "2026-03-31"
+    },
+    {
       "id": "vidu-q2-turbo",
       "name": "Vidu Q2 Turbo",
       "org": "Vidu",
@@ -18875,18 +18887,6 @@
         "video": 1340
       },
       "releaseDate": "2025-09-29"
-    },
-    {
-      "id": "veo-3-1-lite",
-      "name": "Veo 3.1 Lite",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "video": 1339
-      },
-      "releaseDate": "2026-03-31"
     },
     {
       "id": "kling-o1-standard-december",
@@ -18906,9 +18906,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -4,
+      "delta": -3,
       "scores": {
-        "video": 1336
+        "video": 1337
       },
       "releaseDate": "2025-09-24"
     },
@@ -19274,6 +19274,18 @@
       "releaseDate": "2025-11-20"
     },
     {
+      "id": "wan-2-2-a14b",
+      "name": "Wan 2.2 A14B",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1225
+      },
+      "releaseDate": "2025-07-28"
+    },
+    {
       "id": "ltx-2-3-fast",
       "name": "LTX-2.3 Fast",
       "org": "Lightricks",
@@ -19284,18 +19296,6 @@
         "video": 1224
       },
       "releaseDate": "2026-03-05"
-    },
-    {
-      "id": "wan-2-2-a14b",
-      "name": "Wan 2.2 A14B",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1224
-      },
-      "releaseDate": "2025-07-28"
     },
     {
       "id": "kling-2-0",
@@ -19322,18 +19322,6 @@
       "releaseDate": "2025-05-29"
     },
     {
-      "id": "agnes-video-v2-0",
-      "name": "Agnes-Video-V2.0",
-      "org": "Sapiens AI",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1213
-      },
-      "releaseDate": "2026-05-20"
-    },
-    {
       "id": "seedance-1-0-mini",
       "name": "Seedance 1.0 Mini",
       "org": "ByteDance Seed",
@@ -19344,6 +19332,18 @@
         "video": 1212
       },
       "releaseDate": "2025-06-10"
+    },
+    {
+      "id": "agnes-video-v2-0",
+      "name": "Agnes-Video-V2.0",
+      "org": "Sapiens AI",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1212
+      },
+      "releaseDate": "2026-05-20"
     },
     {
       "id": "vivago-2-0",
@@ -21968,7 +21968,7 @@
       },
       "ranks": {
         "chat": 8,
-        "code": 10
+        "code": 9
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-02-17",
@@ -22382,7 +22382,7 @@
         "video": 1212
       },
       "ranks": {
-        "video": 63
+        "video": 62
       },
       "releaseDate": "2025-06-10",
       "aliases": [
@@ -22856,10 +22856,10 @@
       "org": "Sapiens AI",
       "color": "#000000",
       "scores": {
-        "video": 1213
+        "video": 1212
       },
       "ranks": {
-        "video": 62
+        "video": 63
       },
       "releaseDate": "2026-05-20"
     },
@@ -22874,7 +22874,7 @@
       },
       "ranks": {
         "chat": 2,
-        "code": 6
+        "code": 5
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-05-28",
@@ -22893,7 +22893,7 @@
       },
       "ranks": {
         "chat": 4,
-        "code": 7
+        "code": 6
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-04-16",
@@ -23490,10 +23490,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1342
+        "video": 1341
       },
       "ranks": {
-        "video": 28
+        "video": 29
       },
       "releaseDate": "2025-10-16",
       "aliases": [
@@ -23506,7 +23506,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1336
+        "video": 1337
       },
       "ranks": {
         "video": 33
@@ -24291,7 +24291,7 @@
       },
       "ranks": {
         "chat": 12,
-        "code": 8
+        "code": 7
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-02-05",
@@ -24927,7 +24927,7 @@
         "video": 1341
       },
       "ranks": {
-        "video": 29
+        "video": 28
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -24943,7 +24943,7 @@
         "video": 1340
       },
       "ranks": {
-        "video": 30
+        "video": 31
       },
       "releaseDate": "2025-09-29",
       "aliases": [
@@ -25077,7 +25077,7 @@
       },
       "ranks": {
         "chat": 27,
-        "code": 9
+        "code": 8
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-03-17",
@@ -25641,10 +25641,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1339
+        "video": 1340
       },
       "ranks": {
-        "video": 31
+        "video": 30
       },
       "releaseDate": "2026-03-31",
       "aliases": [
@@ -25681,6 +25681,19 @@
       ]
     },
     {
+      "key": "wan-2-2-a14b",
+      "name": "Wan 2.2 A14B",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "scores": {
+        "video": 1225
+      },
+      "ranks": {
+        "video": 58
+      },
+      "releaseDate": "2025-07-28"
+    },
+    {
       "key": "ltx-2-3-fast",
       "name": "LTX-2.3 Fast",
       "org": "Lightricks",
@@ -25689,26 +25702,13 @@
         "video": 1224
       },
       "ranks": {
-        "video": 58
+        "video": 59
       },
       "releaseDate": "2026-03-05",
       "aliases": [
         "LTX 2.3 Fast",
         "LTX2.3 Fast"
       ]
-    },
-    {
-      "key": "wan-2-2-a14b",
-      "name": "Wan 2.2 A14B",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "scores": {
-        "video": 1224
-      },
-      "ranks": {
-        "video": 59
-      },
-      "releaseDate": "2025-07-28"
     },
     {
       "key": "runway-gen-4",
@@ -27491,7 +27491,7 @@
       },
       "ranks": {
         "chat": 5,
-        "code": 5
+        "code": 4
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-03-05",
@@ -27506,12 +27506,12 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "scores": {
-        "chat": 50.7,
-        "code": 67
+        "chat": 51.1,
+        "code": 50.7
       },
       "ranks": {
         "chat": 6,
-        "code": 4
+        "code": 10
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
@@ -28264,6 +28264,6 @@
     "aa_image": "ok (145)",
     "aa_video": "ok (213)"
   },
-  "updatedAt": 1781800195521,
+  "updatedAt": 1781810802271,
   "errors": []
 }
