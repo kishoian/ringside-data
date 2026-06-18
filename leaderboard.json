@@ -18,7 +18,7 @@
       },
       "arenaElo": 1508,
       "alts": {
-        "code": 62
+        "code": 76.5
       }
     },
     {
@@ -60,7 +60,7 @@
       },
       "arenaElo": 1481,
       "alts": {
-        "code": 59.1
+        "code": 74.9
       }
     },
     {
@@ -102,7 +102,7 @@
       },
       "arenaElo": 1481,
       "alts": {
-        "code": 59.1
+        "code": 74.9
       }
     },
     {
@@ -144,7 +144,7 @@
       },
       "arenaElo": 1471,
       "alts": {
-        "code": 50.7
+        "code": 67
       }
     },
     {
@@ -207,7 +207,7 @@
       },
       "arenaElo": 1481,
       "alts": {
-        "code": 59.1
+        "code": 74.9
       }
     },
     {
@@ -228,7 +228,7 @@
       },
       "arenaElo": 1486,
       "alts": {
-        "code": 55.5
+        "code": 68.8
       }
     },
     {
@@ -494,7 +494,7 @@
       },
       "arenaElo": 1481,
       "alts": {
-        "code": 59.1
+        "code": 74.9
       }
     },
     {
@@ -987,7 +987,7 @@
       },
       "arenaElo": 1444,
       "alts": {
-        "code": 41
+        "code": 42.2
       }
     },
     {
@@ -1150,7 +1150,7 @@
       },
       "arenaElo": 1444,
       "alts": {
-        "code": 41
+        "code": 42.2
       }
     },
     {
@@ -1213,7 +1213,7 @@
       },
       "arenaElo": 1444,
       "alts": {
-        "code": 41
+        "code": 42.2
       }
     },
     {
@@ -1663,7 +1663,7 @@
       },
       "arenaElo": 1481,
       "alts": {
-        "code": 59.1
+        "code": 74.9
       }
     },
     {
@@ -2914,7 +2914,7 @@
       },
       "arenaElo": 1444,
       "alts": {
-        "code": 41
+        "code": 42.2
       }
     },
     {
@@ -9463,9 +9463,9 @@
       "org": "Anthropic",
       "color": "#cc785c",
       "votes": 0,
-      "delta": 0,
+      "delta": 14.5,
       "scores": {
-        "code": 62
+        "code": 76.5
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-06-09",
@@ -9484,9 +9484,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": 15.8,
       "scores": {
-        "code": 59.1
+        "code": 74.9
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-04-23",
@@ -9497,6 +9497,48 @@
       "arenaElo": 1502,
       "alts": {
         "chat": 54.8
+      }
+    },
+    {
+      "id": "gemini-3-1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 13.3,
+      "scores": {
+        "code": 68.8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "releaseDate": "2026-02-19",
+      "pricing": {
+        "prompt": 2,
+        "completion": 12
+      },
+      "arenaElo": 1447,
+      "alts": {
+        "chat": 46.5
+      }
+    },
+    {
+      "id": "glm-5-2-max",
+      "name": "GLM-5.2 (max)",
+      "org": "Z AI",
+      "color": "#1c7ff8",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 67
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "releaseDate": "2026-06-16",
+      "pricing": {
+        "prompt": 1.4,
+        "completion": 4.4
+      },
+      "arenaElo": 1595,
+      "alts": {
+        "chat": 50.7
       }
     },
     {
@@ -9560,48 +9602,6 @@
       "arenaElo": 1561,
       "alts": {
         "chat": 55.7
-      }
-    },
-    {
-      "id": "gpt-5-5-medium",
-      "name": "GPT-5.5 (medium)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -2.9,
-      "scores": {
-        "code": 56.2
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
-      "releaseDate": "2026-04-23",
-      "pricing": {
-        "prompt": 5,
-        "completion": 30
-      },
-      "arenaElo": 1502,
-      "alts": {
-        "chat": 54.8
-      }
-    },
-    {
-      "id": "gemini-3-1-pro-preview",
-      "name": "Gemini 3.1 Pro Preview",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 55.5
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
-      "releaseDate": "2026-02-19",
-      "pricing": {
-        "prompt": 2,
-        "completion": 12
-      },
-      "arenaElo": 1447,
-      "alts": {
-        "chat": 46.5
       }
     },
     {
@@ -9728,27 +9728,6 @@
       "arenaElo": 1522,
       "alts": {
         "chat": 47.2
-      }
-    },
-    {
-      "id": "glm-5-2-max",
-      "name": "GLM-5.2 (max)",
-      "org": "Z AI",
-      "color": "#1c7ff8",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 50.7
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
-      "releaseDate": "2026-06-16",
-      "pricing": {
-        "prompt": 1.4,
-        "completion": 4.4
-      },
-      "arenaElo": 1595,
-      "alts": {
-        "chat": 50.7
       }
     },
     {
@@ -10448,6 +10427,27 @@
       }
     },
     {
+      "id": "grok-4-3-high",
+      "name": "Grok 4.3 (high)",
+      "org": "xAI",
+      "color": "#736cd3",
+      "votes": 0,
+      "delta": 1.2,
+      "scores": {
+        "code": 42.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
+      "releaseDate": "2026-04-30",
+      "pricing": {
+        "prompt": 1.25,
+        "completion": 2.5
+      },
+      "arenaElo": 1366,
+      "alts": {
+        "chat": 37.6
+      }
+    },
+    {
       "id": "mimo-v2-5",
       "name": "MiMo-V2.5",
       "org": "Xiaomi",
@@ -10550,27 +10550,6 @@
       "arenaElo": 1457,
       "alts": {
         "chat": 51.4
-      }
-    },
-    {
-      "id": "grok-4-3-high",
-      "name": "Grok 4.3 (high)",
-      "org": "xAI",
-      "color": "#736cd3",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 41
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
-      "releaseDate": "2026-04-30",
-      "pricing": {
-        "prompt": 1.25,
-        "completion": 2.5
-      },
-      "arenaElo": 1366,
-      "alts": {
-        "chat": 37.6
       }
     },
     {
@@ -20549,11 +20528,11 @@
       "color": "#34A853",
       "scores": {
         "chat": 46.5,
-        "code": 55.5
+        "code": 68.8
       },
       "ranks": {
         "chat": 9,
-        "code": 5
+        "code": 3
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-02-19"
@@ -21990,7 +21969,7 @@
       },
       "ranks": {
         "chat": 8,
-        "code": 9
+        "code": 10
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-02-17",
@@ -22084,7 +22063,7 @@
       },
       "ranks": {
         "chat": 52,
-        "code": 38
+        "code": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-02-16"
@@ -22896,7 +22875,7 @@
       },
       "ranks": {
         "chat": 2,
-        "code": 4
+        "code": 6
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-05-28",
@@ -22915,7 +22894,7 @@
       },
       "ranks": {
         "chat": 4,
-        "code": 6
+        "code": 7
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2026-04-16",
@@ -23579,7 +23558,7 @@
       "color": "#cc785c",
       "scores": {
         "chat": 59.9,
-        "code": 62
+        "code": 76.5
       },
       "ranks": {
         "chat": 1,
@@ -23622,7 +23601,7 @@
       },
       "ranks": {
         "chat": 42,
-        "code": 34
+        "code": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
       "releaseDate": "2026-03-10"
@@ -24313,7 +24292,7 @@
       },
       "ranks": {
         "chat": 12,
-        "code": 7
+        "code": 8
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-02-05",
@@ -25099,7 +25078,7 @@
       },
       "ranks": {
         "chat": 27,
-        "code": 8
+        "code": 9
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-03-17",
@@ -25171,7 +25150,7 @@
       },
       "ranks": {
         "chat": 35,
-        "code": 36
+        "code": 37
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax_small.svg",
       "releaseDate": "2026-03-18"
@@ -25805,7 +25784,7 @@
       },
       "ranks": {
         "chat": 21,
-        "code": 37
+        "code": 38
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2026-03-18"
@@ -27010,7 +26989,7 @@
       },
       "ranks": {
         "chat": 25,
-        "code": 35
+        "code": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2026-04-22"
@@ -27276,11 +27255,11 @@
       "color": "#736cd3",
       "scores": {
         "chat": 37.6,
-        "code": 41
+        "code": 42.2
       },
       "ranks": {
         "chat": 39,
-        "code": 39
+        "code": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos/xai.svg",
       "releaseDate": "2026-04-30"
@@ -27489,7 +27468,7 @@
       "color": "#1f1f1f",
       "scores": {
         "chat": 54.8,
-        "code": 59.1
+        "code": 74.9
       },
       "ranks": {
         "chat": 3,
@@ -27513,7 +27492,7 @@
       },
       "ranks": {
         "chat": 5,
-        "code": 3
+        "code": 5
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-03-05",
@@ -27529,11 +27508,11 @@
       "color": "#1c7ff8",
       "scores": {
         "chat": 50.7,
-        "code": 50.7
+        "code": 67
       },
       "ranks": {
         "chat": 6,
-        "code": 10
+        "code": 4
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
@@ -28277,7 +28256,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (337)",
+    "openrouter": "ok (339)",
     "arena_text": "ok (367)",
     "arena_code": "ok (90)",
     "arena_image": "ok (70)",
@@ -28286,6 +28265,6 @@
     "aa_image": "ok (145)",
     "aa_video": "ok (213)"
   },
-  "updatedAt": 1781754666011,
+  "updatedAt": 1781772342641,
   "errors": []
 }
