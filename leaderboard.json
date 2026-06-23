@@ -10376,6 +10376,18 @@
       "logo": "https://artificialanalysis.ai/img/logos/blackforestlabs_small.svg"
     },
     {
+      "id": "qwen-image-max-2512",
+      "name": "Qwen Image Max 2512",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1158
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
+    },
+    {
       "id": "flux-2-dev-turbo",
       "name": "FLUX.2 [dev] Turbo",
       "org": "Fal",
@@ -10386,18 +10398,6 @@
         "image": 1157
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
-    },
-    {
-      "id": "qwen-image-max-2512",
-      "name": "Qwen Image Max 2512",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1157
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
     {
       "id": "recraft-v4-1-pro",
@@ -11435,9 +11435,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1364
+        "video": 1365
       },
       "releaseDate": "2025-10-15"
     },
@@ -11516,6 +11516,18 @@
       "arenaElo": 1218
     },
     {
+      "id": "wan-2-7",
+      "name": "Wan 2.7",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "video": 1349
+      },
+      "releaseDate": "2026-04-25"
+    },
+    {
       "id": "pixverse-v5",
       "name": "PixVerse V5",
       "org": "PixVerse",
@@ -11526,18 +11538,6 @@
         "video": 1349
       },
       "releaseDate": "2025-08-26"
-    },
-    {
-      "id": "wan-2-7",
-      "name": "Wan 2.7",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1348
-      },
-      "releaseDate": "2026-04-25"
     },
     {
       "id": "vidu-q2-pro",
@@ -11904,9 +11904,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1266
+        "video": 1265
       },
       "releaseDate": "2025-10-23"
     },
@@ -14117,10 +14117,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1157
+        "image": 1158
       },
       "ranks": {
-        "image": 14
+        "image": 13
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "aliases": [
@@ -15971,7 +15971,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1364
+        "video": 1365
       },
       "ranks": {
         "video": 19
@@ -17935,7 +17935,7 @@
         "image": 1157
       },
       "ranks": {
-        "image": 13
+        "image": 14
       },
       "logo": "https://artificialanalysis.ai/img/logos/fal_small.svg"
     },
@@ -18828,7 +18828,7 @@
         "video": 1349
       },
       "ranks": {
-        "video": 25
+        "video": 26
       },
       "releaseDate": "2025-08-26"
     },
@@ -19566,7 +19566,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1266
+        "video": 1265
       },
       "ranks": {
         "video": 53
@@ -20206,10 +20206,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1348
+        "video": 1349
       },
       "ranks": {
-        "video": 26
+        "video": 25
       },
       "releaseDate": "2026-04-25"
     },
@@ -20584,14 +20584,14 @@
   ],
   "sources": {
     "openrouter": "ok (340)",
-    "aa_llm": "ok (512)",
-    "aa_image": "ok (147)",
-    "aa_video": "ok (217)",
     "arena_text": "ok (367)",
     "arena_code": "ok (90)",
     "arena_image": "ok (70)",
-    "arena_video": "ok (41)"
+    "arena_video": "ok (41)",
+    "aa_llm": "ok (512)",
+    "aa_image": "ok (147)",
+    "aa_video": "ok (217)"
   },
-  "updatedAt": 1782168386058,
+  "updatedAt": 1782173073862,
   "errors": []
 }
