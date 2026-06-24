@@ -10285,9 +10285,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1338
+        "image": 1339
       },
       "arenaElo": 1385
     },
@@ -10308,9 +10308,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1219
+        "image": 1220
       },
       "arenaElo": 1245
     },
@@ -10322,7 +10322,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 1213
+        "image": 1214
       }
     },
     {
@@ -10342,9 +10342,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1193
+        "image": 1194
       }
     },
     {
@@ -10353,9 +10353,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1192
+        "image": 1193
       }
     },
     {
@@ -10366,9 +10366,20 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 1190
+        "image": 1191
       },
       "arenaElo": 1183
+    },
+    {
+      "id": "flux-2-pro",
+      "name": "FLUX.2 [pro]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -3,
+      "scores": {
+        "image": 1188
+      }
     },
     {
       "id": "krea-2-large",
@@ -10383,25 +10394,14 @@
       "arenaElo": 1101
     },
     {
-      "id": "flux-2-pro",
-      "name": "FLUX.2 [pro]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "image": 1187
-      }
-    },
-    {
       "id": "flux-2-flex",
       "name": "FLUX.2 [flex]",
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -8,
+      "delta": -10,
       "scores": {
-        "image": 1183
+        "image": 1181
       }
     },
     {
@@ -10422,9 +10422,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1175
+        "image": 1174
       }
     },
     {
@@ -10433,9 +10433,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1172
+        "image": 1173
       }
     },
     {
@@ -10456,7 +10456,18 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -33,
+      "delta": -32,
+      "scores": {
+        "image": 1159
+      }
+    },
+    {
+      "id": "flux-2-dev-turbo",
+      "name": "FLUX.2 [dev] Turbo",
+      "org": "Fal",
+      "color": "#FF6B35",
+      "votes": 0,
+      "delta": 2,
       "scores": {
         "image": 1158
       }
@@ -10473,25 +10484,14 @@
       }
     },
     {
-      "id": "flux-2-dev-turbo",
-      "name": "FLUX.2 [dev] Turbo",
-      "org": "Fal",
-      "color": "#FF6B35",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1156
-      }
-    },
-    {
       "id": "recraft-v4-1-pro",
       "name": "Recraft V4.1 Pro",
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1153
+        "image": 1154
       },
       "arenaElo": 1130
     },
@@ -10512,9 +10512,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1143
+        "image": 1144
       }
     },
     {
@@ -10534,9 +10534,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1136
+        "image": 1137
       },
       "arenaElo": 1111
     },
@@ -10546,9 +10546,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1133
+        "image": 1134
       },
       "arenaElo": 1115
     },
@@ -10558,9 +10558,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1123
+        "image": 1124
       }
     },
     {
@@ -10580,9 +10580,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1120
+        "image": 1121
       }
     },
     {
@@ -10603,9 +10603,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1114
+        "image": 1115
       }
     },
     {
@@ -10637,9 +10637,23 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1108
+        "image": 1109
+      }
+    },
+    {
+      "id": "vidu-q2",
+      "name": "Vidu Q2",
+      "org": "Vidu",
+      "color": "#1fcfff",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1107
+      },
+      "alts": {
+        "video": 1298
       }
     },
     {
@@ -10666,28 +10680,14 @@
       }
     },
     {
-      "id": "vidu-q2",
-      "name": "Vidu Q2",
-      "org": "Vidu",
-      "color": "#1fcfff",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1106
-      },
-      "alts": {
-        "video": 1298
-      }
-    },
-    {
       "id": "qwen-image-2-0-2026-03-03",
       "name": "Qwen Image 2.0 (2026-03-03)",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1103
+        "image": 1104
       }
     },
     {
@@ -10696,9 +10696,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1101
+        "image": 1100
       }
     },
     {
@@ -10718,9 +10718,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -34,
+      "delta": -33,
       "scores": {
-        "image": 1089
+        "image": 1090
       }
     },
     {
@@ -10729,9 +10729,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1087
+        "image": 1088
       }
     },
     {
@@ -10740,9 +10740,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "image": 1085
+        "image": 1087
       }
     },
     {
@@ -10762,9 +10762,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1081
+        "image": 1082
       }
     },
     {
@@ -10773,9 +10773,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1078
+        "image": 1079
       }
     },
     {
@@ -10806,9 +10806,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1071
+        "image": 1072
       }
     },
     {
@@ -10817,9 +10817,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1069
+        "image": 1070
       },
       "arenaElo": 1013
     },
@@ -10841,9 +10841,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "image": 1066
+        "image": 1065
       }
     },
     {
@@ -10852,9 +10852,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1064
+        "image": 1065
       }
     },
     {
@@ -10863,9 +10863,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1062
+        "image": 1063
       }
     },
     {
@@ -10874,9 +10874,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1060
+        "image": 1061
       },
       "arenaElo": 1057
     },
@@ -10886,9 +10886,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1057
+        "image": 1058
       }
     },
     {
@@ -10897,9 +10897,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1057
+        "image": 1058
       }
     },
     {
@@ -10908,9 +10908,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1054
+        "image": 1055
       }
     },
     {
@@ -10919,9 +10919,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1049
+        "image": 1050
       },
       "arenaElo": 1011
     },
@@ -10937,21 +10937,21 @@
       }
     },
     {
-      "id": "flux-1-krea-dev",
-      "name": "FLUX.1 Krea [dev]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1033
-      }
-    },
-    {
       "id": "longcat-image",
       "name": "LongCat Image",
       "org": "Meituan",
       "color": "#f8d103",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1034
+      }
+    },
+    {
+      "id": "flux-1-krea-dev",
+      "name": "FLUX.1 Krea [dev]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
       "votes": 0,
       "delta": -1,
       "scores": {
@@ -10964,9 +10964,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -44,
+      "delta": -43,
       "scores": {
-        "image": 1027
+        "image": 1028
       }
     },
     {
@@ -10986,9 +10986,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1020
+        "image": 1021
       }
     },
     {
@@ -11008,9 +11008,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1016
+        "image": 1017
       }
     },
     {
@@ -11019,9 +11019,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1012
+        "image": 1013
       }
     },
     {
@@ -11085,9 +11085,9 @@
       "org": "Playground AI",
       "color": "#6858F5",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 966
+        "image": 967
       }
     },
     {
@@ -11096,9 +11096,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 958
+        "image": 959
       }
     },
     {
@@ -11129,9 +11129,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 911
+        "image": 912
       }
     },
     {
@@ -11151,9 +11151,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 905
+        "image": 906
       }
     },
     {
@@ -11174,9 +11174,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 900
+        "image": 901
       }
     },
     {
@@ -11196,9 +11196,9 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 713
+        "image": 714
       }
     },
     {
@@ -11810,9 +11810,9 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": -3,
+      "delta": -6,
       "scores": {
-        "video": 1301
+        "video": 1298
       },
       "releaseDate": "2026-04-30"
     },
@@ -11828,7 +11828,7 @@
       },
       "releaseDate": "2025-10-15",
       "alts": {
-        "image": 1106
+        "image": 1107
       }
     },
     {
@@ -11972,9 +11972,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -23,
+      "delta": -24,
       "scores": {
-        "video": 1259
+        "video": 1258
       },
       "releaseDate": "2025-12-15",
       "arenaElo": 1338
@@ -11998,9 +11998,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1241
+        "video": 1240
       },
       "releaseDate": "2025-06-01"
     },
@@ -12118,9 +12118,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": -3,
       "scores": {
-        "video": 1193
+        "video": 1191
       },
       "releaseDate": "2024-12-16",
       "arenaElo": 1164
@@ -12167,9 +12167,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 8,
+      "delta": 6,
       "scores": {
-        "video": 1134
+        "video": 1132
       },
       "releaseDate": "2025-02-25"
     },
@@ -12216,9 +12216,9 @@
       "org": "Moonvalley",
       "color": "#030303",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1114
+        "video": 1115
       },
       "releaseDate": "2025-07-08"
     },
@@ -12300,9 +12300,9 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1091
+        "video": 1092
       },
       "releaseDate": "2024-12-13"
     },
@@ -12348,9 +12348,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "video": 1079
+        "video": 1080
       },
       "releaseDate": "2024-12-19"
     },
@@ -12360,9 +12360,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "video": 1051
+        "video": 1050
       },
       "releaseDate": "2024-06-12"
     },
@@ -12420,9 +12420,9 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1012
+        "video": 1011
       },
       "releaseDate": "2024-10-01"
     },
@@ -12444,9 +12444,9 @@
       "org": "StepFun",
       "color": "#017AFF",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 987
+        "video": 988
       },
       "releaseDate": "2025-02-17"
     },
@@ -12456,9 +12456,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "video": 892
+        "video": 891
       },
       "releaseDate": "2024-08-27"
     },
@@ -12542,7 +12542,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1020
+        "image": 1021
       },
       "ranks": {
         "image": 56
@@ -13089,7 +13089,7 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 1114
+        "image": 1115
       },
       "ranks": {
         "image": 25
@@ -13815,7 +13815,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1085
+        "image": 1087
       },
       "ranks": {
         "image": 36
@@ -14125,7 +14125,7 @@
       "org": "Microsoft",
       "color": "#0078D5",
       "scores": {
-        "image": 1213
+        "image": 1214
       },
       "ranks": {
         "image": 4
@@ -14144,7 +14144,7 @@
         "image": 1157
       },
       "ranks": {
-        "image": 13
+        "image": 14
       },
       "aliases": [
         "Image Max 2512"
@@ -14404,7 +14404,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1175
+        "image": 1174
       },
       "ranks": {
         "image": 10
@@ -14419,7 +14419,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1120
+        "image": 1121
       },
       "ranks": {
         "image": 23
@@ -14447,7 +14447,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 911
+        "image": 912
       },
       "ranks": {
         "image": 68
@@ -14509,7 +14509,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1241
+        "video": 1240
       },
       "ranks": {
         "video": 56
@@ -14554,7 +14554,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1079
+        "video": 1080
       },
       "ranks": {
         "video": 84
@@ -14876,7 +14876,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1108
+        "image": 1109
       },
       "ranks": {
         "image": 28
@@ -14888,7 +14888,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1101
+        "image": 1100
       },
       "ranks": {
         "image": 33
@@ -14903,7 +14903,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1057
+        "image": 1058
       },
       "ranks": {
         "image": 50
@@ -14919,7 +14919,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1012
+        "image": 1013
       },
       "ranks": {
         "image": 59
@@ -15317,7 +15317,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1153
+        "image": 1154
       },
       "ranks": {
         "image": 15
@@ -15377,10 +15377,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1301
+        "video": 1298
       },
       "ranks": {
-        "video": 44
+        "video": 45
       },
       "releaseDate": "2026-04-30",
       "aliases": [
@@ -15931,7 +15931,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1219
+        "image": 1220
       },
       "ranks": {
         "image": 3
@@ -15943,7 +15943,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1057
+        "image": 1058
       },
       "ranks": {
         "image": 49
@@ -15955,7 +15955,7 @@
       "org": "Playground AI",
       "color": "#6858F5",
       "scores": {
-        "image": 966
+        "image": 967
       },
       "ranks": {
         "image": 64
@@ -16559,7 +16559,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1172
+        "image": 1173
       },
       "ranks": {
         "image": 11
@@ -16574,7 +16574,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1143
+        "image": 1144
       },
       "ranks": {
         "image": 17
@@ -16590,7 +16590,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1123
+        "image": 1124
       },
       "ranks": {
         "image": 21
@@ -16602,7 +16602,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1103
+        "image": 1104
       },
       "ranks": {
         "image": 32
@@ -16618,7 +16618,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1081
+        "image": 1082
       },
       "ranks": {
         "image": 38
@@ -16633,7 +16633,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "ranks": {
         "image": 47
@@ -16660,7 +16660,7 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "scores": {
-        "image": 905
+        "image": 906
       },
       "ranks": {
         "image": 70
@@ -16751,7 +16751,7 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "video": 987
+        "video": 988
       },
       "ranks": {
         "video": 92
@@ -17260,7 +17260,7 @@
         "image": 1107
       },
       "ranks": {
-        "image": 29
+        "image": 30
       }
     },
     {
@@ -17281,7 +17281,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1078
+        "image": 1079
       },
       "ranks": {
         "image": 39
@@ -17296,10 +17296,10 @@
       "org": "Meituan",
       "color": "#f8d103",
       "scores": {
-        "image": 1033
+        "image": 1034
       },
       "ranks": {
-        "image": 54
+        "image": 53
       }
     },
     {
@@ -17885,7 +17885,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1193
+        "image": 1194
       },
       "ranks": {
         "image": 6
@@ -17924,10 +17924,10 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1156
+        "image": 1158
       },
       "ranks": {
-        "image": 14
+        "image": 13
       }
     },
     {
@@ -17963,7 +17963,7 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "scores": {
-        "image": 1087
+        "image": 1088
       },
       "ranks": {
         "image": 35
@@ -17999,7 +17999,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1016
+        "image": 1017
       },
       "ranks": {
         "image": 58
@@ -18135,7 +18135,7 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "scores": {
-        "video": 892
+        "video": 891
       },
       "ranks": {
         "video": 93
@@ -18652,7 +18652,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1338
+        "image": 1339
       },
       "ranks": {
         "image": 1
@@ -18667,7 +18667,7 @@
       "org": "Microsoft",
       "color": "#0078D5",
       "scores": {
-        "image": 1190
+        "image": 1191
       },
       "ranks": {
         "image": 8
@@ -18682,7 +18682,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1133
+        "image": 1134
       },
       "ranks": {
         "image": 20
@@ -18700,7 +18700,7 @@
         "image": 1106
       },
       "ranks": {
-        "image": 30
+        "image": 31
       }
     },
     {
@@ -18709,7 +18709,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1069
+        "image": 1070
       },
       "ranks": {
         "image": 43
@@ -18721,7 +18721,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 1064
+        "image": 1065
       },
       "ranks": {
         "image": 46
@@ -18736,7 +18736,7 @@
         "image": 1033
       },
       "ranks": {
-        "image": 53
+        "image": 54
       }
     },
     {
@@ -18861,7 +18861,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1134
+        "video": 1132
       },
       "ranks": {
         "video": 70
@@ -19162,7 +19162,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1136
+        "image": 1137
       },
       "ranks": {
         "image": 19
@@ -19186,7 +19186,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1060
+        "image": 1061
       },
       "ranks": {
         "image": 48
@@ -19198,7 +19198,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 958
+        "image": 959
       },
       "ranks": {
         "image": 65
@@ -19512,7 +19512,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1066
+        "image": 1065
       },
       "ranks": {
         "image": 45
@@ -19524,7 +19524,7 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "image": 713
+        "image": 714
       },
       "ranks": {
         "image": 73
@@ -19698,7 +19698,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1054
+        "image": 1055
       },
       "ranks": {
         "image": 51
@@ -19714,7 +19714,7 @@
       "org": "Bria",
       "color": "#5200c8",
       "scores": {
-        "image": 900
+        "image": 901
       },
       "ranks": {
         "image": 71
@@ -19752,7 +19752,7 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1091
+        "video": 1092
       },
       "ranks": {
         "video": 80
@@ -19765,7 +19765,7 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1012
+        "video": 1011
       },
       "ranks": {
         "video": 90
@@ -20118,12 +20118,12 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "image": 1106,
+        "image": 1107,
         "video": 1298
       },
       "ranks": {
-        "image": 31,
-        "video": 45
+        "image": 29,
+        "video": 44
       },
       "releaseDate": "2025-10-15"
     },
@@ -20347,7 +20347,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1192
+        "image": 1193
       },
       "ranks": {
         "image": 7
@@ -20359,7 +20359,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1071
+        "image": 1072
       },
       "ranks": {
         "image": 42
@@ -20497,7 +20497,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1193
+        "video": 1191
       },
       "ranks": {
         "video": 66
@@ -20510,7 +20510,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "video": 1051
+        "video": 1050
       },
       "ranks": {
         "video": 85
@@ -20554,6 +20554,6 @@
     "aa_image": "ok (147)",
     "aa_video": "ok (217)"
   },
-  "updatedAt": 1782286757203,
+  "updatedAt": 1782298082428,
   "errors": []
 }
