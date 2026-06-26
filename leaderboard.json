@@ -4347,6 +4347,9 @@
       "pricing": {
         "prompt": 0,
         "completion": 0
+      },
+      "alts": {
+        "code": 31.3
       }
     },
     {
@@ -9609,6 +9612,27 @@
       }
     },
     {
+      "id": "devstral-2",
+      "name": "Devstral 2",
+      "org": "Mistral",
+      "color": "#fd6f00",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 31.3
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
+      "releaseDate": "2025-12-09",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      },
+      "arenaElo": 1199,
+      "alts": {
+        "chat": 15.5
+      }
+    },
+    {
       "id": "gpt-oss-120b-high",
       "name": "gpt-oss-120b (high)",
       "org": "OpenAI",
@@ -12554,7 +12578,7 @@
       },
       "ranks": {
         "chat": 170,
-        "code": 50
+        "code": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-01-21"
@@ -12930,7 +12954,7 @@
       },
       "ranks": {
         "chat": 191,
-        "code": 48
+        "code": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-02-05"
@@ -14415,7 +14439,7 @@
       },
       "ranks": {
         "chat": 298,
-        "code": 74
+        "code": 75
       },
       "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
       "releaseDate": "2026-05-11"
@@ -14816,7 +14840,7 @@
       },
       "ranks": {
         "chat": 211,
-        "code": 46
+        "code": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-10-22",
@@ -15167,7 +15191,7 @@
       },
       "ranks": {
         "chat": 161,
-        "code": 60
+        "code": 61
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
@@ -15286,7 +15310,7 @@
       },
       "ranks": {
         "chat": 290,
-        "code": 59
+        "code": 60
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2023-12-06",
@@ -15718,7 +15742,7 @@
       },
       "ranks": {
         "chat": 149,
-        "code": 56
+        "code": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02",
@@ -15783,7 +15807,7 @@
       },
       "ranks": {
         "chat": 209,
-        "code": 62
+        "code": 63
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -15831,7 +15855,7 @@
       },
       "ranks": {
         "chat": 231,
-        "code": 68
+        "code": 69
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16353,7 +16377,7 @@
       },
       "ranks": {
         "chat": 207,
-        "code": 51
+        "code": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2024-09-24",
@@ -16390,7 +16414,7 @@
       },
       "ranks": {
         "chat": 230,
-        "code": 66
+        "code": 67
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16424,7 +16448,7 @@
       },
       "ranks": {
         "chat": 263,
-        "code": 69
+        "code": 70
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16440,7 +16464,7 @@
       },
       "ranks": {
         "chat": 275,
-        "code": 72
+        "code": 73
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16555,7 +16579,7 @@
       },
       "ranks": {
         "chat": 342,
-        "code": 71
+        "code": 72
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-03-14"
@@ -17071,7 +17095,7 @@
       },
       "ranks": {
         "chat": 190,
-        "code": 58
+        "code": 59
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-03-04",
@@ -17090,7 +17114,7 @@
       },
       "ranks": {
         "chat": 210,
-        "code": 70
+        "code": 71
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
@@ -17247,7 +17271,7 @@
       },
       "ranks": {
         "chat": 308,
-        "code": 67
+        "code": 68
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2022-11-30",
@@ -17750,7 +17774,7 @@
       },
       "ranks": {
         "chat": 101,
-        "code": 45
+        "code": 46
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-08-05",
@@ -17885,7 +17909,7 @@
       },
       "ranks": {
         "chat": 283,
-        "code": 53
+        "code": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -18467,7 +18491,7 @@
       },
       "ranks": {
         "chat": 157,
-        "code": 55
+        "code": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-08-05",
@@ -18487,7 +18511,7 @@
       },
       "ranks": {
         "chat": 163,
-        "code": 61
+        "code": 62
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage_small.svg",
       "releaseDate": "2026-04-06",
@@ -18642,7 +18666,7 @@
       },
       "ranks": {
         "chat": 247,
-        "code": 54
+        "code": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2023-11-06",
@@ -19042,7 +19066,7 @@
       },
       "ranks": {
         "chat": 97,
-        "code": 47
+        "code": 48
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19058,7 +19082,7 @@
       },
       "ranks": {
         "chat": 123,
-        "code": 52
+        "code": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19102,10 +19126,12 @@
       "org": "Mistral",
       "color": "#fd6f00",
       "scores": {
-        "chat": 15.5
+        "chat": 15.5,
+        "code": 31.3
       },
       "ranks": {
-        "chat": 153
+        "chat": 153,
+        "code": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-09"
@@ -19121,7 +19147,7 @@
       },
       "ranks": {
         "chat": 203,
-        "code": 57
+        "code": 58
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19193,7 +19219,7 @@
       },
       "ranks": {
         "chat": 305,
-        "code": 63
+        "code": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-11-21"
@@ -19209,7 +19235,7 @@
       },
       "ranks": {
         "chat": 310,
-        "code": 65
+        "code": 66
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-07-11"
@@ -20369,7 +20395,7 @@
       },
       "ranks": {
         "chat": 183,
-        "code": 49
+        "code": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-03-27",
@@ -20419,7 +20445,7 @@
       },
       "ranks": {
         "chat": 317,
-        "code": 73
+        "code": 74
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2023-05-10",
@@ -20526,7 +20552,7 @@
       },
       "ranks": {
         "chat": 257,
-        "code": 64
+        "code": 65
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2023-03-14",
@@ -20631,15 +20657,15 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (339)",
     "arena_text": "ok (368)",
     "arena_code": "ok (90)",
     "arena_image": "ok (70)",
     "arena_video": "ok (41)",
     "aa_llm": "ok (514)",
     "aa_image": "ok (156)",
-    "aa_video": "ok (221)",
-    "openrouter": "ok (339)"
+    "aa_video": "ok (221)"
   },
-  "updatedAt": 1782426034204,
+  "updatedAt": 1782432453424,
   "errors": []
 }
