@@ -4951,23 +4951,6 @@
       "releaseDate": "2026-04-03"
     },
     {
-      "id": "claude-3-5-haiku",
-      "name": "Claude 3.5 Haiku",
-      "org": "Anthropic",
-      "color": "#cc785c",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 12.4
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
-      "releaseDate": "2024-10-22",
-      "pricing": {
-        "prompt": 0.8,
-        "completion": 4
-      }
-    },
-    {
       "id": "mistral-small-4-non-reasoning",
       "name": "Mistral Small 4 (Non-reasoning)",
       "org": "Mistral",
@@ -5016,6 +4999,26 @@
       "pricing": {
         "prompt": 0.1,
         "completion": 0.4
+      }
+    },
+    {
+      "id": "claude-3-5-haiku",
+      "name": "Claude 3.5 Haiku",
+      "org": "Anthropic",
+      "color": "#cc785c",
+      "votes": 0,
+      "delta": -0.1,
+      "scores": {
+        "chat": 12.3
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "releaseDate": "2024-10-22",
+      "pricing": {
+        "prompt": 0.8,
+        "completion": 4
+      },
+      "alts": {
+        "code": 15.9
       }
     },
     {
@@ -7333,6 +7336,9 @@
       "pricing": {
         "prompt": 0.1095,
         "completion": 0.25
+      },
+      "alts": {
+        "code": 10.1
       }
     },
     {
@@ -10197,6 +10203,26 @@
       }
     },
     {
+      "id": "claude-3-5-haiku",
+      "name": "Claude 3.5 Haiku",
+      "org": "Anthropic",
+      "color": "#cc785c",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 15.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
+      "releaseDate": "2024-10-22",
+      "pricing": {
+        "prompt": 0.8,
+        "completion": 4
+      },
+      "alts": {
+        "chat": 12.3
+      }
+    },
+    {
       "id": "qwen3-5-0-8b-reasoning",
       "name": "Qwen3.5 0.8B (Reasoning)",
       "org": "Alibaba",
@@ -10365,6 +10391,26 @@
       }
     },
     {
+      "id": "gemma-3-27b-instruct",
+      "name": "Gemma 3 27B Instruct",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 10.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "releaseDate": "2025-03-12",
+      "pricing": {
+        "prompt": 0.1095,
+        "completion": 0.25
+      },
+      "alts": {
+        "chat": 4.8
+      }
+    },
+    {
       "id": "ministral-3-8b",
       "name": "Ministral 3 8B",
       "org": "Mistral",
@@ -10513,9 +10559,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "image": 1263
+        "image": 1262
       }
     },
     {
@@ -10538,7 +10584,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 1212
+        "image": 1213
       }
     },
     {
@@ -10569,9 +10615,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1192
+        "image": 1191
       }
     },
     {
@@ -10694,9 +10740,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "image": 1155
+        "image": 1156
       }
     },
     {
@@ -10819,9 +10865,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1114
+        "image": 1113
       }
     },
     {
@@ -11068,9 +11114,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1064
+        "image": 1063
       }
     },
     {
@@ -11412,9 +11458,9 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 712
+        "image": 713
       }
     },
     {
@@ -12860,7 +12906,7 @@
       },
       "ranks": {
         "chat": 162,
-        "code": 68
+        "code": 69
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2025-12-15"
@@ -12933,7 +12979,7 @@
         "chat": 12.4
       },
       "ranks": {
-        "chat": 182
+        "chat": 181
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2025-07-25"
@@ -13319,7 +13365,7 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 1114
+        "image": 1113
       },
       "ranks": {
         "image": 25
@@ -13940,10 +13986,12 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "chat": 4.8
+        "chat": 4.8,
+        "code": 10.1
       },
       "ranks": {
-        "chat": 286
+        "chat": 286,
+        "code": 76
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-03-12"
@@ -14205,7 +14253,7 @@
       },
       "ranks": {
         "chat": 189,
-        "code": 67
+        "code": 68
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-09-17",
@@ -14359,7 +14407,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1212
+        "image": 1213
       },
       "ranks": {
         "image": 4
@@ -14375,7 +14423,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1155
+        "image": 1156
       },
       "ranks": {
         "image": 14
@@ -14596,7 +14644,7 @@
       },
       "ranks": {
         "chat": 298,
-        "code": 81
+        "code": 83
       },
       "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
       "releaseDate": "2026-05-11"
@@ -15413,10 +15461,12 @@
       "org": "Anthropic",
       "color": "#cc785c",
       "scores": {
-        "chat": 12.4
+        "chat": 12.3,
+        "code": 15.9
       },
       "ranks": {
-        "chat": 181
+        "chat": 182,
+        "code": 67
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-10-22",
@@ -15966,7 +16016,7 @@
       },
       "ranks": {
         "chat": 196,
-        "code": 69
+        "code": 70
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16014,7 +16064,7 @@
       },
       "ranks": {
         "chat": 231,
-        "code": 74
+        "code": 75
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16575,7 +16625,7 @@
       },
       "ranks": {
         "chat": 229,
-        "code": 75
+        "code": 77
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16609,7 +16659,7 @@
       },
       "ranks": {
         "chat": 262,
-        "code": 79
+        "code": 81
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16625,7 +16675,7 @@
       },
       "ranks": {
         "chat": 264,
-        "code": 76
+        "code": 78
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16740,7 +16790,7 @@
       },
       "ranks": {
         "chat": 342,
-        "code": 78
+        "code": 80
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-03-14"
@@ -17277,7 +17327,7 @@
       },
       "ranks": {
         "chat": 210,
-        "code": 77
+        "code": 79
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
@@ -17434,7 +17484,7 @@
       },
       "ranks": {
         "chat": 308,
-        "code": 73
+        "code": 74
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2022-11-30",
@@ -17499,7 +17549,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1263
+        "image": 1262
       },
       "ranks": {
         "image": 2
@@ -18142,7 +18192,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1192
+        "image": 1191
       },
       "ranks": {
         "image": 7
@@ -18978,7 +19028,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 1064
+        "image": 1063
       },
       "ranks": {
         "image": 46
@@ -19382,7 +19432,7 @@
       },
       "ranks": {
         "chat": 305,
-        "code": 70
+        "code": 71
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-11-21"
@@ -19398,7 +19448,7 @@
       },
       "ranks": {
         "chat": 310,
-        "code": 72
+        "code": 73
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-07-11"
@@ -19799,7 +19849,7 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "image": 712
+        "image": 713
       },
       "ranks": {
         "image": 73
@@ -20608,7 +20658,7 @@
       },
       "ranks": {
         "chat": 317,
-        "code": 80
+        "code": 82
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2023-05-10",
@@ -20715,7 +20765,7 @@
       },
       "ranks": {
         "chat": 257,
-        "code": 71
+        "code": 72
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2023-03-14",
@@ -20829,6 +20879,6 @@
     "aa_image": "ok (156)",
     "aa_video": "ok (221)"
   },
-  "updatedAt": 1782515074294,
+  "updatedAt": 1782529017552,
   "errors": []
 }
