@@ -1555,7 +1555,10 @@
         "prompt": 0.1,
         "completion": 0.3
       },
-      "arenaElo": 1393
+      "arenaElo": 1393,
+      "alts": {
+        "code": 49.8
+      }
     },
     {
       "id": "gemini-3-pro-preview-low",
@@ -1795,7 +1798,10 @@
         "prompt": 0.1,
         "completion": 0.3
       },
-      "arenaElo": 1393
+      "arenaElo": 1393,
+      "alts": {
+        "code": 49.8
+      }
     },
     {
       "id": "claude-4-opus-reasoning",
@@ -2782,6 +2788,27 @@
       "releaseDate": "2025-12-31"
     },
     {
+      "id": "mimo-v2-flash-non-reasoning",
+      "name": "MiMo-V2-Flash (Non-reasoning)",
+      "org": "Xiaomi",
+      "color": "#ff6900",
+      "votes": 0,
+      "delta": -8.5,
+      "scores": {
+        "chat": 24.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+      "releaseDate": "2025-12-16",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.3
+      },
+      "arenaElo": 1393,
+      "alts": {
+        "code": 49.8
+      }
+    },
+    {
       "id": "trinity-large-thinking",
       "name": "Trinity Large Thinking",
       "org": "Arcee AI",
@@ -2964,24 +2991,6 @@
         "completion": 2
       },
       "arenaElo": 1396
-    },
-    {
-      "id": "mimo-v2-flash-non-reasoning",
-      "name": "MiMo-V2-Flash (Non-reasoning)",
-      "org": "Xiaomi",
-      "color": "#ff6900",
-      "votes": 0,
-      "delta": -10.1,
-      "scores": {
-        "chat": 23.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
-      "releaseDate": "2025-12-16",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.3
-      },
-      "arenaElo": 1393
     },
     {
       "id": "exaone-4-5-33b",
@@ -9249,6 +9258,27 @@
       }
     },
     {
+      "id": "mimo-v2-flash-non-reasoning",
+      "name": "MiMo-V2-Flash (Non-reasoning)",
+      "org": "Xiaomi",
+      "color": "#ff6900",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 49.8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
+      "releaseDate": "2025-12-16",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.3
+      },
+      "arenaElo": 1337,
+      "alts": {
+        "chat": 33.2
+      }
+    },
+    {
       "id": "nemotron-3-ultra-550b-a55b-reasoning",
       "name": "Nemotron 3 Ultra 550B A55B (Reasoning)",
       "org": "NVIDIA",
@@ -10584,7 +10614,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 1213
+        "image": 1212
       }
     },
     {
@@ -10640,7 +10670,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 1188
+        "image": 1189
       },
       "arenaElo": 1183
     },
@@ -10684,9 +10714,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1173
+        "image": 1174
       }
     },
     {
@@ -10718,9 +10748,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -34,
+      "delta": -35,
       "scores": {
-        "image": 1157
+        "image": 1156
       }
     },
     {
@@ -10751,9 +10781,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1155
+        "image": 1156
       },
       "arenaElo": 1130
     },
@@ -10774,9 +10804,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1143
+        "image": 1142
       }
     },
     {
@@ -11125,9 +11155,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1062
+        "image": 1061
       }
     },
     {
@@ -11193,9 +11223,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1035
+        "image": 1034
       }
     },
     {
@@ -12775,7 +12805,7 @@
       },
       "ranks": {
         "chat": 170,
-        "code": 53
+        "code": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-01-21"
@@ -12791,7 +12821,7 @@
       },
       "ranks": {
         "chat": 93,
-        "code": 39
+        "code": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-03-11"
@@ -12906,7 +12936,7 @@
       },
       "ranks": {
         "chat": 162,
-        "code": 69
+        "code": 70
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2025-12-15"
@@ -13153,7 +13183,7 @@
       },
       "ranks": {
         "chat": 191,
-        "code": 51
+        "code": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-02-05"
@@ -13197,7 +13227,7 @@
       },
       "ranks": {
         "chat": 39,
-        "code": 27
+        "code": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04"
@@ -13538,7 +13568,7 @@
       },
       "ranks": {
         "chat": 104,
-        "code": 30
+        "code": 31
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-05-06"
@@ -13659,7 +13689,7 @@
       },
       "ranks": {
         "chat": 98,
-        "code": 42
+        "code": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-03-03"
@@ -13908,7 +13938,7 @@
       },
       "ranks": {
         "chat": 112,
-        "code": 43
+        "code": 44
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
       "releaseDate": "2025-11-27"
@@ -13924,7 +13954,7 @@
       },
       "ranks": {
         "chat": 138,
-        "code": 59
+        "code": 60
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-09-18",
@@ -13991,7 +14021,7 @@
       },
       "ranks": {
         "chat": 286,
-        "code": 76
+        "code": 77
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-03-12"
@@ -14253,7 +14283,7 @@
       },
       "ranks": {
         "chat": 189,
-        "code": 68
+        "code": 69
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-09-17",
@@ -14407,7 +14437,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1213
+        "image": 1212
       },
       "ranks": {
         "image": 4
@@ -14474,7 +14504,7 @@
       },
       "ranks": {
         "chat": 75,
-        "code": 29
+        "code": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2026-04-29",
@@ -14644,7 +14674,7 @@
       },
       "ranks": {
         "chat": 298,
-        "code": 83
+        "code": 84
       },
       "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
       "releaseDate": "2026-05-11"
@@ -14686,7 +14716,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1173
+        "image": 1174
       },
       "ranks": {
         "image": 10
@@ -14945,7 +14975,7 @@
       },
       "ranks": {
         "chat": 54,
-        "code": 28
+        "code": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-02-16"
@@ -14961,7 +14991,7 @@
       },
       "ranks": {
         "chat": 65,
-        "code": 31
+        "code": 32
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-02-24"
@@ -14991,7 +15021,7 @@
       },
       "ranks": {
         "chat": 84,
-        "code": 41
+        "code": 42
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2025-02-24",
@@ -15045,7 +15075,7 @@
       },
       "ranks": {
         "chat": 211,
-        "code": 48
+        "code": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-10-22",
@@ -15284,7 +15314,7 @@
       },
       "ranks": {
         "chat": 77,
-        "code": 32
+        "code": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2025-10-15",
@@ -15396,7 +15426,7 @@
       },
       "ranks": {
         "chat": 160,
-        "code": 65
+        "code": 66
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
@@ -15429,7 +15459,7 @@
       },
       "ranks": {
         "chat": 172,
-        "code": 49
+        "code": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-09",
@@ -15466,7 +15496,7 @@
       },
       "ranks": {
         "chat": 182,
-        "code": 67
+        "code": 68
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-10-22",
@@ -15519,7 +15549,7 @@
       },
       "ranks": {
         "chat": 290,
-        "code": 64
+        "code": 65
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2023-12-06",
@@ -15603,7 +15633,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1155
+        "image": 1156
       },
       "ranks": {
         "image": 15
@@ -15842,7 +15872,7 @@
       },
       "ranks": {
         "chat": 67,
-        "code": 37
+        "code": 38
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-04-16"
@@ -15889,7 +15919,7 @@
       },
       "ranks": {
         "chat": 90,
-        "code": 38
+        "code": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-04-02"
@@ -15951,7 +15981,7 @@
       },
       "ranks": {
         "chat": 149,
-        "code": 61
+        "code": 62
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02",
@@ -16016,7 +16046,7 @@
       },
       "ranks": {
         "chat": 196,
-        "code": 70
+        "code": 71
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16064,7 +16094,7 @@
       },
       "ranks": {
         "chat": 231,
-        "code": 75
+        "code": 76
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16422,7 +16452,7 @@
       },
       "ranks": {
         "chat": 76,
-        "code": 40
+        "code": 41
       },
       "logo": "https://artificialanalysis.ai/img/logos/stepfun_small.svg",
       "releaseDate": "2026-05-29",
@@ -16441,7 +16471,7 @@
       },
       "ranks": {
         "chat": 89,
-        "code": 45
+        "code": 46
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-06-05",
@@ -16588,7 +16618,7 @@
       },
       "ranks": {
         "chat": 208,
-        "code": 54
+        "code": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2024-09-24",
@@ -16625,7 +16655,7 @@
       },
       "ranks": {
         "chat": 229,
-        "code": 77
+        "code": 78
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16659,7 +16689,7 @@
       },
       "ranks": {
         "chat": 262,
-        "code": 81
+        "code": 82
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-02"
@@ -16675,7 +16705,7 @@
       },
       "ranks": {
         "chat": 264,
-        "code": 78
+        "code": 79
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm_small.svg",
       "releaseDate": "2026-04-29"
@@ -16790,7 +16820,7 @@
       },
       "ranks": {
         "chat": 342,
-        "code": 80
+        "code": 81
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-03-14"
@@ -16862,7 +16892,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1143
+        "image": 1142
       },
       "ranks": {
         "image": 17
@@ -16921,7 +16951,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1062
+        "image": 1061
       },
       "ranks": {
         "image": 47
@@ -17156,10 +17186,12 @@
       "org": "Xiaomi",
       "color": "#ff6900",
       "scores": {
-        "chat": 33.2
+        "chat": 33.2,
+        "code": 49.8
       },
       "ranks": {
-        "chat": 61
+        "chat": 61,
+        "code": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2025-12-16"
@@ -17275,7 +17307,7 @@
       },
       "ranks": {
         "chat": 132,
-        "code": 55
+        "code": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
       "releaseDate": "2025-10-29",
@@ -17308,7 +17340,7 @@
       },
       "ranks": {
         "chat": 190,
-        "code": 63
+        "code": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2024-03-04",
@@ -17327,7 +17359,7 @@
       },
       "ranks": {
         "chat": 210,
-        "code": 79
+        "code": 80
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
@@ -17484,7 +17516,7 @@
       },
       "ranks": {
         "chat": 308,
-        "code": 74
+        "code": 75
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2022-11-30",
@@ -17987,7 +18019,7 @@
       },
       "ranks": {
         "chat": 101,
-        "code": 47
+        "code": 48
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-08-05",
@@ -18122,7 +18154,7 @@
       },
       "ranks": {
         "chat": 283,
-        "code": 57
+        "code": 58
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -18294,7 +18326,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1035
+        "image": 1034
       },
       "ranks": {
         "image": 52
@@ -18584,7 +18616,7 @@
       },
       "ranks": {
         "chat": 73,
-        "code": 34
+        "code": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos/inclusionai_small.jpg",
       "releaseDate": "2026-05-08",
@@ -18604,7 +18636,7 @@
       },
       "ranks": {
         "chat": 78,
-        "code": 33
+        "code": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-04-02"
@@ -18704,7 +18736,7 @@
       },
       "ranks": {
         "chat": 156,
-        "code": 60
+        "code": 61
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-08-05",
@@ -18724,7 +18756,7 @@
       },
       "ranks": {
         "chat": 163,
-        "code": 66
+        "code": 67
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage_small.svg",
       "releaseDate": "2026-04-06",
@@ -18879,7 +18911,7 @@
       },
       "ranks": {
         "chat": 247,
-        "code": 58
+        "code": 59
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2023-11-06",
@@ -18974,7 +19006,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1188
+        "image": 1189
       },
       "ranks": {
         "image": 9
@@ -19279,7 +19311,7 @@
       },
       "ranks": {
         "chat": 97,
-        "code": 50
+        "code": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19295,7 +19327,7 @@
       },
       "ranks": {
         "chat": 122,
-        "code": 56
+        "code": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19328,7 +19360,7 @@
       },
       "ranks": {
         "chat": 129,
-        "code": 46
+        "code": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-12-09"
@@ -19344,7 +19376,7 @@
       },
       "ranks": {
         "chat": 143,
-        "code": 44
+        "code": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2024-09-12"
@@ -19360,7 +19392,7 @@
       },
       "ranks": {
         "chat": 204,
-        "code": 62
+        "code": 63
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-02"
@@ -19432,7 +19464,7 @@
       },
       "ranks": {
         "chat": 305,
-        "code": 71
+        "code": 72
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-11-21"
@@ -19448,7 +19480,7 @@
       },
       "ranks": {
         "chat": 310,
-        "code": 73
+        "code": 74
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2023-07-11"
@@ -19908,7 +19940,7 @@
       },
       "ranks": {
         "chat": 41,
-        "code": 35
+        "code": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/xai_small.svg",
       "releaseDate": "2026-04-30"
@@ -20324,7 +20356,7 @@
       },
       "ranks": {
         "chat": 130,
-        "code": 36
+        "code": 37
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-01-31"
@@ -20608,7 +20640,7 @@
       },
       "ranks": {
         "chat": 183,
-        "code": 52
+        "code": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-03-27",
@@ -20658,7 +20690,7 @@
       },
       "ranks": {
         "chat": 317,
-        "code": 82
+        "code": 83
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2023-05-10",
@@ -20765,7 +20797,7 @@
       },
       "ranks": {
         "chat": 257,
-        "code": 72
+        "code": 73
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2023-03-14",
@@ -20871,14 +20903,14 @@
   ],
   "sources": {
     "openrouter": "ok (339)",
+    "aa_llm": "ok (514)",
+    "aa_image": "ok (156)",
+    "aa_video": "ok (221)",
     "arena_text": "ok (368)",
     "arena_code": "ok (90)",
     "arena_image": "ok (69)",
-    "arena_video": "ok (41)",
-    "aa_llm": "ok (514)",
-    "aa_image": "ok (156)",
-    "aa_video": "ok (221)"
+    "arena_video": "ok (41)"
   },
-  "updatedAt": 1782529017552,
+  "updatedAt": 1782541899653,
   "errors": []
 }
