@@ -3911,27 +3911,6 @@
       "releaseDate": "2026-04-15"
     },
     {
-      "id": "o3-mini-high",
-      "name": "o3-mini (high)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -0.6,
-      "scores": {
-        "chat": 18.4
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
-      "releaseDate": "2025-01-31",
-      "pricing": {
-        "prompt": 1.1,
-        "completion": 4.4
-      },
-      "arenaElo": 1363,
-      "alts": {
-        "code": 16.3
-      }
-    },
-    {
       "id": "grok-3",
       "name": "Grok 3",
       "org": "xAI",
@@ -4436,6 +4415,27 @@
       "arenaElo": 1416,
       "alts": {
         "code": 20.1
+      }
+    },
+    {
+      "id": "o3-mini-high",
+      "name": "o3-mini (high)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -3.4,
+      "scores": {
+        "chat": 15.6
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
+      "releaseDate": "2025-01-31",
+      "pricing": {
+        "prompt": 1.1,
+        "completion": 4.4
+      },
+      "arenaElo": 1363,
+      "alts": {
+        "code": 16.3
       }
     },
     {
@@ -11435,9 +11435,9 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1187
+        "image": 1188
       },
       "arenaElo": 1099
     },
@@ -12758,9 +12758,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -24,
+      "delta": -25,
       "scores": {
-        "video": 1321
+        "video": 1320
       },
       "releaseDate": "2025-12-03",
       "arenaElo": 1218
@@ -13089,6 +13089,18 @@
       "releaseDate": "2025-04-15"
     },
     {
+      "id": "hunyuanvideo-1-5-fal",
+      "name": "HunyuanVideo-1.5 (Fal)",
+      "org": "Tencent",
+      "color": "#5CB9FF",
+      "votes": 0,
+      "delta": -6,
+      "scores": {
+        "video": 1217
+      },
+      "releaseDate": "2025-11-20"
+    },
+    {
       "id": "ltx-2-3-fast",
       "name": "LTX-2.3 Fast",
       "org": "Lightricks",
@@ -13099,18 +13111,6 @@
         "video": 1216
       },
       "releaseDate": "2026-03-05"
-    },
-    {
-      "id": "hunyuanvideo-1-5-fal",
-      "name": "HunyuanVideo-1.5 (Fal)",
-      "org": "Tencent",
-      "color": "#5CB9FF",
-      "votes": 0,
-      "delta": -7,
-      "scores": {
-        "video": 1216
-      },
-      "releaseDate": "2025-11-20"
     },
     {
       "id": "wan-2-2-a14b",
@@ -13166,9 +13166,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -6,
+      "delta": -7,
       "scores": {
-        "video": 1202
+        "video": 1201
       },
       "releaseDate": "2025-05-29"
     },
@@ -15620,7 +15620,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1202
+        "video": 1201
       },
       "ranks": {
         "video": 66
@@ -16504,10 +16504,10 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "video": 1216
+        "video": 1217
       },
       "ranks": {
-        "video": 61
+        "video": 60
       },
       "releaseDate": "2025-11-20",
       "aliases": [
@@ -19057,7 +19057,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1187
+        "image": 1188
       },
       "ranks": {
         "image": 9
@@ -19251,7 +19251,7 @@
         "video": 1216
       },
       "ranks": {
-        "video": 60
+        "video": 61
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -21781,6 +21781,6 @@
     "arena_image": "ok (70)",
     "arena_video": "ok (41)"
   },
-  "updatedAt": 1782977420079,
+  "updatedAt": 1782988652027,
   "errors": []
 }
