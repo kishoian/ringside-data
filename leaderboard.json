@@ -2474,7 +2474,7 @@
       },
       "arenaElo": 1418,
       "alts": {
-        "code": 43.3
+        "code": 43.5
       }
     },
     {
@@ -3342,7 +3342,7 @@
       },
       "arenaElo": 1418,
       "alts": {
-        "code": 43.3
+        "code": 43.5
       }
     },
     {
@@ -10158,6 +10158,26 @@
       }
     },
     {
+      "id": "deepseek-v3-1-terminus-reasoning",
+      "name": "DeepSeek V3.1 Terminus (Reasoning)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 43.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2025-09-22",
+      "pricing": {
+        "prompt": 1.635,
+        "completion": 2.75
+      },
+      "alts": {
+        "chat": 26.3
+      }
+    },
+    {
       "id": "gemma-4-31b-reasoning",
       "name": "Gemma 4 31B (Reasoning)",
       "org": "Google",
@@ -10176,26 +10196,6 @@
       "arenaElo": 1371,
       "alts": {
         "chat": 29.4
-      }
-    },
-    {
-      "id": "deepseek-v3-1-terminus-reasoning",
-      "name": "DeepSeek V3.1 Terminus (Reasoning)",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 43.3
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
-      "releaseDate": "2025-09-22",
-      "pricing": {
-        "prompt": 1.635,
-        "completion": 2.75
-      },
-      "alts": {
-        "chat": 26.3
       }
     },
     {
@@ -12072,9 +12072,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1199
+        "image": 1198
       }
     },
     {
@@ -12230,9 +12230,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1155
+        "image": 1154
       },
       "arenaElo": 1130
     },
@@ -12915,9 +12915,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 874
+        "image": 875
       }
     },
     {
@@ -13000,9 +13000,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 78,
+      "delta": 77,
       "scores": {
-        "video": 1402
+        "video": 1401
       },
       "releaseDate": "2026-03-23"
     },
@@ -13142,6 +13142,18 @@
       "releaseDate": "2025-12-15"
     },
     {
+      "id": "kling-3-0-720p-standard",
+      "name": "Kling 3.0 720p (Standard)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 111,
+      "scores": {
+        "video": 1373
+      },
+      "releaseDate": "2026-02-04"
+    },
+    {
       "id": "skyreels-v4",
       "name": "SkyReels V4",
       "org": "Skywork AI",
@@ -13152,18 +13164,6 @@
         "video": 1372
       },
       "releaseDate": "2026-03-18"
-    },
-    {
-      "id": "kling-3-0-720p-standard",
-      "name": "Kling 3.0 720p (Standard)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 110,
-      "scores": {
-        "video": 1372
-      },
-      "releaseDate": "2026-02-04"
     },
     {
       "id": "veo-3-1",
@@ -13564,9 +13564,9 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": 64,
+      "delta": 65,
       "scores": {
-        "video": 1292
+        "video": 1293
       },
       "releaseDate": "2026-04-30"
     },
@@ -15091,7 +15091,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 874
+        "image": 875
       },
       "ranks": {
         "image": 71
@@ -15134,11 +15134,11 @@
       "color": "#2243e6",
       "scores": {
         "chat": 26.3,
-        "code": 43.3
+        "code": 43.5
       },
       "ranks": {
         "chat": 86,
-        "code": 41
+        "code": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
       "releaseDate": "2025-09-22",
@@ -15771,7 +15771,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1199
+        "image": 1198
       },
       "ranks": {
         "image": 5
@@ -17359,7 +17359,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1155
+        "image": 1154
       },
       "ranks": {
         "image": 15
@@ -17419,7 +17419,7 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1292
+        "video": 1293
       },
       "ranks": {
         "video": 46
@@ -18830,10 +18830,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1372
+        "video": 1373
       },
       "ranks": {
-        "video": 17
+        "video": 16
       },
       "releaseDate": "2026-02-04"
     },
@@ -20450,7 +20450,7 @@
       },
       "ranks": {
         "chat": 78,
-        "code": 40
+        "code": 41
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-04-02"
@@ -20926,7 +20926,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1402
+        "video": 1401
       },
       "ranks": {
         "video": 4
@@ -20958,7 +20958,7 @@
         "video": 1372
       },
       "ranks": {
-        "video": 16
+        "video": 17
       },
       "releaseDate": "2026-03-18"
     },
@@ -22821,7 +22821,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (341)",
+    "openrouter": "ok (343)",
     "aa_llm": "ok (549)",
     "aa_image": "ok (158)",
     "aa_video": "ok (223)",
@@ -22830,6 +22830,6 @@
     "arena_image": "ok (72)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1783450834016,
+  "updatedAt": 1783459341858,
   "errors": []
 }
