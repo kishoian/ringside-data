@@ -534,7 +534,7 @@
       "id": "nex-n2-pro",
       "name": "Nex-N2-Pro",
       "org": "Nex AGI",
-      "color": "#f5f6fa",
+      "color": "#0351bc",
       "votes": 0,
       "delta": 0,
       "scores": {
@@ -9636,7 +9636,7 @@
       "id": "nex-n2-pro",
       "name": "Nex-N2-Pro",
       "org": "Nex AGI",
-      "color": "#f5f6fa",
+      "color": "#0351bc",
       "votes": 0,
       "delta": 0,
       "scores": {
@@ -12061,9 +12061,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "image": 1210
+        "image": 1209
       }
     },
     {
@@ -12100,18 +12100,6 @@
       }
     },
     {
-      "id": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1190
-      },
-      "arenaElo": 1099
-    },
-    {
       "id": "mai-image-2",
       "name": "MAI-Image-2",
       "org": "Microsoft AI",
@@ -12122,6 +12110,18 @@
         "image": 1190
       },
       "arenaElo": 1183
+    },
+    {
+      "id": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1189
+      },
+      "arenaElo": 1099
     },
     {
       "id": "flux-2-pro",
@@ -12203,21 +12203,21 @@
       }
     },
     {
-      "id": "qwen-image-max-2512",
-      "name": "Qwen Image Max 2512",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1156
-      }
-    },
-    {
       "id": "flux-2-dev-turbo",
       "name": "FLUX.2 [dev] Turbo",
       "org": "Fal",
       "color": "#FF6B35",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1155
+      }
+    },
+    {
+      "id": "qwen-image-max-2512",
+      "name": "Qwen Image Max 2512",
+      "org": "Alibaba",
+      "color": "#ff7018",
       "votes": 0,
       "delta": -1,
       "scores": {
@@ -12454,17 +12454,6 @@
       }
     },
     {
-      "id": "dreamina-3-1",
-      "name": "Dreamina 3.1",
-      "org": "Bytedance",
-      "color": "#3c8bff",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1088
-      }
-    },
-    {
       "id": "hidream-o1-image-dev",
       "name": "HiDream-O1-Image-Dev",
       "org": "HiDream",
@@ -12476,19 +12465,19 @@
       }
     },
     {
-      "id": "flux1-1-pro",
-      "name": "FLUX1.1 [pro]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
+      "id": "dreamina-3-1",
+      "name": "Dreamina 3.1",
+      "org": "Bytedance",
+      "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1085
+        "image": 1087
       }
     },
     {
-      "id": "flux-2-klein-base-9b",
-      "name": "FLUX.2 [klein] Base 9B",
+      "id": "flux1-1-pro",
+      "name": "FLUX1.1 [pro]",
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
@@ -12498,14 +12487,25 @@
       }
     },
     {
+      "id": "flux-2-klein-base-9b",
+      "name": "FLUX.2 [klein] Base 9B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1083
+      }
+    },
+    {
       "id": "qwen-image-plus-2601",
       "name": "Qwen Image Plus 2601",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1079
+        "image": 1078
       }
     },
     {
@@ -12525,20 +12525,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1075
-      }
-    },
-    {
-      "id": "flux-1-pro",
-      "name": "FLUX.1 [pro]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1070
+        "image": 1074
       }
     },
     {
@@ -12552,6 +12541,17 @@
         "image": 1070
       },
       "arenaElo": 1013
+    },
+    {
+      "id": "flux-1-pro",
+      "name": "FLUX.1 [pro]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1069
+      }
     },
     {
       "id": "luma-photon",
@@ -12593,9 +12593,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1062
+        "image": 1061
       }
     },
     {
@@ -12638,9 +12638,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1054
+        "image": 1053
       }
     },
     {
@@ -12649,9 +12649,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1048
+        "image": 1047
       },
       "arenaElo": 1011
     },
@@ -12667,21 +12667,21 @@
       }
     },
     {
-      "id": "longcat-image",
-      "name": "LongCat Image",
-      "org": "Meituan",
-      "color": "#f8d103",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1032
-      }
-    },
-    {
       "id": "flux-1-krea-dev",
       "name": "FLUX.1 Krea [dev]",
       "org": "Black Forest Labs",
       "color": "#272727",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1031
+      }
+    },
+    {
+      "id": "longcat-image",
+      "name": "LongCat Image",
+      "org": "Meituan",
+      "color": "#f8d103",
       "votes": 0,
       "delta": 0,
       "scores": {
@@ -12705,9 +12705,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1025
+        "image": 1024
       }
     },
     {
@@ -13037,9 +13037,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": 111,
+      "delta": 113,
       "scores": {
-        "video": 1395
+        "video": 1397
       },
       "releaseDate": "2026-01-30"
     },
@@ -14776,7 +14776,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1025
+        "image": 1024
       },
       "ranks": {
         "image": 54
@@ -15790,7 +15790,7 @@
         "image": 1088
       },
       "ranks": {
-        "image": 35
+        "image": 34
       }
     },
     {
@@ -15799,7 +15799,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1079
+        "image": 1078
       },
       "ranks": {
         "image": 38
@@ -16103,7 +16103,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1210
+        "image": 1209
       },
       "ranks": {
         "image": 4
@@ -16119,10 +16119,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1156
+        "image": 1155
       },
       "ranks": {
-        "image": 13
+        "image": 14
       },
       "aliases": [
         "Image Max 2512"
@@ -18709,7 +18709,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1084
+        "image": 1083
       },
       "ranks": {
         "image": 37
@@ -19413,7 +19413,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1075
+        "image": 1074
       },
       "ranks": {
         "image": 40
@@ -19428,10 +19428,10 @@
       "org": "Meituan",
       "color": "#f8d103",
       "scores": {
-        "image": 1032
+        "image": 1031
       },
       "ranks": {
-        "image": 52
+        "image": 53
       }
     },
     {
@@ -20050,10 +20050,10 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1190
+        "image": 1189
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "aliases": [
         "Krea Large 2"
@@ -20080,7 +20080,7 @@
         "image": 1155
       },
       "ranks": {
-        "image": 14
+        "image": 13
       }
     },
     {
@@ -20116,10 +20116,10 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "scores": {
-        "image": 1088
+        "image": 1087
       },
       "ranks": {
-        "image": 34
+        "image": 35
       }
     },
     {
@@ -20848,7 +20848,7 @@
         "image": 1190
       },
       "ranks": {
-        "image": 9
+        "image": 8
       },
       "aliases": [
         "MAI-Image 2"
@@ -20878,7 +20878,7 @@
         "image": 1070
       },
       "ranks": {
-        "image": 42
+        "image": 41
       }
     },
     {
@@ -20902,7 +20902,7 @@
         "image": 1031
       },
       "ranks": {
-        "image": 53
+        "image": 52
       }
     },
     {
@@ -20939,7 +20939,7 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "video": 1395
+        "video": 1397
       },
       "ranks": {
         "video": 7
@@ -21070,7 +21070,7 @@
       "key": "nex-n2-pro",
       "name": "Nex-N2-Pro",
       "org": "Nex AGI",
-      "color": "#f5f6fa",
+      "color": "#0351bc",
       "scores": {
         "chat": 41,
         "code": 59.1
@@ -21764,7 +21764,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1062
+        "image": 1061
       },
       "ranks": {
         "image": 46
@@ -21952,7 +21952,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1054
+        "image": 1053
       },
       "ranks": {
         "image": 50
@@ -22393,7 +22393,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1085
+        "image": 1084
       },
       "ranks": {
         "image": 36
@@ -22619,10 +22619,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1070
+        "image": 1069
       },
       "ranks": {
-        "image": 41
+        "image": 42
       }
     },
     {
@@ -22821,7 +22821,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (343)",
+    "openrouter": "ok (344)",
     "aa_llm": "ok (549)",
     "aa_image": "ok (158)",
     "aa_video": "ok (223)",
@@ -22830,6 +22830,6 @@
     "arena_image": "ok (72)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1783513179747,
+  "updatedAt": 1783524023908,
   "errors": []
 }
