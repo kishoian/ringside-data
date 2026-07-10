@@ -11406,6 +11406,27 @@
       }
     },
     {
+      "id": "gemma-4-31b-non-reasoning",
+      "name": "Gemma 4 31B (Non-reasoning)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": -10.2,
+      "scores": {
+        "code": 33.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
+      "releaseDate": "2026-04-02",
+      "pricing": {
+        "prompt": 0.14,
+        "completion": 0.4
+      },
+      "arenaElo": 1370,
+      "alts": {
+        "chat": 29.4
+      }
+    },
+    {
       "id": "devstral-2",
       "name": "Devstral 2",
       "org": "Mistral",
@@ -12918,9 +12939,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "image": 1195
+        "image": 1196
       }
     },
     {
@@ -12947,18 +12968,6 @@
       "arenaElo": 1099
     },
     {
-      "id": "mai-image-2",
-      "name": "MAI-Image-2",
-      "org": "Microsoft AI",
-      "color": "#5F4E41",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 1188
-      },
-      "arenaElo": 1183
-    },
-    {
       "id": "seedream-4-0",
       "name": "Seedream 4.0",
       "org": "ByteDance Seed",
@@ -12968,6 +12977,18 @@
       "scores": {
         "image": 1188
       }
+    },
+    {
+      "id": "mai-image-2",
+      "name": "MAI-Image-2",
+      "org": "Microsoft AI",
+      "color": "#5F4E41",
+      "votes": 0,
+      "delta": -3,
+      "scores": {
+        "image": 1187
+      },
+      "arenaElo": 1183
     },
     {
       "id": "flux-2-pro",
@@ -13031,9 +13052,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1164
+        "image": 1163
       },
       "arenaElo": 1147
     },
@@ -13060,18 +13081,6 @@
       }
     },
     {
-      "id": "recraft-v4-1-pro",
-      "name": "Recraft V4.1 Pro",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1154
-      },
-      "arenaElo": 1130
-    },
-    {
       "id": "flux-2-dev-turbo",
       "name": "FLUX.2 [dev] Turbo",
       "org": "Fal",
@@ -13081,6 +13090,18 @@
       "scores": {
         "image": 1153
       }
+    },
+    {
+      "id": "recraft-v4-1-pro",
+      "name": "Recraft V4.1 Pro",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1153
+      },
+      "arenaElo": 1130
     },
     {
       "id": "recraft-v4-1",
@@ -13305,9 +13326,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1089
+        "image": 1088
       }
     },
     {
@@ -13495,9 +13516,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1046
+        "image": 1045
       },
       "arenaElo": 1011
     },
@@ -13529,9 +13550,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1030
+        "image": 1029
       }
     },
     {
@@ -16649,7 +16670,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1195
+        "image": 1196
       },
       "ranks": {
         "image": 5
@@ -16665,7 +16686,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1089
+        "image": 1088
       },
       "ranks": {
         "image": 34
@@ -18267,10 +18288,10 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1154
+        "image": 1153
       },
       "ranks": {
-        "image": 14
+        "image": 15
       },
       "aliases": [
         "Recraft Pro V4.1",
@@ -21004,7 +21025,7 @@
         "image": 1188
       },
       "ranks": {
-        "image": 9
+        "image": 8
       }
     },
     {
@@ -21013,7 +21034,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1164
+        "image": 1163
       },
       "ranks": {
         "image": 12
@@ -21028,7 +21049,7 @@
         "image": 1153
       },
       "ranks": {
-        "image": 15
+        "image": 14
       }
     },
     {
@@ -21813,10 +21834,10 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1188
+        "image": 1187
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "aliases": [
         "MAI-Image 2"
@@ -21867,7 +21888,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1030
+        "image": 1029
       },
       "ranks": {
         "image": 53
@@ -23827,6 +23848,6 @@
     "arena_image": "ok (72)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1783671659392,
+  "updatedAt": 1783684215082,
   "errors": []
 }
