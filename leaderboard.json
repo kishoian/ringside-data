@@ -1259,27 +1259,6 @@
       }
     },
     {
-      "id": "kimi-k2-5-reasoning",
-      "name": "Kimi K2.5 (Reasoning)",
-      "org": "Kimi",
-      "color": "#047AFE",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 38.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/kimi_small.png",
-      "releaseDate": "2026-01-27",
-      "pricing": {
-        "prompt": 0.6,
-        "completion": 3
-      },
-      "arenaElo": 1449,
-      "alts": {
-        "code": 46.8
-      }
-    },
-    {
       "id": "gpt-5-2-medium",
       "name": "GPT-5.2 (medium)",
       "org": "OpenAI",
@@ -1622,6 +1601,27 @@
       "arenaElo": 1472,
       "alts": {
         "code": 55.8
+      }
+    },
+    {
+      "id": "kimi-k2-5-reasoning",
+      "name": "Kimi K2.5 (Reasoning)",
+      "org": "Kimi",
+      "color": "#047AFE",
+      "votes": 0,
+      "delta": -2.7,
+      "scores": {
+        "chat": 35.4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/kimi_small.png",
+      "releaseDate": "2026-01-27",
+      "pricing": {
+        "prompt": 0.6,
+        "completion": 3
+      },
+      "arenaElo": 1449,
+      "alts": {
+        "code": 46.8
       }
     },
     {
@@ -10928,7 +10928,7 @@
       },
       "arenaElo": 1433,
       "alts": {
-        "chat": 38.1
+        "chat": 35.4
       }
     },
     {
@@ -11675,6 +11675,26 @@
       },
       "alts": {
         "chat": 21.4
+      }
+    },
+    {
+      "id": "qwen3-6-35b-a3b-non-reasoning",
+      "name": "Qwen3.6 35B A3B (Non-reasoning)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -13.8,
+      "scores": {
+        "code": 28.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-04-16",
+      "pricing": {
+        "prompt": 0.375,
+        "completion": 2.25
+      },
+      "alts": {
+        "chat": 31.6
       }
     },
     {
@@ -13257,9 +13277,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -37,
+      "delta": -38,
       "scores": {
-        "image": 1153
+        "image": 1152
       }
     },
     {
@@ -13619,9 +13639,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1063
+        "image": 1062
       }
     },
     {
@@ -13830,9 +13850,9 @@
       "org": "StepFun",
       "color": "#017AFF",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 975
+        "image": 974
       }
     },
     {
@@ -13999,18 +14019,6 @@
       "releaseDate": "2026-05-30"
     },
     {
-      "id": "grok-imagine-video",
-      "name": "grok-imagine-video",
-      "org": "SpaceXAI",
-      "color": "#736cd3",
-      "votes": 0,
-      "delta": -5,
-      "scores": {
-        "video": 1401
-      },
-      "releaseDate": "2026-01-27"
-    },
-    {
       "id": "kling-2-5-turbo-1080p",
       "name": "Kling 2.5 Turbo 1080p",
       "org": "KlingAI",
@@ -14022,6 +14030,18 @@
       },
       "releaseDate": "2025-09-23",
       "arenaElo": 1219
+    },
+    {
+      "id": "grok-imagine-video",
+      "name": "grok-imagine-video",
+      "org": "SpaceXAI",
+      "color": "#736cd3",
+      "votes": 0,
+      "delta": -6,
+      "scores": {
+        "video": 1400
+      },
+      "releaseDate": "2026-01-27"
     },
     {
       "id": "pixverse-v6",
@@ -14049,6 +14069,19 @@
       "arenaElo": 1241
     },
     {
+      "id": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 5,
+      "scores": {
+        "video": 1389
+      },
+      "releaseDate": "2026-04-07",
+      "arenaElo": 1430
+    },
+    {
       "id": "runway-gen-4-5",
       "name": "Runway Gen-4.5",
       "org": "Runway",
@@ -14060,19 +14093,6 @@
       },
       "releaseDate": "2025-12-01",
       "arenaElo": 1228
-    },
-    {
-      "id": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 4,
-      "scores": {
-        "video": 1388
-      },
-      "releaseDate": "2026-04-07",
-      "arenaElo": 1430
     },
     {
       "id": "wan2-7-260612",
@@ -14092,9 +14112,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "video": 1384
+        "video": 1383
       },
       "releaseDate": "2026-01-30"
     },
@@ -14330,18 +14350,6 @@
       "arenaElo": 1197
     },
     {
-      "id": "hailuo-2-3-fast",
-      "name": "Hailuo 2.3 Fast",
-      "org": "MiniMax",
-      "color": "#EB3568",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1330
-      },
-      "releaseDate": "2025-10-28"
-    },
-    {
       "id": "kling-o1-standard-january",
       "name": "Kling O1 Standard (January)",
       "org": "KlingAI",
@@ -14364,6 +14372,18 @@
         "video": 1327
       },
       "releaseDate": "2025-12-01"
+    },
+    {
+      "id": "hailuo-2-3-fast",
+      "name": "Hailuo 2.3 Fast",
+      "org": "MiniMax",
+      "color": "#EB3568",
+      "votes": 0,
+      "delta": -4,
+      "scores": {
+        "video": 1327
+      },
+      "releaseDate": "2025-10-28"
     },
     {
       "id": "hailuo-02-standard",
@@ -14453,6 +14473,18 @@
       "arenaElo": 1252
     },
     {
+      "id": "cosmos3-super-image2video",
+      "name": "Cosmos3-Super-Image2Video",
+      "org": "NVIDIA",
+      "color": "#86b737",
+      "votes": 0,
+      "delta": 7,
+      "scores": {
+        "video": 1318
+      },
+      "releaseDate": "2026-05-31"
+    },
+    {
       "id": "vidu-q2-turbo",
       "name": "Vidu Q2 Turbo",
       "org": "Vidu",
@@ -14475,18 +14507,6 @@
         "video": 1316
       },
       "releaseDate": "2025-10-16"
-    },
-    {
-      "id": "cosmos3-super-image2video",
-      "name": "Cosmos3-Super-Image2Video",
-      "org": "NVIDIA",
-      "color": "#86b737",
-      "votes": 0,
-      "delta": 5,
-      "scores": {
-        "video": 1316
-      },
-      "releaseDate": "2026-05-31"
     },
     {
       "id": "kling-2-6-pro-december",
@@ -14633,9 +14653,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "video": 1276
+        "video": 1275
       },
       "releaseDate": "2025-06-18"
     },
@@ -14756,9 +14776,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1232
+        "video": 1231
       },
       "releaseDate": "2025-06-01"
     },
@@ -15737,7 +15757,7 @@
         "code": 49.3
       },
       "ranks": {
-        "chat": 45,
+        "chat": 44,
         "code": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
@@ -15941,10 +15961,10 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "scores": {
-        "video": 1316
+        "video": 1318
       },
       "ranks": {
-        "video": 40
+        "video": 38
       },
       "releaseDate": "2026-05-31"
     },
@@ -16171,7 +16191,7 @@
         "chat": 37.8
       },
       "ranks": {
-        "chat": 46
+        "chat": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-12-17"
@@ -17557,7 +17577,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1232
+        "video": 1231
       },
       "ranks": {
         "video": 59
@@ -17660,7 +17680,7 @@
         "chat": 37
       },
       "ranks": {
-        "chat": 50
+        "chat": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-04-07"
@@ -17674,7 +17694,7 @@
         "chat": 36.4
       },
       "ranks": {
-        "chat": 53
+        "chat": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2026-03-27",
@@ -17693,7 +17713,7 @@
         "code": 52.1
       },
       "ranks": {
-        "chat": 54,
+        "chat": 53,
         "code": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
@@ -18000,7 +18020,7 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "image": 975
+        "image": 974
       },
       "ranks": {
         "image": 61
@@ -18028,7 +18048,7 @@
         "video": 1329
       },
       "ranks": {
-        "video": 32
+        "video": 31
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -19168,10 +19188,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1330
+        "video": 1327
       },
       "ranks": {
-        "video": 31
+        "video": 32
       },
       "releaseDate": "2025-10-28",
       "aliases": [
@@ -19203,7 +19223,7 @@
         "video": 1316
       },
       "ranks": {
-        "video": 39
+        "video": 40
       },
       "releaseDate": "2025-10-16",
       "aliases": [
@@ -19311,7 +19331,7 @@
         "chat": 36.5
       },
       "ranks": {
-        "chat": 52
+        "chat": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-03-10"
@@ -19832,7 +19852,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1063
+        "image": 1062
       },
       "ranks": {
         "image": 45
@@ -19883,6 +19903,23 @@
       ]
     },
     {
+      "key": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "scores": {
+        "video": 1389
+      },
+      "ranks": {
+        "video": 8
+      },
+      "releaseDate": "2026-04-07",
+      "aliases": [
+        "HappyHorse 1.0",
+        "HappyHorse1.0"
+      ]
+    },
+    {
       "key": "runway-gen-4-5",
       "name": "Runway Gen-4.5",
       "org": "Runway",
@@ -19891,7 +19928,7 @@
         "video": 1389
       },
       "ranks": {
-        "video": 8
+        "video": 9
       },
       "releaseDate": "2025-12-01",
       "aliases": [
@@ -19900,23 +19937,6 @@
         "Runway Gen4.5",
         "Gen 4.5",
         "Gen4.5"
-      ]
-    },
-    {
-      "key": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "scores": {
-        "video": 1388
-      },
-      "ranks": {
-        "video": 9
-      },
-      "releaseDate": "2026-04-07",
-      "aliases": [
-        "HappyHorse 1.0",
-        "HappyHorse1.0"
       ]
     },
     {
@@ -19951,7 +19971,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1276
+        "video": 1275
       },
       "ranks": {
         "video": 51
@@ -20646,7 +20666,7 @@
         "video": 1317
       },
       "ranks": {
-        "video": 38
+        "video": 39
       },
       "releaseDate": "2025-09-29",
       "aliases": [
@@ -21524,7 +21544,7 @@
         "code": 53.7
       },
       "ranks": {
-        "chat": 49,
+        "chat": 48,
         "code": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
@@ -21539,7 +21559,7 @@
         "chat": 36.1
       },
       "ranks": {
-        "chat": 55
+        "chat": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-09-23",
@@ -22095,7 +22115,7 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "video": 1384
+        "video": 1383
       },
       "ranks": {
         "video": 11
@@ -22681,25 +22701,6 @@
       ]
     },
     {
-      "key": "kimi-k2-5",
-      "name": "Kimi K2.5",
-      "org": "Kimi",
-      "color": "#047AFE",
-      "scores": {
-        "chat": 38.1,
-        "code": 46.8
-      },
-      "ranks": {
-        "chat": 44,
-        "code": 43
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/kimi_small.png",
-      "releaseDate": "2026-01-27",
-      "aliases": [
-        "K2.5"
-      ]
-    },
-    {
       "key": "mimo-v2-5",
       "name": "MiMo-V2.5",
       "org": "Xiaomi",
@@ -22709,11 +22710,30 @@
         "code": 56.8
       },
       "ranks": {
-        "chat": 48,
+        "chat": 47,
         "code": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2026-04-22"
+    },
+    {
+      "key": "kimi-k2-5",
+      "name": "Kimi K2.5",
+      "org": "Kimi",
+      "color": "#047AFE",
+      "scores": {
+        "chat": 35.4,
+        "code": 46.8
+      },
+      "ranks": {
+        "chat": 55,
+        "code": 43
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/kimi_small.png",
+      "releaseDate": "2026-01-27",
+      "aliases": [
+        "K2.5"
+      ]
     },
     {
       "key": "qwen3-max",
@@ -23008,7 +23028,7 @@
         "code": 42.2
       },
       "ranks": {
-        "chat": 47,
+        "chat": 46,
         "code": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
@@ -23308,7 +23328,7 @@
         "code": 49.4
       },
       "ranks": {
-        "chat": 51,
+        "chat": 50,
         "code": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
@@ -23999,7 +24019,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (342)",
+    "openrouter": "ok (344)",
     "aa_llm": "ok (574)",
     "aa_image": "ok (154)",
     "aa_video": "ok (237)",
@@ -24008,6 +24028,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1783995765727,
+  "updatedAt": 1784006896645,
   "errors": []
 }
