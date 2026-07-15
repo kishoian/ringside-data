@@ -13172,9 +13172,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1192
+        "image": 1191
       }
     },
     {
@@ -13188,17 +13188,6 @@
         "image": 1187
       },
       "arenaElo": 1183
-    },
-    {
-      "id": "flux-2-pro",
-      "name": "FLUX.2 [pro]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "image": 1186
-      }
     },
     {
       "id": "krea-2-large",
@@ -13221,6 +13210,17 @@
       "delta": -2,
       "scores": {
         "image": 1186
+      }
+    },
+    {
+      "id": "flux-2-pro",
+      "name": "FLUX.2 [pro]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -5,
+      "scores": {
+        "image": 1185
       }
     },
     {
@@ -13838,9 +13838,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1007
+        "image": 1006
       }
     },
     {
@@ -14113,6 +14113,19 @@
       "arenaElo": 1241
     },
     {
+      "id": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 5,
+      "scores": {
+        "video": 1389
+      },
+      "releaseDate": "2026-04-07",
+      "arenaElo": 1430
+    },
+    {
       "id": "runway-gen-4-5",
       "name": "Runway Gen-4.5",
       "org": "Runway",
@@ -14126,27 +14139,14 @@
       "arenaElo": 1228
     },
     {
-      "id": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 4,
-      "scores": {
-        "video": 1388
-      },
-      "releaseDate": "2026-04-07",
-      "arenaElo": 1430
-    },
-    {
       "id": "wan2-7-260612",
       "name": "Wan2.7-260612",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 4,
+      "delta": 5,
       "scores": {
-        "video": 1384
+        "video": 1385
       },
       "releaseDate": "2026-06-12"
     },
@@ -14648,9 +14648,9 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "video": 1280
+        "video": 1279
       },
       "releaseDate": "2026-04-30"
     },
@@ -14808,9 +14808,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1232
+        "video": 1231
       },
       "releaseDate": "2025-06-01"
     },
@@ -15111,9 +15111,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 1,
+      "delta": -1,
       "scores": {
-        "video": 1090
+        "video": 1088
       },
       "releaseDate": "2024-09-19"
     },
@@ -17609,7 +17609,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1232
+        "video": 1231
       },
       "ranks": {
         "video": 59
@@ -18025,7 +18025,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1007
+        "image": 1006
       },
       "ranks": {
         "image": 58
@@ -18560,7 +18560,7 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1280
+        "video": 1279
       },
       "ranks": {
         "video": 48
@@ -19935,6 +19935,23 @@
       ]
     },
     {
+      "key": "happyhorse-1-0",
+      "name": "HappyHorse-1.0",
+      "org": "Alibaba-ATH",
+      "color": "#ff7018",
+      "scores": {
+        "video": 1389
+      },
+      "ranks": {
+        "video": 9
+      },
+      "releaseDate": "2026-04-07",
+      "aliases": [
+        "HappyHorse 1.0",
+        "HappyHorse1.0"
+      ]
+    },
+    {
       "key": "runway-gen-4-5",
       "name": "Runway Gen-4.5",
       "org": "Runway",
@@ -19943,7 +19960,7 @@
         "video": 1389
       },
       "ranks": {
-        "video": 9
+        "video": 10
       },
       "releaseDate": "2025-12-01",
       "aliases": [
@@ -19952,23 +19969,6 @@
         "Runway Gen4.5",
         "Gen 4.5",
         "Gen4.5"
-      ]
-    },
-    {
-      "key": "happyhorse-1-0",
-      "name": "HappyHorse-1.0",
-      "org": "Alibaba-ATH",
-      "color": "#ff7018",
-      "scores": {
-        "video": 1388
-      },
-      "ranks": {
-        "video": 10
-      },
-      "releaseDate": "2026-04-07",
-      "aliases": [
-        "HappyHorse 1.0",
-        "HappyHorse1.0"
       ]
     },
     {
@@ -20633,7 +20633,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1384
+        "video": 1385
       },
       "ranks": {
         "video": 11
@@ -20798,7 +20798,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1090
+        "video": 1088
       },
       "ranks": {
         "video": 82
@@ -23837,7 +23837,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1192
+        "image": 1191
       },
       "ranks": {
         "image": 6
@@ -24076,6 +24076,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784126930757,
+  "updatedAt": 1784132415559,
   "errors": []
 }
