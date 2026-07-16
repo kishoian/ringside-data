@@ -226,7 +226,7 @@
         "prompt": 5,
         "completion": 25
       },
-      "arenaElo": 1502,
+      "arenaElo": 1503,
       "alts": {
         "code": 73.6
       }
@@ -247,7 +247,7 @@
         "prompt": 2,
         "completion": 10
       },
-      "arenaElo": 1462,
+      "arenaElo": 1461,
       "alts": {
         "code": 71.5
       }
@@ -496,7 +496,7 @@
         "prompt": 3,
         "completion": 15
       },
-      "arenaElo": 1472,
+      "arenaElo": 1471,
       "alts": {
         "code": 63
       }
@@ -755,7 +755,7 @@
         "prompt": 5,
         "completion": 25
       },
-      "arenaElo": 1502,
+      "arenaElo": 1503,
       "alts": {
         "code": 73.6
       }
@@ -835,7 +835,7 @@
         "prompt": 2,
         "completion": 10
       },
-      "arenaElo": 1462,
+      "arenaElo": 1461,
       "alts": {
         "code": 71.5
       }
@@ -955,7 +955,7 @@
         "prompt": 1.87,
         "completion": 4.68
       },
-      "arenaElo": 1447,
+      "arenaElo": 1441,
       "alts": {
         "code": 52.1
       }
@@ -1431,7 +1431,7 @@
         "prompt": 0.14,
         "completion": 0.28
       },
-      "arenaElo": 1433,
+      "arenaElo": 1432,
       "alts": {
         "code": 56.8
       }
@@ -1598,7 +1598,7 @@
         "prompt": 3,
         "completion": 15
       },
-      "arenaElo": 1472,
+      "arenaElo": 1471,
       "alts": {
         "code": 63
       }
@@ -1661,7 +1661,7 @@
         "prompt": 0.6,
         "completion": 3
       },
-      "arenaElo": 1449,
+      "arenaElo": 1450,
       "alts": {
         "code": 46.8
       }
@@ -1810,7 +1810,7 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-04-01",
-      "arenaElo": 1438
+      "arenaElo": 1439
     },
     {
       "id": "claude-sonnet-4-6-non-reasoning-low-effort",
@@ -1828,7 +1828,7 @@
         "prompt": 3,
         "completion": 15
       },
-      "arenaElo": 1472,
+      "arenaElo": 1471,
       "alts": {
         "code": 63
       }
@@ -1929,7 +1929,7 @@
         "prompt": 0.3,
         "completion": 1.2
       },
-      "arenaElo": 1390
+      "arenaElo": 1391
     },
     {
       "id": "gpt-5-medium",
@@ -2645,7 +2645,7 @@
         "prompt": 0.6,
         "completion": 3
       },
-      "arenaElo": 1449,
+      "arenaElo": 1450,
       "alts": {
         "code": 46.8
       }
@@ -4026,7 +4026,7 @@
         "prompt": 0.7,
         "completion": 8.4
       },
-      "arenaElo": 1396
+      "arenaElo": 1395
     },
     {
       "id": "apriel-v1-6-15b-thinker",
@@ -4569,7 +4569,7 @@
         "prompt": 1.5,
         "completion": 7.5
       },
-      "arenaElo": 1387
+      "arenaElo": 1388
     },
     {
       "id": "magistral-medium-1-2",
@@ -4876,7 +4876,7 @@
         "prompt": 0.5,
         "completion": 6
       },
-      "arenaElo": 1369,
+      "arenaElo": 1370,
       "alts": {
         "code": 17.4
       }
@@ -13331,21 +13331,21 @@
       "arenaElo": 1173
     },
     {
-      "id": "qwen-image-2-0-pro-2026-04-22",
-      "name": "Qwen Image 2.0 Pro (2026-04-22)",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1169
-      }
-    },
-    {
       "id": "imagen-4-ultra",
       "name": "Imagen 4 Ultra",
       "org": "Google",
       "color": "#34A853",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1168
+      }
+    },
+    {
+      "id": "qwen-image-2-0-pro-2026-04-22",
+      "name": "Qwen Image 2.0 Pro (2026-04-22)",
+      "org": "Alibaba",
+      "color": "#ff7018",
       "votes": 0,
       "delta": -2,
       "scores": {
@@ -13365,18 +13365,6 @@
       "arenaElo": 1147
     },
     {
-      "id": "recraft-v4-1-pro",
-      "name": "Recraft V4.1 Pro",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1153
-      },
-      "arenaElo": 1130
-    },
-    {
       "id": "qwen-image-max-2512",
       "name": "Qwen Image Max 2512",
       "org": "Alibaba",
@@ -13386,6 +13374,18 @@
       "scores": {
         "image": 1152
       }
+    },
+    {
+      "id": "recraft-v4-1-pro",
+      "name": "Recraft V4.1 Pro",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1152
+      },
+      "arenaElo": 1130
     },
     {
       "id": "flux-2-dev",
@@ -13483,22 +13483,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1117
-      }
-    },
-    {
-      "id": "seedream-5-0-lite",
-      "name": "Seedream 5.0 Lite",
-      "org": "Bytedance",
-      "color": "#3c8bff",
-      "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
         "image": 1116
-      },
-      "arenaElo": 1133
+      }
     },
     {
       "id": "lucid-origin-ultra",
@@ -13510,6 +13498,18 @@
       "scores": {
         "image": 1115
       }
+    },
+    {
+      "id": "seedream-5-0-lite",
+      "name": "Seedream 5.0 Lite",
+      "org": "Bytedance",
+      "color": "#3c8bff",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1115
+      },
+      "arenaElo": 1133
     },
     {
       "id": "hunyuanimage-3-0-instruct-fal",
@@ -13665,9 +13665,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "image": 1081
+        "image": 1080
       }
     },
     {
@@ -13845,9 +13845,9 @@
       "org": "Meituan",
       "color": "#f8d103",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1028
+        "image": 1029
       }
     },
     {
@@ -13873,23 +13873,23 @@
       }
     },
     {
-      "id": "stable-diffusion-3-5-large",
-      "name": "Stable Diffusion 3.5 Large",
-      "org": "Stability.ai",
-      "color": "#2F0463",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1020
-      }
-    },
-    {
       "id": "stable-diffusion-3-5-large-turbo",
       "name": "Stable Diffusion 3.5 Large Turbo",
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
       "delta": 0,
+      "scores": {
+        "image": 1019
+      }
+    },
+    {
+      "id": "stable-diffusion-3-5-large",
+      "name": "Stable Diffusion 3.5 Large",
+      "org": "Stability.ai",
+      "color": "#2F0463",
+      "votes": 0,
+      "delta": -2,
       "scores": {
         "image": 1019
       }
@@ -14116,9 +14116,9 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -4,
+      "delta": -3,
       "scores": {
-        "video": 1422
+        "video": 1423
       },
       "releaseDate": "2026-06-22"
     },
@@ -14140,24 +14140,11 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 50,
+      "delta": 46,
       "scores": {
-        "video": 1405
+        "video": 1401
       },
       "releaseDate": "2026-04-25"
-    },
-    {
-      "id": "kling-2-5-turbo-1080p",
-      "name": "Kling 2.5 Turbo 1080p",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1400
-      },
-      "releaseDate": "2025-09-23",
-      "arenaElo": 1219
     },
     {
       "id": "grok-imagine-video",
@@ -14170,6 +14157,19 @@
         "video": 1399
       },
       "releaseDate": "2026-01-27"
+    },
+    {
+      "id": "kling-2-5-turbo-1080p",
+      "name": "Kling 2.5 Turbo 1080p",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "video": 1399
+      },
+      "releaseDate": "2025-09-23",
+      "arenaElo": 1219
     },
     {
       "id": "pixverse-v6",
@@ -14228,9 +14228,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 4,
+      "delta": 6,
       "scores": {
-        "video": 1384
+        "video": 1386
       },
       "releaseDate": "2026-06-12"
     },
@@ -14252,9 +14252,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "video": 1380
+        "video": 1381
       },
       "releaseDate": "2026-01-13"
     },
@@ -14676,19 +14676,6 @@
       "arenaElo": 1205
     },
     {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -6,
-      "scores": {
-        "video": 1296
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
-    },
-    {
       "id": "kling-2-1-master",
       "name": "Kling 2.1 Master",
       "org": "KlingAI",
@@ -14711,6 +14698,19 @@
         "video": 1294
       },
       "releaseDate": "2025-06-09"
+    },
+    {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -14,
+      "scores": {
+        "video": 1288
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
     },
     {
       "id": "wan-2-6",
@@ -15062,9 +15062,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "video": 1128
+        "video": 1129
       },
       "releaseDate": "2026-05-21"
     },
@@ -15327,9 +15327,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1014
+        "video": 1013
       },
       "releaseDate": "2024-06-01"
     },
@@ -15363,9 +15363,9 @@
       "org": "StepFun",
       "color": "#017AFF",
       "votes": 0,
-      "delta": -1,
+      "delta": -4,
       "scores": {
-        "video": 986
+        "video": 983
       },
       "releaseDate": "2025-02-17"
     },
@@ -15496,7 +15496,7 @@
         "image": 1019
       },
       "ranks": {
-        "image": 55
+        "image": 54
       }
     },
     {
@@ -15941,10 +15941,10 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1020
+        "image": 1019
       },
       "ranks": {
-        "image": 54
+        "image": 55
       }
     },
     {
@@ -16721,7 +16721,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1400
+        "video": 1399
       },
       "ranks": {
         "video": 6
@@ -17307,7 +17307,7 @@
         "image": 1152
       },
       "ranks": {
-        "image": 14
+        "image": 13
       },
       "aliases": [
         "Image Max 2512"
@@ -17603,10 +17603,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1169
+        "image": 1168
       },
       "ranks": {
-        "image": 10
+        "image": 11
       },
       "aliases": [
         "Image 2.0 Pro"
@@ -17621,7 +17621,7 @@
         "image": 1115
       },
       "ranks": {
-        "image": 24
+        "image": 23
       }
     },
     {
@@ -17661,7 +17661,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1380
+        "video": 1381
       },
       "ranks": {
         "video": 13
@@ -18051,10 +18051,10 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "scores": {
-        "image": 1116
+        "image": 1115
       },
       "ranks": {
-        "image": 23
+        "image": 24
       },
       "aliases": [
         "Seedream Lite 5.0"
@@ -18584,10 +18584,10 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1153
+        "image": 1152
       },
       "ranks": {
-        "image": 13
+        "image": 14
       },
       "aliases": [
         "Recraft Pro V4.1",
@@ -19897,7 +19897,7 @@
         "image": 1168
       },
       "ranks": {
-        "image": 11
+        "image": 10
       },
       "aliases": [
         "Imagen Ultra 4"
@@ -19953,7 +19953,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1081
+        "image": 1080
       },
       "ranks": {
         "image": 37
@@ -20007,7 +20007,7 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "scores": {
-        "video": 1422
+        "video": 1423
       },
       "ranks": {
         "video": 3
@@ -20103,7 +20103,7 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "video": 986
+        "video": 983
       },
       "ranks": {
         "video": 96
@@ -20692,7 +20692,7 @@
       "org": "Meituan",
       "color": "#f8d103",
       "scores": {
-        "image": 1028
+        "image": 1029
       },
       "ranks": {
         "image": 52
@@ -20717,7 +20717,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1384
+        "video": 1386
       },
       "ranks": {
         "video": 11
@@ -23049,7 +23049,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1117
+        "image": 1116
       },
       "ranks": {
         "image": 22
@@ -23114,7 +23114,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1128
+        "video": 1129
       },
       "ranks": {
         "video": 72
@@ -23127,7 +23127,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1014
+        "video": 1013
       },
       "ranks": {
         "video": 93
@@ -23747,7 +23747,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1405
+        "video": 1401
       },
       "ranks": {
         "video": 5
@@ -24176,6 +24176,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784232102627,
+  "updatedAt": 1784239364395,
   "errors": []
 }
