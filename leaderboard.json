@@ -13218,6 +13218,18 @@
       }
     },
     {
+      "id": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1185
+      },
+      "arenaElo": 1100
+    },
+    {
       "id": "mai-image-2",
       "name": "MAI-Image-2",
       "org": "Microsoft AI",
@@ -13250,18 +13262,6 @@
       "scores": {
         "image": 1184
       }
-    },
-    {
-      "id": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "image": 1184
-      },
-      "arenaElo": 1100
     },
     {
       "id": "flux-2-flex",
@@ -13377,23 +13377,23 @@
       }
     },
     {
+      "id": "recraft-v4-pro",
+      "name": "Recraft V4 Pro",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1133
+      }
+    },
+    {
       "id": "flux-2-dev-flash",
       "name": "FLUX.2 [dev] Flash",
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
       "delta": -3,
-      "scores": {
-        "image": 1132
-      }
-    },
-    {
-      "id": "recraft-v4-pro",
-      "name": "Recraft V4 Pro",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
       "scores": {
         "image": 1132
       }
@@ -13922,9 +13922,9 @@
       "org": "StepFun",
       "color": "#017AFF",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 973
+        "image": 974
       }
     },
     {
@@ -18092,7 +18092,7 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "image": 973
+        "image": 974
       },
       "ranks": {
         "image": 61
@@ -19865,10 +19865,10 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1132
+        "image": 1133
       },
       "ranks": {
-        "image": 18
+        "image": 17
       },
       "aliases": [
         "Recraft Pro V4",
@@ -21261,6 +21261,21 @@
       "releaseDate": "2025-08-14"
     },
     {
+      "key": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "scores": {
+        "image": 1185
+      },
+      "ranks": {
+        "image": 7
+      },
+      "aliases": [
+        "Krea Large 2"
+      ]
+    },
+    {
       "key": "seedream-4-0",
       "name": "Seedream 4.0",
       "org": "ByteDance Seed",
@@ -21269,23 +21284,8 @@
         "image": 1185
       },
       "ranks": {
-        "image": 8
-      }
-    },
-    {
-      "key": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "scores": {
-        "image": 1184
-      },
-      "ranks": {
         "image": 9
-      },
-      "aliases": [
-        "Krea Large 2"
-      ]
+      }
     },
     {
       "key": "seedream-4-5",
@@ -21335,7 +21335,7 @@
         "image": 1132
       },
       "ranks": {
-        "image": 17
+        "image": 18
       }
     },
     {
@@ -22112,7 +22112,7 @@
         "image": 1185
       },
       "ranks": {
-        "image": 7
+        "image": 8
       },
       "aliases": [
         "MAI-Image 2"
@@ -24116,6 +24116,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784189407394,
+  "updatedAt": 1784199486061,
   "errors": []
 }
