@@ -13199,9 +13199,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1335
+        "image": 1336
       },
       "arenaElo": 1385
     },
@@ -13222,9 +13222,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1216
+        "image": 1217
       },
       "arenaElo": 1245
     },
@@ -13234,9 +13234,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1203
+        "image": 1204
       }
     },
     {
@@ -13256,9 +13256,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1190
+        "image": 1189
       }
     },
     {
@@ -13267,11 +13267,22 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1185
+        "image": 1186
       },
       "arenaElo": 1100
+    },
+    {
+      "id": "seedream-4-0",
+      "name": "Seedream 4.0",
+      "org": "ByteDance Seed",
+      "color": "#3c8bff",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1186
+      }
     },
     {
       "id": "mai-image-2",
@@ -13284,17 +13295,6 @@
         "image": 1185
       },
       "arenaElo": 1183
-    },
-    {
-      "id": "seedream-4-0",
-      "name": "Seedream 4.0",
-      "org": "ByteDance Seed",
-      "color": "#3c8bff",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "image": 1185
-      }
     },
     {
       "id": "flux-2-pro",
@@ -13313,9 +13313,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -14,
+      "delta": -15,
       "scores": {
-        "image": 1176
+        "image": 1175
       }
     },
     {
@@ -13331,21 +13331,21 @@
       "arenaElo": 1173
     },
     {
-      "id": "qwen-image-2-0-pro-2026-04-22",
-      "name": "Qwen Image 2.0 Pro (2026-04-22)",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1170
-      }
-    },
-    {
       "id": "imagen-4-ultra",
       "name": "Imagen 4 Ultra",
       "org": "Google",
       "color": "#34A853",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1169
+      }
+    },
+    {
+      "id": "qwen-image-2-0-pro-2026-04-22",
+      "name": "Qwen Image 2.0 Pro (2026-04-22)",
+      "org": "Alibaba",
+      "color": "#ff7018",
       "votes": 0,
       "delta": -1,
       "scores": {
@@ -13404,9 +13404,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1150
+        "image": 1149
       }
     },
     {
@@ -13460,9 +13460,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1127
+        "image": 1128
       },
       "arenaElo": 1115
     },
@@ -13599,9 +13599,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1097
+        "image": 1096
       }
     },
     {
@@ -13739,17 +13739,6 @@
       "arenaElo": 1021
     },
     {
-      "id": "hidream-i1-dev",
-      "name": "HiDream-I1-Dev",
-      "org": "HiDream",
-      "color": "#1d8eff",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1062
-      }
-    },
-    {
       "id": "luma-photon",
       "name": "Luma Photon",
       "org": "Luma Labs",
@@ -13758,6 +13747,17 @@
       "delta": -2,
       "scores": {
         "image": 1062
+      }
+    },
+    {
+      "id": "hidream-i1-dev",
+      "name": "HiDream-I1-Dev",
+      "org": "HiDream",
+      "color": "#1d8eff",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1061
       }
     },
     {
@@ -13811,9 +13811,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1050
+        "image": 1051
       }
     },
     {
@@ -13840,23 +13840,23 @@
       }
     },
     {
+      "id": "longcat-image",
+      "name": "LongCat Image",
+      "org": "Meituan",
+      "color": "#f8d103",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1028
+      }
+    },
+    {
       "id": "flux-1-krea-dev",
       "name": "FLUX.1 Krea [dev]",
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
       "delta": -1,
-      "scores": {
-        "image": 1027
-      }
-    },
-    {
-      "id": "longcat-image",
-      "name": "LongCat Image",
-      "org": "Meituan",
-      "color": "#f8d103",
-      "votes": 0,
-      "delta": -2,
       "scores": {
         "image": 1027
       }
@@ -13889,9 +13889,9 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1018
+        "image": 1019
       }
     },
     {
@@ -13955,9 +13955,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 973
+        "image": 974
       }
     },
     {
@@ -15493,7 +15493,7 @@
       "org": "Stability.ai",
       "color": "#2F0463",
       "scores": {
-        "image": 1018
+        "image": 1019
       },
       "ranks": {
         "image": 55
@@ -17288,7 +17288,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1203
+        "image": 1204
       },
       "ranks": {
         "image": 4
@@ -17603,10 +17603,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1170
+        "image": 1169
       },
       "ranks": {
-        "image": 10
+        "image": 11
       },
       "aliases": [
         "Image 2.0 Pro"
@@ -18078,7 +18078,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1097
+        "image": 1096
       },
       "ranks": {
         "image": 32
@@ -19239,7 +19239,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1216
+        "image": 1217
       },
       "ranks": {
         "image": 3
@@ -19897,7 +19897,7 @@
         "image": 1169
       },
       "ranks": {
-        "image": 11
+        "image": 10
       },
       "aliases": [
         "Imagen Ultra 4"
@@ -19968,10 +19968,10 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1062
+        "image": 1061
       },
       "ranks": {
-        "image": 44
+        "image": 45
       }
     },
     {
@@ -20692,10 +20692,10 @@
       "org": "Meituan",
       "color": "#f8d103",
       "scores": {
-        "image": 1027
+        "image": 1028
       },
       "ranks": {
-        "image": 53
+        "image": 52
       }
     },
     {
@@ -21310,7 +21310,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1185
+        "image": 1186
       },
       "ranks": {
         "image": 7
@@ -21325,10 +21325,10 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1185
+        "image": 1186
       },
       "ranks": {
-        "image": 9
+        "image": 8
       }
     },
     {
@@ -21349,7 +21349,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1150
+        "image": 1149
       },
       "ranks": {
         "image": 15
@@ -22138,7 +22138,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1335
+        "image": 1336
       },
       "ranks": {
         "image": 1
@@ -22156,7 +22156,7 @@
         "image": 1185
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "aliases": [
         "MAI-Image 2"
@@ -22168,7 +22168,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1127
+        "image": 1128
       },
       "ranks": {
         "image": 20
@@ -22198,7 +22198,7 @@
         "image": 1062
       },
       "ranks": {
-        "image": 45
+        "image": 44
       }
     },
     {
@@ -22210,7 +22210,7 @@
         "image": 1027
       },
       "ranks": {
-        "image": 52
+        "image": 53
       }
     },
     {
@@ -22219,7 +22219,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 973
+        "image": 974
       },
       "ranks": {
         "image": 60
@@ -23278,7 +23278,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1050
+        "image": 1051
       },
       "ranks": {
         "image": 50
@@ -23937,7 +23937,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1190
+        "image": 1189
       },
       "ranks": {
         "image": 6
@@ -24176,6 +24176,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784258059792,
+  "updatedAt": 1784268807779,
   "errors": []
 }
