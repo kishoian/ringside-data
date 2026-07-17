@@ -13189,9 +13189,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1256
+        "image": 1257
       }
     },
     {
@@ -13354,6 +13354,18 @@
       }
     },
     {
+      "id": "recraft-v4-1-pro",
+      "name": "Recraft V4.1 Pro",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1152
+      },
+      "arenaElo": 1130
+    },
+    {
       "id": "flux-2-dev",
       "name": "FLUX.2 [dev]",
       "org": "Black Forest Labs",
@@ -13363,18 +13375,6 @@
       "scores": {
         "image": 1151
       }
-    },
-    {
-      "id": "recraft-v4-1-pro",
-      "name": "Recraft V4.1 Pro",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1151
-      },
-      "arenaElo": 1130
     },
     {
       "id": "flux-2-dev-turbo",
@@ -13404,9 +13404,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "image": 1133
+        "image": 1132
       }
     },
     {
@@ -14118,9 +14118,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 46,
+      "delta": 45,
       "scores": {
-        "video": 1401
+        "video": 1400
       },
       "releaseDate": "2026-04-25"
     },
@@ -14634,9 +14634,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1302
+        "video": 1301
       },
       "releaseDate": "2025-05-21"
     },
@@ -18563,7 +18563,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1151
+        "image": 1152
       },
       "ranks": {
         "image": 14
@@ -20617,7 +20617,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1256
+        "image": 1257
       },
       "ranks": {
         "image": 2
@@ -20774,7 +20774,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1302
+        "video": 1301
       },
       "ranks": {
         "video": 42
@@ -21355,7 +21355,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1133
+        "image": 1132
       },
       "ranks": {
         "image": 17
@@ -23726,7 +23726,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1401
+        "video": 1400
       },
       "ranks": {
         "video": 5
@@ -24155,6 +24155,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784321552815,
+  "updatedAt": 1784325130193,
   "errors": []
 }
