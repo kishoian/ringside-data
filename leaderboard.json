@@ -1103,6 +1103,7 @@
         "chat": 39.8
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "releaseDate": "2026-06-16",
       "pricing": {
         "prompt": 1,
         "completion": 2
@@ -4301,8 +4302,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/kimi_small.png",
       "releaseDate": "2025-07-11",
       "pricing": {
-        "prompt": 0.585,
-        "completion": 2.4
+        "prompt": 0.57,
+        "completion": 2.3
       }
     },
     {
@@ -5856,11 +5857,7 @@
         "chat": 12.4
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
-      "releaseDate": "2025-07-10",
-      "pricing": {
-        "prompt": 0.4,
-        "completion": 2
-      }
+      "releaseDate": "2025-07-10"
     },
     {
       "id": "k2-v2-medium",
@@ -6760,11 +6757,7 @@
         "chat": 9.3
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
-      "releaseDate": "2025-07-10",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.3
-      }
+      "releaseDate": "2025-07-10"
     },
     {
       "id": "gemma-4-e2b-reasoning",
@@ -6822,11 +6815,7 @@
         "chat": 9.1
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
-      "releaseDate": "2024-11-18",
-      "pricing": {
-        "prompt": 2,
-        "completion": 6
-      }
+      "releaseDate": "2024-11-18"
     },
     {
       "id": "qwen3-30b-a3b-2507-instruct",
@@ -7342,11 +7331,7 @@
         "chat": 8.1
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
-      "releaseDate": "2024-11-18",
-      "pricing": {
-        "prompt": 2,
-        "completion": 6
-      }
+      "releaseDate": "2024-11-18"
     },
     {
       "id": "gpt-5-nano-minimal",
@@ -10874,6 +10859,7 @@
         "code": 51.5
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "releaseDate": "2026-06-16",
       "pricing": {
         "prompt": 1,
         "completion": 2
@@ -13254,6 +13240,18 @@
       }
     },
     {
+      "id": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1186
+      },
+      "arenaElo": 1100
+    },
+    {
       "id": "seedream-4-0",
       "name": "Seedream 4.0",
       "org": "ByteDance Seed",
@@ -13263,18 +13261,6 @@
       "scores": {
         "image": 1186
       }
-    },
-    {
-      "id": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 1185
-      },
-      "arenaElo": 1100
     },
     {
       "id": "mai-image-2",
@@ -13396,9 +13382,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1149
+        "image": 1150
       }
     },
     {
@@ -13418,9 +13404,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "image": 1132
+        "image": 1133
       }
     },
     {
@@ -13440,9 +13426,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1130
+        "image": 1131
       },
       "arenaElo": 1113
     },
@@ -13532,9 +13518,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1107
+        "image": 1108
       }
     },
     {
@@ -13690,9 +13676,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1069
+        "image": 1070
       }
     },
     {
@@ -13887,6 +13873,17 @@
       }
     },
     {
+      "id": "ideogram-v2a",
+      "name": "Ideogram v2a",
+      "org": "Ideogram",
+      "color": "#18181B",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1011
+      }
+    },
+    {
       "id": "ideogram-v2a-turbo",
       "name": "Ideogram v2a Turbo",
       "org": "Ideogram",
@@ -13895,17 +13892,6 @@
       "delta": -2,
       "scores": {
         "image": 1010
-      }
-    },
-    {
-      "id": "ideogram-v2a",
-      "name": "Ideogram v2a",
-      "org": "Ideogram",
-      "color": "#18181B",
-      "votes": 0,
-      "delta": -3,
-      "scores": {
-        "image": 1009
       }
     },
     {
@@ -13947,9 +13933,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 973
+        "image": 974
       }
     },
     {
@@ -13958,9 +13944,9 @@
       "org": "StepFun",
       "color": "#017AFF",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 973
+        "image": 974
       }
     },
     {
@@ -17081,7 +17067,8 @@
         "chat": 36,
         "code": 38
       },
-      "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg"
+      "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
+      "releaseDate": "2026-06-16"
     },
     {
       "key": "step-3-5-flash-2603",
@@ -17625,7 +17612,7 @@
         "image": 1010
       },
       "ranks": {
-        "image": 56
+        "image": 57
       },
       "aliases": [
         "Ideogram Turbo v2a",
@@ -18058,7 +18045,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1107
+        "image": 1108
       },
       "ranks": {
         "image": 27
@@ -18128,7 +18115,7 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "image": 973
+        "image": 974
       },
       "ranks": {
         "image": 61
@@ -20669,7 +20656,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1069
+        "image": 1070
       },
       "ranks": {
         "image": 40
@@ -21297,6 +21284,21 @@
       "releaseDate": "2025-08-14"
     },
     {
+      "key": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "scores": {
+        "image": 1186
+      },
+      "ranks": {
+        "image": 7
+      },
+      "aliases": [
+        "Krea Large 2"
+      ]
+    },
+    {
       "key": "seedream-4-0",
       "name": "Seedream 4.0",
       "org": "ByteDance Seed",
@@ -21305,23 +21307,8 @@
         "image": 1186
       },
       "ranks": {
-        "image": 7
-      }
-    },
-    {
-      "key": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "scores": {
-        "image": 1185
-      },
-      "ranks": {
         "image": 8
-      },
-      "aliases": [
-        "Krea Large 2"
-      ]
+      }
     },
     {
       "key": "seedream-4-5",
@@ -21341,7 +21328,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1149
+        "image": 1150
       },
       "ranks": {
         "image": 15
@@ -21368,7 +21355,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1132
+        "image": 1133
       },
       "ranks": {
         "image": 17
@@ -21416,10 +21403,10 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1009
+        "image": 1011
       },
       "ranks": {
-        "image": 57
+        "image": 56
       },
       "aliases": [
         "v2a"
@@ -22211,7 +22198,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 973
+        "image": 974
       },
       "ranks": {
         "image": 60
@@ -22678,7 +22665,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1130
+        "image": 1131
       },
       "ranks": {
         "image": 19
@@ -24168,6 +24155,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784315091527,
+  "updatedAt": 1784321552815,
   "errors": []
 }
