@@ -8579,22 +8579,6 @@
       "releaseDate": "2024-09-19"
     },
     {
-      "id": "qwen3-5-0-8b-non-reasoning",
-      "name": "Qwen3.5 0.8B (Non-reasoning)",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -1.1,
-      "scores": {
-        "chat": 4.4
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
-      "releaseDate": "2026-03-02",
-      "alts": {
-        "code": 1.2
-      }
-    },
-    {
       "id": "mistral-large-feb-24",
       "name": "Mistral Large (Feb '24)",
       "org": "Mistral",
@@ -8964,6 +8948,22 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/snowflake_small.svg",
       "releaseDate": "2024-04-24"
+    },
+    {
+      "id": "qwen3-5-0-8b-non-reasoning",
+      "name": "Qwen3.5 0.8B (Non-reasoning)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -2.2,
+      "scores": {
+        "chat": 3.3
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-03-02",
+      "alts": {
+        "code": 1.2
+      }
     },
     {
       "id": "llama-3-2-instruct-11b-vision",
@@ -13307,9 +13307,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -7,
+      "delta": -6,
       "scores": {
-        "image": 1183
+        "image": 1184
       }
     },
     {
@@ -13615,9 +13615,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1092
+        "image": 1093
       }
     },
     {
@@ -13816,9 +13816,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1050
+        "image": 1051
       }
     },
     {
@@ -13900,19 +13900,19 @@
       }
     },
     {
-      "id": "ideogram-v2a-turbo",
-      "name": "Ideogram v2a Turbo",
+      "id": "ideogram-v2a",
+      "name": "Ideogram v2a",
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1010
+        "image": 1011
       }
     },
     {
-      "id": "ideogram-v2a",
-      "name": "Ideogram v2a",
+      "id": "ideogram-v2a-turbo",
+      "name": "Ideogram v2a Turbo",
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
@@ -13949,9 +13949,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 981
+        "image": 982
       }
     },
     {
@@ -14049,9 +14049,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 894
+        "image": 895
       }
     },
     {
@@ -14745,18 +14745,6 @@
       }
     },
     {
-      "id": "bach-1-0-preview",
-      "name": "Bach-1.0 Preview",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "video": 1279
-      },
-      "releaseDate": "2026-04-30"
-    },
-    {
       "id": "avenger-0-5",
       "name": "Avenger 0.5",
       "org": "Video Rebirth",
@@ -14767,6 +14755,18 @@
         "video": 1279
       },
       "releaseDate": "2025-07-14"
+    },
+    {
+      "id": "bach-1-0-preview",
+      "name": "Bach-1.0 Preview",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -5,
+      "scores": {
+        "video": 1278
+      },
+      "releaseDate": "2026-04-30"
     },
     {
       "id": "sora-2-pro",
@@ -14861,9 +14861,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "video": 1245
+        "video": 1244
       },
       "releaseDate": "2025-10-23"
     },
@@ -14897,9 +14897,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 3,
       "scores": {
-        "video": 1231
+        "video": 1233
       },
       "releaseDate": "2025-06-01"
     },
@@ -14941,6 +14941,18 @@
       "releaseDate": "2025-05-16"
     },
     {
+      "id": "ltx-2-3-fast",
+      "name": "LTX-2.3 Fast",
+      "org": "Lightricks",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 5,
+      "scores": {
+        "video": 1218
+      },
+      "releaseDate": "2026-03-05"
+    },
+    {
       "id": "kling-2-0",
       "name": "Kling 2.0",
       "org": "KlingAI",
@@ -14951,18 +14963,6 @@
         "video": 1216
       },
       "releaseDate": "2025-04-15"
-    },
-    {
-      "id": "ltx-2-3-fast",
-      "name": "LTX-2.3 Fast",
-      "org": "Lightricks",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "video": 1214
-      },
-      "releaseDate": "2026-03-05"
     },
     {
       "id": "hunyuanvideo-1-5-fal",
@@ -17639,7 +17639,7 @@
         "image": 1010
       },
       "ranks": {
-        "image": 56
+        "image": 57
       },
       "aliases": [
         "Ideogram Turbo v2a",
@@ -17699,7 +17699,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1231
+        "video": 1233
       },
       "ranks": {
         "video": 59
@@ -18130,7 +18130,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 981
+        "image": 982
       },
       "ranks": {
         "image": 59
@@ -18650,10 +18650,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1279
+        "video": 1278
       },
       "ranks": {
-        "video": 48
+        "video": 49
       },
       "releaseDate": "2026-04-30",
       "aliases": [
@@ -20673,7 +20673,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1092
+        "image": 1093
       },
       "ranks": {
         "image": 33
@@ -21432,10 +21432,10 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1010
+        "image": 1011
       },
       "ranks": {
-        "image": 57
+        "image": 56
       },
       "aliases": [
         "v2a"
@@ -21521,10 +21521,10 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1214
+        "video": 1218
       },
       "ranks": {
-        "video": 63
+        "video": 62
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -22316,7 +22316,7 @@
         "video": 1279
       },
       "ranks": {
-        "video": 49
+        "video": 48
       },
       "releaseDate": "2025-07-14"
     },
@@ -23093,7 +23093,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1245
+        "video": 1244
       },
       "ranks": {
         "video": 56
@@ -23112,7 +23112,7 @@
         "video": 1216
       },
       "ranks": {
-        "video": 62
+        "video": 63
       },
       "releaseDate": "2025-04-15"
     },
@@ -23286,7 +23286,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1050
+        "image": 1051
       },
       "ranks": {
         "image": 50
@@ -23302,7 +23302,7 @@
       "org": "Bria",
       "color": "#5200c8",
       "scores": {
-        "image": 894
+        "image": 895
       },
       "ranks": {
         "image": 67
@@ -24184,6 +24184,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784332269455,
+  "updatedAt": 1784341300788,
   "errors": []
 }
