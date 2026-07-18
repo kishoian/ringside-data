@@ -13307,9 +13307,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -7,
+      "delta": -6,
       "scores": {
-        "image": 1183
+        "image": 1184
       }
     },
     {
@@ -13375,9 +13375,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1153
+        "image": 1154
       }
     },
     {
@@ -13955,21 +13955,21 @@
       }
     },
     {
-      "id": "recraft-20b",
-      "name": "Recraft 20B",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 974
-      }
-    },
-    {
       "id": "step-image-edit-2",
       "name": "Step Image Edit 2",
       "org": "StepFun",
       "color": "#017AFF",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 975
+      }
+    },
+    {
+      "id": "recraft-20b",
+      "name": "Recraft 20B",
+      "org": "Recraft",
+      "color": "#000000",
       "votes": 0,
       "delta": 0,
       "scores": {
@@ -14329,9 +14329,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1363
+        "video": 1362
       },
       "releaseDate": "2025-10-15"
     },
@@ -14618,6 +14618,19 @@
       "releaseDate": "2025-09-29"
     },
     {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 6,
+      "scores": {
+        "video": 1314
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
+    },
+    {
       "id": "kling-2-6-pro-december",
       "name": "Kling 2.6 Pro (December)",
       "org": "KlingAI",
@@ -14641,19 +14654,6 @@
         "video": 1309
       },
       "releaseDate": "2026-05-31"
-    },
-    {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1308
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
     },
     {
       "id": "ray-3",
@@ -16085,7 +16085,7 @@
         "video": 1309
       },
       "ranks": {
-        "video": 40
+        "video": 41
       },
       "releaseDate": "2026-05-31"
     },
@@ -17034,7 +17034,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1363
+        "video": 1362
       },
       "ranks": {
         "video": 19
@@ -17310,7 +17310,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1153
+        "image": 1154
       },
       "ranks": {
         "image": 13
@@ -18142,10 +18142,10 @@
       "org": "StepFun",
       "color": "#017AFF",
       "scores": {
-        "image": 974
+        "image": 975
       },
       "ranks": {
-        "image": 61
+        "image": 60
       }
     },
     {
@@ -21492,10 +21492,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1308
+        "video": 1314
       },
       "ranks": {
-        "video": 41
+        "video": 40
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -22230,7 +22230,7 @@
         "image": 974
       },
       "ranks": {
-        "image": 60
+        "image": 61
       },
       "aliases": [
         "20B"
@@ -24184,6 +24184,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784414829286,
+  "updatedAt": 1784418745844,
   "errors": []
 }
