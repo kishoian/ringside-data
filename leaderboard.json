@@ -723,6 +723,27 @@
       }
     },
     {
+      "id": "deepseek-v4-pro-reasoning-high-effort",
+      "name": "DeepSeek V4 Pro (Reasoning, High Effort)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": -1.2,
+      "scores": {
+        "chat": 43.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2026-04-24",
+      "pricing": {
+        "prompt": 0.435,
+        "completion": 0.87
+      },
+      "arenaElo": 1458,
+      "alts": {
+        "code": 59.4
+      }
+    },
+    {
       "id": "muse-spark",
       "name": "Muse Spark",
       "org": "Meta",
@@ -916,27 +937,6 @@
       "pricing": {
         "prompt": 5,
         "completion": 25
-      }
-    },
-    {
-      "id": "deepseek-v4-pro-reasoning-high-effort",
-      "name": "DeepSeek V4 Pro (Reasoning, High Effort)",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "votes": 0,
-      "delta": -3.5,
-      "scores": {
-        "chat": 40.8
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
-      "releaseDate": "2026-04-24",
-      "pricing": {
-        "prompt": 0.435,
-        "completion": 0.87
-      },
-      "arenaElo": 1458,
-      "alts": {
-        "code": 59.4
       }
     },
     {
@@ -1847,8 +1847,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
       "pricing": {
-        "prompt": 2.09,
-        "completion": 6.38
+        "prompt": 1.4,
+        "completion": 4.4
       },
       "arenaElo": 1468,
       "alts": {
@@ -5820,7 +5820,11 @@
         "chat": 12.5
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
-      "releaseDate": "2026-04-03"
+      "releaseDate": "2026-04-03",
+      "pricing": {
+        "prompt": 0.02,
+        "completion": 0.1
+      }
     },
     {
       "id": "mistral-small-4-non-reasoning",
@@ -6956,7 +6960,11 @@
         "chat": 8.9
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
-      "releaseDate": "2026-04-03"
+      "releaseDate": "2026-04-03",
+      "pricing": {
+        "prompt": 0.02,
+        "completion": 0.1
+      }
     },
     {
       "id": "granite-4-1-30b",
@@ -10518,6 +10526,27 @@
       }
     },
     {
+      "id": "deepseek-v4-pro-reasoning-high-effort",
+      "name": "DeepSeek V4 Pro (Reasoning, High Effort)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": -0.7,
+      "scores": {
+        "code": 58.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2026-04-24",
+      "pricing": {
+        "prompt": 0.435,
+        "completion": 0.87
+      },
+      "arenaElo": 1459,
+      "alts": {
+        "chat": 44.3
+      }
+    },
+    {
       "id": "minimax-m3",
       "name": "MiniMax-M3",
       "org": "MiniMax",
@@ -11067,8 +11096,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
       "pricing": {
-        "prompt": 2.09,
-        "completion": 6.38
+        "prompt": 1.4,
+        "completion": 4.4
       },
       "arenaElo": 1587,
       "alts": {
@@ -13444,9 +13473,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1149
+        "image": 1150
       }
     },
     {
@@ -13628,9 +13657,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1097
+        "image": 1098
       }
     },
     {
@@ -18137,7 +18166,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1097
+        "image": 1098
       },
       "ranks": {
         "image": 32
@@ -21422,7 +21451,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1149
+        "image": 1150
       },
       "ranks": {
         "image": 16
@@ -24239,6 +24268,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784584685150,
+  "updatedAt": 1784588698288,
   "errors": []
 }
