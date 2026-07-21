@@ -13470,9 +13470,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1192
+        "image": 1193
       }
     },
     {
@@ -13561,9 +13561,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1170
+        "image": 1171
       }
     },
     {
@@ -13765,9 +13765,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1105
+        "image": 1106
       }
     },
     {
@@ -13785,18 +13785,6 @@
       }
     },
     {
-      "id": "z-image-turbo",
-      "name": "Z-Image Turbo",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1100
-      },
-      "arenaElo": 1082
-    },
-    {
       "id": "qwen-image-2-0-2026-03-03",
       "name": "Qwen Image 2.0 (2026-03-03)",
       "org": "Alibaba",
@@ -13806,6 +13794,18 @@
       "scores": {
         "image": 1099
       }
+    },
+    {
+      "id": "z-image-turbo",
+      "name": "Z-Image Turbo",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1099
+      },
+      "arenaElo": 1082
     },
     {
       "id": "imagen-4-standard",
@@ -13901,9 +13901,9 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1075
+        "image": 1076
       }
     },
     {
@@ -20177,7 +20177,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1170
+        "image": 1171
       },
       "ranks": {
         "image": 11
@@ -20223,7 +20223,7 @@
         "image": 1099
       },
       "ranks": {
-        "image": 31
+        "image": 30
       },
       "aliases": [
         "Qwen 2.0 Image",
@@ -20936,10 +20936,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1100
+        "image": 1099
       },
       "ranks": {
-        "image": 30
+        "image": 31
       }
     },
     {
@@ -21683,7 +21683,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1075
+        "image": 1076
       },
       "ranks": {
         "image": 39
@@ -23551,7 +23551,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1105
+        "image": 1106
       },
       "ranks": {
         "image": 28
@@ -24237,7 +24237,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1192
+        "image": 1193
       },
       "ranks": {
         "image": 6
@@ -24467,7 +24467,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (338)",
+    "openrouter": "ok (342)",
     "aa_llm": "ok (580)",
     "aa_image": "ok (153)",
     "aa_video": "ok (241)",
@@ -24476,6 +24476,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784648489467,
+  "updatedAt": 1784654210501,
   "errors": []
 }
