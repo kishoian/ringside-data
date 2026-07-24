@@ -2276,8 +2276,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2025-07-10",
       "pricing": {
-        "prompt": 5.5,
-        "completion": 27.5
+        "prompt": 3,
+        "completion": 15
       }
     },
     {
@@ -5594,7 +5594,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
       "pricing": {
-        "prompt": 0.31,
+        "prompt": 0.27,
         "completion": 0.85
       },
       "alts": {
@@ -13046,7 +13046,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "releaseDate": "2025-04-05",
       "pricing": {
-        "prompt": 0.31,
+        "prompt": 0.27,
         "completion": 0.85
       },
       "alts": {
@@ -13991,9 +13991,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1171
+        "image": 1170
       }
     },
     {
@@ -14070,9 +14070,9 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1149
+        "image": 1150
       }
     },
     {
@@ -14416,6 +14416,17 @@
       }
     },
     {
+      "id": "flux-2-klein-4b",
+      "name": "FLUX.2 [klein] 4B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1057
+      }
+    },
+    {
       "id": "qwen-image",
       "name": "Qwen Image",
       "org": "Alibaba",
@@ -14426,17 +14437,6 @@
         "image": 1057
       },
       "arenaElo": 1057
-    },
-    {
-      "id": "flux-2-klein-4b",
-      "name": "FLUX.2 [klein] 4B",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1056
-      }
     },
     {
       "id": "hidream-i1-fast",
@@ -18324,7 +18324,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1171
+        "image": 1170
       },
       "ranks": {
         "image": 11
@@ -22144,7 +22144,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1149
+        "image": 1150
       },
       "ranks": {
         "image": 17
@@ -23499,7 +23499,7 @@
         "image": 1057
       },
       "ranks": {
-        "image": 47
+        "image": 48
       }
     },
     {
@@ -23849,10 +23849,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1056
+        "image": 1057
       },
       "ranks": {
-        "image": 48
+        "image": 47
       }
     },
     {
@@ -25000,6 +25000,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784920961423,
+  "updatedAt": 1784926890662,
   "errors": []
 }
