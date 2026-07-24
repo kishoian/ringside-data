@@ -13670,9 +13670,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1206
+        "image": 1205
       }
     },
     {
@@ -13692,9 +13692,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1193
+        "image": 1192
       }
     },
     {
@@ -13817,22 +13817,11 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1153
+        "image": 1152
       },
       "arenaElo": 1130
-    },
-    {
-      "id": "flux-2-dev",
-      "name": "FLUX.2 [dev]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -39,
-      "scores": {
-        "image": 1151
-      }
     },
     {
       "id": "recraft-v4-1",
@@ -13840,7 +13829,18 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
+      "scores": {
+        "image": 1151
+      }
+    },
+    {
+      "id": "flux-2-dev",
+      "name": "FLUX.2 [dev]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -40,
       "scores": {
         "image": 1150
       }
@@ -13868,17 +13868,6 @@
       }
     },
     {
-      "id": "flux-2-dev-flash",
-      "name": "FLUX.2 [dev] Flash",
-      "org": "Fal",
-      "color": "#FF6B35",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1132
-      }
-    },
-    {
       "id": "recraft-v4",
       "name": "Recraft V4",
       "org": "Recraft",
@@ -13889,6 +13878,17 @@
         "image": 1132
       },
       "arenaElo": 1113
+    },
+    {
+      "id": "flux-2-dev-flash",
+      "name": "FLUX.2 [dev] Flash",
+      "org": "Fal",
+      "color": "#FF6B35",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1131
+      }
     },
     {
       "id": "gpt-image-1-high",
@@ -13919,20 +13919,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1118
-      }
-    },
-    {
-      "id": "flux-2-klein-9b",
-      "name": "FLUX.2 [klein] 9B",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1116
+        "image": 1119
       }
     },
     {
@@ -13946,6 +13935,17 @@
         "image": 1116
       },
       "arenaElo": 1132
+    },
+    {
+      "id": "flux-2-klein-9b",
+      "name": "FLUX.2 [klein] 9B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1115
+      }
     },
     {
       "id": "hunyuanimage-3-0-instruct-fal",
@@ -14134,9 +14134,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1070
+        "image": 1071
       }
     },
     {
@@ -14663,9 +14663,9 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "video": 1387
+        "video": 1388
       },
       "releaseDate": "2026-04-07",
       "arenaElo": 1430
@@ -15571,9 +15571,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1113
+        "video": 1112
       },
       "releaseDate": "2024-09-01"
     },
@@ -15751,9 +15751,9 @@
       "org": "Haiper",
       "color": "#7b61ff00",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1020
+        "video": 1019
       },
       "releaseDate": "2024-10-21"
     },
@@ -17790,7 +17790,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1206
+        "image": 1205
       },
       "ranks": {
         "image": 5
@@ -18120,7 +18120,7 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 1118
+        "image": 1119
       },
       "ranks": {
         "image": 23
@@ -18556,7 +18556,7 @@
         "image": 1116
       },
       "ranks": {
-        "image": 25
+        "image": 24
       },
       "aliases": [
         "Seedream Lite 5.0"
@@ -19120,7 +19120,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1153
+        "image": 1152
       },
       "ranks": {
         "image": 15
@@ -20582,7 +20582,7 @@
       "org": "Alibaba-ATH",
       "color": "#ff7018",
       "scores": {
-        "video": 1387
+        "video": 1388
       },
       "ranks": {
         "video": 11
@@ -21217,7 +21217,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1070
+        "image": 1071
       },
       "ranks": {
         "image": 41
@@ -21889,7 +21889,7 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 1150
+        "image": 1151
       },
       "ranks": {
         "image": 16
@@ -21916,10 +21916,10 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 1132
+        "image": 1131
       },
       "ranks": {
-        "image": 19
+        "image": 20
       }
     },
     {
@@ -23235,7 +23235,7 @@
         "image": 1132
       },
       "ranks": {
-        "image": 20
+        "image": 19
       }
     },
     {
@@ -23352,7 +23352,7 @@
       "org": "Haiper",
       "color": "#7b61ff00",
       "scores": {
-        "video": 1020
+        "video": 1019
       },
       "ranks": {
         "video": 92
@@ -23597,10 +23597,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1116
+        "image": 1115
       },
       "ranks": {
-        "image": 24
+        "image": 25
       }
     },
     {
@@ -24521,7 +24521,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1193
+        "image": 1192
       },
       "ranks": {
         "image": 7
@@ -24558,7 +24558,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1113
+        "video": 1112
       },
       "ranks": {
         "video": 78
@@ -24760,6 +24760,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1784884812029,
+  "updatedAt": 1784893199349,
   "errors": []
 }
