@@ -5749,6 +5749,10 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage_small.svg",
       "releaseDate": "2026-04-06",
+      "pricing": {
+        "prompt": 0.15,
+        "completion": 0.6
+      },
       "alts": {
         "code": 16.2
       }
@@ -13075,6 +13079,10 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage_small.svg",
       "releaseDate": "2026-04-06",
+      "pricing": {
+        "prompt": 0.15,
+        "completion": 0.6
+      },
       "alts": {
         "chat": 14.1
       }
@@ -14671,18 +14679,6 @@
       "releaseDate": "2025-06-01"
     },
     {
-      "id": "pixverse-v4-5",
-      "name": "PixVerse V4.5",
-      "org": "PixVerse",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -8,
-      "scores": {
-        "video": 1226
-      },
-      "releaseDate": "2025-05-16"
-    },
-    {
       "id": "p-video",
       "name": "P-Video",
       "org": "Pruna AI",
@@ -14694,6 +14690,18 @@
       },
       "releaseDate": "2026-02-26",
       "arenaElo": 1207
+    },
+    {
+      "id": "pixverse-v4-5",
+      "name": "PixVerse V4.5",
+      "org": "PixVerse",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -9,
+      "scores": {
+        "video": 1225
+      },
+      "releaseDate": "2025-05-16"
     },
     {
       "id": "ltx-2-3-fast",
@@ -20157,7 +20165,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1226
+        "video": 1225
       },
       "ranks": {
         "video": 61
@@ -23153,8 +23161,8 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (367)",
     "aa_image": "err: no models extracted",
-    "openrouter": "ok (368)",
     "aa_llm": "ok (587)",
     "aa_video": "ok (241)",
     "arena_text": "ok (381)",
@@ -23162,6 +23170,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785266405826,
+  "updatedAt": 1785272696998,
   "errors": []
 }
