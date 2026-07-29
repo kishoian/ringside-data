@@ -13852,9 +13852,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1340
+        "image": 1341
       },
       "arenaElo": 1385
     },
@@ -13921,9 +13921,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1169
+        "image": 1170
       },
       "arenaElo": 1147
     },
@@ -13979,9 +13979,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "arenaElo": 1057
     },
@@ -14279,6 +14279,18 @@
       "releaseDate": "2025-10-15"
     },
     {
+      "id": "kling-3-0-omni-1080p-pro",
+      "name": "Kling 3.0 Omni 1080p (Pro)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1356
+      },
+      "releaseDate": "2026-02-04"
+    },
+    {
       "id": "kling-2-6-pro-january",
       "name": "Kling 2.6 Pro (January)",
       "org": "KlingAI",
@@ -14290,18 +14302,6 @@
       },
       "releaseDate": "2026-01-13",
       "arenaElo": 1218
-    },
-    {
-      "id": "kling-3-0-omni-1080p-pro",
-      "name": "Kling 3.0 Omni 1080p (Pro)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1355
-      },
-      "releaseDate": "2026-02-04"
     },
     {
       "id": "kling-3-0-omni-720p-standard",
@@ -14406,9 +14406,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": 3,
       "scores": {
-        "video": 1331
+        "video": 1334
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1197
@@ -14555,9 +14555,9 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "video": 1314
+        "video": 1315
       },
       "releaseDate": "2026-05-31"
     },
@@ -14617,9 +14617,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -3,
       "scores": {
-        "video": 1302
+        "video": 1299
       },
       "releaseDate": "2025-05-21"
     },
@@ -14849,9 +14849,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": -8,
+      "delta": -9,
       "scores": {
-        "video": 1226
+        "video": 1225
       },
       "releaseDate": "2025-05-16"
     },
@@ -15032,9 +15032,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": -8,
+      "delta": -9,
       "scores": {
-        "video": 1122
+        "video": 1121
       },
       "releaseDate": "2026-05-21"
     },
@@ -15075,18 +15075,6 @@
       "releaseDate": "2024-09-01"
     },
     {
-      "id": "pika-2-2",
-      "name": "Pika 2.2",
-      "org": "Pika Art",
-      "color": "#feedd1",
-      "votes": 0,
-      "delta": -5,
-      "scores": {
-        "video": 1109
-      },
-      "releaseDate": "2025-02-27"
-    },
-    {
       "id": "hunyuan-video-fal",
       "name": "Hunyuan Video (Fal)",
       "org": "Tencent",
@@ -15097,6 +15085,18 @@
         "video": 1105
       },
       "releaseDate": "2024-12-03"
+    },
+    {
+      "id": "pika-2-2",
+      "name": "Pika 2.2",
+      "org": "Pika Art",
+      "color": "#feedd1",
+      "votes": 0,
+      "delta": -9,
+      "scores": {
+        "video": 1105
+      },
+      "releaseDate": "2025-02-27"
     },
     {
       "id": "i2v-01-director",
@@ -16004,7 +16004,7 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "scores": {
-        "video": 1314
+        "video": 1315
       },
       "ranks": {
         "video": 40
@@ -16900,10 +16900,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1355
+        "video": 1356
       },
       "ranks": {
-        "video": 22
+        "video": 21
       },
       "releaseDate": "2026-02-04"
     },
@@ -20278,7 +20278,7 @@
         "video": 1356
       },
       "ranks": {
-        "video": 21
+        "video": 22
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -20304,7 +20304,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1331
+        "video": 1334
       },
       "ranks": {
         "video": 31
@@ -20336,7 +20336,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1302
+        "video": 1299
       },
       "ranks": {
         "video": 44
@@ -20381,7 +20381,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1226
+        "video": 1225
       },
       "ranks": {
         "video": 61
@@ -20413,7 +20413,7 @@
         "video": 1105
       },
       "ranks": {
-        "video": 79
+        "video": 78
       },
       "releaseDate": "2024-12-03"
     },
@@ -20866,7 +20866,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1169
+        "image": 1170
       },
       "ranks": {
         "image": 6
@@ -21583,7 +21583,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1340
+        "image": 1341
       },
       "ranks": {
         "image": 1
@@ -22050,7 +22050,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "ranks": {
         "image": 10
@@ -22444,7 +22444,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1122
+        "video": 1121
       },
       "ranks": {
         "video": 75
@@ -22609,10 +22609,10 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1109
+        "video": 1105
       },
       "ranks": {
-        "video": 78
+        "video": 79
       },
       "releaseDate": "2025-02-27"
     },
@@ -23488,6 +23488,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785362374077,
+  "updatedAt": 1785366343925,
   "errors": []
 }
