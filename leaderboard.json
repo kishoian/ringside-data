@@ -14072,9 +14072,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "image": 1198
+        "image": 1197
       }
     },
     {
@@ -14106,9 +14106,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1171
+        "image": 1170
       },
       "arenaElo": 1147
     },
@@ -14223,9 +14223,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -27,
+      "delta": -29,
       "scores": {
-        "video": 1516
+        "video": 1514
       },
       "releaseDate": "2026-05-19",
       "arenaElo": 1527
@@ -14421,9 +14421,9 @@
       "org": "Skywork AI",
       "color": "#4d5eff",
       "votes": 0,
-      "delta": 12,
+      "delta": 11,
       "scores": {
-        "video": 1374
+        "video": 1373
       },
       "releaseDate": "2026-03-18"
     },
@@ -14648,19 +14648,6 @@
       "releaseDate": "2025-10-28"
     },
     {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 10,
-      "scores": {
-        "video": 1323
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
-    },
-    {
       "id": "kling-o1-standard-january",
       "name": "Kling O1 Standard (January)",
       "org": "KlingAI",
@@ -14744,6 +14731,19 @@
         "video": 1318
       },
       "releaseDate": "2026-05-31"
+    },
+    {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 3,
+      "scores": {
+        "video": 1316
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
     },
     {
       "id": "vidu-q2-turbo",
@@ -15440,6 +15440,18 @@
       "releaseDate": "2025-10-20"
     },
     {
+      "id": "ray-2",
+      "name": "Ray 2",
+      "org": "Luma Labs",
+      "color": "#3face6",
+      "votes": 0,
+      "delta": -3,
+      "scores": {
+        "video": 1018
+      },
+      "releaseDate": "2025-02-10"
+    },
+    {
       "id": "haiper-2-0",
       "name": "Haiper 2.0",
       "org": "Haiper",
@@ -15450,18 +15462,6 @@
         "video": 1018
       },
       "releaseDate": "2024-10-21"
-    },
-    {
-      "id": "ray-2",
-      "name": "Ray 2",
-      "org": "Luma Labs",
-      "color": "#3face6",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "video": 1017
-      },
-      "releaseDate": "2025-02-10"
     },
     {
       "id": "kling-1-0",
@@ -16187,7 +16187,7 @@
         "video": 1318
       },
       "ranks": {
-        "video": 40
+        "video": 39
       },
       "releaseDate": "2026-05-31"
     },
@@ -18053,7 +18053,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1516
+        "video": 1514
       },
       "ranks": {
         "video": 2
@@ -19209,7 +19209,7 @@
         "video": 1321
       },
       "ranks": {
-        "video": 37
+        "video": 36
       },
       "releaseDate": "2025-09-24",
       "aliases": [
@@ -21098,7 +21098,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1171
+        "image": 1170
       },
       "ranks": {
         "image": 6
@@ -21134,22 +21134,6 @@
       ]
     },
     {
-      "key": "kling-o1-pro",
-      "name": "Kling O1 Pro",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "scores": {
-        "video": 1323
-      },
-      "ranks": {
-        "video": 36
-      },
-      "releaseDate": "2026-01-13",
-      "aliases": [
-        "Kling Pro O1"
-      ]
-    },
-    {
       "key": "veo-3-1-lite",
       "name": "Veo 3.1 Lite",
       "org": "Google",
@@ -21158,11 +21142,27 @@
         "video": 1319
       },
       "ranks": {
-        "video": 39
+        "video": 38
       },
       "releaseDate": "2026-03-31",
       "aliases": [
         "Veo Lite 3.1"
+      ]
+    },
+    {
+      "key": "kling-o1-pro",
+      "name": "Kling O1 Pro",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "scores": {
+        "video": 1316
+      },
+      "ranks": {
+        "video": 40
+      },
+      "releaseDate": "2026-01-13",
+      "aliases": [
+        "Kling Pro O1"
       ]
     },
     {
@@ -21843,7 +21843,7 @@
       "org": "Skywork AI",
       "color": "#4d5eff",
       "scores": {
-        "video": 1374
+        "video": 1373
       },
       "ranks": {
         "video": 17
@@ -21888,7 +21888,7 @@
         "video": 1321
       },
       "ranks": {
-        "video": 38
+        "video": 37
       },
       "releaseDate": "2025-09-29",
       "aliases": [
@@ -22394,7 +22394,7 @@
         "video": 1018
       },
       "ranks": {
-        "video": 93
+        "video": 94
       },
       "releaseDate": "2024-10-21"
     },
@@ -23513,7 +23513,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1198
+        "image": 1197
       },
       "ranks": {
         "image": 4
@@ -23705,10 +23705,10 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "video": 1017
+        "video": 1018
       },
       "ranks": {
-        "video": 94
+        "video": 93
       },
       "releaseDate": "2025-02-10"
     },
@@ -23752,6 +23752,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785516249202,
+  "updatedAt": 1785521935890,
   "errors": []
 }
