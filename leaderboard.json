@@ -14166,9 +14166,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1063
+        "image": 1062
       },
       "arenaElo": 1057
     },
@@ -14225,9 +14225,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "video": 1517
+        "video": 1518
       },
       "releaseDate": "2026-05-19",
       "arenaElo": 1527
@@ -14275,9 +14275,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1402
+        "video": 1403
       },
       "releaseDate": "2025-09-23",
       "arenaElo": 1219
@@ -14312,9 +14312,9 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1395
+        "video": 1396
       },
       "releaseDate": "2026-07-31"
     },
@@ -14581,9 +14581,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1334
+        "video": 1335
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1197
@@ -15213,18 +15213,6 @@
       "releaseDate": "2025-02-25"
     },
     {
-      "id": "aleph-2-0",
-      "name": "Aleph 2.0",
-      "org": "Runway",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1121
-      },
-      "releaseDate": "2026-05-21"
-    },
-    {
       "id": "sora",
       "name": "Sora",
       "org": "OpenAI",
@@ -15236,6 +15224,18 @@
       },
       "releaseDate": "2024-12-09",
       "arenaElo": 1068
+    },
+    {
+      "id": "aleph-2-0",
+      "name": "Aleph 2.0",
+      "org": "Runway",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1120
+      },
+      "releaseDate": "2026-05-21"
     },
     {
       "id": "marey",
@@ -15698,7 +15698,7 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "scores": {
-        "video": 1395
+        "video": 1396
       },
       "ranks": {
         "video": 8
@@ -16870,7 +16870,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1402
+        "video": 1403
       },
       "ranks": {
         "video": 6
@@ -18055,7 +18055,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1517
+        "video": 1518
       },
       "ranks": {
         "video": 2
@@ -20525,7 +20525,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1334
+        "video": 1335
       },
       "ranks": {
         "video": 30
@@ -22284,7 +22284,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1063
+        "image": 1062
       },
       "ranks": {
         "image": 10
@@ -22710,10 +22710,10 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1121
+        "video": 1120
       },
       "ranks": {
-        "video": 75
+        "video": 76
       },
       "releaseDate": "2026-05-21"
     },
@@ -23723,7 +23723,7 @@
         "video": 1120
       },
       "ranks": {
-        "video": 76
+        "video": 75
       },
       "releaseDate": "2024-12-09"
     },
@@ -23754,6 +23754,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785672066341,
+  "updatedAt": 1785680857339,
   "errors": []
 }
