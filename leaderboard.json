@@ -14074,9 +14074,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1194
+        "image": 1195
       }
     },
     {
@@ -14126,6 +14126,18 @@
       }
     },
     {
+      "id": "hidream-o1-image",
+      "name": "HiDream-O1-Image",
+      "org": "HiDream",
+      "color": "#1d8eff",
+      "votes": 0,
+      "delta": 4,
+      "scores": {
+        "image": 1120
+      },
+      "arenaElo": 1119
+    },
+    {
       "id": "flux-2-klein-9b",
       "name": "FLUX.2 [klein] 9B",
       "org": "Black Forest Labs",
@@ -14135,18 +14147,6 @@
       "scores": {
         "image": 1119
       }
-    },
-    {
-      "id": "hidream-o1-image",
-      "name": "HiDream-O1-Image",
-      "org": "HiDream",
-      "color": "#1d8eff",
-      "votes": 0,
-      "delta": 3,
-      "scores": {
-        "image": 1119
-      },
-      "arenaElo": 1119
     },
     {
       "id": "z-image-turbo",
@@ -14166,9 +14166,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "arenaElo": 1057
     },
@@ -14589,6 +14589,19 @@
       "arenaElo": 1197
     },
     {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1326
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
+    },
+    {
       "id": "hailuo-02-standard",
       "name": "Hailuo 02 Standard",
       "org": "MiniMax",
@@ -14600,19 +14613,6 @@
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1179
-    },
-    {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1325
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
     },
     {
       "id": "kling-o1-standard-december",
@@ -17684,7 +17684,7 @@
         "video": 1326
       },
       "ranks": {
-        "video": 31
+        "video": 32
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -18510,10 +18510,10 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1119
+        "image": 1120
       },
       "ranks": {
-        "image": 8
+        "image": 7
       }
     },
     {
@@ -21141,10 +21141,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1325
+        "video": 1326
       },
       "ranks": {
-        "video": 32
+        "video": 31
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -22284,7 +22284,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1062
+        "image": 1063
       },
       "ranks": {
         "image": 10
@@ -22660,7 +22660,7 @@
         "image": 1119
       },
       "ranks": {
-        "image": 7
+        "image": 8
       }
     },
     {
@@ -23515,7 +23515,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1194
+        "image": 1195
       },
       "ranks": {
         "image": 4
@@ -23754,6 +23754,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785690530492,
+  "updatedAt": 1785697622986,
   "errors": []
 }
