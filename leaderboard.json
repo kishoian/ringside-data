@@ -1159,8 +1159,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/thinking_machines.svg",
       "releaseDate": "2026-07-15",
       "pricing": {
-        "prompt": 1.87,
-        "completion": 4.68
+        "prompt": 1,
+        "completion": 4.05
       },
       "arenaElo": 1441,
       "alts": {
@@ -1720,8 +1720,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-04-07",
       "pricing": {
-        "prompt": 2,
-        "completion": 6
+        "prompt": 1.25,
+        "completion": 2.5
       }
     },
     {
@@ -4051,8 +4051,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-04-07",
       "pricing": {
-        "prompt": 2,
-        "completion": 6
+        "prompt": 1.25,
+        "completion": 2.5
       }
     },
     {
@@ -4068,7 +4068,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-04-02",
       "pricing": {
-        "prompt": 0.14,
+        "prompt": 0.14500000000000002,
         "completion": 0.4
       },
       "arenaElo": 1451,
@@ -5710,7 +5710,7 @@
       "releaseDate": "2025-04-05",
       "pricing": {
         "prompt": 0.27,
-        "completion": 0.85
+        "completion": 0.9099999999999999
       },
       "alts": {
         "code": 16.3
@@ -11469,8 +11469,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/thinking_machines.svg",
       "releaseDate": "2026-07-15",
       "pricing": {
-        "prompt": 1.87,
-        "completion": 4.68
+        "prompt": 1,
+        "completion": 4.05
       },
       "arenaElo": 1411,
       "alts": {
@@ -12380,7 +12380,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-04-02",
       "pricing": {
-        "prompt": 0.14,
+        "prompt": 0.14500000000000002,
         "completion": 0.4
       },
       "arenaElo": 1363,
@@ -13302,7 +13302,7 @@
       "releaseDate": "2025-04-05",
       "pricing": {
         "prompt": 0.27,
-        "completion": 0.85
+        "completion": 0.9099999999999999
       },
       "alts": {
         "chat": 14.3
@@ -14208,6 +14208,17 @@
       }
     },
     {
+      "id": "flux-2-klein-9b",
+      "name": "FLUX.2 [klein] 9B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1120
+      }
+    },
+    {
       "id": "hidream-o1-image",
       "name": "HiDream-O1-Image",
       "org": "HiDream",
@@ -14218,17 +14229,6 @@
         "image": 1120
       },
       "arenaElo": 1119
-    },
-    {
-      "id": "flux-2-klein-9b",
-      "name": "FLUX.2 [klein] 9B",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 1119
-      }
     },
     {
       "id": "z-image-turbo",
@@ -14307,9 +14307,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 4,
+      "delta": 3,
       "scores": {
-        "video": 1518
+        "video": 1517
       },
       "releaseDate": "2026-05-19",
       "arenaElo": 1513
@@ -14488,18 +14488,6 @@
       "arenaElo": 1428
     },
     {
-      "id": "skyreels-v4",
-      "name": "SkyReels V4",
-      "org": "Skywork AI",
-      "color": "#4d5eff",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "video": 1373
-      },
-      "releaseDate": "2026-03-18"
-    },
-    {
       "id": "kling-3-0-1080p-pro",
       "name": "Kling 3.0 1080p (Pro)",
       "org": "KlingAI",
@@ -14522,6 +14510,18 @@
         "video": 1369
       },
       "releaseDate": "2026-01-30"
+    },
+    {
+      "id": "skyreels-v4",
+      "name": "SkyReels V4",
+      "org": "Skywork AI",
+      "color": "#4d5eff",
+      "votes": 0,
+      "delta": -5,
+      "scores": {
+        "video": 1369
+      },
+      "releaseDate": "2026-03-18"
     },
     {
       "id": "hailuo-02-0616",
@@ -18137,7 +18137,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1518
+        "video": 1517
       },
       "ranks": {
         "video": 2
@@ -18595,7 +18595,7 @@
         "image": 1120
       },
       "ranks": {
-        "image": 7
+        "image": 8
       }
     },
     {
@@ -19248,7 +19248,7 @@
         "video": 1372
       },
       "ranks": {
-        "video": 17
+        "video": 16
       },
       "releaseDate": "2026-02-04"
     },
@@ -21938,19 +21938,6 @@
       "releaseDate": "2026-03-23"
     },
     {
-      "key": "skyreels-v4",
-      "name": "SkyReels V4",
-      "org": "Skywork AI",
-      "color": "#4d5eff",
-      "scores": {
-        "video": 1373
-      },
-      "ranks": {
-        "video": 16
-      },
-      "releaseDate": "2026-03-18"
-    },
-    {
       "key": "vidu-q3-pro",
       "name": "Vidu Q3 Pro",
       "org": "Vidu",
@@ -21959,12 +21946,25 @@
         "video": 1369
       },
       "ranks": {
-        "video": 18
+        "video": 17
       },
       "releaseDate": "2026-01-30",
       "aliases": [
         "Vidu Pro Q3"
       ]
+    },
+    {
+      "key": "skyreels-v4",
+      "name": "SkyReels V4",
+      "org": "Skywork AI",
+      "color": "#4d5eff",
+      "scores": {
+        "video": 1369
+      },
+      "ranks": {
+        "video": 18
+      },
+      "releaseDate": "2026-03-18"
     },
     {
       "key": "pixverse-v5",
@@ -22775,10 +22775,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1119
+        "image": 1120
       },
       "ranks": {
-        "image": 8
+        "image": 7
       }
     },
     {
@@ -23872,6 +23872,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785788741259,
+  "updatedAt": 1785794853365,
   "errors": []
 }
