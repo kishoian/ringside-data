@@ -14166,17 +14166,6 @@
       }
     },
     {
-      "id": "flux-2-klein-9b",
-      "name": "FLUX.2 [klein] 9B",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1120
-      }
-    },
-    {
       "id": "hidream-o1-image",
       "name": "HiDream-O1-Image",
       "org": "HiDream",
@@ -14187,6 +14176,17 @@
         "image": 1120
       },
       "arenaElo": 1119
+    },
+    {
+      "id": "flux-2-klein-9b",
+      "name": "FLUX.2 [klein] 9B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1119
+      }
     },
     {
       "id": "z-image-turbo",
@@ -14315,9 +14315,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1402
+        "video": 1401
       },
       "releaseDate": "2025-09-23",
       "arenaElo": 1219
@@ -14396,18 +14396,6 @@
       "arenaElo": 1221
     },
     {
-      "id": "kling-2-6-standard-january",
-      "name": "Kling 2.6 Standard (January)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1376
-      },
-      "releaseDate": "2026-01-13"
-    },
-    {
       "id": "genflare-2-0",
       "name": "GenFlare 2.0",
       "org": "Baidu",
@@ -14431,6 +14419,18 @@
       },
       "releaseDate": "2026-02-25",
       "arenaElo": 1240
+    },
+    {
+      "id": "kling-2-6-standard-january",
+      "name": "Kling 2.6 Standard (January)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1375
+      },
+      "releaseDate": "2026-01-13"
     },
     {
       "id": "happyhorse-1-0",
@@ -14597,9 +14597,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "video": 1344
+        "video": 1343
       },
       "releaseDate": "2025-12-15"
     },
@@ -16910,7 +16910,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1402
+        "video": 1401
       },
       "ranks": {
         "video": 6
@@ -17705,10 +17705,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1376
+        "video": 1375
       },
       "ranks": {
-        "video": 12
+        "video": 14
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -18553,7 +18553,7 @@
         "image": 1120
       },
       "ranks": {
-        "image": 8
+        "image": 7
       }
     },
     {
@@ -18562,7 +18562,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "video": 1344
+        "video": 1343
       },
       "ranks": {
         "video": 28
@@ -20539,7 +20539,7 @@
         "video": 1375
       },
       "ranks": {
-        "video": 14
+        "video": 13
       },
       "releaseDate": "2026-02-25"
     },
@@ -21155,7 +21155,7 @@
         "video": 1376
       },
       "ranks": {
-        "video": 13
+        "video": 12
       },
       "releaseDate": "2025-12-01"
     },
@@ -22717,10 +22717,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1120
+        "image": 1119
       },
       "ranks": {
-        "image": 7
+        "image": 8
       }
     },
     {
@@ -23805,7 +23805,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (337)",
+    "openrouter": "ok (338)",
     "aa_llm": "ok (592)",
     "aa_image": "ok (58)",
     "aa_video": "ok (249)",
@@ -23814,6 +23814,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (42)"
   },
-  "updatedAt": 1785764363943,
+  "updatedAt": 1785774187228,
   "errors": []
 }
