@@ -2295,8 +2295,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
       "releaseDate": "2026-04-23",
       "pricing": {
-        "prompt": 0.0645,
-        "completion": 0.235
+        "prompt": 0.063,
+        "completion": 0.21
       }
     },
     {
@@ -3356,8 +3356,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
       "releaseDate": "2026-04-23",
       "pricing": {
-        "prompt": 0.0645,
-        "completion": 0.235
+        "prompt": 0.063,
+        "completion": 0.21
       }
     },
     {
@@ -14208,17 +14208,6 @@
       }
     },
     {
-      "id": "flux-2-klein-9b",
-      "name": "FLUX.2 [klein] 9B",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1120
-      }
-    },
-    {
       "id": "hidream-o1-image",
       "name": "HiDream-O1-Image",
       "org": "HiDream",
@@ -14229,6 +14218,17 @@
         "image": 1120
       },
       "arenaElo": 1119
+    },
+    {
+      "id": "flux-2-klein-9b",
+      "name": "FLUX.2 [klein] 9B",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1119
+      }
     },
     {
       "id": "z-image-turbo",
@@ -14299,7 +14299,8 @@
       "scores": {
         "video": 1537
       },
-      "releaseDate": "2026-07-30"
+      "releaseDate": "2026-07-30",
+      "arenaElo": 1455
     },
     {
       "id": "gemini-omni-flash",
@@ -14639,9 +14640,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1343
+        "video": 1344
       },
       "releaseDate": "2025-12-15"
     },
@@ -18595,7 +18596,7 @@
         "image": 1120
       },
       "ranks": {
-        "image": 8
+        "image": 7
       }
     },
     {
@@ -18604,7 +18605,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "video": 1343
+        "video": 1344
       },
       "ranks": {
         "video": 28
@@ -22775,10 +22776,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1120
+        "image": 1119
       },
       "ranks": {
-        "image": 7
+        "image": 8
       }
     },
     {
@@ -23870,8 +23871,8 @@
     "arena_text": "ok (386)",
     "arena_code": "ok (110)",
     "arena_image": "ok (74)",
-    "arena_video": "ok (42)"
+    "arena_video": "ok (43)"
   },
-  "updatedAt": 1785794853365,
+  "updatedAt": 1785802034061,
   "errors": []
 }
