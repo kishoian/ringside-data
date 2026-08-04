@@ -432,8 +432,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
       "pricing": {
-        "prompt": 1.4,
-        "completion": 4.4
+        "prompt": 1.351,
+        "completion": 4.29
       },
       "alts": {
         "code": 68.8
@@ -1579,8 +1579,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.675,
-        "completion": 2.675
+        "prompt": 0.6,
+        "completion": 2.75
       },
       "alts": {
         "code": 49.3
@@ -10674,8 +10674,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-06-16",
       "pricing": {
-        "prompt": 1.4,
-        "completion": 4.4
+        "prompt": 1.351,
+        "completion": 4.29
       },
       "alts": {
         "chat": 51.1
@@ -11589,8 +11589,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04",
       "pricing": {
-        "prompt": 0.675,
-        "completion": 2.675
+        "prompt": 0.6,
+        "completion": 2.75
       },
       "alts": {
         "chat": 37.8
@@ -14630,6 +14630,19 @@
       "arenaElo": 1198
     },
     {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": 4,
+      "scores": {
+        "video": 1330
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
+    },
+    {
       "id": "hailuo-02-standard",
       "name": "Hailuo 02 Standard",
       "org": "MiniMax",
@@ -14641,19 +14654,6 @@
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1180
-    },
-    {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "video": 1324
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
     },
     {
       "id": "kling-o1-standard-december",
@@ -15041,9 +15041,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1246
+        "video": 1245
       },
       "releaseDate": "2025-10-23"
     },
@@ -15101,9 +15101,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": -6,
+      "delta": -5,
       "scores": {
-        "video": 1218
+        "video": 1219
       },
       "releaseDate": "2026-03-05"
     },
@@ -15259,9 +15259,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "video": 1123
+        "video": 1122
       },
       "releaseDate": "2026-05-21"
     },
@@ -17725,7 +17725,7 @@
         "video": 1326
       },
       "ranks": {
-        "video": 31
+        "video": 32
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -21182,10 +21182,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1324
+        "video": 1330
       },
       "ranks": {
-        "video": 32
+        "video": 31
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -21227,7 +21227,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1218
+        "video": 1219
       },
       "ranks": {
         "video": 63
@@ -22742,7 +22742,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1246
+        "video": 1245
       },
       "ranks": {
         "video": 58
@@ -22771,7 +22771,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1123
+        "video": 1122
       },
       "ranks": {
         "video": 75
@@ -23815,6 +23815,6 @@
     "arena_image": "ok (74)",
     "arena_video": "ok (43)"
   },
-  "updatedAt": 1785816707107,
+  "updatedAt": 1785829044141,
   "errors": []
 }
