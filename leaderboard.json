@@ -14353,9 +14353,9 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1396
+        "video": 1395
       },
       "releaseDate": "2026-07-31"
     },
@@ -14488,9 +14488,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 1,
+      "delta": -1,
       "scores": {
-        "video": 1367
+        "video": 1365
       },
       "releaseDate": "2025-06-18"
     },
@@ -14500,9 +14500,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1364
+        "video": 1363
       },
       "releaseDate": "2025-10-15"
     },
@@ -14642,19 +14642,6 @@
       "releaseDate": "2025-09-29"
     },
     {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1326
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
-    },
-    {
       "id": "hailuo-02-standard",
       "name": "Hailuo 02 Standard",
       "org": "MiniMax",
@@ -14666,6 +14653,19 @@
       },
       "releaseDate": "2025-06-18",
       "arenaElo": 1180
+    },
+    {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1325
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
     },
     {
       "id": "kling-o1-standard-december",
@@ -14770,9 +14770,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -3,
+      "delta": -2,
       "scores": {
-        "video": 1318
+        "video": 1319
       },
       "releaseDate": "2026-03-31"
     },
@@ -15150,9 +15150,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1214
+        "video": 1215
       },
       "releaseDate": "2025-06-10"
     },
@@ -15392,9 +15392,9 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "video": 1082
+        "video": 1081
       },
       "releaseDate": "2024-12-13"
     },
@@ -15739,7 +15739,7 @@
       "org": "NVIDIA",
       "color": "#86b737",
       "scores": {
-        "video": 1396
+        "video": 1395
       },
       "ranks": {
         "video": 8
@@ -17146,7 +17146,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1364
+        "video": 1363
       },
       "ranks": {
         "video": 20
@@ -17725,7 +17725,7 @@
         "video": 1326
       },
       "ranks": {
-        "video": 33
+        "video": 32
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -18125,7 +18125,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "video": 1214
+        "video": 1215
       },
       "ranks": {
         "video": 66
@@ -19879,7 +19879,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1367
+        "video": 1365
       },
       "ranks": {
         "video": 19
@@ -21182,10 +21182,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1326
+        "video": 1325
       },
       "ranks": {
-        "video": 32
+        "video": 33
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -21198,7 +21198,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1318
+        "video": 1319
       },
       "ranks": {
         "video": 39
@@ -22949,7 +22949,7 @@
       "org": "Pika Art",
       "color": "#feedd1",
       "scores": {
-        "video": 1082
+        "video": 1081
       },
       "ranks": {
         "video": 85
@@ -23815,6 +23815,6 @@
     "arena_image": "ok (75)",
     "arena_video": "ok (43)"
   },
-  "updatedAt": 1785859790861,
+  "updatedAt": 1785867934551,
   "errors": []
 }
