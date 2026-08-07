@@ -246,6 +246,7 @@
         "prompt": 1.25,
         "completion": 4.25
       },
+      "arenaElo": 1498,
       "alts": {
         "code": 72.2
       }
@@ -828,7 +829,8 @@
       "pricing": {
         "prompt": 1.75,
         "completion": 14
-      }
+      },
+      "arenaElo": 1498
     },
     {
       "id": "minimax-m3",
@@ -1258,7 +1260,8 @@
       "pricing": {
         "prompt": 1.75,
         "completion": 14
-      }
+      },
+      "arenaElo": 1498
     },
     {
       "id": "inkling-small",
@@ -10484,6 +10487,7 @@
         "prompt": 1.25,
         "completion": 4.25
       },
+      "arenaElo": 1544,
       "alts": {
         "chat": 56.8
       }
@@ -11369,6 +11373,7 @@
         "prompt": 0.2,
         "completion": 1.25
       },
+      "arenaElo": 1544,
       "alts": {
         "chat": 39.7
       }
@@ -14344,9 +14349,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 27,
+      "delta": 26,
       "scores": {
-        "image": 1148
+        "image": 1147
       }
     },
     {
@@ -14414,9 +14419,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -6,
+      "delta": -7,
       "scores": {
-        "video": 1524
+        "video": 1523
       },
       "releaseDate": "2026-07-30",
       "arenaElo": 1455
@@ -14551,9 +14556,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -5,
+      "delta": -6,
       "scores": {
-        "video": 1385
+        "video": 1384
       },
       "releaseDate": "2026-04-25"
     },
@@ -15062,6 +15067,18 @@
       "releaseDate": "2025-07-14"
     },
     {
+      "id": "bach-1-0-preview",
+      "name": "Bach-1.0 Preview",
+      "org": "Video Rebirth",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1280
+      },
+      "releaseDate": "2026-04-30"
+    },
+    {
       "id": "wan-2-6",
       "name": "Wan 2.6",
       "org": "Alibaba",
@@ -15091,23 +15108,11 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1280
-      },
-      "releaseDate": "2025-06-18"
-    },
-    {
-      "id": "bach-1-0-preview",
-      "name": "Bach-1.0 Preview",
-      "org": "Video Rebirth",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
         "video": 1279
       },
-      "releaseDate": "2026-04-30"
+      "releaseDate": "2025-06-18"
     },
     {
       "id": "sora-2-pro",
@@ -15226,9 +15231,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "video": 1235
+        "video": 1234
       },
       "releaseDate": "2026-03-05"
     },
@@ -15372,9 +15377,9 @@
       "org": "Sapiens AI",
       "color": "#1521a9",
       "votes": 0,
-      "delta": 5,
+      "delta": 4,
       "scores": {
-        "video": 1175
+        "video": 1174
       },
       "releaseDate": "2026-05-20"
     },
@@ -18768,10 +18773,10 @@
       "org": "Video Rebirth",
       "color": "#000000",
       "scores": {
-        "video": 1279
+        "video": 1280
       },
       "ranks": {
-        "video": 51
+        "video": 48
       },
       "releaseDate": "2026-04-30",
       "aliases": [
@@ -18802,7 +18807,7 @@
       "org": "Sapiens AI",
       "color": "#1521a9",
       "scores": {
-        "video": 1175
+        "video": 1174
       },
       "ranks": {
         "video": 71
@@ -20117,10 +20122,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1280
+        "video": 1279
       },
       "ranks": {
-        "video": 50
+        "video": 51
       },
       "releaseDate": "2025-06-18",
       "aliases": [
@@ -21464,7 +21469,7 @@
         "video": 1280
       },
       "ranks": {
-        "video": 49
+        "video": 50
       },
       "releaseDate": "2025-06-09"
     },
@@ -22220,7 +22225,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1235
+        "video": 1234
       },
       "ranks": {
         "video": 60
@@ -22620,7 +22625,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1524
+        "video": 1523
       },
       "ranks": {
         "video": 1
@@ -22981,7 +22986,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1148
+        "image": 1147
       },
       "ranks": {
         "image": 8
@@ -23636,7 +23641,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1385
+        "video": 1384
       },
       "ranks": {
         "video": 11
@@ -23665,7 +23670,7 @@
         "video": 1280
       },
       "ranks": {
-        "video": 48
+        "video": 49
       },
       "releaseDate": "2025-12-16"
     },
@@ -24073,11 +24078,11 @@
     "aa_llm": "ok (596)",
     "aa_image": "ok (58)",
     "aa_video": "ok (250)",
-    "arena_text": "ok (384)",
-    "arena_code": "ok (110)",
+    "arena_text": "ok (385)",
+    "arena_code": "ok (111)",
     "arena_image": "ok (75)",
     "arena_video": "ok (43)"
   },
-  "updatedAt": 1786070501497,
+  "updatedAt": 1786078367382,
   "errors": []
 }
