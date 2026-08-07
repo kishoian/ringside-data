@@ -3606,12 +3606,12 @@
       }
     },
     {
-      "id": "nvidia-nemotron-3-super-120b-a12b-reasoning",
-      "name": "NVIDIA Nemotron 3 Super 120B A12B (Reasoning)",
+      "id": "nemotron-3-super-120b-a12b-reasoning",
+      "name": "Nemotron 3 Super 120B A12B (Reasoning)",
       "org": "NVIDIA",
       "color": "#86b737",
       "votes": 0,
-      "delta": 0.3,
+      "delta": 0,
       "scores": {
         "chat": 25.7
       },
@@ -3621,7 +3621,6 @@
         "prompt": 0.2,
         "completion": 0.8
       },
-      "arenaElo": 1361,
       "alts": {
         "code": 37.7
       }
@@ -12253,8 +12252,8 @@
       }
     },
     {
-      "id": "nvidia-nemotron-3-super-120b-a12b-reasoning",
-      "name": "NVIDIA Nemotron 3 Super 120B A12B (Reasoning)",
+      "id": "nemotron-3-super-120b-a12b-reasoning",
+      "name": "Nemotron 3 Super 120B A12B (Reasoning)",
       "org": "NVIDIA",
       "color": "#86b737",
       "votes": 0,
@@ -14245,9 +14244,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 30,
+      "delta": 29,
       "scores": {
-        "image": 1370
+        "image": 1369
       },
       "arenaElo": 1380
     },
@@ -14280,9 +14279,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 35,
+      "delta": 34,
       "scores": {
-        "image": 1231
+        "image": 1230
       }
     },
     {
@@ -14303,9 +14302,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 16,
+      "delta": 14,
       "scores": {
-        "image": 1212
+        "image": 1210
       }
     },
     {
@@ -14314,9 +14313,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 36,
+      "delta": 35,
       "scores": {
-        "image": 1205
+        "image": 1204
       },
       "arenaElo": 1146
     },
@@ -14349,9 +14348,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 27,
+      "delta": 26,
       "scores": {
-        "image": 1148
+        "image": 1147
       }
     },
     {
@@ -14432,9 +14431,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 5,
+      "delta": 6,
       "scores": {
-        "video": 1519
+        "video": 1520
       },
       "releaseDate": "2026-05-19",
       "arenaElo": 1513
@@ -15823,22 +15822,6 @@
       "releaseDate": "2025-03-13"
     },
     {
-      "key": "nvidia-nemotron-3-super-120b-a12b",
-      "name": "NVIDIA Nemotron 3 Super 120B A12B",
-      "org": "NVIDIA",
-      "color": "#86b737",
-      "scores": {
-        "chat": 25.7,
-        "code": 37.7
-      },
-      "ranks": {
-        "chat": 117,
-        "code": 71
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
-      "releaseDate": "2026-03-11"
-    },
-    {
       "key": "llama-3-1-nemotron-ultra-253b-v1",
       "name": "Llama 3.1 Nemotron Ultra 253B v1",
       "org": "NVIDIA",
@@ -16231,6 +16214,22 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-06-04"
+    },
+    {
+      "key": "nemotron-3-super-120b-a12b",
+      "name": "Nemotron 3 Super 120B A12B",
+      "org": "NVIDIA",
+      "color": "#86b737",
+      "scores": {
+        "chat": 25.7,
+        "code": 37.7
+      },
+      "ranks": {
+        "chat": 117,
+        "code": 71
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
+      "releaseDate": "2026-03-11"
     },
     {
       "key": "ernie-5-0-thinking-preview",
@@ -18274,7 +18273,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1519
+        "video": 1520
       },
       "ranks": {
         "video": 2
@@ -21393,7 +21392,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1205
+        "image": 1204
       },
       "ranks": {
         "image": 6
@@ -22126,7 +22125,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1370
+        "image": 1369
       },
       "ranks": {
         "image": 1
@@ -22986,7 +22985,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1148
+        "image": 1147
       },
       "ranks": {
         "image": 8
@@ -23844,7 +23843,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1231
+        "image": 1230
       },
       "ranks": {
         "image": 4
@@ -24083,6 +24082,6 @@
     "arena_image": "ok (75)",
     "arena_video": "ok (43)"
   },
-  "updatedAt": 1786124863146,
+  "updatedAt": 1786128807189,
   "errors": []
 }
