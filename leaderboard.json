@@ -14322,9 +14322,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 35,
+      "delta": 36,
       "scores": {
-        "image": 1204
+        "image": 1205
       },
       "arenaElo": 1146
     },
@@ -14334,9 +14334,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1194
+        "image": 1195
       }
     },
     {
@@ -14730,18 +14730,6 @@
       "releaseDate": "2026-01-30"
     },
     {
-      "id": "veo-3-1-preview",
-      "name": "Veo 3.1 Preview",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1348
-      },
-      "releaseDate": "2025-10-15"
-    },
-    {
       "id": "kling-3-0-omni-720p-standard",
       "name": "Kling 3.0 Omni 720p (Standard)",
       "org": "KlingAI",
@@ -14752,6 +14740,18 @@
         "video": 1348
       },
       "releaseDate": "2026-02-04"
+    },
+    {
+      "id": "veo-3-1-preview",
+      "name": "Veo 3.1 Preview",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1348
+      },
+      "releaseDate": "2025-10-15"
     },
     {
       "id": "hailuo-2-3",
@@ -15161,6 +15161,19 @@
       "arenaElo": 1340
     },
     {
+      "id": "sora-2-december",
+      "name": "Sora 2 (December)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -13,
+      "scores": {
+        "video": 1255
+      },
+      "releaseDate": "2025-12-15",
+      "arenaElo": 1340
+    },
+    {
       "id": "pika-2-5",
       "name": "Pika 2.5",
       "org": "Pika Art",
@@ -15183,19 +15196,6 @@
         "video": 1255
       },
       "releaseDate": "2025-05-29"
-    },
-    {
-      "id": "sora-2-december",
-      "name": "Sora 2 (December)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -14,
-      "scores": {
-        "video": 1254
-      },
-      "releaseDate": "2025-12-15",
-      "arenaElo": 1340
     },
     {
       "id": "ltx-2-fast",
@@ -15251,9 +15251,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1228
+        "video": 1229
       },
       "releaseDate": "2025-06-01"
     },
@@ -17611,7 +17611,7 @@
         "video": 1348
       },
       "ranks": {
-        "video": 26
+        "video": 25
       },
       "releaseDate": "2026-02-04"
     },
@@ -17924,7 +17924,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1228
+        "video": 1229
       },
       "ranks": {
         "video": 61
@@ -19406,7 +19406,7 @@
         "video": 1348
       },
       "ranks": {
-        "video": 25
+        "video": 26
       },
       "releaseDate": "2025-10-15",
       "aliases": [
@@ -21400,7 +21400,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1204
+        "image": 1205
       },
       "ranks": {
         "image": 6
@@ -24081,15 +24081,15 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (400)",
     "aa_llm": "ok (596)",
     "aa_image": "ok (58)",
     "aa_video": "ok (250)",
-    "openrouter": "ok (400)",
     "arena_text": "ok (386)",
     "arena_code": "ok (111)",
     "arena_image": "ok (76)",
     "arena_video": "ok (43)"
   },
-  "updatedAt": 1786167648506,
+  "updatedAt": 1786171783274,
   "errors": []
 }
