@@ -420,6 +420,26 @@
       }
     },
     {
+      "id": "deepseek-v4-pro-0813-reasoning-max-effort",
+      "name": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 53.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2026-08-13",
+      "pricing": {
+        "prompt": 0.435,
+        "completion": 0.87
+      },
+      "alts": {
+        "code": 68.8
+      }
+    },
+    {
       "id": "muse-spark-1-1-xhigh",
       "name": "Muse Spark 1.1 (xhigh)",
       "org": "Meta",
@@ -459,26 +479,6 @@
       "arenaElo": 1476,
       "alts": {
         "code": 71.1
-      }
-    },
-    {
-      "id": "deepseek-v4-pro-0813-reasoning-max-effort",
-      "name": "DeepSeek V4 Pro 0813 (Reasoning, Max Effort)",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 53
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
-      "releaseDate": "2026-08-13",
-      "pricing": {
-        "prompt": 0.435,
-        "completion": 0.87
-      },
-      "alts": {
-        "code": 68.8
       }
     },
     {
@@ -10951,7 +10951,7 @@
         "completion": 0.87
       },
       "alts": {
-        "chat": 53
+        "chat": 53.2
       }
     },
     {
@@ -15814,9 +15814,9 @@
       "org": "Sand.ai",
       "color": "#FFBC3E",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "video": 1107
+        "video": 1108
       },
       "releaseDate": "2026-08-05"
     },
@@ -17449,11 +17449,11 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "chat": 53,
+        "chat": 53.2,
         "code": 68.8
       },
       "ranks": {
-        "chat": 16,
+        "chat": 14,
         "code": 20
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
@@ -19933,7 +19933,7 @@
         "code": 71.3
       },
       "ranks": {
-        "chat": 14,
+        "chat": 15,
         "code": 15
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
@@ -20535,7 +20535,7 @@
       "org": "Sand.ai",
       "color": "#FFBC3E",
       "scores": {
-        "video": 1107
+        "video": 1108
       },
       "ranks": {
         "video": 80
@@ -23747,7 +23747,7 @@
         "code": 71.1
       },
       "ranks": {
-        "chat": 15,
+        "chat": 16,
         "code": 16
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
@@ -24555,14 +24555,14 @@
   ],
   "sources": {
     "openrouter": "ok (409)",
-    "aa_llm": "ok (606)",
-    "aa_image": "ok (58)",
-    "aa_video": "ok (254)",
     "arena_text": "ok (391)",
     "arena_code": "ok (115)",
     "arena_image": "ok (77)",
-    "arena_video": "ok (44)"
+    "arena_video": "ok (44)",
+    "aa_llm": "ok (606)",
+    "aa_image": "ok (58)",
+    "aa_video": "ok (254)"
   },
-  "updatedAt": 1786636642622,
+  "updatedAt": 1786640331637,
   "errors": []
 }
