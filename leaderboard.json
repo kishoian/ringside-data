@@ -14584,9 +14584,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1299
+        "image": 1300
       },
       "arenaElo": 1246
     },
@@ -14688,9 +14688,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 7,
+      "delta": 8,
       "scores": {
-        "image": 1083
+        "image": 1084
       },
       "arenaElo": 1057
     },
@@ -14730,6 +14730,19 @@
   ],
   "video": [
     {
+      "id": "minimax-h3",
+      "name": "MiniMax H3",
+      "org": "MiniMax",
+      "color": "#EB3568",
+      "votes": 0,
+      "delta": 3,
+      "scores": {
+        "video": 1526
+      },
+      "releaseDate": "2026-07-30",
+      "arenaElo": 1453
+    },
+    {
       "id": "gemini-omni-flash",
       "name": "Gemini Omni Flash",
       "org": "Google",
@@ -14741,19 +14754,6 @@
       },
       "releaseDate": "2026-05-19",
       "arenaElo": 1512
-    },
-    {
-      "id": "minimax-h3",
-      "name": "MiniMax H3",
-      "org": "MiniMax",
-      "color": "#EB3568",
-      "votes": 0,
-      "delta": -8,
-      "scores": {
-        "video": 1515
-      },
-      "releaseDate": "2026-07-30",
-      "arenaElo": 1453
     },
     {
       "id": "dreamina-seedance-2-0-720p",
@@ -14916,6 +14916,18 @@
       "arenaElo": 1428
     },
     {
+      "id": "wan-2-7",
+      "name": "Wan 2.7",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -12,
+      "scores": {
+        "video": 1372
+      },
+      "releaseDate": "2026-04-25"
+    },
+    {
       "id": "pixverse-v5-6",
       "name": "PixVerse V5.6",
       "org": "PixVerse",
@@ -14951,18 +14963,6 @@
         "video": 1368
       },
       "releaseDate": "2026-03-18"
-    },
-    {
-      "id": "wan-2-7",
-      "name": "Wan 2.7",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -21,
-      "scores": {
-        "video": 1363
-      },
-      "releaseDate": "2026-04-25"
     },
     {
       "id": "hailuo-02-0616",
@@ -15741,9 +15741,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": 5,
+      "delta": 6,
       "scores": {
-        "video": 1129
+        "video": 1130
       },
       "releaseDate": "2026-05-21"
     },
@@ -15814,9 +15814,9 @@
       "org": "Sand.ai",
       "color": "#FFBC3E",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "video": 1108
+        "video": 1107
       },
       "releaseDate": "2026-08-05"
     },
@@ -18253,7 +18253,7 @@
         "video": 1371
       },
       "ranks": {
-        "video": 16
+        "video": 17
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -18659,7 +18659,7 @@
         "video": 1522
       },
       "ranks": {
-        "video": 1
+        "video": 2
       },
       "releaseDate": "2026-05-19"
     },
@@ -19768,7 +19768,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1299
+        "image": 1300
       },
       "ranks": {
         "image": 3
@@ -20535,7 +20535,7 @@
       "org": "Sand.ai",
       "color": "#FFBC3E",
       "scores": {
-        "video": 1108
+        "video": 1107
       },
       "ranks": {
         "video": 80
@@ -21189,7 +21189,7 @@
         "video": 1371
       },
       "ranks": {
-        "video": 15
+        "video": 16
       },
       "releaseDate": "2026-02-25"
     },
@@ -22621,7 +22621,7 @@
         "video": 1368
       },
       "ranks": {
-        "video": 17
+        "video": 18
       },
       "releaseDate": "2026-03-18"
     },
@@ -23061,7 +23061,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1083
+        "image": 1084
       },
       "ranks": {
         "image": 10
@@ -23073,10 +23073,10 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1515
+        "video": 1526
       },
       "ranks": {
-        "video": 2
+        "video": 1
       },
       "releaseDate": "2026-07-30"
     },
@@ -23487,7 +23487,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1129
+        "video": 1130
       },
       "ranks": {
         "video": 75
@@ -24105,10 +24105,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1363
+        "video": 1372
       },
       "ranks": {
-        "video": 18
+        "video": 15
       },
       "releaseDate": "2026-04-25"
     },
@@ -24558,11 +24558,11 @@
     "aa_llm": "ok (606)",
     "aa_image": "ok (58)",
     "aa_video": "ok (254)",
-    "arena_text": "ok (390)",
-    "arena_code": "ok (114)",
+    "arena_text": "ok (391)",
+    "arena_code": "ok (115)",
     "arena_image": "ok (77)",
     "arena_video": "ok (44)"
   },
-  "updatedAt": 1786594213508,
+  "updatedAt": 1786601685746,
   "errors": []
 }
