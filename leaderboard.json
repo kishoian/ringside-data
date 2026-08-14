@@ -1272,26 +1272,6 @@
       }
     },
     {
-      "id": "nex-n2-pro",
-      "name": "Nex-N2-Pro",
-      "org": "Nex AGI",
-      "color": "#0351bc",
-      "votes": 0,
-      "delta": 0.4,
-      "scores": {
-        "chat": 42.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/nex_small.svg",
-      "releaseDate": "2026-06-02",
-      "pricing": {
-        "prompt": 0.5,
-        "completion": 2.5
-      },
-      "alts": {
-        "code": 59.1
-      }
-    },
-    {
       "id": "deepseek-v4-flash-reasoning-max-effort",
       "name": "DeepSeek V4 Flash (Reasoning, Max Effort)",
       "org": "DeepSeek",
@@ -1348,6 +1328,26 @@
       "arenaElo": 1481,
       "alts": {
         "code": 78.3
+      }
+    },
+    {
+      "id": "nex-n2-pro",
+      "name": "Nex-N2-Pro",
+      "org": "Nex AGI",
+      "color": "#0351bc",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 41.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/nex_small.svg",
+      "releaseDate": "2026-06-02",
+      "pricing": {
+        "prompt": 0.5,
+        "completion": 2.5
+      },
+      "alts": {
+        "code": 59.1
       }
     },
     {
@@ -11522,7 +11522,7 @@
         "completion": 2.5
       },
       "alts": {
-        "chat": 42.1
+        "chat": 41.7
       }
     },
     {
@@ -18547,7 +18547,7 @@
         "code": 56.2
       },
       "ranks": {
-        "chat": 39,
+        "chat": 38,
         "code": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
@@ -19515,7 +19515,7 @@
         "chat": 41.9
       },
       "ranks": {
-        "chat": 40
+        "chat": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "releaseDate": "2025-11-24",
@@ -22935,11 +22935,11 @@
       "org": "Nex AGI",
       "color": "#0351bc",
       "scores": {
-        "chat": 42.1,
+        "chat": 41.7,
         "code": 59.1
       },
       "ranks": {
-        "chat": 38,
+        "chat": 40,
         "code": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/nex_small.svg",
@@ -24763,6 +24763,6 @@
     "arena_image": "ok (77)",
     "arena_video": "ok (44)"
   },
-  "updatedAt": 1786733459629,
+  "updatedAt": 1786736763717,
   "errors": []
 }
