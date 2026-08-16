@@ -14865,9 +14865,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1061
+        "image": 1062
       }
     },
     {
@@ -14900,9 +14900,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1524
+        "video": 1525
       },
       "releaseDate": "2026-07-30",
       "arenaElo": 1453
@@ -15399,19 +15399,6 @@
       "releaseDate": "2025-10-17"
     },
     {
-      "id": "kling-o1-pro-december",
-      "name": "Kling O1 Pro (December)",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "votes": 0,
-      "delta": 5,
-      "scores": {
-        "video": 1318
-      },
-      "releaseDate": "2025-12-01",
-      "arenaElo": 1205
-    },
-    {
       "id": "wan-2-5-preview",
       "name": "Wan 2.5 Preview",
       "org": "Alibaba",
@@ -15458,6 +15445,19 @@
         "video": 1313
       },
       "releaseDate": "2026-03-31"
+    },
+    {
+      "id": "kling-o1-pro-december",
+      "name": "Kling O1 Pro (December)",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1312
+      },
+      "releaseDate": "2025-12-01",
+      "arenaElo": 1205
     },
     {
       "id": "avenger-0-5-pro",
@@ -15906,9 +15906,9 @@
       "org": "Runway",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -2,
       "scores": {
-        "video": 1134
+        "video": 1132
       },
       "releaseDate": "2026-05-21"
     },
@@ -16901,7 +16901,7 @@
         "video": 1316
       },
       "ranks": {
-        "video": 40
+        "video": 39
       },
       "releaseDate": "2026-05-31"
     },
@@ -20028,7 +20028,7 @@
         "video": 1316
       },
       "ranks": {
-        "video": 39
+        "video": 38
       },
       "releaseDate": "2025-09-24",
       "aliases": [
@@ -21463,7 +21463,7 @@
         "video": 1314
       },
       "ranks": {
-        "video": 41
+        "video": 40
       },
       "releaseDate": "2025-09-29",
       "aliases": [
@@ -22058,22 +22058,6 @@
       ]
     },
     {
-      "key": "kling-o1-pro",
-      "name": "Kling O1 Pro",
-      "org": "KlingAI",
-      "color": "#ff3417",
-      "scores": {
-        "video": 1318
-      },
-      "ranks": {
-        "video": 38
-      },
-      "releaseDate": "2026-01-13",
-      "aliases": [
-        "Kling Pro O1"
-      ]
-    },
-    {
       "key": "veo-3-1-lite",
       "name": "Veo 3.1 Lite",
       "org": "Google",
@@ -22082,11 +22066,27 @@
         "video": 1313
       },
       "ranks": {
-        "video": 42
+        "video": 41
       },
       "releaseDate": "2026-03-31",
       "aliases": [
         "Veo Lite 3.1"
+      ]
+    },
+    {
+      "key": "kling-o1-pro",
+      "name": "Kling O1 Pro",
+      "org": "KlingAI",
+      "color": "#ff3417",
+      "scores": {
+        "video": 1312
+      },
+      "ranks": {
+        "video": 42
+      },
+      "releaseDate": "2026-01-13",
+      "aliases": [
+        "Kling Pro O1"
       ]
     },
     {
@@ -23273,7 +23273,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1524
+        "video": 1525
       },
       "ranks": {
         "video": 1
@@ -23646,7 +23646,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1061
+        "image": 1062
       },
       "ranks": {
         "image": 11
@@ -23687,7 +23687,7 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1134
+        "video": 1132
       },
       "ranks": {
         "video": 75
@@ -24763,6 +24763,6 @@
     "arena_image": "ok (77)",
     "arena_video": "ok (44)"
   },
-  "updatedAt": 1786865331797,
+  "updatedAt": 1786868790331,
   "errors": []
 }
