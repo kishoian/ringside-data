@@ -1490,7 +1490,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-04-07",
       "pricing": {
-        "prompt": 1.38,
+        "prompt": 1.39,
         "completion": 4.4
       },
       "arenaElo": 1467,
@@ -2124,7 +2124,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-04-07",
       "pricing": {
-        "prompt": 1.38,
+        "prompt": 1.39,
         "completion": 4.4
       },
       "arenaElo": 1467,
@@ -2992,6 +2992,27 @@
       }
     },
     {
+      "id": "deepseek-v3-1-terminus-reasoning",
+      "name": "DeepSeek V3.1 Terminus (Reasoning)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": 0.3,
+      "scores": {
+        "chat": 31.4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2025-09-22",
+      "pricing": {
+        "prompt": 1.635,
+        "completion": 2.75
+      },
+      "arenaElo": 1417,
+      "alts": {
+        "code": 43.5
+      }
+    },
+    {
       "id": "qwen3-5-omni-plus",
       "name": "Qwen3.5 Omni Plus",
       "org": "Alibaba",
@@ -3056,27 +3077,6 @@
       "pricing": {
         "prompt": 0.25,
         "completion": 2
-      }
-    },
-    {
-      "id": "deepseek-v3-1-terminus-reasoning",
-      "name": "DeepSeek V3.1 Terminus (Reasoning)",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 31.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
-      "releaseDate": "2025-09-22",
-      "pricing": {
-        "prompt": 1.635,
-        "completion": 2.75
-      },
-      "arenaElo": 1417,
-      "alts": {
-        "code": 43.5
       }
     },
     {
@@ -4168,8 +4168,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-08-11",
       "pricing": {
-        "prompt": 0.05,
-        "completion": 0.2
+        "prompt": 0.055,
+        "completion": 0.22
       },
       "alts": {
         "code": 26.8
@@ -11815,7 +11815,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-04-07",
       "pricing": {
-        "prompt": 1.38,
+        "prompt": 1.39,
         "completion": 4.4
       },
       "arenaElo": 1510,
@@ -12484,7 +12484,7 @@
         "completion": 2.75
       },
       "alts": {
-        "chat": 31.1
+        "chat": 31.4
       }
     },
     {
@@ -13216,8 +13216,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
       "releaseDate": "2026-08-11",
       "pricing": {
-        "prompt": 0.05,
-        "completion": 0.2
+        "prompt": 0.055,
+        "completion": 0.22
       },
       "alts": {
         "chat": 23.6
@@ -14781,9 +14781,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1298
+        "image": 1297
       },
       "arenaElo": 1246
     },
@@ -14793,9 +14793,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -3,
+      "delta": -5,
       "scores": {
-        "image": 1229
+        "image": 1227
       }
     },
     {
@@ -14827,9 +14827,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1205
+        "image": 1204
       },
       "arenaElo": 1147
     },
@@ -14908,9 +14908,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1041
+        "image": 1042
       }
     },
     {
@@ -14963,7 +14963,7 @@
         "video": 1459
       },
       "releaseDate": "2026-03-18",
-      "arenaElo": 1478
+      "arenaElo": 1482
     },
     {
       "id": "happyhorse-1-1",
@@ -15204,9 +15204,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "video": 1356
+        "video": 1357
       },
       "releaseDate": "2026-02-04"
     },
@@ -15257,7 +15257,7 @@
         "video": 1342
       },
       "releaseDate": "2025-10-28",
-      "arenaElo": 1203
+      "arenaElo": 1204
     },
     {
       "id": "veo-3-1",
@@ -15662,7 +15662,7 @@
         "video": 1273
       },
       "releaseDate": "2025-09-30",
-      "arenaElo": 1366
+      "arenaElo": 1364
     },
     {
       "id": "sora-2-october",
@@ -15906,7 +15906,7 @@
         "video": 1168
       },
       "releaseDate": "2024-12-16",
-      "arenaElo": 1164
+      "arenaElo": 1163
     },
     {
       "id": "kling-1-6-pro",
@@ -15967,7 +15967,7 @@
         "video": 1118
       },
       "releaseDate": "2024-12-09",
-      "arenaElo": 1069
+      "arenaElo": 1068
     },
     {
       "id": "t2v-01-director",
@@ -16066,18 +16066,6 @@
       "releaseDate": "2024-09-19"
     },
     {
-      "id": "runway-gen-3-alpha-turbo",
-      "name": "Runway Gen 3 Alpha Turbo",
-      "org": "Runway",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1093
-      },
-      "releaseDate": "2024-08-15"
-    },
-    {
       "id": "i2v-01-director",
       "name": "I2V-01-Director",
       "org": "MiniMax",
@@ -16088,6 +16076,18 @@
         "video": 1092
       },
       "releaseDate": "2025-02-22"
+    },
+    {
+      "id": "runway-gen-3-alpha-turbo",
+      "name": "Runway Gen 3 Alpha Turbo",
+      "org": "Runway",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1092
+      },
+      "releaseDate": "2024-08-15"
     },
     {
       "id": "pika-2-0",
@@ -17011,10 +17011,10 @@
       "org": "Runway",
       "color": "#000000",
       "scores": {
-        "video": 1093
+        "video": 1092
       },
       "ranks": {
-        "video": 85
+        "video": 86
       },
       "releaseDate": "2024-08-15",
       "aliases": [
@@ -17178,11 +17178,11 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "chat": 31.1,
+        "chat": 31.4,
         "code": 43.5
       },
       "ranks": {
-        "chat": 105,
+        "chat": 102,
         "code": 70
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
@@ -18179,7 +18179,7 @@
         "chat": 31.3
       },
       "ranks": {
-        "chat": 104
+        "chat": 105
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-11-13",
@@ -18681,7 +18681,7 @@
         "chat": 31.3
       },
       "ranks": {
-        "chat": 102
+        "chat": 103
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-03-30"
@@ -20000,7 +20000,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1298
+        "image": 1297
       },
       "ranks": {
         "image": 3
@@ -20109,7 +20109,7 @@
         "video": 1092
       },
       "ranks": {
-        "video": 86
+        "video": 85
       },
       "releaseDate": "2025-02-22",
       "aliases": [
@@ -20738,7 +20738,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1356
+        "video": 1357
       },
       "ranks": {
         "video": 22
@@ -20976,7 +20976,7 @@
         "chat": 31.3
       },
       "ranks": {
-        "chat": 103
+        "chat": 104
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2025-11-19",
@@ -22054,7 +22054,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1205
+        "image": 1204
       },
       "ranks": {
         "image": 6
@@ -24572,7 +24572,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1229
+        "image": 1227
       },
       "ranks": {
         "image": 4
@@ -24584,7 +24584,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1041
+        "image": 1042
       },
       "ranks": {
         "image": 12
@@ -24809,8 +24809,8 @@
     "arena_text": "ok (391)",
     "arena_code": "ok (115)",
     "arena_image": "ok (77)",
-    "arena_video": "ok (44)"
+    "arena_video": "ok (45)"
   },
-  "updatedAt": 1786994755060,
+  "updatedAt": 1786998232734,
   "errors": []
 }
