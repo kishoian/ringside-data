@@ -14854,9 +14854,9 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": -3,
+      "delta": -4,
       "scores": {
-        "image": 1220
+        "image": 1219
       },
       "arenaElo": 1107
     },
@@ -14912,9 +14912,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -6,
+      "delta": -7,
       "scores": {
-        "image": 1143
+        "image": 1142
       }
     },
     {
@@ -14923,9 +14923,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1130
+        "image": 1129
       },
       "arenaElo": 1082
     },
@@ -14935,9 +14935,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -5,
+      "delta": -4,
       "scores": {
-        "image": 1080
+        "image": 1081
       },
       "arenaElo": 1057
     },
@@ -15517,6 +15517,19 @@
       "releaseDate": "2025-09-29"
     },
     {
+      "id": "veo-3",
+      "name": "Veo 3",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 2,
+      "scores": {
+        "video": 1312
+      },
+      "releaseDate": "2025-07-29",
+      "arenaElo": 1253
+    },
+    {
       "id": "veo-3-1-lite",
       "name": "Veo 3.1 Lite",
       "org": "Google",
@@ -15565,19 +15578,6 @@
       },
       "releaseDate": "2025-12-01",
       "arenaElo": 1205
-    },
-    {
-      "id": "veo-3",
-      "name": "Veo 3",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -4,
-      "scores": {
-        "video": 1306
-      },
-      "releaseDate": "2025-07-29",
-      "arenaElo": 1253
     },
     {
       "id": "ray-3",
@@ -15927,9 +15927,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "video": 1190
+        "video": 1191
       },
       "releaseDate": "2025-06-20"
     },
@@ -20126,7 +20126,7 @@
         "video": 1311
       },
       "ranks": {
-        "video": 42
+        "video": 43
       },
       "releaseDate": "2025-10-16",
       "aliases": [
@@ -21439,7 +21439,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1130
+        "image": 1129
       },
       "ranks": {
         "image": 9
@@ -22089,7 +22089,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1220
+        "image": 1219
       },
       "ranks": {
         "image": 5
@@ -22148,7 +22148,7 @@
         "video": 1312
       },
       "ranks": {
-        "video": 41
+        "video": 42
       },
       "releaseDate": "2026-03-31",
       "aliases": [
@@ -22164,7 +22164,7 @@
         "video": 1307
       },
       "ranks": {
-        "video": 43
+        "video": 44
       },
       "releaseDate": "2026-01-13",
       "aliases": [
@@ -23359,7 +23359,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1080
+        "image": 1081
       },
       "ranks": {
         "image": 10
@@ -23429,7 +23429,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "video": 1190
+        "video": 1191
       },
       "ranks": {
         "video": 70
@@ -23732,7 +23732,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1143
+        "image": 1142
       },
       "ranks": {
         "image": 8
@@ -24782,10 +24782,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 1306
+        "video": 1312
       },
       "ranks": {
-        "video": 44
+        "video": 41
       },
       "releaseDate": "2025-07-29"
     },
@@ -24872,7 +24872,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (414)",
+    "openrouter": "ok (415)",
     "aa_llm": "ok (611)",
     "aa_image": "ok (59)",
     "aa_video": "ok (254)",
@@ -24881,6 +24881,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (45)"
   },
-  "updatedAt": 1787114049319,
+  "updatedAt": 1787117268165,
   "errors": []
 }
