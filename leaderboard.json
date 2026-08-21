@@ -668,8 +668,8 @@
       }
     },
     {
-      "id": "qwen3-8-27b",
-      "name": "Qwen3.8 27B",
+      "id": "qwen3-8-27b-xhigh",
+      "name": "Qwen3.8 27B (xhigh)",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
@@ -683,6 +683,7 @@
         "prompt": 0.42500000000000004,
         "completion": 3.1
       },
+      "arenaElo": 1498,
       "alts": {
         "code": 68.1
       }
@@ -1110,6 +1111,22 @@
       "arenaElo": 1505
     },
     {
+      "id": "qwen3-8-27b-medium",
+      "name": "Qwen3.8 27B (medium)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 44.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-08-14",
+      "alts": {
+        "code": 68.1
+      }
+    },
+    {
       "id": "gpt-5-5-low",
       "name": "GPT-5.5 (low)",
       "org": "OpenAI",
@@ -1246,6 +1263,22 @@
       "arenaElo": 1467,
       "alts": {
         "code": 60.2
+      }
+    },
+    {
+      "id": "qwen3-8-27b-low",
+      "name": "Qwen3.8 27B (low)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 42.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-08-14",
+      "alts": {
+        "code": 68.1
       }
     },
     {
@@ -5312,10 +5345,6 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-09-18",
-      "pricing": {
-        "prompt": 2,
-        "completion": 5
-      },
       "alts": {
         "code": 21.3
       }
@@ -11263,8 +11292,8 @@
       }
     },
     {
-      "id": "qwen3-8-27b",
-      "name": "Qwen3.8 27B",
+      "id": "qwen3-8-27b-xhigh",
+      "name": "Qwen3.8 27B (xhigh)",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
@@ -11278,6 +11307,7 @@
         "prompt": 0.42500000000000004,
         "completion": 3.1
       },
+      "arenaElo": 1534,
       "alts": {
         "chat": 52
       }
@@ -11726,6 +11756,22 @@
       }
     },
     {
+      "id": "qwen3-8-27b-low",
+      "name": "Qwen3.8 27B (low)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 58.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-08-14",
+      "alts": {
+        "chat": 52
+      }
+    },
+    {
       "id": "gpt-5-6-terra-low",
       "name": "GPT-5.6 Terra (low)",
       "org": "OpenAI",
@@ -11807,6 +11853,22 @@
       "arenaElo": 1578,
       "alts": {
         "chat": 42.1
+      }
+    },
+    {
+      "id": "qwen3-8-27b-medium",
+      "name": "Qwen3.8 27B (medium)",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 56.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "releaseDate": "2026-08-14",
+      "alts": {
+        "chat": 52
       }
     },
     {
@@ -13702,10 +13764,6 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral_small.png",
       "releaseDate": "2025-09-18",
-      "pricing": {
-        "prompt": 2,
-        "completion": 5
-      },
       "alts": {
         "chat": 18
       }
@@ -14883,9 +14941,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -7,
+      "delta": -8,
       "scores": {
-        "image": 1225
+        "image": 1224
       }
     },
     {
@@ -14998,9 +15056,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1043
+        "image": 1042
       }
     },
     {
@@ -24785,7 +24843,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1225
+        "image": 1224
       },
       "ranks": {
         "image": 4
@@ -24797,7 +24855,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1043
+        "image": 1042
       },
       "ranks": {
         "image": 12
@@ -25016,7 +25074,7 @@
   ],
   "sources": {
     "openrouter": "ok (420)",
-    "aa_llm": "ok (612)",
+    "aa_llm": "ok (614)",
     "aa_image": "ok (59)",
     "aa_video": "ok (264)",
     "arena_text": "ok (393)",
@@ -25024,6 +25082,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (45)"
   },
-  "updatedAt": 1787326224977,
+  "updatedAt": 1787329878837,
   "errors": []
 }
