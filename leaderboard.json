@@ -15087,9 +15087,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1224
+        "image": 1225
       }
     },
     {
@@ -15110,9 +15110,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -19,
+      "delta": -18,
       "scores": {
-        "image": 1206
+        "image": 1207
       }
     },
     {
@@ -15144,9 +15144,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1173
+        "image": 1174
       },
       "arenaElo": 1117
     },
@@ -15191,9 +15191,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1057
+        "image": 1058
       }
     },
     {
@@ -15202,9 +15202,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1042
+        "image": 1043
       }
     },
     {
@@ -15239,9 +15239,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": -4,
       "scores": {
-        "video": 1502
+        "video": 1498
       },
       "releaseDate": "2026-07-30",
       "arenaElo": 1453
@@ -15265,9 +15265,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -4,
       "scores": {
-        "video": 1439
+        "video": 1435
       },
       "releaseDate": "2026-08-19"
     },
@@ -15473,9 +15473,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1357
+        "video": 1358
       },
       "releaseDate": "2026-01-13",
       "arenaElo": 1217
@@ -15558,9 +15558,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1343
+        "video": 1344
       },
       "releaseDate": "2025-10-28",
       "arenaElo": 1204
@@ -15668,9 +15668,9 @@
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1326
+        "video": 1327
       },
       "releaseDate": "2025-12-03"
     },
@@ -15799,18 +15799,6 @@
       "arenaElo": 1217
     },
     {
-      "id": "wan-2-5-preview",
-      "name": "Wan 2.5 Preview",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1311
-      },
-      "releaseDate": "2025-09-24"
-    },
-    {
       "id": "avenger-0-5-pro",
       "name": "Avenger 0.5 Pro",
       "org": "Video Rebirth",
@@ -15821,6 +15809,18 @@
         "video": 1311
       },
       "releaseDate": "2025-10-16"
+    },
+    {
+      "id": "wan-2-5-preview",
+      "name": "Wan 2.5 Preview",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1310
+      },
+      "releaseDate": "2025-09-24"
     },
     {
       "id": "kling-o1-pro-december",
@@ -16605,9 +16605,9 @@
       "org": "Open Source",
       "color": "#ffce19",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 832
+        "video": 831
       },
       "releaseDate": "2024-10-10"
     }
@@ -19689,7 +19689,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1173
+        "image": 1174
       },
       "ranks": {
         "image": 7
@@ -20382,22 +20382,6 @@
       ]
     },
     {
-      "key": "wan-2-5-preview",
-      "name": "Wan 2.5 Preview",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "scores": {
-        "video": 1311
-      },
-      "ranks": {
-        "video": 43
-      },
-      "releaseDate": "2025-09-24",
-      "aliases": [
-        "Wan Preview 2.5"
-      ]
-    },
-    {
       "key": "avenger-0-5-pro",
       "name": "Avenger 0.5 Pro",
       "org": "Video Rebirth",
@@ -20406,11 +20390,27 @@
         "video": 1311
       },
       "ranks": {
-        "video": 44
+        "video": 43
       },
       "releaseDate": "2025-10-16",
       "aliases": [
         "Avenger Pro 0.5"
+      ]
+    },
+    {
+      "key": "wan-2-5-preview",
+      "name": "Wan 2.5 Preview",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "scores": {
+        "video": 1310
+      },
+      "ranks": {
+        "video": 44
+      },
+      "releaseDate": "2025-09-24",
+      "aliases": [
+        "Wan Preview 2.5"
       ]
     },
     {
@@ -21761,7 +21761,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1357
+        "video": 1358
       },
       "ranks": {
         "video": 20
@@ -21809,7 +21809,7 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 1326
+        "video": 1327
       },
       "ranks": {
         "video": 36
@@ -22550,7 +22550,7 @@
       "org": "Open Source",
       "color": "#ffce19",
       "scores": {
-        "video": 832
+        "video": 831
       },
       "ranks": {
         "video": 105
@@ -23705,7 +23705,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1502
+        "video": 1498
       },
       "ranks": {
         "video": 2
@@ -23718,7 +23718,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1343
+        "video": 1344
       },
       "ranks": {
         "video": 27
@@ -24078,7 +24078,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1057
+        "image": 1058
       },
       "ranks": {
         "image": 11
@@ -24757,7 +24757,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1439
+        "video": 1435
       },
       "ranks": {
         "video": 4
@@ -24989,7 +24989,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1224
+        "image": 1225
       },
       "ranks": {
         "image": 4
@@ -25001,7 +25001,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1042
+        "image": 1043
       },
       "ranks": {
         "image": 12
@@ -25228,6 +25228,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (45)"
   },
-  "updatedAt": 1787473616707,
+  "updatedAt": 1787477109781,
   "errors": []
 }
