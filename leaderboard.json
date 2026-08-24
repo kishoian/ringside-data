@@ -118,8 +118,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -221,8 +221,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -304,8 +304,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -451,8 +451,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -847,8 +847,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -1468,8 +1468,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1482,
       "alts": {
@@ -10561,8 +10561,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -10603,8 +10603,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -10624,8 +10624,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -10750,8 +10750,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -11271,8 +11271,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -11540,8 +11540,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2026-07-09",
       "pricing": {
-        "prompt": 5,
-        "completion": 30
+        "prompt": 4,
+        "completion": 20
       },
       "arenaElo": 1619,
       "alts": {
@@ -15183,9 +15183,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1058
+        "image": 1057
       }
     },
     {
@@ -15993,9 +15993,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "video": 1259
+        "video": 1260
       },
       "releaseDate": "2026-08-11"
     },
@@ -16424,18 +16424,6 @@
       "releaseDate": "2024-12-13"
     },
     {
-      "id": "wan-2-2-5b",
-      "name": "Wan 2.2 5B",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1079
-      },
-      "releaseDate": "2025-07-28"
-    },
-    {
       "id": "runway-gen-3-alpha",
       "name": "Runway Gen 3 Alpha",
       "org": "Runway",
@@ -16446,6 +16434,18 @@
         "video": 1078
       },
       "releaseDate": "2024-06-17"
+    },
+    {
+      "id": "wan-2-2-5b",
+      "name": "Wan 2.2 5B",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1078
+      },
+      "releaseDate": "2025-07-28"
     },
     {
       "id": "kling-1-6-standard",
@@ -18833,7 +18833,7 @@
         "video": 1078
       },
       "ranks": {
-        "video": 92
+        "video": 91
       },
       "releaseDate": "2024-06-17",
       "aliases": [
@@ -23280,7 +23280,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 1259
+        "video": 1260
       },
       "ranks": {
         "video": 58
@@ -23781,10 +23781,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "video": 1079
+        "video": 1078
       },
       "ranks": {
-        "video": 91
+        "video": 92
       },
       "releaseDate": "2025-07-28"
     },
@@ -24070,7 +24070,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1058
+        "image": 1057
       },
       "ranks": {
         "image": 11
@@ -25220,6 +25220,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (45)"
   },
-  "updatedAt": 1787596623490,
+  "updatedAt": 1787599637939,
   "errors": []
 }
