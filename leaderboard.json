@@ -1304,26 +1304,6 @@
       }
     },
     {
-      "id": "kimi-k3-low",
-      "name": "Kimi K3 (low)",
-      "org": "Kimi",
-      "color": "#047AFE",
-      "votes": 0,
-      "delta": -11.4,
-      "scores": {
-        "chat": 38.8
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/kimi.jpg",
-      "releaseDate": "2026-07-16",
-      "pricing": {
-        "prompt": 3,
-        "completion": 15
-      },
-      "alts": {
-        "code": 76.2
-      }
-    },
-    {
       "id": "claude-sonnet-4-6-adaptive-reasoning-max-effort",
       "name": "Claude Sonnet 4.6 (Adaptive Reasoning, Max Effort)",
       "org": "Anthropic",
@@ -1437,6 +1417,26 @@
       "arenaElo": 1466,
       "alts": {
         "code": 76.7
+      }
+    },
+    {
+      "id": "kimi-k3-low",
+      "name": "Kimi K3 (low)",
+      "org": "Kimi",
+      "color": "#047AFE",
+      "votes": 0,
+      "delta": -13.1,
+      "scores": {
+        "chat": 37.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "releaseDate": "2026-07-16",
+      "pricing": {
+        "prompt": 3,
+        "completion": 15
+      },
+      "alts": {
+        "code": 76.2
       }
     },
     {
@@ -1834,27 +1834,6 @@
       }
     },
     {
-      "id": "hy3",
-      "name": "Hy3",
-      "org": "Tencent",
-      "color": "#5CB9FF",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 33.2
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
-      "releaseDate": "2026-07-06",
-      "pricing": {
-        "prompt": 0.136,
-        "completion": 0.554
-      },
-      "arenaElo": 1455,
-      "alts": {
-        "code": 58.8
-      }
-    },
-    {
       "id": "mimo-v2-pro",
       "name": "MiMo-V2-Pro",
       "org": "Xiaomi",
@@ -2003,6 +1982,27 @@
         "completion": 3.2
       },
       "arenaElo": 1458
+    },
+    {
+      "id": "hy3",
+      "name": "Hy3",
+      "org": "Tencent",
+      "color": "#5CB9FF",
+      "votes": 0,
+      "delta": -0.8,
+      "scores": {
+        "chat": 32.4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
+      "releaseDate": "2026-07-06",
+      "pricing": {
+        "prompt": 0.136,
+        "completion": 0.554
+      },
+      "arenaElo": 1455,
+      "alts": {
+        "code": 58.8
+      }
     },
     {
       "id": "gpt-5-6-terra-low",
@@ -12826,7 +12826,7 @@
       },
       "arenaElo": 1512,
       "alts": {
-        "chat": 33.2
+        "chat": 32.4
       }
     },
     {
@@ -17845,7 +17845,7 @@
         "chat": 32.9
       },
       "ranks": {
-        "chat": 53
+        "chat": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2026-04-20"
@@ -20447,7 +20447,7 @@
         "chat": 33
       },
       "ranks": {
-        "chat": 52
+        "chat": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "releaseDate": "2025-12-11",
@@ -20466,7 +20466,7 @@
         "code": 60.2
       },
       "ranks": {
-        "chat": 56,
+        "chat": 55,
         "code": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
@@ -21556,7 +21556,7 @@
         "chat": 33.1
       },
       "ranks": {
-        "chat": 51
+        "chat": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
       "releaseDate": "2026-03-18"
@@ -21571,7 +21571,7 @@
         "code": 52.7
       },
       "ranks": {
-        "chat": 54,
+        "chat": 53,
         "code": 60
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage_small.svg",
@@ -22178,7 +22178,7 @@
         "code": 59.1
       },
       "ranks": {
-        "chat": 55,
+        "chat": 54,
         "code": 46
       },
       "logo": "https://artificialanalysis.ai/img/logos/nex_small.svg",
@@ -23515,7 +23515,7 @@
         "chat": 32.4
       },
       "ranks": {
-        "chat": 57
+        "chat": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-02-11",
@@ -23598,11 +23598,11 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "chat": 33.2,
+        "chat": 32.4,
         "code": 58.8
       },
       "ranks": {
-        "chat": 50,
+        "chat": 57,
         "code": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent_small.svg",
@@ -23619,6 +23619,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1788728530199,
+  "updatedAt": 1788737334589,
   "errors": []
 }
