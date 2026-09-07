@@ -1055,26 +1055,6 @@
       }
     },
     {
-      "id": "deepseek-v4-flash-vision-reasoning-max-effort",
-      "name": "DeepSeek V4 Flash Vision (Reasoning, Max Effort)",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 41.5
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
-      "releaseDate": "2026-08-21",
-      "pricing": {
-        "prompt": 0.44,
-        "completion": 1.32
-      },
-      "alts": {
-        "code": 65
-      }
-    },
-    {
       "id": "qwen3-8-27b-xhigh",
       "name": "Qwen3.8 27B (xhigh)",
       "org": "Alibaba",
@@ -1239,6 +1219,26 @@
       },
       "alts": {
         "code": 69.1
+      }
+    },
+    {
+      "id": "deepseek-v4-flash-vision-reasoning-max-effort",
+      "name": "DeepSeek V4 Flash Vision (Reasoning, Max Effort)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": -0.8,
+      "scores": {
+        "chat": 40.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
+      "releaseDate": "2026-08-21",
+      "pricing": {
+        "prompt": 0.44,
+        "completion": 1.32
+      },
+      "alts": {
+        "code": 65
       }
     },
     {
@@ -12469,7 +12469,7 @@
         "completion": 1.32
       },
       "alts": {
-        "chat": 41.5
+        "chat": 40.7
       }
     },
     {
@@ -16909,11 +16909,11 @@
       "org": "DeepSeek",
       "color": "#2243e6",
       "scores": {
-        "chat": 41.5,
+        "chat": 40.7,
         "code": 65
       },
       "ranks": {
-        "chat": 27,
+        "chat": 30,
         "code": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
@@ -17082,7 +17082,7 @@
         "code": 69.1
       },
       "ranks": {
-        "chat": 30,
+        "chat": 29,
         "code": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
@@ -19829,7 +19829,7 @@
         "code": 71.3
       },
       "ranks": {
-        "chat": 29,
+        "chat": 28,
         "code": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
@@ -21509,7 +21509,7 @@
         "code": 68.1
       },
       "ranks": {
-        "chat": 28,
+        "chat": 27,
         "code": 32
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
@@ -23619,6 +23619,6 @@
     "arena_image": "ok (76)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1788737334589,
+  "updatedAt": 1788749900199,
   "errors": []
 }
