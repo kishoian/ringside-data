@@ -2003,27 +2003,6 @@
       }
     },
     {
-      "id": "glm-5-1-reasoning",
-      "name": "GLM-5.1 (Reasoning)",
-      "org": "Z AI",
-      "color": "#1c7ff8",
-      "votes": 0,
-      "delta": -4.5,
-      "scores": {
-        "chat": 27.4
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
-      "releaseDate": "2026-04-07",
-      "pricing": {
-        "prompt": 1.2,
-        "completion": 4.4
-      },
-      "arenaElo": 1466,
-      "alts": {
-        "code": 55.8
-      }
-    },
-    {
       "id": "jt-4-1-flash-236b-a21b",
       "name": "JT-4.1 Flash 236B A21B",
       "org": "China Mobile",
@@ -2210,6 +2189,27 @@
         "completion": 25
       },
       "arenaElo": 1505
+    },
+    {
+      "id": "glm-5-1-reasoning",
+      "name": "GLM-5.1 (Reasoning)",
+      "org": "Z AI",
+      "color": "#1c7ff8",
+      "votes": 0,
+      "delta": -5.5,
+      "scores": {
+        "chat": 26.4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "releaseDate": "2026-04-07",
+      "pricing": {
+        "prompt": 1.2,
+        "completion": 4.4
+      },
+      "arenaElo": 1466,
+      "alts": {
+        "code": 55.8
+      }
     },
     {
       "id": "gemini-3-flash-preview-reasoning",
@@ -13139,7 +13139,7 @@
       },
       "arenaElo": 1508,
       "alts": {
-        "chat": 27.4
+        "chat": 26.4
       }
     },
     {
@@ -17179,7 +17179,7 @@
         "code": 52.4
       },
       "ranks": {
-        "chat": 56,
+        "chat": 55,
         "code": 62
       },
       "logo": "https://artificialanalysis.ai/img/logos/china_mobile_small.png",
@@ -17922,7 +17922,7 @@
         "code": 51.5
       },
       "ranks": {
-        "chat": 57,
+        "chat": 56,
         "code": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
@@ -17938,7 +17938,7 @@
         "code": 58.8
       },
       "ranks": {
-        "chat": 60,
+        "chat": 59,
         "code": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/sapiens.svg",
@@ -19367,7 +19367,7 @@
         "code": 39.4
       },
       "ranks": {
-        "chat": 61,
+        "chat": 60,
         "code": 89
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
@@ -20528,7 +20528,7 @@
         "code": 60.2
       },
       "ranks": {
-        "chat": 63,
+        "chat": 62,
         "code": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi_small.svg",
@@ -21078,7 +21078,7 @@
         "code": 54.5
       },
       "ranks": {
-        "chat": 59,
+        "chat": 58,
         "code": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
@@ -21636,7 +21636,7 @@
         "code": 61.2
       },
       "ranks": {
-        "chat": 58,
+        "chat": 57,
         "code": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/multiversecomputing_small.svg",
@@ -21651,7 +21651,7 @@
         "chat": 26.6
       },
       "ranks": {
-        "chat": 62
+        "chat": 61
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "releaseDate": "2026-03-15",
@@ -23141,11 +23141,11 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "scores": {
-        "chat": 27.4,
+        "chat": 26.4,
         "code": 55.8
       },
       "ranks": {
-        "chat": 55,
+        "chat": 63,
         "code": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
@@ -23692,15 +23692,15 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (431)",
     "aa_video": "err: no video models extracted",
     "aa_llm": "ok (645)",
     "aa_image": "ok (59)",
-    "openrouter": "ok (431)",
     "arena_text": "ok (400)",
     "arena_code": "ok (127)",
     "arena_image": "ok (78)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1788923377800,
+  "updatedAt": 1788943085283,
   "errors": []
 }
