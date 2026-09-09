@@ -443,22 +443,6 @@
       "arenaElo": 1466
     },
     {
-      "id": "qwen3-8-flash-next",
-      "name": "Qwen3.8-Flash-Next",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -3.4,
-      "scores": {
-        "chat": 42.2
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
-      "pricing": {
-        "prompt": 0.15,
-        "completion": 0.47
-      }
-    },
-    {
       "id": "claude-opus-4-8-max",
       "name": "Claude Opus 4.8 (max)",
       "org": "Anthropic",
@@ -574,6 +558,22 @@
       "pricing": {
         "prompt": 2,
         "completion": 6
+      }
+    },
+    {
+      "id": "qwen3-8-flash-next",
+      "name": "Qwen3.8-Flash-Next",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -5.7,
+      "scores": {
+        "chat": 39.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
+      "pricing": {
+        "prompt": 0.15,
+        "completion": 0.47
       }
     },
     {
@@ -10638,10 +10638,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "chat": 42.2
+        "chat": 39.9
       },
       "ranks": {
-        "chat": 11
+        "chat": 17
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -10893,7 +10893,7 @@
         "chat": 40
       },
       "ranks": {
-        "chat": 17
+        "chat": 16
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -11200,7 +11200,7 @@
         "chat": 41.2
       },
       "ranks": {
-        "chat": 14
+        "chat": 13
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -11706,7 +11706,7 @@
         "chat": 42
       },
       "ranks": {
-        "chat": 12
+        "chat": 11
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "aliases": [
@@ -11722,7 +11722,7 @@
         "chat": 40.7
       },
       "ranks": {
-        "chat": 15
+        "chat": 14
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "aliases": [
@@ -12811,7 +12811,7 @@
         "chat": 41.9
       },
       "ranks": {
-        "chat": 13
+        "chat": 12
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "aliases": [
@@ -13943,7 +13943,7 @@
         "chat": 40.3
       },
       "ranks": {
-        "chat": 16
+        "chat": 15
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg"
     },
@@ -16046,14 +16046,14 @@
   ],
   "sources": {
     "openrouter": "ok (430)",
-    "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (645)",
-    "aa_image": "ok (60)",
     "arena_text": "ok (400)",
     "arena_code": "ok (127)",
     "arena_image": "ok (78)",
-    "arena_video": "ok (48)"
+    "arena_video": "ok (48)",
+    "aa_video": "err: no video models extracted",
+    "aa_llm": "ok (645)",
+    "aa_image": "ok (60)"
   },
-  "updatedAt": 1788985561340,
+  "updatedAt": 1788994536700,
   "errors": []
 }
