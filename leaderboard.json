@@ -4908,22 +4908,6 @@
       }
     },
     {
-      "id": "minicpm5-2b",
-      "name": "MiniCPM5-2B",
-      "org": "OpenBMB",
-      "color": "#3B62EC",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 14.3
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
-      "releaseDate": "2026-09-07",
-      "alts": {
-        "code": 14.5
-      }
-    },
-    {
       "id": "ernie-5-0-thinking-preview",
       "name": "ERNIE 5.0 Thinking Preview",
       "org": "Baidu",
@@ -5345,6 +5329,22 @@
         "completion": 2.5
       },
       "arenaElo": 1410
+    },
+    {
+      "id": "minicpm5-2b",
+      "name": "MiniCPM5-2B",
+      "org": "OpenBMB",
+      "color": "#3B62EC",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 13.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
+      "releaseDate": "2026-09-07",
+      "alts": {
+        "code": 14.5
+      }
     },
     {
       "id": "qwen3-5-4b-reasoning",
@@ -15449,7 +15449,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
       "releaseDate": "2026-09-07",
       "alts": {
-        "chat": 14.3
+        "chat": 13.1
       }
     },
     {
@@ -16804,7 +16804,7 @@
         "chat": 14.3
       },
       "ranks": {
-        "chat": 148
+        "chat": 147
       },
       "logo": "https://artificialanalysis.ai/img/logos/baidu_small.svg",
       "releaseDate": "2025-11-13"
@@ -16819,7 +16819,7 @@
         "code": 37.7
       },
       "ranks": {
-        "chat": 158,
+        "chat": 157,
         "code": 93
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
@@ -17061,7 +17061,7 @@
         "chat": 13.8
       },
       "ranks": {
-        "chat": 153
+        "chat": 152
       },
       "logo": "https://artificialanalysis.ai/img/logos/servicenow_small.svg",
       "releaseDate": "2025-09-30",
@@ -17079,7 +17079,7 @@
         "chat": 13.4
       },
       "ranks": {
-        "chat": 160
+        "chat": 159
       },
       "logo": "https://artificialanalysis.ai/img/logos/servicenow_small.svg",
       "releaseDate": "2025-11-25",
@@ -17267,7 +17267,7 @@
         "code": 26.8
       },
       "ranks": {
-        "chat": 157,
+        "chat": 156,
         "code": 113
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia_small.svg",
@@ -17700,7 +17700,7 @@
         "code": 34
       },
       "ranks": {
-        "chat": 149,
+        "chat": 148,
         "code": 100
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
@@ -18214,7 +18214,7 @@
         "chat": 13.4
       },
       "ranks": {
-        "chat": 161
+        "chat": 160
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
       "releaseDate": "2025-09-23"
@@ -18934,7 +18934,7 @@
         "chat": 14.1
       },
       "ranks": {
-        "chat": 151
+        "chat": 150
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2025-08-28"
@@ -18948,7 +18948,7 @@
         "chat": 13.1
       },
       "ranks": {
-        "chat": 163
+        "chat": 162
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2025-05-20",
@@ -20018,7 +20018,7 @@
         "code": 23.6
       },
       "ranks": {
-        "chat": 162,
+        "chat": 161,
         "code": 124
       },
       "logo": "https://artificialanalysis.ai/img/logos/lg_small.png",
@@ -20664,7 +20664,7 @@
         "chat": 13.7
       },
       "ranks": {
-        "chat": 155
+        "chat": 154
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
       "releaseDate": "2025-08-21",
@@ -20681,7 +20681,7 @@
         "chat": 13.6
       },
       "ranks": {
-        "chat": 156
+        "chat": 155
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
       "releaseDate": "2025-11-26",
@@ -20699,7 +20699,7 @@
         "code": 23
       },
       "ranks": {
-        "chat": 159,
+        "chat": 158,
         "code": 127
       },
       "logo": "https://artificialanalysis.ai/img/logos/aws_small.svg",
@@ -21808,26 +21808,6 @@
       "releaseDate": "2026-04-02"
     },
     {
-      "key": "minicpm5-2b",
-      "name": "MiniCPM5-2B",
-      "org": "OpenBMB",
-      "color": "#3B62EC",
-      "scores": {
-        "chat": 14.3,
-        "code": 14.5
-      },
-      "ranks": {
-        "chat": 147,
-        "code": 152
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
-      "releaseDate": "2026-09-07",
-      "aliases": [
-        "MiniCPM5 2B",
-        "MiniCPM52B"
-      ]
-    },
-    {
       "key": "gemma-4-12b",
       "name": "Gemma 4 12B",
       "org": "Google",
@@ -21837,11 +21817,31 @@
         "code": 31
       },
       "ranks": {
-        "chat": 150,
+        "chat": 149,
         "code": 106
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "releaseDate": "2026-06-03"
+    },
+    {
+      "key": "minicpm5-2b",
+      "name": "MiniCPM5-2B",
+      "org": "OpenBMB",
+      "color": "#3B62EC",
+      "scores": {
+        "chat": 13.1,
+        "code": 14.5
+      },
+      "ranks": {
+        "chat": 163,
+        "code": 152
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/openbmb_small.svg",
+      "releaseDate": "2026-09-07",
+      "aliases": [
+        "MiniCPM5 2B",
+        "MiniCPM52B"
+      ]
     },
     {
       "key": "k2-think-v2",
@@ -22329,7 +22329,7 @@
         "code": 27.8
       },
       "ranks": {
-        "chat": 152,
+        "chat": 151,
         "code": 112
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere_small.svg",
@@ -22345,7 +22345,7 @@
         "code": 28.7
       },
       "ranks": {
-        "chat": 154,
+        "chat": 153,
         "code": 111
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba_small.svg",
@@ -23692,15 +23692,15 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (431)",
     "aa_video": "err: no video models extracted",
     "aa_llm": "ok (645)",
     "aa_image": "ok (59)",
+    "openrouter": "ok (431)",
     "arena_text": "ok (400)",
     "arena_code": "ok (127)",
     "arena_image": "ok (78)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1788911390804,
+  "updatedAt": 1788923377800,
   "errors": []
 }
