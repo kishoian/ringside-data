@@ -717,22 +717,6 @@
       "arenaElo": 1482
     },
     {
-      "id": "glm-5-2-max",
-      "name": "GLM-5.2 (max)",
-      "org": "Z AI",
-      "color": "#1c7ff8",
-      "votes": 0,
-      "delta": -3.9,
-      "scores": {
-        "chat": 38.6
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
-      "pricing": {
-        "prompt": 1.4,
-        "completion": 4.4
-      }
-    },
-    {
       "id": "claude-sonnet-5-max",
       "name": "Claude Sonnet 5 (max)",
       "org": "Anthropic",
@@ -1017,6 +1001,22 @@
       "arenaElo": 1482
     },
     {
+      "id": "glm-5-2-max",
+      "name": "GLM-5.2 (max)",
+      "org": "Z AI",
+      "color": "#1c7ff8",
+      "votes": 0,
+      "delta": -8.5,
+      "scores": {
+        "chat": 34
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
+      "pricing": {
+        "prompt": 1.4,
+        "completion": 4.4
+      }
+    },
+    {
       "id": "qwen3-8-27b-xhigh",
       "name": "Qwen3.8 27B (xhigh)",
       "org": "Alibaba",
@@ -1263,9 +1263,9 @@
       "org": "MBZUAI Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
-      "delta": -7.1,
+      "delta": -7,
       "scores": {
-        "chat": 30.7
+        "chat": 30.8
       },
       "logo": "https://artificialanalysis.ai/img/logos/mbzuai_small.svg"
     },
@@ -10093,7 +10093,7 @@
         "chat": 35
       },
       "ranks": {
-        "chat": 30
+        "chat": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
       "aliases": [
@@ -10173,7 +10173,7 @@
         "chat": 34.5
       },
       "ranks": {
-        "chat": 31
+        "chat": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
       "aliases": [
@@ -10448,7 +10448,7 @@
         "chat": 36.3
       },
       "ranks": {
-        "chat": 27
+        "chat": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek_small.svg",
       "aliases": [
@@ -10461,7 +10461,7 @@
       "org": "MBZUAI Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
-        "chat": 30.7
+        "chat": 30.8
       },
       "ranks": {
         "chat": 42
@@ -10789,7 +10789,7 @@
         "chat": 35.2
       },
       "ranks": {
-        "chat": 29
+        "chat": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/sapiens.svg"
     },
@@ -11384,7 +11384,7 @@
         "chat": 34.3
       },
       "ranks": {
-        "chat": 32
+        "chat": 31
       },
       "logo": "https://artificialanalysis.ai/img/logos/google_small.svg",
       "aliases": [
@@ -11890,7 +11890,7 @@
         "chat": 38.4
       },
       "ranks": {
-        "chat": 25
+        "chat": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic_small.svg",
       "aliases": [
@@ -11906,7 +11906,7 @@
         "chat": 35.5
       },
       "ranks": {
-        "chat": 28
+        "chat": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/sapiens.svg",
       "aliases": [
@@ -12439,7 +12439,7 @@
         "chat": 34.3
       },
       "ranks": {
-        "chat": 33
+        "chat": 32
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta_small.svg",
       "aliases": [
@@ -13579,7 +13579,7 @@
         "chat": 37.5
       },
       "ranks": {
-        "chat": 26
+        "chat": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg",
       "aliases": [
@@ -15667,10 +15667,10 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "scores": {
-        "chat": 38.6
+        "chat": 34
       },
       "ranks": {
-        "chat": 24
+        "chat": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai_small.svg",
       "aliases": [
@@ -16215,13 +16215,13 @@
   "sources": {
     "openrouter": "ok (445)",
     "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (648)",
+    "aa_llm": "ok (647)",
     "aa_image": "ok (62)",
     "arena_text": "ok (401)",
     "arena_code": "ok (128)",
     "arena_image": "ok (78)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1789221171082,
+  "updatedAt": 1789231526368,
   "errors": []
 }
