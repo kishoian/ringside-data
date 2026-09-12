@@ -263,18 +263,6 @@
       }
     },
     {
-      "id": "gpt-6-astra-non-reasoning",
-      "name": "GPT-6 Astra (Non-reasoning)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -9.5,
-      "scores": {
-        "chat": 45.2
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/openai_small.svg"
-    },
-    {
       "id": "muse-spark-1-3-xhigh",
       "name": "Muse Spark 1.3 (xhigh)",
       "org": "Meta",
@@ -945,22 +933,6 @@
       "arenaElo": 1461
     },
     {
-      "id": "kimi-k3-low",
-      "name": "Kimi K3 (low)",
-      "org": "Kimi",
-      "color": "#047AFE",
-      "votes": 0,
-      "delta": -15.7,
-      "scores": {
-        "chat": 34.5
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/kimi.jpg",
-      "pricing": {
-        "prompt": 3,
-        "completion": 15
-      }
-    },
-    {
       "id": "gpt-5-6-terra-high",
       "name": "GPT-5.6 Terra (high)",
       "org": "OpenAI",
@@ -1313,6 +1285,22 @@
         "completion": 30
       },
       "arenaElo": 1482
+    },
+    {
+      "id": "kimi-k3-low",
+      "name": "Kimi K3 (low)",
+      "org": "Kimi",
+      "color": "#047AFE",
+      "votes": 0,
+      "delta": -19.7,
+      "scores": {
+        "chat": 30.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/kimi.jpg",
+      "pricing": {
+        "prompt": 3,
+        "completion": 15
+      }
     },
     {
       "id": "claude-sonnet-4-6-max",
@@ -16225,7 +16213,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (443)",
+    "openrouter": "ok (445)",
     "aa_video": "err: no video models extracted",
     "aa_llm": "ok (648)",
     "aa_image": "ok (62)",
@@ -16234,6 +16222,6 @@
     "arena_image": "ok (78)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1789174753619,
+  "updatedAt": 1789191376418,
   "errors": []
 }
