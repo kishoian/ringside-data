@@ -884,8 +884,8 @@
       }
     },
     {
-      "id": "deepseek-v4-flash-0731-vision-reasoning-max-effort",
-      "name": "DeepSeek V4 Flash 0731 Vision (Reasoning, Max Effort)",
+      "id": "deepseek-v4-flash-vision-reasoning-max-effort",
+      "name": "DeepSeek V4 Flash Vision (Reasoning, Max Effort)",
       "org": "DeepSeek",
       "color": "#2243e6",
       "votes": 0,
@@ -1259,7 +1259,7 @@
     {
       "id": "k2-horizon-375b-a23b",
       "name": "K2 Horizon 375B A23B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -1954,7 +1954,7 @@
     {
       "id": "k2-horizon-mova-36b-a4b",
       "name": "K2 Horizon MoVA 36B A4B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -2916,7 +2916,7 @@
     {
       "id": "k2-horizon-7b",
       "name": "K2 Horizon 7B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -3799,7 +3799,7 @@
     {
       "id": "k2-horizon-3-7b",
       "name": "K2 Horizon 3.7B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -5117,7 +5117,7 @@
     {
       "id": "k2-think-v2",
       "name": "K2 Think V2",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -5644,7 +5644,7 @@
     {
       "id": "k2-v2-high",
       "name": "K2-V2 (high)",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -6142,7 +6142,7 @@
     {
       "id": "k2-v2-medium",
       "name": "K2-V2 (medium)",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": -0.9,
@@ -7277,7 +7277,7 @@
     {
       "id": "k2-v2-low",
       "name": "K2-V2 (low)",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": -2.6,
@@ -9658,7 +9658,7 @@
     {
       "id": "k2-horizon-0-9b",
       "name": "K2 Horizon 0.9B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "votes": 0,
       "delta": 0,
@@ -10138,22 +10138,6 @@
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/nvidia_small.svg"
     },
     {
-      "key": "deepseek-v4-flash-0731-vision",
-      "name": "DeepSeek V4 Flash 0731 Vision",
-      "org": "DeepSeek",
-      "color": "#2243e6",
-      "scores": {
-        "chat": 35
-      },
-      "ranks": {
-        "chat": 29
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek_small.svg",
-      "aliases": [
-        "V4 Flash 0731 Vision"
-      ]
-    },
-    {
       "key": "qwen3-235b-a22b-2507-instruct",
       "name": "Qwen3 235B A22B 2507 Instruct",
       "org": "Alibaba",
@@ -10546,6 +10530,22 @@
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/alibaba_small.svg"
     },
     {
+      "key": "deepseek-v4-flash-vision",
+      "name": "DeepSeek V4 Flash Vision",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "scores": {
+        "chat": 35
+      },
+      "ranks": {
+        "chat": 29
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek_small.svg",
+      "aliases": [
+        "V4 Flash Vision"
+      ]
+    },
+    {
       "key": "gemini-2-5-flash-preview",
       "name": "Gemini 2.5 Flash Preview",
       "org": "Google",
@@ -10612,7 +10612,7 @@
     {
       "key": "k2-horizon-mova-36b-a4b",
       "name": "K2 Horizon MoVA 36B A4B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 25.7
@@ -11213,7 +11213,7 @@
     {
       "key": "k2-horizon-375b-a23b",
       "name": "K2 Horizon 375B A23B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 30.8
@@ -12919,7 +12919,7 @@
     {
       "key": "k2-horizon-3-7b",
       "name": "K2 Horizon 3.7B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 16.2
@@ -13252,7 +13252,7 @@
     {
       "key": "k2-horizon-0-9b",
       "name": "K2 Horizon 0.9B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 3
@@ -13977,7 +13977,7 @@
     {
       "key": "k2-horizon-7b",
       "name": "K2 Horizon 7B",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 21
@@ -15118,7 +15118,7 @@
     {
       "key": "k2-think-v2",
       "name": "K2 Think V2",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 11.5
@@ -16705,7 +16705,7 @@
     {
       "key": "k2-v2",
       "name": "K2-V2",
-      "org": "MBZUAI Institute of Foundation Models",
+      "org": "Institute of Foundation Models",
       "color": "#1521a9",
       "scores": {
         "chat": 9.9
@@ -16771,6 +16771,6 @@
     "arena_image": "ok (78)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1789642757251,
+  "updatedAt": 1789659011725,
   "errors": []
 }
