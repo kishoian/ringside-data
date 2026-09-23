@@ -2030,8 +2030,8 @@
       "arenaElo": 1443
     },
     {
-      "id": "agnes-2-5-pro-alpha",
-      "name": "Agnes 2.5 Pro Alpha",
+      "id": "agnes-2-5-pro-alpha-based-on-qwen3-5-397b-a17b",
+      "name": "Agnes 2.5 Pro Alpha (based on Qwen3.5 397B A17B)",
       "org": "Sapiens AI",
       "color": "#1521a9",
       "votes": 0,
@@ -2910,8 +2910,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/inclusionai_small.jpg",
       "pricing": {
-        "prompt": 0,
-        "completion": 0
+        "prompt": 0.075,
+        "completion": 0.22
       }
     },
     {
@@ -10027,9 +10027,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1170
+        "image": 1171
       },
       "arenaElo": 1381
     },
@@ -10039,9 +10039,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1121
+        "image": 1122
       },
       "arenaElo": 1260
     },
@@ -10051,9 +10051,9 @@
       "org": "Meta",
       "color": "#0089f4",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1113
+        "image": 1112
       },
       "arenaElo": 1276
     },
@@ -10074,9 +10074,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1102
+        "image": 1103
       },
       "arenaElo": 1254
     },
@@ -10086,9 +10086,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1099
+        "image": 1100
       },
       "arenaElo": 1246
     },
@@ -10098,9 +10098,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": -2,
+      "delta": 0,
       "scores": {
-        "image": 1097
+        "image": 1099
       }
     },
     {
@@ -10133,9 +10133,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1078
+        "image": 1079
       },
       "arenaElo": 1256
     },
@@ -10145,9 +10145,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1077
+        "image": 1078
       }
     },
     {
@@ -10156,9 +10156,9 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1043
+        "image": 1044
       }
     },
     {
@@ -10174,6 +10174,17 @@
       "arenaElo": 1109
     },
     {
+      "id": "flux-2-max",
+      "name": "FLUX.2 [max]",
+      "org": "Black Forest Labs",
+      "color": "#272727",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1022
+      }
+    },
+    {
       "id": "seedream-4-5",
       "name": "Seedream 4.5",
       "org": "ByteDance Seed",
@@ -10184,17 +10195,6 @@
         "image": 1021
       },
       "arenaElo": 1147
-    },
-    {
-      "id": "flux-2-max",
-      "name": "FLUX.2 [max]",
-      "org": "Black Forest Labs",
-      "color": "#272727",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1020
-      }
     },
     {
       "id": "flux-2-pro",
@@ -10236,9 +10236,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 942
+        "image": 941
       },
       "arenaElo": 1083
     },
@@ -10248,9 +10248,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 939
+        "image": 940
       }
     },
     {
@@ -10271,9 +10271,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 863
+        "image": 862
       }
     },
     {
@@ -10282,9 +10282,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 841
+        "image": 842
       }
     },
     {
@@ -12596,7 +12596,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1097
+        "image": 1099
       },
       "ranks": {
         "image": 9
@@ -13038,7 +13038,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1078
+        "image": 1079
       },
       "ranks": {
         "image": 12
@@ -13614,7 +13614,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1099
+        "image": 1100
       },
       "ranks": {
         "image": 8
@@ -14168,7 +14168,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1077
+        "image": 1078
       },
       "ranks": {
         "image": 13
@@ -14749,7 +14749,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1121
+        "image": 1122
       },
       "ranks": {
         "image": 4
@@ -14779,7 +14779,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1102
+        "image": 1103
       },
       "ranks": {
         "image": 7
@@ -14795,7 +14795,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 942
+        "image": 941
       },
       "ranks": {
         "image": 18
@@ -15193,7 +15193,7 @@
         "image": 1021
       },
       "ranks": {
-        "image": 15
+        "image": 16
       }
     },
     {
@@ -15797,7 +15797,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1170
+        "image": 1171
       },
       "ranks": {
         "image": 3
@@ -16150,7 +16150,7 @@
       "org": "Meta",
       "color": "#0089f4",
       "scores": {
-        "image": 1113
+        "image": 1112
       },
       "ranks": {
         "image": 5
@@ -16411,7 +16411,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 939
+        "image": 940
       },
       "ranks": {
         "image": 19
@@ -16423,7 +16423,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 863
+        "image": 862
       },
       "ranks": {
         "image": 21
@@ -17069,10 +17069,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1020
+        "image": 1022
       },
       "ranks": {
-        "image": 16
+        "image": 15
       }
     },
     {
@@ -17081,7 +17081,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 841
+        "image": 842
       },
       "ranks": {
         "image": 22
@@ -17188,6 +17188,6 @@
     "arena_image": "ok (79)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790138090627,
+  "updatedAt": 1790156648042,
   "errors": []
 }
