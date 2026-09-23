@@ -5755,8 +5755,8 @@
       "arenaElo": 1369
     },
     {
-      "id": "intellect-3",
-      "name": "INTELLECT-3",
+      "id": "intellect-3-based-on-glm-4-5-air",
+      "name": "INTELLECT-3 \n  (based on GLM-4.5-Air)",
       "org": "Prime Intellect",
       "color": "#000000",
       "votes": 0,
@@ -10081,6 +10081,17 @@
       "arenaElo": 1254
     },
     {
+      "id": "mai-image-2-5-pro",
+      "name": "MAI-Image-2.5-Pro",
+      "org": "Microsoft AI",
+      "color": "#5F4E41",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1100
+      }
+    },
+    {
       "id": "nano-banana-pro-gemini-3-pro-image",
       "name": "Nano Banana Pro (Gemini 3 Pro Image)",
       "org": "Google",
@@ -10091,17 +10102,6 @@
         "image": 1100
       },
       "arenaElo": 1246
-    },
-    {
-      "id": "mai-image-2-5-pro",
-      "name": "MAI-Image-2.5-Pro",
-      "org": "Microsoft AI",
-      "color": "#5F4E41",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1099
-      }
     },
     {
       "id": "nano-banana-2-lite-gemini-3-1-flash-lite-image",
@@ -10133,9 +10133,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1079
+        "image": 1078
       },
       "arenaElo": 1256
     },
@@ -10145,9 +10145,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1078
+        "image": 1077
       }
     },
     {
@@ -10167,9 +10167,9 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1023
+        "image": 1024
       },
       "arenaElo": 1109
     },
@@ -10190,9 +10190,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1021
+        "image": 1022
       },
       "arenaElo": 1147
     },
@@ -10202,9 +10202,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -20,
+      "delta": -19,
       "scores": {
-        "image": 1001
+        "image": 1002
       }
     },
     {
@@ -10236,9 +10236,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 941
+        "image": 942
       },
       "arenaElo": 1083
     },
@@ -10259,9 +10259,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 885
+        "image": 886
       },
       "arenaElo": 1057
     },
@@ -10271,9 +10271,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": 0,
       "scores": {
-        "image": 862
+        "image": 864
       }
     },
     {
@@ -12596,10 +12596,10 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1099
+        "image": 1100
       },
       "ranks": {
-        "image": 9
+        "image": 8
       },
       "aliases": [
         "MAI-Image 2.5-Pro",
@@ -13038,7 +13038,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1079
+        "image": 1078
       },
       "ranks": {
         "image": 12
@@ -13617,7 +13617,7 @@
         "image": 1100
       },
       "ranks": {
-        "image": 8
+        "image": 9
       }
     },
     {
@@ -14168,7 +14168,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1078
+        "image": 1077
       },
       "ranks": {
         "image": 13
@@ -14795,7 +14795,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 941
+        "image": 942
       },
       "ranks": {
         "image": 18
@@ -15175,7 +15175,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1023
+        "image": 1024
       },
       "ranks": {
         "image": 14
@@ -15190,7 +15190,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1021
+        "image": 1022
       },
       "ranks": {
         "image": 16
@@ -16162,7 +16162,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 885
+        "image": 886
       },
       "ranks": {
         "image": 20
@@ -16423,7 +16423,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 862
+        "image": 864
       },
       "ranks": {
         "image": 21
@@ -17179,8 +17179,8 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (454)",
     "aa_video": "err: no video models extracted",
+    "openrouter": "ok (457)",
     "aa_llm": "ok (674)",
     "aa_image": "ok (71)",
     "arena_text": "ok (402)",
@@ -17188,6 +17188,6 @@
     "arena_image": "ok (79)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790156648042,
+  "updatedAt": 1790174482966,
   "errors": []
 }
