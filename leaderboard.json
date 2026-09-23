@@ -2030,8 +2030,8 @@
       "arenaElo": 1443
     },
     {
-      "id": "agnes-2-5-pro-alpha-based-on-qwen3-5-397b-a17b",
-      "name": "Agnes 2.5 Pro Alpha (based on Qwen3.5 397B A17B)",
+      "id": "agnes-2-5-pro-alpha",
+      "name": "Agnes 2.5 Pro Alpha",
       "org": "Sapiens AI",
       "color": "#1521a9",
       "votes": 0,
@@ -2910,8 +2910,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/inclusionai_small.jpg",
       "pricing": {
-        "prompt": 0.075,
-        "completion": 0.22
+        "prompt": 0,
+        "completion": 0
       }
     },
     {
@@ -5755,8 +5755,8 @@
       "arenaElo": 1369
     },
     {
-      "id": "intellect-3-based-on-glm-4-5-air",
-      "name": "INTELLECT-3 \n  (based on GLM-4.5-Air)",
+      "id": "intellect-3",
+      "name": "INTELLECT-3",
       "org": "Prime Intellect",
       "color": "#000000",
       "votes": 0,
@@ -7769,7 +7769,11 @@
       "scores": {
         "chat": 7.2
       },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/liquidai_small.svg"
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/liquidai_small.svg",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      }
     },
     {
       "id": "llama-3-1-tulu3-405b",
@@ -9808,7 +9812,11 @@
       "scores": {
         "chat": 4.8
       },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/liquidai_small.svg"
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/liquidai_small.svg",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      }
     },
     {
       "id": "qwen3-0-6b-reasoning",
@@ -10003,9 +10011,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 14,
+      "delta": 15,
       "scores": {
-        "image": 1196
+        "image": 1197
       },
       "arenaElo": 1423
     },
@@ -10015,9 +10023,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1191
+        "image": 1190
       },
       "arenaElo": 1401
     },
@@ -10058,17 +10066,6 @@
       "arenaElo": 1276
     },
     {
-      "id": "gpt-image-1-5-high",
-      "name": "GPT Image 1.5 (high)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1103
-      }
-    },
-    {
       "id": "mai-image-2-5",
       "name": "MAI-Image-2.5",
       "org": "Microsoft AI",
@@ -10081,14 +10078,14 @@
       "arenaElo": 1254
     },
     {
-      "id": "mai-image-2-5-pro",
-      "name": "MAI-Image-2.5-Pro",
-      "org": "Microsoft AI",
-      "color": "#5F4E41",
+      "id": "gpt-image-1-5-high",
+      "name": "GPT Image 1.5 (high)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1100
+        "image": 1102
       }
     },
     {
@@ -10102,6 +10099,17 @@
         "image": 1100
       },
       "arenaElo": 1246
+    },
+    {
+      "id": "mai-image-2-5-pro",
+      "name": "MAI-Image-2.5-Pro",
+      "org": "Microsoft AI",
+      "color": "#5F4E41",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1099
+      }
     },
     {
       "id": "nano-banana-2-lite-gemini-3-1-flash-lite-image",
@@ -10156,9 +10164,9 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1044
+        "image": 1043
       }
     },
     {
@@ -10167,9 +10175,9 @@
       "org": "Krea",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1024
+        "image": 1023
       },
       "arenaElo": 1109
     },
@@ -10190,9 +10198,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": -1,
       "scores": {
-        "image": 1022
+        "image": 1020
       },
       "arenaElo": 1147
     },
@@ -10202,9 +10210,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -19,
+      "delta": -20,
       "scores": {
-        "image": 1002
+        "image": 1001
       }
     },
     {
@@ -11264,7 +11272,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1196
+        "image": 1197
       },
       "ranks": {
         "image": 1
@@ -11983,7 +11991,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1191
+        "image": 1190
       },
       "ranks": {
         "image": 2
@@ -12596,10 +12604,10 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1100
+        "image": 1099
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "aliases": [
         "MAI-Image 2.5-Pro",
@@ -13617,7 +13625,7 @@
         "image": 1100
       },
       "ranks": {
-        "image": 9
+        "image": 8
       }
     },
     {
@@ -14759,21 +14767,6 @@
       ]
     },
     {
-      "key": "gpt-image-1-5",
-      "name": "GPT Image 1.5",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "scores": {
-        "image": 1103
-      },
-      "ranks": {
-        "image": 6
-      },
-      "aliases": [
-        "GPT 1.5 Image"
-      ]
-    },
-    {
       "key": "mai-image-2-5",
       "name": "MAI-Image-2.5",
       "org": "Microsoft AI",
@@ -14782,11 +14775,26 @@
         "image": 1103
       },
       "ranks": {
-        "image": 7
+        "image": 6
       },
       "aliases": [
         "MAI-Image 2.5",
         "MAI-Image2.5"
+      ]
+    },
+    {
+      "key": "gpt-image-1-5",
+      "name": "GPT Image 1.5",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "scores": {
+        "image": 1102
+      },
+      "ranks": {
+        "image": 7
+      },
+      "aliases": [
+        "GPT 1.5 Image"
       ]
     },
     {
@@ -15175,7 +15183,7 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1024
+        "image": 1023
       },
       "ranks": {
         "image": 14
@@ -15190,7 +15198,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1022
+        "image": 1020
       },
       "ranks": {
         "image": 16
@@ -17179,15 +17187,15 @@
     }
   ],
   "sources": {
+    "openrouter": "ok (456)",
     "aa_video": "err: no video models extracted",
-    "openrouter": "ok (457)",
     "aa_llm": "ok (674)",
     "aa_image": "ok (71)",
     "arena_text": "ok (402)",
-    "arena_code": "ok (130)",
+    "arena_code": "ok (131)",
     "arena_image": "ok (79)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790174482966,
+  "updatedAt": 1790189457676,
   "errors": []
 }
