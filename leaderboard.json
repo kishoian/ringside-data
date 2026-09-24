@@ -2417,6 +2417,22 @@
       "arenaElo": 1455
     },
     {
+      "id": "deepseek-v4-1-flash-non-reasoning",
+      "name": "DeepSeek V4.1 Flash (Non-Reasoning)",
+      "org": "DeepSeek",
+      "color": "#2243e6",
+      "votes": 0,
+      "delta": -14.8,
+      "scores": {
+        "chat": 24.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek_small.svg",
+      "pricing": {
+        "prompt": 0.3,
+        "completion": 1.2
+      }
+    },
+    {
       "id": "solar-open2-250b",
       "name": "Solar Open2 250B",
       "org": "Upstage",
@@ -17080,13 +17096,13 @@
   "sources": {
     "openrouter": "ok (458)",
     "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (672)",
+    "aa_llm": "ok (673)",
     "aa_image": "ok (71)",
     "arena_text": "ok (402)",
-    "arena_code": "ok (132)",
+    "arena_code": "ok (133)",
     "arena_image": "ok (79)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790255574430,
+  "updatedAt": 1790273503400,
   "errors": []
 }
