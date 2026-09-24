@@ -1144,6 +1144,22 @@
       "arenaElo": 1461
     },
     {
+      "id": "glm-5-3-low",
+      "name": "GLM-5.3 (low)",
+      "org": "Z AI",
+      "color": "#1c7ff8",
+      "votes": 0,
+      "delta": -10.5,
+      "scores": {
+        "chat": 34.3
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/zai_small.svg",
+      "pricing": {
+        "prompt": 1.4,
+        "completion": 4.4
+      }
+    },
+    {
       "id": "deepseek-v4-flash-0731-reasoning-max-effort",
       "name": "DeepSeek V4 Flash 0731 (Reasoning, Max Effort)",
       "org": "DeepSeek",
@@ -9951,7 +9967,7 @@
       "scores": {
         "image": 1196
       },
-      "arenaElo": 1423
+      "arenaElo": 1424
     },
     {
       "id": "gpt-image-2-5-flare-max",
@@ -9975,7 +9991,7 @@
       "scores": {
         "image": 1171
       },
-      "arenaElo": 1381
+      "arenaElo": 1383
     },
     {
       "id": "nano-banana-2-gemini-3-1-flash-image",
@@ -9987,7 +10003,7 @@
       "scores": {
         "image": 1122
       },
-      "arenaElo": 1260
+      "arenaElo": 1261
     },
     {
       "id": "muse-image",
@@ -10034,7 +10050,7 @@
       "scores": {
         "image": 1101
       },
-      "arenaElo": 1246
+      "arenaElo": 1247
     },
     {
       "id": "mai-image-2-5-pro",
@@ -10069,7 +10085,7 @@
       "scores": {
         "image": 1088
       },
-      "arenaElo": 1254
+      "arenaElo": 1256
     },
     {
       "id": "seedream-5-0-pro",
@@ -10115,7 +10131,7 @@
       "scores": {
         "image": 1024
       },
-      "arenaElo": 1109
+      "arenaElo": 1110
     },
     {
       "id": "flux-2-max",
@@ -10184,7 +10200,7 @@
       "scores": {
         "image": 941
       },
-      "arenaElo": 1083
+      "arenaElo": 1084
     },
     {
       "id": "flux-2-klein-9b",
@@ -17094,15 +17110,15 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (458)",
+    "openrouter": "ok (460)",
     "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (673)",
+    "aa_llm": "ok (674)",
     "aa_image": "ok (71)",
     "arena_text": "ok (402)",
     "arena_code": "ok (133)",
-    "arena_image": "ok (79)",
+    "arena_image": "ok (80)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790273503400,
+  "updatedAt": 1790287080730,
   "errors": []
 }
