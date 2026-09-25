@@ -10023,9 +10023,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1104
+        "image": 1103
       }
     },
     {
@@ -10105,9 +10105,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1076
+        "image": 1075
       }
     },
     {
@@ -10151,9 +10151,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 1021
+        "image": 1020
       }
     },
     {
@@ -10191,6 +10191,18 @@
       "arenaElo": 1116
     },
     {
+      "id": "z-image-turbo",
+      "name": "Z-Image Turbo",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 941
+      },
+      "arenaElo": 1084
+    },
+    {
       "id": "flux-2-klein-9b",
       "name": "FLUX.2 [klein] 9B",
       "org": "Black Forest Labs",
@@ -10200,18 +10212,6 @@
       "scores": {
         "image": 940
       }
-    },
-    {
-      "id": "z-image-turbo",
-      "name": "Z-Image Turbo",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 940
-      },
-      "arenaElo": 1084
     },
     {
       "id": "qwen-image",
@@ -14086,7 +14086,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1076
+        "image": 1075
       },
       "ranks": {
         "image": 13
@@ -14682,7 +14682,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1104
+        "image": 1103
       },
       "ranks": {
         "image": 6
@@ -14713,10 +14713,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 940
+        "image": 941
       },
       "ranks": {
-        "image": 19
+        "image": 18
       }
     },
     {
@@ -16345,7 +16345,7 @@
         "image": 940
       },
       "ranks": {
-        "image": 18
+        "image": 19
       }
     },
     {
@@ -17000,7 +17000,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1021
+        "image": 1020
       },
       "ranks": {
         "image": 16
@@ -17115,10 +17115,10 @@
     "aa_llm": "ok (674)",
     "aa_image": "ok (71)",
     "arena_text": "ok (402)",
-    "arena_code": "ok (133)",
+    "arena_code": "ok (134)",
     "arena_image": "ok (80)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790354077871,
+  "updatedAt": 1790367309863,
   "errors": []
 }
