@@ -10023,9 +10023,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1103
+        "image": 1104
       }
     },
     {
@@ -10081,9 +10081,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1089
+        "image": 1088
       },
       "arenaElo": 1256
     },
@@ -10105,9 +10105,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1075
+        "image": 1074
       }
     },
     {
@@ -10134,27 +10134,27 @@
       "arenaElo": 1110
     },
     {
-      "id": "seedream-4-5",
-      "name": "Seedream 4.5",
-      "org": "ByteDance Seed",
-      "color": "#3c8bff",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1022
-      },
-      "arenaElo": 1147
-    },
-    {
       "id": "flux-2-max",
       "name": "FLUX.2 [max]",
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1020
+        "image": 1021
       }
+    },
+    {
+      "id": "seedream-4-5",
+      "name": "Seedream 4.5",
+      "org": "ByteDance Seed",
+      "color": "#3c8bff",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1021
+      },
+      "arenaElo": 1147
     },
     {
       "id": "flux-2-pro",
@@ -10191,18 +10191,6 @@
       "arenaElo": 1116
     },
     {
-      "id": "z-image-turbo",
-      "name": "Z-Image Turbo",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 941
-      },
-      "arenaElo": 1084
-    },
-    {
       "id": "flux-2-klein-9b",
       "name": "FLUX.2 [klein] 9B",
       "org": "Black Forest Labs",
@@ -10214,14 +10202,26 @@
       }
     },
     {
+      "id": "z-image-turbo",
+      "name": "Z-Image Turbo",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 940
+      },
+      "arenaElo": 1084
+    },
+    {
       "id": "qwen-image",
       "name": "Qwen Image",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 888
+        "image": 887
       },
       "arenaElo": 1057
     },
@@ -12226,7 +12226,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1089
+        "image": 1088
       },
       "ranks": {
         "image": 11
@@ -14086,7 +14086,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1075
+        "image": 1074
       },
       "ranks": {
         "image": 13
@@ -14682,7 +14682,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1103
+        "image": 1104
       },
       "ranks": {
         "image": 6
@@ -14713,10 +14713,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 941
+        "image": 940
       },
       "ranks": {
-        "image": 18
+        "image": 19
       }
     },
     {
@@ -15108,10 +15108,10 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1022
+        "image": 1021
       },
       "ranks": {
-        "image": 15
+        "image": 16
       }
     },
     {
@@ -16093,7 +16093,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 888
+        "image": 887
       },
       "ranks": {
         "image": 20
@@ -16345,7 +16345,7 @@
         "image": 940
       },
       "ranks": {
-        "image": 19
+        "image": 18
       }
     },
     {
@@ -17000,10 +17000,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1020
+        "image": 1021
       },
       "ranks": {
-        "image": 16
+        "image": 15
       }
     },
     {
@@ -17110,7 +17110,7 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (458)",
+    "openrouter": "ok (459)",
     "aa_video": "err: no video models extracted",
     "aa_llm": "ok (674)",
     "aa_image": "ok (71)",
@@ -17119,6 +17119,6 @@
     "arena_image": "ok (80)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790367309863,
+  "updatedAt": 1790380155391,
   "errors": []
 }
