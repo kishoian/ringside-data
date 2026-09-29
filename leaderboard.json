@@ -10074,9 +10074,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1189
+        "image": 1188
       },
       "arenaElo": 1401
     },
@@ -10098,9 +10098,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1122
+        "image": 1123
       },
       "arenaElo": 1261
     },
@@ -10110,9 +10110,9 @@
       "org": "Meta",
       "color": "#0089f4",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1110
+        "image": 1111
       },
       "arenaElo": 1276
     },
@@ -10122,9 +10122,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -2,
+      "delta": 1,
       "scores": {
-        "image": 1102
+        "image": 1105
       }
     },
     {
@@ -10140,6 +10140,18 @@
       "arenaElo": 1254
     },
     {
+      "id": "nano-banana-pro-gemini-3-pro-image",
+      "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 1100
+      },
+      "arenaElo": 1247
+    },
+    {
       "id": "mai-image-2-5-pro",
       "name": "MAI-Image-2.5-Pro",
       "org": "Microsoft AI",
@@ -10149,18 +10161,6 @@
       "scores": {
         "image": 1099
       }
-    },
-    {
-      "id": "nano-banana-pro-gemini-3-pro-image",
-      "name": "Nano Banana Pro (Gemini 3 Pro Image)",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": -2,
-      "scores": {
-        "image": 1099
-      },
-      "arenaElo": 1247
     },
     {
       "id": "nano-banana-2-lite-gemini-3-1-flash-lite-image",
@@ -10204,9 +10204,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1073
+        "image": 1074
       }
     },
     {
@@ -10215,9 +10215,9 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1044
+        "image": 1045
       }
     },
     {
@@ -10250,9 +10250,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1020
+        "image": 1021
       }
     },
     {
@@ -10341,9 +10341,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 842
+        "image": 841
       }
     },
     {
@@ -10352,9 +10352,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -39,
+      "delta": -38,
       "scores": {
-        "image": 802
+        "image": 803
       }
     }
   ],
@@ -12029,7 +12029,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1189
+        "image": 1188
       },
       "ranks": {
         "image": 2
@@ -12648,7 +12648,7 @@
         "image": 1099
       },
       "ranks": {
-        "image": 8
+        "image": 9
       },
       "aliases": [
         "MAI-Image 2.5-Pro",
@@ -13660,10 +13660,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1099
+        "image": 1100
       },
       "ranks": {
-        "image": 9
+        "image": 8
       }
     },
     {
@@ -14214,7 +14214,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1073
+        "image": 1074
       },
       "ranks": {
         "image": 13
@@ -14795,7 +14795,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1122
+        "image": 1123
       },
       "ranks": {
         "image": 4
@@ -14810,7 +14810,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1102
+        "image": 1105
       },
       "ranks": {
         "image": 6
@@ -16209,7 +16209,7 @@
       "org": "Meta",
       "color": "#0089f4",
       "scores": {
-        "image": 1110
+        "image": 1111
       },
       "ranks": {
         "image": 5
@@ -17128,7 +17128,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1020
+        "image": 1021
       },
       "ranks": {
         "image": 16
@@ -17140,7 +17140,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 842
+        "image": 841
       },
       "ranks": {
         "image": 22
@@ -17247,6 +17247,6 @@
     "arena_image": "ok (80)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790638942542,
+  "updatedAt": 1790655565704,
   "errors": []
 }
