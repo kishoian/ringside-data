@@ -401,9 +401,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": 0.1,
       "scores": {
-        "chat": 47.5
+        "chat": 47.6
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "pricing": {
@@ -452,7 +452,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "chat": 46.7
+        "chat": 46.8
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/anthropic.svg",
       "pricing": {
@@ -634,9 +634,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -3.4,
+      "delta": -3.3,
       "scores": {
-        "chat": 44.1
+        "chat": 44.2
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "pricing": {
@@ -717,9 +717,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": -4.7,
+      "delta": -5.1,
       "scores": {
-        "chat": 42.8
+        "chat": 42.4
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "pricing": {
@@ -760,6 +760,23 @@
         "completion": 20
       },
       "arenaElo": 1484
+    },
+    {
+      "id": "grok-4-7-low",
+      "name": "Grok 4.7 (Low)",
+      "org": "SpaceXAI",
+      "color": "#736cd3",
+      "votes": 0,
+      "delta": -4.2,
+      "scores": {
+        "chat": 42.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/spacexai.svg",
+      "pricing": {
+        "prompt": 2,
+        "completion": 6
+      },
+      "arenaElo": 1442
     },
     {
       "id": "gpt-5-6-terra-max",
@@ -853,7 +870,7 @@
       "votes": 0,
       "delta": 0,
       "scores": {
-        "chat": 40.7
+        "chat": 40.8
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/anthropic.svg",
       "pricing": {
@@ -1130,6 +1147,22 @@
       "arenaElo": 1462
     },
     {
+      "id": "gpt-6-luna-max",
+      "name": "GPT-6 Luna (Max)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": 0.8,
+      "scores": {
+        "chat": 38.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "gpt-5-6-terra-xhigh",
       "name": "GPT-5.6 Terra (Xhigh)",
       "org": "OpenAI",
@@ -1179,22 +1212,6 @@
         "completion": 1.2
       },
       "arenaElo": 1453
-    },
-    {
-      "id": "gpt-6-luna-max",
-      "name": "GPT-6 Luna (Max)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 37.3
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
-      }
     },
     {
       "id": "gpt-5-5-high",
@@ -1247,6 +1264,22 @@
       }
     },
     {
+      "id": "claude-sonnet-5-5-adaptive-reasoning-low-effort-default-fallback",
+      "name": "Claude Sonnet 5.5 (Adaptive Reasoning, Low Effort, Default Fallback)",
+      "org": "Anthropic",
+      "color": "#cc785c",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 35.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/anthropic.svg",
+      "pricing": {
+        "prompt": 2,
+        "completion": 10
+      }
+    },
+    {
       "id": "grok-4-6-low",
       "name": "Grok 4.6 (Low)",
       "org": "SpaceXAI",
@@ -1278,6 +1311,23 @@
         "prompt": 0.44,
         "completion": 1.32
       }
+    },
+    {
+      "id": "gpt-6-luna-xhigh",
+      "name": "GPT-6 Luna (Xhigh)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -2.7,
+      "scores": {
+        "chat": 34.6
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      },
+      "arenaElo": 1494
     },
     {
       "id": "gpt-5-6-luna-xhigh",
@@ -1346,6 +1396,22 @@
       }
     },
     {
+      "id": "gpt-6-sol-low",
+      "name": "GPT-6 Sol (Low)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -13.3,
+      "scores": {
+        "chat": 34.2
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 2,
+        "completion": 10
+      }
+    },
+    {
       "id": "gpt-5-6-terra-high",
       "name": "GPT-5.6 Terra (High)",
       "org": "OpenAI",
@@ -1380,41 +1446,8 @@
       "arenaElo": 1483
     },
     {
-      "id": "gpt-6-sol-low",
-      "name": "GPT-6 Sol (Low)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -13.6,
-      "scores": {
-        "chat": 33.9
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 2,
-        "completion": 10
-      }
-    },
-    {
-      "id": "gpt-6-luna-xhigh",
-      "name": "GPT-6 Luna (Xhigh)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -3.4,
-      "scores": {
-        "chat": 33.9
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
-      },
-      "arenaElo": 1494
-    },
-    {
-      "id": "jt-4-1-flash-236b-a21b",
-      "name": "JT-4.1 Flash 236B A21B",
+      "id": "jt-4-1-flash-236b-a21b-reasoning",
+      "name": "JT-4.1 Flash 236B A21B (Reasoning)",
       "org": "China Mobile",
       "color": "#00b8ea",
       "votes": 0,
@@ -1555,6 +1588,22 @@
       "arenaElo": 1494
     },
     {
+      "id": "gpt-6-luna-high",
+      "name": "GPT-6 Luna (High)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -4.4,
+      "scores": {
+        "chat": 32.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "gemini-3-5-flash-high",
       "name": "Gemini 3.5 Flash (High)",
       "org": "Google",
@@ -1599,22 +1648,6 @@
         "chat": 32.3
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/motif.svg"
-    },
-    {
-      "id": "gpt-6-luna-high",
-      "name": "GPT-6 Luna (High)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -5.2,
-      "scores": {
-        "chat": 32.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
-      }
     },
     {
       "id": "gpt-5-6-luna-high",
@@ -1724,7 +1757,11 @@
       "scores": {
         "chat": 30.5
       },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/ifm.svg"
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/ifm.svg",
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      }
     },
     {
       "id": "gpt-5-2-xhigh",
@@ -1826,6 +1863,22 @@
       "arenaElo": 1472
     },
     {
+      "id": "gpt-6-luna-medium",
+      "name": "GPT-6 Luna (Medium)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -7.4,
+      "scores": {
+        "chat": 29.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "gemini-3-1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
       "org": "Google",
@@ -1841,22 +1894,6 @@
         "completion": 12
       },
       "arenaElo": 1487
-    },
-    {
-      "id": "gpt-6-luna-medium",
-      "name": "GPT-6 Luna (Medium)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -7.8,
-      "scores": {
-        "chat": 29.5
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
-      }
     },
     {
       "id": "qwen3-7-max",
@@ -1938,6 +1975,22 @@
       "arenaElo": 1494
     },
     {
+      "id": "gpt-6-sol-non-reasoning",
+      "name": "GPT-6 Sol (Non-reasoning)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -19,
+      "scores": {
+        "chat": 28.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 2,
+        "completion": 10
+      }
+    },
+    {
       "id": "qwen3-6-max-preview",
       "name": "Qwen3.6 Max Preview",
       "org": "Alibaba",
@@ -1998,22 +2051,6 @@
         "chat": 28.2
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/nex.svg"
-    },
-    {
-      "id": "gpt-6-sol-non-reasoning",
-      "name": "GPT-6 Sol (Non-reasoning)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -19.4,
-      "scores": {
-        "chat": 28.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 2,
-        "completion": 10
-      }
     },
     {
       "id": "claude-sonnet-5-adaptive-reasoning-medium-effort",
@@ -2145,8 +2182,8 @@
       }
     },
     {
-      "id": "kimi-k2-6",
-      "name": "Kimi K2.6",
+      "id": "kimi-k2-6-reasoning",
+      "name": "Kimi K2.6 (Reasoning)",
       "org": "Kimi",
       "color": "#047AFE",
       "votes": 0,
@@ -2307,8 +2344,8 @@
       "arenaElo": 1465
     },
     {
-      "id": "mimo-v2-5-pro",
-      "name": "MiMo-V2.5-Pro",
+      "id": "mimo-v2-5-pro-reasoning",
+      "name": "MiMo-V2.5-Pro (Reasoning)",
       "org": "Xiaomi",
       "color": "#ff6900",
       "votes": 0,
@@ -3273,6 +3310,22 @@
       }
     },
     {
+      "id": "gpt-6-luna-low",
+      "name": "GPT-6 Luna (Low)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -15.8,
+      "scores": {
+        "chat": 21.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "deepseek-v3-2-reasoning",
       "name": "DeepSeek V3.2 (Reasoning)",
       "org": "DeepSeek",
@@ -3365,22 +3418,6 @@
       "pricing": {
         "prompt": 0.3,
         "completion": 1.2
-      }
-    },
-    {
-      "id": "gpt-6-luna-low",
-      "name": "GPT-6 Luna (Low)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -16.4,
-      "scores": {
-        "chat": 20.9
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
       }
     },
     {
@@ -3884,6 +3921,22 @@
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/kwaikat.svg"
     },
     {
+      "id": "gpt-6-luna-non-reasoning",
+      "name": "GPT-6 Luna (Non-reasoning)",
+      "org": "OpenAI",
+      "color": "#1f1f1f",
+      "votes": 0,
+      "delta": -18.8,
+      "scores": {
+        "chat": 18.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "glm-4-6-reasoning",
       "name": "GLM-4.6 (Reasoning)",
       "org": "Z AI",
@@ -3933,22 +3986,6 @@
         "completion": 0.87
       },
       "arenaElo": 1467
-    },
-    {
-      "id": "gpt-6-luna-non-reasoning",
-      "name": "GPT-6 Luna (Non-reasoning)",
-      "org": "OpenAI",
-      "color": "#1f1f1f",
-      "votes": 0,
-      "delta": -19,
-      "scores": {
-        "chat": 18.3
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
-      }
     },
     {
       "id": "gpt-5-4-non-reasoning",
@@ -5041,8 +5078,8 @@
       "arenaElo": 1456
     },
     {
-      "id": "exaone-4-5-33b",
-      "name": "EXAONE 4.5 33B",
+      "id": "exaone-4-5-33b-reasoning",
+      "name": "EXAONE 4.5 33B (Reasoning)",
       "org": "LG AI Research",
       "color": "#df3b8a",
       "votes": 0,
@@ -10200,9 +10237,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1190
+        "image": 1191
       },
       "arenaElo": 1401
     },
@@ -10236,9 +10273,9 @@
       "org": "Meta",
       "color": "#0089f4",
       "votes": 0,
-      "delta": 3,
+      "delta": 4,
       "scores": {
-        "image": 1114
+        "image": 1115
       },
       "arenaElo": 1276
     },
@@ -10271,9 +10308,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1101
+        "image": 1102
       },
       "arenaElo": 1247
     },
@@ -10283,9 +10320,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1099
+        "image": 1100
       }
     },
     {
@@ -10294,9 +10331,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 1095
+        "image": 1096
       },
       "arenaElo": 1250
     },
@@ -10306,9 +10343,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 1089
+        "image": 1090
       },
       "arenaElo": 1256
     },
@@ -10387,9 +10424,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -18,
+      "delta": -17,
       "scores": {
-        "image": 1003
+        "image": 1004
       }
     },
     {
@@ -10409,9 +10446,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 981
+        "image": 982
       },
       "arenaElo": 1116
     },
@@ -12155,7 +12192,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1190
+        "image": 1191
       },
       "ranks": {
         "image": 2
@@ -12439,7 +12476,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1095
+        "image": 1096
       },
       "ranks": {
         "image": 10
@@ -12451,7 +12488,7 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 1089
+        "image": 1090
       },
       "ranks": {
         "image": 11
@@ -12771,7 +12808,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1099
+        "image": 1100
       },
       "ranks": {
         "image": 9
@@ -13228,7 +13265,7 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 981
+        "image": 982
       },
       "ranks": {
         "image": 17
@@ -13307,7 +13344,7 @@
         "chat": 37.9
       },
       "ranks": {
-        "chat": 33
+        "chat": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/xiaomi.svg"
     },
@@ -13786,7 +13823,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1101
+        "image": 1102
       },
       "ranks": {
         "image": 8
@@ -14998,7 +15035,7 @@
         "chat": 37.3
       },
       "ranks": {
-        "chat": 34
+        "chat": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "aliases": [
@@ -16046,10 +16083,10 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "chat": 37.3
+        "chat": 38.1
       },
       "ranks": {
-        "chat": 35
+        "chat": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "aliases": [
@@ -16384,7 +16421,7 @@
       "org": "Meta",
       "color": "#0089f4",
       "scores": {
-        "image": 1114
+        "image": 1115
       },
       "ranks": {
         "image": 5
@@ -16408,7 +16445,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "chat": 47.5
+        "chat": 47.6
       },
       "ranks": {
         "chat": 10
@@ -17413,15 +17450,15 @@
     }
   ],
   "sources": {
-    "openrouter": "ok (464)",
+    "openrouter": "ok (465)",
     "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (689)",
+    "aa_llm": "ok (690)",
     "aa_image": "ok (71)",
     "arena_text": "ok (410)",
     "arena_code": "ok (138)",
-    "arena_image": "ok (80)",
+    "arena_image": "ok (81)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1790932945378,
+  "updatedAt": 1790957169756,
   "errors": []
 }
