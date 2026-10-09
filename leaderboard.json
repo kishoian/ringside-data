@@ -1999,6 +1999,22 @@
       "arenaElo": 1487
     },
     {
+      "id": "claude-haiku-5-5-low",
+      "name": "Claude Haiku 5.5 (Low)",
+      "org": "Anthropic",
+      "color": "#cc785c",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 29.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/anthropic.svg",
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
+    },
+    {
       "id": "qwen3-7-max",
       "name": "Qwen3.7 Max",
       "org": "Alibaba",
@@ -2012,22 +2028,6 @@
       "pricing": {
         "prompt": 2.5,
         "completion": 7.5
-      }
-    },
-    {
-      "id": "claude-haiku-5-5-low",
-      "name": "Claude Haiku 5.5 (Low)",
-      "org": "Anthropic",
-      "color": "#cc785c",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 29.4
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/anthropic.svg",
-      "pricing": {
-        "prompt": 0.1,
-        "completion": 0.5
       }
     },
     {
@@ -4769,23 +4769,6 @@
       "arenaElo": 1416
     },
     {
-      "id": "granite-4-2-30b",
-      "name": "Granite 4.2 30B",
-      "org": "IBM",
-      "color": "#0f62fe",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 14.8
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/ibm.svg",
-      "pricing": {
-        "prompt": 0.16,
-        "completion": 0.65
-      },
-      "arenaElo": 1340
-    },
-    {
       "id": "gemma-4-31b-reasoning",
       "name": "Gemma 4 31B (Reasoning)",
       "org": "Google",
@@ -5368,6 +5351,23 @@
         "prompt": 1.25,
         "completion": 10
       }
+    },
+    {
+      "id": "granite-4-2-30b",
+      "name": "Granite 4.2 30B",
+      "org": "IBM",
+      "color": "#0f62fe",
+      "votes": 0,
+      "delta": -2.1,
+      "scores": {
+        "chat": 12.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/ibm.svg",
+      "pricing": {
+        "prompt": 0.16,
+        "completion": 0.65
+      },
+      "arenaElo": 1340
     },
     {
       "id": "gpt-4-1",
@@ -11053,7 +11053,7 @@
         "chat": 14.3
       },
       "ranks": {
-        "chat": 164
+        "chat": 163
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/baidu.svg"
     },
@@ -11066,7 +11066,7 @@
         "chat": 12.8
       },
       "ranks": {
-        "chat": 185
+        "chat": 184
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/nvidia.svg"
     },
@@ -11315,7 +11315,7 @@
         "chat": 13.8
       },
       "ranks": {
-        "chat": 170
+        "chat": 169
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/servicenow.svg",
       "aliases": [
@@ -11332,7 +11332,7 @@
         "chat": 13.4
       },
       "ranks": {
-        "chat": 174
+        "chat": 173
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/servicenow.svg",
       "aliases": [
@@ -11497,7 +11497,7 @@
         "chat": 14.5
       },
       "ranks": {
-        "chat": 163
+        "chat": 162
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek.svg",
       "aliases": [
@@ -11514,7 +11514,7 @@
         "chat": 12.9
       },
       "ranks": {
-        "chat": 183
+        "chat": 182
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/nvidia.svg",
       "aliases": [
@@ -11662,7 +11662,7 @@
         "chat": 14.6
       },
       "ranks": {
-        "chat": 162
+        "chat": 161
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/spacexai.svg"
     },
@@ -11929,7 +11929,7 @@
         "chat": 14.2
       },
       "ranks": {
-        "chat": 165
+        "chat": 164
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg"
     },
@@ -12389,7 +12389,7 @@
         "chat": 14.2
       },
       "ranks": {
-        "chat": 166
+        "chat": 165
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/mistral.svg",
       "aliases": [
@@ -12406,7 +12406,7 @@
         "chat": 13.4
       },
       "ranks": {
-        "chat": 175
+        "chat": 174
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/alibaba.svg"
     },
@@ -13126,7 +13126,7 @@
         "chat": 14.1
       },
       "ranks": {
-        "chat": 168
+        "chat": 167
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/spacexai.svg"
     },
@@ -13139,7 +13139,7 @@
         "chat": 13.1
       },
       "ranks": {
-        "chat": 178
+        "chat": 177
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/google.svg",
       "aliases": [
@@ -13155,7 +13155,7 @@
         "chat": 13.1
       },
       "ranks": {
-        "chat": 181
+        "chat": 180
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek.svg",
       "aliases": [
@@ -13641,10 +13641,10 @@
       "org": "IBM",
       "color": "#0f62fe",
       "scores": {
-        "chat": 14.8
+        "chat": 12.7
       },
       "ranks": {
-        "chat": 160
+        "chat": 185
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/ibm.svg"
     },
@@ -14195,7 +14195,7 @@
         "chat": 13.2
       },
       "ranks": {
-        "chat": 177
+        "chat": 176
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/lg.png"
     },
@@ -14813,7 +14813,7 @@
         "chat": 13.7
       },
       "ranks": {
-        "chat": 171
+        "chat": 170
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/deepseek.svg",
       "aliases": [
@@ -14829,7 +14829,7 @@
         "chat": 13.6
       },
       "ranks": {
-        "chat": 172
+        "chat": 171
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "aliases": [
@@ -14845,7 +14845,7 @@
         "chat": 13.4
       },
       "ranks": {
-        "chat": 173
+        "chat": 172
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "aliases": [
@@ -15879,7 +15879,7 @@
         "chat": 14.7
       },
       "ranks": {
-        "chat": 161
+        "chat": 160
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/google.svg"
     },
@@ -15892,7 +15892,7 @@
         "chat": 14.2
       },
       "ranks": {
-        "chat": 167
+        "chat": 166
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/google.svg"
     },
@@ -16368,7 +16368,7 @@
         "chat": 13.3
       },
       "ranks": {
-        "chat": 176
+        "chat": 175
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/alibaba.svg"
     },
@@ -16381,7 +16381,7 @@
         "chat": 13.1
       },
       "ranks": {
-        "chat": 179
+        "chat": 178
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/cohere.svg"
     },
@@ -16394,7 +16394,7 @@
         "chat": 13.1
       },
       "ranks": {
-        "chat": 180
+        "chat": 179
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/alibaba.svg"
     },
@@ -16407,7 +16407,7 @@
         "chat": 13
       },
       "ranks": {
-        "chat": 182
+        "chat": 181
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/openai.svg",
       "aliases": [
@@ -16690,7 +16690,7 @@
         "chat": 13.8
       },
       "ranks": {
-        "chat": 169
+        "chat": 168
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/inceptionlabs.svg"
     },
@@ -17220,7 +17220,7 @@
         "chat": 12.8
       },
       "ranks": {
-        "chat": 184
+        "chat": 183
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/zai.svg",
       "aliases": [
@@ -17620,13 +17620,13 @@
   "sources": {
     "openrouter": "ok (469)",
     "aa_video": "err: no video models extracted",
-    "arena_code": "err: no entries",
     "aa_llm": "ok (698)",
     "aa_image": "ok (71)",
+    "arena_code": "err: no entries",
     "arena_text": "ok (414)",
     "arena_image": "ok (82)",
     "arena_video": "ok (48)"
   },
-  "updatedAt": 1791500094355,
+  "updatedAt": 1791514026402,
   "errors": []
 }
