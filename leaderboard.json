@@ -1142,7 +1142,11 @@
       "scores": {
         "chat": 38.9
       },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/meta.svg"
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/meta.svg",
+      "pricing": {
+        "prompt": 1.25,
+        "completion": 4.25
+      }
     },
     {
       "id": "grok-4-5-high",
@@ -2113,22 +2117,6 @@
       }
     },
     {
-      "id": "solar-pro-4",
-      "name": "Solar Pro 4",
-      "org": "Upstage",
-      "color": "#7c59f5",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 28.2
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/upstage.svg",
-      "pricing": {
-        "prompt": 0.3,
-        "completion": 1.2
-      }
-    },
-    {
       "id": "nex-n2-pro-based-on-qwen3-5-397b-a17b",
       "name": "Nex-N2-Pro (Based on Qwen3.5-397B-A17B)",
       "org": "Nex AGI",
@@ -2325,6 +2313,22 @@
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/zai.svg"
     },
     {
+      "id": "solar-pro-4",
+      "name": "Solar Pro 4",
+      "org": "Upstage",
+      "color": "#7c59f5",
+      "votes": 0,
+      "delta": -1.6,
+      "scores": {
+        "chat": 26.6
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/upstage.svg",
+      "pricing": {
+        "prompt": 0.3,
+        "completion": 1.2
+      }
+    },
+    {
       "id": "gpt-5-2-medium",
       "name": "GPT-5.2 (Medium)",
       "org": "OpenAI",
@@ -2350,7 +2354,11 @@
       "scores": {
         "chat": 26.5
       },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/nvidia.svg"
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/nvidia.svg",
+      "pricing": {
+        "prompt": 0.2,
+        "completion": 0.575
+      }
     },
     {
       "id": "apodex-1-1",
@@ -4780,8 +4788,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 1.375,
-        "completion": 11
+        "prompt": 1.25,
+        "completion": 10
       }
     },
     {
@@ -4984,8 +4992,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 0.33,
-        "completion": 2.75
+        "prompt": 0.3,
+        "completion": 2.5
       }
     },
     {
@@ -5212,8 +5220,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 1.375,
-        "completion": 11
+        "prompt": 1.25,
+        "completion": 10
       }
     },
     {
@@ -5364,8 +5372,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 0.33,
-        "completion": 2.75
+        "prompt": 0.3,
+        "completion": 2.5
       }
     },
     {
@@ -5524,8 +5532,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 0.33,
-        "completion": 2.75
+        "prompt": 0.3,
+        "completion": 2.5
       }
     },
     {
@@ -6164,8 +6172,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 1.375,
-        "completion": 11
+        "prompt": 1.25,
+        "completion": 10
       }
     },
     {
@@ -6840,8 +6848,8 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/aws.svg",
       "pricing": {
-        "prompt": 0.33,
-        "completion": 2.75
+        "prompt": 0.3,
+        "completion": 2.5
       }
     },
     {
@@ -11703,7 +11711,7 @@
         "chat": 28
       },
       "ranks": {
-        "chat": 69
+        "chat": 68
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/google.svg"
     },
@@ -11931,7 +11939,7 @@
         "chat": 27.2
       },
       "ranks": {
-        "chat": 71
+        "chat": 70
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/spacexai.svg"
     },
@@ -15046,7 +15054,7 @@
         "chat": 27
       },
       "ranks": {
-        "chat": 73
+        "chat": 72
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/alibaba.svg"
     },
@@ -15547,22 +15555,6 @@
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/xiaomi.svg"
     },
     {
-      "key": "solar-pro-4",
-      "name": "Solar Pro 4",
-      "org": "Upstage",
-      "color": "#7c59f5",
-      "scores": {
-        "chat": 28.2
-      },
-      "ranks": {
-        "chat": 67
-      },
-      "logo": "https://artificialanalysis.ai/img/logos//img/logos/upstage.svg",
-      "aliases": [
-        "Solar 4 Pro"
-      ]
-    },
-    {
       "key": "quasar-438b",
       "name": "Quasar 438B",
       "org": "Multiverse Computing",
@@ -15571,7 +15563,7 @@
         "chat": 26.7
       },
       "ranks": {
-        "chat": 74
+        "chat": 73
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/multiversecomputing.svg"
     },
@@ -15584,11 +15576,27 @@
         "chat": 26.6
       },
       "ranks": {
-        "chat": 75
+        "chat": 74
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/zai.svg",
       "aliases": [
         "GLM 5-Turbo"
+      ]
+    },
+    {
+      "key": "solar-pro-4",
+      "name": "Solar Pro 4",
+      "org": "Upstage",
+      "color": "#7c59f5",
+      "scores": {
+        "chat": 26.6
+      },
+      "ranks": {
+        "chat": 75
+      },
+      "logo": "https://artificialanalysis.ai/img/logos//img/logos/upstage.svg",
+      "aliases": [
+        "Solar 4 Pro"
       ]
     },
     {
@@ -16135,7 +16143,7 @@
         "chat": 28.2
       },
       "ranks": {
-        "chat": 68
+        "chat": 67
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/nex.svg"
     },
@@ -16471,7 +16479,7 @@
         "chat": 27
       },
       "ranks": {
-        "chat": 72
+        "chat": 71
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/kimi.jpg",
       "aliases": [
@@ -17374,7 +17382,7 @@
         "chat": 27.9
       },
       "ranks": {
-        "chat": 70
+        "chat": 69
       },
       "logo": "https://artificialanalysis.ai/img/logos//img/logos/zai.svg",
       "aliases": [
@@ -17459,13 +17467,13 @@
   "sources": {
     "openrouter": "ok (465)",
     "aa_video": "err: no video models extracted",
-    "aa_llm": "ok (704)",
-    "aa_image": "ok (71)",
+    "arena_text": "err: http 403",
     "arena_code": "err: http 403",
     "arena_video": "err: http 403",
-    "arena_text": "err: http 403",
-    "arena_image": "err: http 403"
+    "arena_image": "err: http 403",
+    "aa_llm": "ok (704)",
+    "aa_image": "ok (71)"
   },
-  "updatedAt": 1792128426598,
+  "updatedAt": 1792147416455,
   "errors": []
 }
