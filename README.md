@@ -1,34 +1,30 @@
 # ringside-data
 
-Hourly-refreshed leaderboard data for the Ringside browser extension. Served as a static JSON from GitHub — zero infrastructure, zero user config.
+Hourly leaderboard data for the Ringside browser extension, served from GitHub.
 
-## How it works
+## Sources and scales
 
-1. GitHub Actions cron (`0 * * * *`) runs `scripts/refresh.mjs`.
-2. Script fetches from public no-key sources:
-   - **OpenRouter** `/api/v1/models` — catalog, pricing, context
-   - **Aider polyglot** — code benchmark (YAML on GitHub)
-   - **LMArena** HF Space CSV — chat Elo (if CSV still published)
-   - **LiveBench** — CSV (chat + code)
-3. Normalizes to `{ chat, code, image, video }`, writes `leaderboard.json`.
-4. Commits and pushes. The extension fetches `https://raw.githubusercontent.com/<you>/ringside-data/main/leaderboard.json`.
+| Category | Primary source | Score |
+|---|---|---|
+| Text | Artificial Analysis LLM leaderboard | Intelligence Index |
+| Code | Artificial Analysis LLM leaderboard | Terminal-Bench 4.0 pass rate, percent |
+| Image | Artificial Analysis text-to-image leaderboard | Overall Elo |
+| Video | Artificial Analysis text-to-video leaderboard | Overall Elo, with audio |
 
-Each source fails independently. `sources` field in the JSON shows what succeeded.
+Code uses a single benchmark for all rows. It does not substitute Intelligence Index or mix legacy coding indexes with Terminal-Bench results. Video uses the overall audio pool; scores from silent video and individual content categories are separate pools and are excluded.
 
-## Setup (one-time, ~2 minutes)
+OpenRouter enriches context and pricing; its per-token prices are converted to per-million-token units. Arena.ai provides optional supplementary human ratings when accessible. Its failure does not erase the primary ratings.
 
-1. Fork/push this folder to a public repo named `ringside-data`.
-2. Settings → Actions → General → "Workflow permissions" → **Read and write**.
-3. Actions tab → "Refresh leaderboard" → Run workflow (seeds `leaderboard.json`).
-4. In `ringside-extension/config.js`, set `DATA_URL` to your raw GitHub URL.
+## Refresh
 
-## Local dev
-
-```bash
-npm install
-npm run refresh        # writes leaderboard.json to cwd
+```sh
+npm ci
+npm test
+npm run refresh
 ```
 
-## Adding sources
+The script decodes Next.js Flight JSON strings and follows the media boards' referenced overall data maps. It writes `leaderboard.json` only after validating all four primary categories. Empty categories, non-finite scores, or a loss of over half a category's rows fail the run before overwriting published data. Substantial intentional source changes therefore require review.
 
-Add a `fetchX()` function in `scripts/refresh.mjs`, call it via `tryFetch('x', fetchX)`, and merge into `out` in `merge()`. Each source should be independent and wrapped in try/catch.
+`updatedAt` records the successful collection time, not the date a benchmark was performed. `categoryMeta` names each scale and links its source; `sources` records optional failures. The extension rejects downloads older than 48 hours and reports partial data when supplementary sources fail.
+
+GitHub Actions runs hourly, serializes refresh jobs, tests before collection, and commits the validated leaderboard and weekly snapshot. A primary source failure fails the workflow instead of publishing an empty category.

@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "refresh": "node scripts/refresh.mjs"
+    "refresh": "node scripts/refresh.mjs",
+    "test": "node --test scripts/*.test.mjs"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"

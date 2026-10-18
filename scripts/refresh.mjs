@@ -8,6 +8,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import yaml from 'js-yaml';
+import { extractObjects, extractBoard, CATEGORY_META, validateCategories } from './aa.mjs';
 
 const ORG_COLOR = {
   'OpenAI': '#10a37f', 'Anthropic': '#c96442', 'Google': '#4285f4',
@@ -20,6 +21,10 @@ const ORG_COLOR = {
   'Pika': '#ff4d6d', 'MiniMax': '#0066ff', 'Luma': '#7c3aed',
   'Qwen': '#ff6a00', 'Moonshot': '#8b5cf6', 'Nvidia': '#76b900',
 };
+
+function fetchTimed(url, options = {}) {
+  return fetch(url, { ...options, signal: AbortSignal.timeout(25000) });
+}
 
 const sources = {};
 const errors = [];
@@ -38,7 +43,7 @@ async function tryFetch(name, fn) {
 
 // ─── OpenRouter: model catalog (no key, public) ────────────────────────────
 async function fetchOpenRouter() {
-  const r = await fetch('https://openrouter.ai/api/v1/models', { headers: { 'accept': 'application/json' } });
+  const r = await fetchTimed('https://openrouter.ai/api/v1/models', { headers: { 'accept': 'application/json' } });
   if (!r.ok) throw new Error('http ' + r.status);
   const body = await r.json();
   return body.data || [];
@@ -51,7 +56,7 @@ async function fetchAider() {
     'https://raw.githubusercontent.com/Aider-AI/aider/main/aider/website/_data/edit_leaderboard.yml',
   ];
   for (const u of urls) {
-    const r = await fetch(u);
+    const r = await fetchTimed(u);
     if (!r.ok) continue;
     const text = await r.text();
     const parsed = yaml.load(text);
@@ -73,52 +78,8 @@ async function fetchAider() {
 // Scales are intentionally different per page. We surface them as-is rather
 // than normalizing so you can trust the numbers against AA's site directly.
 
-function extractAAObjects(html, markerKey) {
-  const chunks = [...html.matchAll(/self\.__next_f\.push\(\[1,"(.*?)"\]\)/gs)].map(m => m[1]);
-  // Unescape once: JSON-escaped in chunk strings
-  const big = chunks.join('').replace(/\\"/g, '"').replace(/\\\\/g, '\\');
-  const markerRe = new RegExp(`"${markerKey}"\\s*:`, 'g');
-  const out = [];
-  const seen = new Set();
-  let m;
-  while ((m = markerRe.exec(big))) {
-    // Walk back to object start
-    let depth = 0, start = -1;
-    for (let i = m.index; i >= 0; i--) {
-      const c = big[i];
-      if (c === '}') depth++;
-      else if (c === '{') {
-        if (depth === 0) { start = i; break; }
-        depth--;
-      }
-    }
-    if (start < 0) continue;
-    if (seen.has(start)) continue;
-    seen.add(start);
-
-    // Walk forward honoring strings/escapes
-    let end = -1, inStr = false, esc = false;
-    depth = 0;
-    for (let j = start; j < big.length; j++) {
-      const c = big[j];
-      if (esc) { esc = false; continue; }
-      if (c === '\\') { esc = true; continue; }
-      if (c === '"') { inStr = !inStr; continue; }
-      if (inStr) continue;
-      if (c === '{') depth++;
-      else if (c === '}') { depth--; if (depth === 0) { end = j; break; } }
-    }
-    if (end < 0) continue;
-    try {
-      const obj = JSON.parse(big.slice(start, end + 1));
-      if (obj && obj[markerKey] !== undefined) out.push(obj);
-    } catch { /* skip malformed slice */ }
-  }
-  return out;
-}
-
 async function fetchAA(url, markerKey) {
-  const res = await fetch(url, {
+  const res = await fetchTimed(url, {
     headers: {
       // Some Cloudflare-fronted sites 403 a generic Mozilla UA. Use a real
       // Chrome UA + Accept headers so we look like a normal browser.
@@ -130,36 +91,20 @@ async function fetchAA(url, markerKey) {
   const html = await res.text();
   if (!res.ok) throw new Error(`http ${res.status} (size ${html.length})`);
   if (!html || html.length < 50000) throw new Error('html too small: ' + html.length);
-  const models = extractAAObjects(html, markerKey);
+  const models = extractObjects(html, markerKey);
   if (!models.length) throw new Error('no models extracted');
   return models;
 }
 
-async function fetchAAVideo() {
-  // Video page nests elo inside an `elos` array (one per resolution variant).
-  // Marker `elos` selects the outer model object; we pick the max elo below.
-  const res = await fetch('https://artificialanalysis.ai/video/models', {
-    headers: {
-      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
-      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-      'accept-language': 'en-US,en;q=0.9',
-    },
-  });
-  const html = await res.text();
+async function fetchMediaBoard(url, dataKey) {
+  const res = await fetchTimed(url);
   if (!res.ok) throw new Error(`http ${res.status}`);
-  if (!html || html.length < 50000) throw new Error('html too small');
-  const models = extractAAObjects(html, 'elos')
-    .filter(m => Array.isArray(m.elos) && m.elos.length && m.name);
-  if (!models.length) throw new Error('no video models extracted');
-  for (const m of models) {
-    m.qualityElo = Math.max(...m.elos.map(e => e.elo || 0));
-  }
-  return models;
+  return extractBoard(await res.text(), dataKey).map(m => ({ ...m, qualityElo: m.elo }));
 }
 
 // ─── arena.ai — human voting Elo, kept as supplementary signal ─────────────
 async function fetchArena(slug) {
-  const res = await fetch(`https://arena.ai/leaderboard/${slug}`, {
+  const res = await fetchTimed(`https://arena.ai/leaderboard/${slug}`, {
     headers: {
       'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
       'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
@@ -201,8 +146,8 @@ async function fetchArenaAll() {
 async function fetchAAAll() {
   const [llm, image, video] = await Promise.all([
     fetchAA('https://artificialanalysis.ai/leaderboards/models', 'intelligenceIndex').catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
-    fetchAA('https://artificialanalysis.ai/image/models', 'qualityElo').catch(e => (sources.aa_image = 'err: ' + e.message, null)),
-    fetchAAVideo().catch(e => (sources.aa_video = 'err: ' + e.message, null)),
+    fetchMediaBoard(CATEGORY_META.image.url, 'initialData').catch(e => (sources.aa_image = 'err: ' + e.message, null)),
+    fetchMediaBoard(CATEGORY_META.video.url, 'withAudioData').catch(e => (sources.aa_video = 'err: ' + e.message, null)),
   ]);
   if (llm)   sources.aa_llm = `ok (${llm.length})`;
   if (image) sources.aa_image = `ok (${image.length})`;
@@ -217,7 +162,7 @@ async function fetchLiveBench() {
     'https://raw.githubusercontent.com/LiveBench/LiveBench/main/docs/leaderboard.csv',
   ];
   for (const u of urls) {
-    const r = await fetch(u);
+    const r = await fetchTimed(u);
     if (r.ok) return parseCSV(await r.text());
   }
   throw new Error('no leaderboard.csv in LiveBench repo');
@@ -235,15 +180,16 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
       if (!name) continue;
       const org = m.modelCreatorName || m.modelCreator?.name || 'Unknown';
       const color = m.modelCreatorColor || ORG_COLOR[org] || '#888';
-      const logo = m.modelCreatorLogo ? `https://artificialanalysis.ai/img/logos/${m.modelCreatorLogo}` : null;
+      const logo = m.modelCreatorLogo ? new URL(m.modelCreatorLogo.startsWith('/') ? m.modelCreatorLogo : '/img/logos/' + m.modelCreatorLogo, 'https://artificialanalysis.ai').href : null;
 
       const chat = m.intelligenceIndex;
-      const code = m.codingIndex;
-      if (typeof chat === 'number' && chat > 0) {
+      // codingIndex was removed. Use one published benchmark for all rows.
+      const code = typeof m.terminalBench40 === 'number' ? m.terminalBench40 * 100 : null;
+      if (Number.isFinite(chat) && chat >= 0) {
         const row = mkAARow(name, org, color, logo, chat, 'chat', m);
         out.chat.push(row);
       }
-      if (typeof code === 'number' && code > 0) {
+      if (Number.isFinite(code) && code >= 0) {
         const row = mkAARow(name, org, color, logo, code, 'code', m);
         out.code.push(row);
       }
@@ -308,7 +254,13 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
     for (const cat of ['chat', 'code']) {
       for (const m of out[cat]) {
         const match = orMap.get(norm(m.name)) || orMap.get(norm(m.id));
-        if (match) { m.context = match.context_length; m.pricing = match.pricing; }
+        if (match) {
+          m.context = match.context_length;
+          // OpenRouter prices are per token; the popup displays per million.
+          if (!m.pricing) m.pricing = Object.fromEntries(['prompt', 'completion']
+            .filter(k => match.pricing?.[k] != null)
+            .map(k => [k, Number(match.pricing[k]) * 1e6]));
+        }
       }
     }
   }
@@ -397,6 +349,7 @@ function mkAARow(name, org, color, logo, score, cat, raw) {
     scores: { [cat]: Math.round(score * 10) / 10 },
   };
   if (logo) row.logo = logo;
+  if (raw.contextWindowTokens) row.context = raw.contextWindowTokens;
   if (raw.releaseDate) row.releaseDate = raw.releaseDate;
   // Pricing for LLMs
   if (raw.price1mInputTokens != null || raw.price1mOutputTokens != null) {
@@ -641,8 +594,18 @@ const [openrouter, aa, arena] = await Promise.all([
 ]);
 
 const merged = merge({ openrouter, aa, arena, prevSnapshot });
+let previous = {};
+try { previous = JSON.parse(await fs.readFile(outFile, 'utf8')); } catch { /* first run */ }
+try {
+  validateCategories(merged, previous);
+} catch (error) {
+  console.error('Keeping previously published data. Sources:', sources);
+  throw error;
+}
 const dict = buildDict(merged);
-const payload = { ...merged, dict, sources, updatedAt: Date.now(), errors };
+const updatedAt = Date.now();
+const categoryMeta = Object.fromEntries(Object.entries(CATEGORY_META).map(([cat, meta]) => [cat, { ...meta, updatedAt }]));
+const payload = { ...merged, dict, categoryMeta, schemaVersion: 2, sources, updatedAt, errors };
 
 await fs.writeFile(outFile, JSON.stringify(payload, null, 2) + '\n');
 console.log('Wrote', outFile);
