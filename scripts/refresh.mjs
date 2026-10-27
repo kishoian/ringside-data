@@ -611,7 +611,8 @@ try {
   // Rebase once from historical scores on the models page to current scores
   // on the dedicated benchmark page. Later refreshes use the usual guard.
   validateCategories(merged, previous, {
-    rebaseCode: !Object.hasOwn(previous.sources || {}, 'aa_code') && sources.aa_code?.startsWith('ok ('),
+    rebaseCode: !Object.hasOwn(previous.sources || {}, 'aa_code') &&
+      sources.aa_code?.startsWith('ok (') && merged.code.length >= 20,
   });
 } catch (error) {
   console.error('Keeping previously published data. Sources:', sources);
