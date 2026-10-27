@@ -54,14 +54,14 @@ export const CATEGORY_META = {
 
 // A successful HTTP request does not guarantee a usable leaderboard.
 // Validate before overwriting the last published data or weekly snapshot.
-export function validateCategories(next, previous = {}) {
+export function validateCategories(next, previous = {}, { rebaseCode = false } = {}) {
   for (const cat of Object.keys(CATEGORY_META)) {
     const rows = next[cat];
     if (!Array.isArray(rows) || !rows.length) throw new Error(`Missing primary category: ${cat}`);
     if (rows.some(m => !m.id || !m.name || !Number.isFinite(m.scores?.[cat]))) {
       throw new Error(`Invalid model in category: ${cat}`);
     }
-    if (previous[cat]?.length && rows.length < previous[cat].length * 0.5) {
+    if (!(cat === 'code' && rebaseCode) && previous[cat]?.length && rows.length < previous[cat].length * 0.5) {
       throw new Error(`Unexpected loss of models in ${cat}: ${previous[cat].length} -> ${rows.length}`);
     }
   }

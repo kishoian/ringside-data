@@ -144,15 +144,20 @@ async function fetchArenaAll() {
 }
 
 async function fetchAAAll() {
-  const [llm, image, video] = await Promise.all([
+  const [llm, code, image, video] = await Promise.all([
     fetchAA('https://artificialanalysis.ai/leaderboards/models', 'intelligenceIndex').catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
+    fetchAA(CATEGORY_META.code.url, 'terminalBench40')
+      .then(models => models.filter(m => Number.isFinite(m.terminalBench40)))
+      .then(models => { if (!models.length) throw new Error('no Terminal-Bench 4.0 scores'); return models; })
+      .catch(e => (sources.aa_code = 'err: ' + e.message, null)),
     fetchMediaBoard(CATEGORY_META.image.url, 'initialData').catch(e => (sources.aa_image = 'err: ' + e.message, null)),
     fetchMediaBoard(CATEGORY_META.video.url, 'withAudioData').catch(e => (sources.aa_video = 'err: ' + e.message, null)),
   ]);
   if (llm)   sources.aa_llm = `ok (${llm.length})`;
+  if (code)  sources.aa_code = `ok (${code.length})`;
   if (image) sources.aa_image = `ok (${image.length})`;
   if (video) sources.aa_video = `ok (${video.length})`;
-  return { llm, image, video };
+  return { llm, code, image, video };
 }
 
 // ─── LiveBench: CSV in GitHub repo ─────────────────────────────────────────
@@ -173,7 +178,7 @@ async function fetchLiveBench() {
 function merge({ openrouter, aa, arena, prevSnapshot }) {
   const out = { chat: [], code: [], image: [], video: [] };
 
-  // LLM page → chat (intelligenceIndex) + code (codingIndex)
+  // LLM page → chat (Intelligence Index)
   if (aa?.llm?.length) {
     for (const m of aa.llm) {
       const name = m.name || m.shortName || m.slug;
@@ -183,17 +188,23 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
       const logo = m.modelCreatorLogo ? new URL(m.modelCreatorLogo.startsWith('/') ? m.modelCreatorLogo : '/img/logos/' + m.modelCreatorLogo, 'https://artificialanalysis.ai').href : null;
 
       const chat = m.intelligenceIndex;
-      // codingIndex was removed. Use one published benchmark for all rows.
-      const code = typeof m.terminalBench40 === 'number' ? m.terminalBench40 * 100 : null;
       if (Number.isFinite(chat) && chat >= 0) {
         const row = mkAARow(name, org, color, logo, chat, 'chat', m);
         out.chat.push(row);
       }
-      if (Number.isFinite(code) && code >= 0) {
-        const row = mkAARow(name, org, color, logo, code, 'code', m);
-        out.code.push(row);
-      }
     }
+  }
+
+  // Terminal-Bench 4.0 is now published on its own evaluation page.
+  for (const m of aa?.code || []) {
+    const name = m.name || m.shortName;
+    const code = m.terminalBench40;
+    if (!name || !Number.isFinite(code) || code < 0) continue;
+    const org = m.creator?.name || m.modelCreatorName || 'Unknown';
+    const color = m.creator?.color || m.modelCreatorColor || ORG_COLOR[org] || '#888';
+    const logoPath = m.creator?.logo || m.modelCreatorLogo;
+    const logo = logoPath ? new URL(logoPath, 'https://artificialanalysis.ai').href : null;
+    out.code.push(mkAARow(name, org, color, logo, code * 100, 'code', m));
   }
 
   // Image page → qualityElo
@@ -597,7 +608,12 @@ const merged = merge({ openrouter, aa, arena, prevSnapshot });
 let previous = {};
 try { previous = JSON.parse(await fs.readFile(outFile, 'utf8')); } catch { /* first run */ }
 try {
-  validateCategories(merged, previous);
+  // Rebase once from historical scores on the models page to current scores
+  // on the dedicated benchmark page. Later refreshes use the usual guard.
+  validateCategories(merged, previous, {
+    rebaseCode: !Object.hasOwn(previous.sources || {}, 'aa_code') &&
+      sources.aa_code?.startsWith('ok (') && merged.code.length >= 20,
+  });
 } catch (error) {
   console.error('Keeping previously published data. Sources:', sources);
   throw error;

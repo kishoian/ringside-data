@@ -7,11 +7,11 @@ Hourly leaderboard data for the Ringside browser extension, served from GitHub.
 | Category | Primary source | Score |
 |---|---|---|
 | Text | Artificial Analysis LLM leaderboard | Intelligence Index |
-| Code | Artificial Analysis LLM leaderboard | Terminal-Bench 4.0 pass rate, percent |
+| Code | Artificial Analysis Terminal-Bench 4.0 evaluation page | Terminal-Bench 4.0 pass rate, percent |
 | Image | Artificial Analysis text-to-image leaderboard | Overall Elo |
 | Video | Artificial Analysis text-to-video leaderboard | Overall Elo, with audio |
 
-Code uses a single benchmark for all rows. It does not substitute Intelligence Index or mix legacy coding indexes with Terminal-Bench results. Video uses the overall audio pool; scores from silent video and individual content categories are separate pools and are excluded.
+Code uses a single benchmark for all rows. It does not substitute Intelligence Index or mix legacy coding indexes with Terminal-Bench results. Artificial Analysis currently lists fewer models on the dedicated Terminal-Bench 4.0 page than it previously exposed on the general models page, so the code category contains only models with a currently published score. Video uses the overall audio pool; scores from silent video and individual content categories are separate pools and are excluded.
 
 OpenRouter enriches context and pricing; its per-token prices are converted to per-million-token units. Arena.ai provides optional supplementary human ratings when accessible. Its failure does not erase the primary ratings.
 
