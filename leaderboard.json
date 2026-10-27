@@ -671,6 +671,9 @@
       "pricing": {
         "prompt": 0.3,
         "completion": 0.9
+      },
+      "alts": {
+        "code": 32.8
       }
     },
     {
@@ -4619,6 +4622,26 @@
       }
     },
     {
+      "id": "ling-3-1-flash-1019",
+      "name": "Ling 3.1 Flash 1019",
+      "org": "InclusionAI",
+      "color": "#4fb5ff",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 32.8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/inclusionai.jpg",
+      "releaseDate": "2026-10-22",
+      "pricing": {
+        "prompt": 0.3,
+        "completion": 0.9
+      },
+      "alts": {
+        "chat": 43.9
+      }
+    },
+    {
       "id": "claude-haiku-5-5-max",
       "name": "Claude Haiku 5.5 (Max)",
       "org": "Anthropic",
@@ -6869,7 +6892,7 @@
       },
       "ranks": {
         "chat": 26,
-        "code": 17
+        "code": 18
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "releaseDate": "2026-10-06",
@@ -7098,7 +7121,7 @@
       },
       "ranks": {
         "chat": 43,
-        "code": 26
+        "code": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "releaseDate": "2026-10-15"
@@ -7218,7 +7241,7 @@
       },
       "ranks": {
         "chat": 36,
-        "code": 25
+        "code": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
       "releaseDate": "2026-09-03"
@@ -7427,12 +7450,15 @@
       "org": "InclusionAI",
       "color": "#4fb5ff",
       "scores": {
-        "chat": 43.9
+        "chat": 43.9,
+        "code": 32.8
       },
       "ranks": {
-        "chat": 16
+        "chat": 16,
+        "code": 16
       },
-      "logo": "https://artificialanalysis.ai/img/logos/inclusionai.jpg"
+      "logo": "https://artificialanalysis.ai/img/logos/inclusionai.jpg",
+      "releaseDate": "2026-10-22"
     },
     {
       "key": "magistral-small-1-2",
@@ -7579,7 +7605,7 @@
       },
       "ranks": {
         "chat": 19,
-        "code": 19
+        "code": 20
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax.svg",
       "releaseDate": "2026-10-19"
@@ -8151,7 +8177,7 @@
       },
       "ranks": {
         "chat": 18,
-        "code": 16
+        "code": 17
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic.svg",
       "releaseDate": "2026-10-07",
@@ -8170,7 +8196,7 @@
       },
       "ranks": {
         "chat": 22,
-        "code": 20
+        "code": 21
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "releaseDate": "2026-09-02",
@@ -8386,7 +8412,7 @@
       },
       "ranks": {
         "chat": 25,
-        "code": 22
+        "code": 23
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg",
       "releaseDate": "2026-10-15"
@@ -9902,7 +9928,7 @@
       },
       "ranks": {
         "chat": 33,
-        "code": 23
+        "code": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
       "releaseDate": "2026-08-14"
@@ -10335,7 +10361,7 @@
       },
       "ranks": {
         "chat": 27,
-        "code": 21
+        "code": 22
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "releaseDate": "2026-09-22",
@@ -10658,7 +10684,7 @@
       },
       "ranks": {
         "chat": 11,
-        "code": 18
+        "code": 19
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-09-21"
@@ -10674,7 +10700,7 @@
       },
       "ranks": {
         "chat": 37,
-        "code": 24
+        "code": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/reflection.svg",
       "releaseDate": "2026-10-16"
@@ -10945,36 +10971,36 @@
     "chat": {
       "label": "AA Intelligence Index",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updatedAt": 1793109482328
+      "updatedAt": 1793128710138
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793109482328
+      "updatedAt": 1793128710138
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793109482328
+      "updatedAt": 1793128710138
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793109482328
+      "updatedAt": 1793128710138
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_code": "err: http 403",
-    "arena_text": "err: http 403",
-    "arena_video": "err: http 403",
-    "arena_image": "err: http 403",
     "openrouter": "ok (463)",
+    "arena_video": "err: http 403",
+    "arena_code": "err: http 403",
+    "arena_image": "err: http 403",
+    "arena_text": "err: http 403",
     "aa_llm": "ok (274)",
-    "aa_code": "ok (27)",
+    "aa_code": "ok (28)",
     "aa_image": "ok (106)",
     "aa_video": "ok (30)"
   },
-  "updatedAt": 1793109482328,
+  "updatedAt": 1793128710138,
   "errors": []
 }
