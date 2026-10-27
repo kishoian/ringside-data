@@ -10949,36 +10949,36 @@
     "chat": {
       "label": "AA Intelligence Index",
       "url": "https://artificialanalysis.ai/leaderboards/models",
-      "updatedAt": 1793086303964
+      "updatedAt": 1793086815021
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793086303964
+      "updatedAt": 1793086815021
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793086303964
+      "updatedAt": 1793086815021
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793086303964
+      "updatedAt": 1793086815021
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_text": "err: http 403",
-    "arena_video": "err: http 403",
-    "arena_code": "err: http 403",
-    "arena_image": "err: http 403",
     "openrouter": "ok (464)",
     "aa_llm": "ok (274)",
     "aa_code": "ok (27)",
     "aa_image": "ok (106)",
-    "aa_video": "ok (30)"
+    "aa_video": "ok (30)",
+    "arena_text": "err: http 403",
+    "arena_video": "err: http 403",
+    "arena_image": "err: http 403",
+    "arena_code": "err: http 403"
   },
-  "updatedAt": 1793086303964,
+  "updatedAt": 1793086815021,
   "errors": []
 }
