@@ -21,9 +21,19 @@ const ORG_COLOR = {
   'Pika': '#ff4d6d', 'MiniMax': '#0066ff', 'Luma': '#7c3aed',
   'Qwen': '#ff6a00', 'Moonshot': '#8b5cf6', 'Nvidia': '#76b900',
 };
+const SNAPSHOT_FORMAT = 2;
 
-function fetchTimed(url, options = {}) {
-  return fetch(url, { ...options, signal: AbortSignal.timeout(25000) });
+async function fetchTimed(url, options = {}) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const response = await fetch(url, { ...options, signal: AbortSignal.timeout(25000) });
+      if ((response.status !== 429 && response.status < 500) || attempt === 2) return response;
+      await response.body?.cancel();
+    } catch (error) {
+      if (attempt === 2) throw error;
+    }
+    await new Promise(resolve => setTimeout(resolve, 500 * (attempt + 1)));
+  }
 }
 
 const sources = {};
@@ -145,7 +155,10 @@ async function fetchArenaAll() {
 
 async function fetchAAAll() {
   const [llm, code, image, video] = await Promise.all([
-    fetchAA('https://artificialanalysis.ai/leaderboards/models', 'intelligenceIndex').catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
+    fetchAA(CATEGORY_META.chat.url, 'intelligenceIndex')
+      .then(models => models.filter(m => Number.isFinite(m.intelligenceIndex)))
+      .then(models => { if (!models.length) throw new Error('no Intelligence Index scores'); return models; })
+      .catch(e => (sources.aa_llm = 'err: ' + e.message, null)),
     fetchAA(CATEGORY_META.code.url, 'terminalBench40')
       .then(models => models.filter(m => Number.isFinite(m.terminalBench40)))
       .then(models => { if (!models.length) throw new Error('no Terminal-Bench 4.0 scores'); return models; })
@@ -320,7 +333,7 @@ function merge({ openrouter, aa, arena, prevSnapshot }) {
   if (prevSnapshot) {
     for (const cat of ['chat', 'code', 'image', 'video']) {
       for (const m of out[cat]) {
-        const p = prevSnapshot[`${cat}:${canonical(m.name)}`];
+        const p = prevSnapshot[`${cat}:${slug(m.name)}`];
         if (typeof p === 'number') m.delta = Math.round((m.scores[cat] - p) * 10) / 10;
       }
     }
@@ -591,10 +604,16 @@ const outDir = path.resolve('.');
 const outFile = path.join(outDir, 'leaderboard.json');
 const snapFile = path.join(outDir, 'snapshot.json');
 
+let previous = {};
+try { previous = JSON.parse(await fs.readFile(outFile, 'utf8')); } catch { /* first run */ }
+const chatIndexChanged = Boolean(previous.chat?.length &&
+  previous.categoryMeta?.chat?.version !== CATEGORY_META.chat.version);
+
 let prevSnapshot = null;
 try {
   const snap = JSON.parse(await fs.readFile(snapFile, 'utf8'));
-  if (Date.now() - snap.at < 7 * 864e5) prevSnapshot = snap.scores;
+  if (!chatIndexChanged && snap.format === SNAPSHOT_FORMAT &&
+      Date.now() - snap.at < 7 * 864e5) prevSnapshot = snap.scores;
 } catch { /* first run */ }
 
 console.log('Fetching sources…');
@@ -605,12 +624,14 @@ const [openrouter, aa, arena] = await Promise.all([
 ]);
 
 const merged = merge({ openrouter, aa, arena, prevSnapshot });
-let previous = {};
-try { previous = JSON.parse(await fs.readFile(outFile, 'utf8')); } catch { /* first run */ }
 try {
   // Rebase once from historical scores on the models page to current scores
   // on the dedicated benchmark page. Later refreshes use the usual guard.
   validateCategories(merged, previous, {
+    // AA v5.0 has fewer measured models than the previous index version.
+    // Require substantial coverage before accepting the one-time reset.
+    rebaseChat: chatIndexChanged && sources.aa_llm?.startsWith('ok (') &&
+      merged.chat.length >= 70,
     rebaseCode: !Object.hasOwn(previous.sources || {}, 'aa_code') &&
       sources.aa_code?.startsWith('ok (') && merged.code.length >= 20,
   });
@@ -632,14 +653,14 @@ console.log('Sources:', sources);
 if (!prevSnapshot) {
   const scores = {};
   for (const cat of ['chat', 'code', 'image', 'video']) {
-    // For a given canonical name, keep the best score across variants —
-    // matches how alts are computed so snapshot compares apples to apples.
+    // Keep each scored variant separate so a lower-effort variant is not
+    // compared against the highest score of the same model family.
     for (const m of merged[cat]) {
-      const key = `${cat}:${canonical(m.name)}`;
-      if (scores[key] == null || m.scores[cat] > scores[key]) scores[key] = m.scores[cat];
+      const key = `${cat}:${slug(m.name)}`;
+      scores[key] = m.scores[cat];
     }
   }
-  await fs.writeFile(snapFile, JSON.stringify({ at: Date.now(), scores }, null, 2) + '\n');
+  await fs.writeFile(snapFile, JSON.stringify({ format: SNAPSHOT_FORMAT, at: Date.now(), scores }, null, 2) + '\n');
   console.log('Wrote snapshot.json');
 }
 

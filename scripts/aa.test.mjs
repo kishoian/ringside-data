@@ -33,4 +33,8 @@ test('rejects missing categories, invalid scores and catastrophic row loss', () 
   assert.throws(() => validateCategories(valid, old), /loss of models in code/);
   assert.doesNotThrow(() => validateCategories(valid, old, { rebaseCode: true }));
   assert.throws(() => validateCategories({ ...valid, code: [] }, old, { rebaseCode: true }), /Missing primary category: code/);
+  const oldChat = { chat: Array(265).fill({}) };
+  assert.throws(() => validateCategories(valid, oldChat), /loss of models in chat/);
+  assert.doesNotThrow(() => validateCategories(valid, oldChat, { rebaseChat: true }));
+  assert.throws(() => validateCategories({ ...valid, chat: [] }, oldChat, { rebaseChat: true }), /Missing primary category: chat/);
 });

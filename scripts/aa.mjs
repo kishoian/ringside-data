@@ -46,7 +46,7 @@ export function extractBoard(html, dataKey) {
 }
 
 export const CATEGORY_META = {
-  chat: { label: 'AA Intelligence Index', url: 'https://artificialanalysis.ai/leaderboards/models' },
+  chat: { label: 'AA Intelligence Index v5.0', url: 'https://artificialanalysis.ai/leaderboards/models', version: '5.0' },
   code: { label: 'Terminal-Bench 4.0 (%)', url: 'https://artificialanalysis.ai/evaluations/terminalbench-4-0' },
   image: { label: 'AA Text-to-Image Elo', url: 'https://artificialanalysis.ai/image/leaderboard/text-to-image' },
   video: { label: 'AA Text-to-Video Elo (audio)', url: 'https://artificialanalysis.ai/video/leaderboard/text-to-video' },
@@ -54,14 +54,15 @@ export const CATEGORY_META = {
 
 // A successful HTTP request does not guarantee a usable leaderboard.
 // Validate before overwriting the last published data or weekly snapshot.
-export function validateCategories(next, previous = {}, { rebaseCode = false } = {}) {
+export function validateCategories(next, previous = {}, { rebaseChat = false, rebaseCode = false } = {}) {
   for (const cat of Object.keys(CATEGORY_META)) {
     const rows = next[cat];
     if (!Array.isArray(rows) || !rows.length) throw new Error(`Missing primary category: ${cat}`);
     if (rows.some(m => !m.id || !m.name || !Number.isFinite(m.scores?.[cat]))) {
       throw new Error(`Invalid model in category: ${cat}`);
     }
-    if (!(cat === 'code' && rebaseCode) && previous[cat]?.length && rows.length < previous[cat].length * 0.5) {
+    if (!(cat === 'chat' && rebaseChat) && !(cat === 'code' && rebaseCode) &&
+        previous[cat]?.length && rows.length < previous[cat].length * 0.5) {
       throw new Error(`Unexpected loss of models in ${cat}: ${previous[cat].length} -> ${rows.length}`);
     }
   }
