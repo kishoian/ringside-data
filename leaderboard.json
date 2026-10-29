@@ -1031,23 +1031,23 @@
       }
     },
     {
-      "id": "mistral-large-4-preview",
-      "name": "Mistral Large 4 Preview",
+      "id": "mistral-large-4-high",
+      "name": "Mistral Large 4 (High)",
       "org": "Mistral",
       "color": "#f32e02",
       "votes": 0,
       "delta": 0,
       "scores": {
-        "chat": 25.3
+        "chat": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
-      "context": 524288,
+      "context": 1000000,
       "pricing": {
-        "prompt": 1.36,
-        "completion": 4.18
+        "prompt": 0.7,
+        "completion": 2.1
       },
       "alts": {
-        "code": 26.8
+        "code": 24.7
       }
     },
     {
@@ -1128,6 +1128,26 @@
       },
       "alts": {
         "code": 12.6
+      }
+    },
+    {
+      "id": "mistral-large-4-medium",
+      "name": "Mistral Large 4 (Medium)",
+      "org": "Mistral",
+      "color": "#f32e02",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 23.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
+      "context": 1000000,
+      "pricing": {
+        "prompt": 0.7,
+        "completion": 2.1
+      },
+      "alts": {
+        "code": 24.7
       }
     },
     {
@@ -1841,26 +1861,6 @@
       }
     },
     {
-      "id": "mistral-large-4-preview",
-      "name": "Mistral Large 4 Preview",
-      "org": "Mistral",
-      "color": "#f32e02",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "code": 26.8
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
-      "releaseDate": "2026-10-06",
-      "pricing": {
-        "prompt": 1.36,
-        "completion": 4.18
-      },
-      "alts": {
-        "chat": 25.3
-      }
-    },
-    {
       "id": "grok-4-7-xhigh",
       "name": "Grok 4.7 (Xhigh)",
       "org": "SpaceXAI",
@@ -1898,6 +1898,26 @@
       },
       "alts": {
         "chat": 28.9
+      }
+    },
+    {
+      "id": "mistral-large-4-high",
+      "name": "Mistral Large 4 (High)",
+      "org": "Mistral",
+      "color": "#f32e02",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 24.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
+      "releaseDate": "2026-10-29",
+      "pricing": {
+        "prompt": 0.7,
+        "completion": 2.1
+      },
+      "alts": {
+        "chat": 26
       }
     },
     {
@@ -3354,9 +3374,9 @@
       "org": "Utopai Studios",
       "color": "#111111",
       "votes": 0,
-      "delta": 0,
+      "delta": -2,
       "scores": {
-        "video": 1168
+        "video": 1166
       },
       "releaseDate": "2026-09-30"
     },
@@ -3366,23 +3386,11 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "video": 1158
+        "video": 1160
       },
       "releaseDate": "2026-07-30"
-    },
-    {
-      "id": "heygen-video-1",
-      "name": "HeyGen Video 1",
-      "org": "HeyGen",
-      "color": "#00C3FF",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "video": 1157
-      },
-      "releaseDate": "2026-10-13"
     },
     {
       "id": "dreamina-seedance-2-5",
@@ -3409,14 +3417,26 @@
       "releaseDate": "2026-10-19"
     },
     {
+      "id": "heygen-video-1",
+      "name": "HeyGen Video 1",
+      "org": "HeyGen",
+      "color": "#00C3FF",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "video": 1156
+      },
+      "releaseDate": "2026-10-13"
+    },
+    {
       "id": "minimax-h3-max",
       "name": "MiniMax H3 Max",
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1151
+        "video": 1150
       },
       "releaseDate": "2026-08-26"
     },
@@ -3426,9 +3446,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1142
+        "video": 1143
       },
       "releaseDate": "2026-07-23"
     },
@@ -3438,9 +3458,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 1136
+        "video": 1135
       },
       "releaseDate": "2026-03-18"
     },
@@ -3474,9 +3494,9 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 1057
+        "video": 1058
       },
       "releaseDate": "2026-05-30"
     },
@@ -3534,9 +3554,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "video": 1020
+        "video": 1022
       },
       "releaseDate": "2026-02-04"
     },
@@ -3558,9 +3578,9 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 990
+        "video": 991
       },
       "releaseDate": "2026-08-26"
     },
@@ -3582,9 +3602,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "video": 961
+        "video": 962
       },
       "releaseDate": "2026-01-30"
     },
@@ -3594,9 +3614,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 958
+        "video": 957
       },
       "releaseDate": "2026-01-30"
     },
@@ -3606,9 +3626,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "video": 951
+        "video": 953
       },
       "releaseDate": "2026-03-31"
     },
@@ -3666,9 +3686,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 886
+        "video": 885
       },
       "releaseDate": "2026-03-05"
     },
@@ -3678,9 +3698,9 @@
       "org": "Lightricks",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "video": 839
+        "video": 838
       },
       "releaseDate": "2026-03-05"
     },
@@ -3721,7 +3741,7 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "scores": {
-        "video": 990
+        "video": 991
       },
       "ranks": {
         "video": 19
@@ -3819,25 +3839,6 @@
       "releaseDate": "2026-05-31"
     },
     {
-      "key": "mistral-large-4-preview",
-      "name": "Mistral Large 4 Preview",
-      "org": "Mistral",
-      "color": "#f32e02",
-      "scores": {
-        "chat": 25.3,
-        "code": 26.8
-      },
-      "ranks": {
-        "chat": 24,
-        "code": 18
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
-      "releaseDate": "2026-10-06",
-      "aliases": [
-        "Large 4 Preview"
-      ]
-    },
-    {
       "key": "gpt-image-2-5-sunburst",
       "name": "GPT Image 2.5 Sunburst",
       "org": "OpenAI",
@@ -3869,7 +3870,7 @@
       "org": "SpaceXAI",
       "color": "#736cd3",
       "scores": {
-        "video": 1057
+        "video": 1058
       },
       "ranks": {
         "video": 12
@@ -3931,7 +3932,7 @@
         "video": 1156
       },
       "ranks": {
-        "video": 5
+        "video": 4
       },
       "releaseDate": "2026-07-31",
       "aliases": [
@@ -3944,7 +3945,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "video": 1136
+        "video": 1135
       },
       "ranks": {
         "video": 9
@@ -4128,7 +4129,7 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "video": 1020
+        "video": 1022
       },
       "ranks": {
         "video": 17
@@ -4222,7 +4223,7 @@
       },
       "ranks": {
         "chat": 20,
-        "code": 20
+        "code": 19
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax.svg",
       "releaseDate": "2026-10-19"
@@ -4666,6 +4667,26 @@
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi.svg"
     },
     {
+      "key": "mistral-large-4",
+      "name": "Mistral Large 4",
+      "org": "Mistral",
+      "color": "#f32e02",
+      "scores": {
+        "chat": 26,
+        "code": 24.7
+      },
+      "ranks": {
+        "chat": 24,
+        "code": 20
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
+      "releaseDate": "2026-10-29",
+      "aliases": [
+        "Mistral 4 Large",
+        "Large 4"
+      ]
+    },
+    {
       "key": "muse-spark-open",
       "name": "Muse Spark Open",
       "org": "Meta",
@@ -4861,10 +4882,10 @@
       "org": "HeyGen",
       "color": "#00C3FF",
       "scores": {
-        "video": 1157
+        "video": 1156
       },
       "ranks": {
-        "video": 4
+        "video": 6
       },
       "releaseDate": "2026-10-13",
       "aliases": [
@@ -4877,7 +4898,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "video": 1151
+        "video": 1150
       },
       "ranks": {
         "video": 7
@@ -5316,7 +5337,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 958
+        "video": 957
       },
       "ranks": {
         "video": 22
@@ -5332,7 +5353,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 951
+        "video": 953
       },
       "ranks": {
         "video": 23
@@ -5365,7 +5386,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 839
+        "video": 838
       },
       "ranks": {
         "video": 29
@@ -5615,7 +5636,7 @@
       "org": "Lightricks",
       "color": "#000000",
       "scores": {
-        "video": 886
+        "video": 885
       },
       "ranks": {
         "video": 28
@@ -5733,7 +5754,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "video": 1158
+        "video": 1160
       },
       "ranks": {
         "video": 3
@@ -5749,7 +5770,7 @@
         "video": 1156
       },
       "ranks": {
-        "video": 6
+        "video": 5
       },
       "releaseDate": "2026-10-19",
       "aliases": [
@@ -5806,7 +5827,7 @@
       },
       "ranks": {
         "chat": 13,
-        "code": 19
+        "code": 18
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-09-21"
@@ -5846,7 +5867,7 @@
       "org": "Utopai Studios",
       "color": "#111111",
       "scores": {
-        "video": 1168
+        "video": 1166
       },
       "ranks": {
         "video": 2
@@ -5931,7 +5952,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "video": 961
+        "video": 962
       },
       "ranks": {
         "video": 21
@@ -5983,7 +6004,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "video": 1142
+        "video": 1143
       },
       "ranks": {
         "video": 8
@@ -5996,22 +6017,22 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1793265676173
+      "updatedAt": 1793291732424
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793265676173
+      "updatedAt": 1793291732424
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793265676173
+      "updatedAt": 1793291732424
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793265676173
+      "updatedAt": 1793291732424
     }
   },
   "schemaVersion": 2,
@@ -6021,11 +6042,11 @@
     "arena_video": "err: http 403",
     "arena_image": "err: http 403",
     "arena_code": "err: http 403",
-    "aa_llm": "ok (77)",
+    "aa_llm": "ok (78)",
     "aa_code": "ok (28)",
     "aa_image": "ok (106)",
     "aa_video": "ok (30)"
   },
-  "updatedAt": 1793265676173,
+  "updatedAt": 1793291732424,
   "errors": []
 }
