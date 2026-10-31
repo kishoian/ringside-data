@@ -1434,8 +1434,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 0.225,
-        "completion": 0.575
+        "prompt": 0.2,
+        "completion": 0.5
       },
       "alts": {
         "code": 0
@@ -2217,8 +2217,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "releaseDate": "2026-10-15",
       "pricing": {
-        "prompt": 0.225,
-        "completion": 0.575
+        "prompt": 0.2,
+        "completion": 0.5
       },
       "alts": {
         "chat": 13.6
@@ -6252,36 +6252,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1793391836622
+      "updatedAt": 1793406153538
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793391836622
+      "updatedAt": 1793406153538
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793391836622
+      "updatedAt": 1793406153538
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793391836622
+      "updatedAt": 1793406153538
     }
   },
   "schemaVersion": 2,
   "sources": {
     "openrouter": "ok (456)",
-    "arena_code": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_image": "err: http 403",
+    "arena_code": "err: http 403",
     "arena_video": "err: http 403",
+    "arena_text": "err: http 403",
     "aa_llm": "ok (86)",
     "aa_code": "ok (28)",
     "aa_image": "ok (106)",
     "aa_video": "ok (31)"
   },
-  "updatedAt": 1793391836622,
+  "updatedAt": 1793406153538,
   "errors": []
 }
