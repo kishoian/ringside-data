@@ -41,6 +41,26 @@
       }
     },
     {
+      "id": "gemini-4-carbon-medium",
+      "name": "Gemini 4 Carbon (Medium)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 57.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
+      "context": 1000000,
+      "pricing": {
+        "prompt": 4,
+        "completion": 20
+      },
+      "alts": {
+        "code": 65.2
+      }
+    },
+    {
       "id": "claude-opus-5-5-xhigh-default-fallback",
       "name": "Claude Opus 5.5 (Xhigh, Default Fallback)",
       "org": "Anthropic",
@@ -1265,6 +1285,23 @@
       }
     },
     {
+      "id": "nanbeige4-3-33b",
+      "name": "Nanbeige4.3-33B",
+      "org": "Nanbeige",
+      "color": "#023c3e",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 20.4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/nanbeige.png",
+      "context": 524288,
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      }
+    },
+    {
       "id": "qwen3-8-27b-xhigh",
       "name": "Qwen3.8 27B (Xhigh)",
       "org": "Alibaba",
@@ -1641,6 +1678,23 @@
       "pricing": {
         "prompt": 0.06,
         "completion": 0.2
+      }
+    },
+    {
+      "id": "granite-4-2-8b",
+      "name": "Granite 4.2 8B",
+      "org": "IBM",
+      "color": "#0f62fe",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 5.1
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ibm.svg",
+      "context": 131072,
+      "pricing": {
+        "prompt": 0.06,
+        "completion": 0.25
       }
     },
     {
@@ -3933,7 +3987,7 @@
         "chat": 11.8
       },
       "ranks": {
-        "chat": 34
+        "chat": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -3946,7 +4000,7 @@
         "chat": 1.8
       },
       "ranks": {
-        "chat": 41
+        "chat": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4023,7 +4077,7 @@
         "chat": 5.5
       },
       "ranks": {
-        "chat": 38
+        "chat": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "aliases": [
@@ -4079,7 +4133,7 @@
         "code": 0
       },
       "ranks": {
-        "chat": 32,
+        "chat": 33,
         "code": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
@@ -4094,7 +4148,7 @@
         "chat": 11.7
       },
       "ranks": {
-        "chat": 35
+        "chat": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -4186,7 +4240,7 @@
         "code": 1.5
       },
       "ranks": {
-        "chat": 30,
+        "chat": 31,
         "code": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
@@ -4895,6 +4949,23 @@
       "releaseDate": "2026-10-15"
     },
     {
+      "key": "nanbeige4-3-33b",
+      "name": "Nanbeige4.3-33B",
+      "org": "Nanbeige",
+      "color": "#023c3e",
+      "scores": {
+        "chat": 20.4
+      },
+      "ranks": {
+        "chat": 28
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/nanbeige.png",
+      "aliases": [
+        "Nanbeige4.3 33B",
+        "Nanbeige4.333B"
+      ]
+    },
+    {
       "key": "mistral-small-4",
       "name": "Mistral Small 4",
       "org": "Mistral",
@@ -4903,7 +4974,7 @@
         "chat": 4.3
       },
       "ranks": {
-        "chat": 40
+        "chat": 42
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5006,6 +5077,19 @@
       ]
     },
     {
+      "key": "granite-4-2-8b",
+      "name": "Granite 4.2 8B",
+      "org": "IBM",
+      "color": "#0f62fe",
+      "scores": {
+        "chat": 5.1
+      },
+      "ranks": {
+        "chat": 40
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
+    },
+    {
       "key": "granite-4-2-3b",
       "name": "Granite 4.2 3B",
       "org": "IBM",
@@ -5014,7 +5098,7 @@
         "chat": 4.7
       },
       "ranks": {
-        "chat": 39
+        "chat": 41
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -5263,7 +5347,7 @@
         "chat": 12.9
       },
       "ranks": {
-        "chat": 33
+        "chat": 34
       },
       "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg"
     },
@@ -5446,7 +5530,7 @@
         "chat": 6.3
       },
       "ranks": {
-        "chat": 36
+        "chat": 37
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg"
     },
@@ -5733,7 +5817,7 @@
         "code": 5.6
       },
       "ranks": {
-        "chat": 28,
+        "chat": 29,
         "code": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
@@ -5930,7 +6014,7 @@
         "chat": 18.7
       },
       "ranks": {
-        "chat": 29
+        "chat": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax.svg"
     },
@@ -5943,7 +6027,7 @@
         "chat": 6.2
       },
       "ranks": {
-        "chat": 37
+        "chat": 38
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -6097,7 +6181,7 @@
         "code": 3
       },
       "ranks": {
-        "chat": 31,
+        "chat": 32,
         "code": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/reflection.svg",
@@ -6272,36 +6356,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1793603619166
+      "updatedAt": 1793641714419
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793603619166
+      "updatedAt": 1793641714419
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793603619166
+      "updatedAt": 1793641714419
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793603619166
+      "updatedAt": 1793641714419
     }
   },
   "schemaVersion": 2,
   "sources": {
+    "openrouter": "ok (451)",
     "arena_code": "err: http 403",
-    "arena_image": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_video": "err: http 403",
-    "openrouter": "ok (452)",
-    "aa_llm": "ok (87)",
+    "arena_text": "err: http 403",
+    "arena_image": "err: http 403",
+    "aa_llm": "ok (90)",
     "aa_code": "ok (28)",
     "aa_image": "ok (106)",
     "aa_video": "ok (31)"
   },
-  "updatedAt": 1793603619166,
+  "updatedAt": 1793641714419,
   "errors": []
 }
