@@ -786,8 +786,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/tencent-hy.svg",
       "context": 1048576,
       "pricing": {
-        "prompt": 0.417,
-        "completion": 1.2505
+        "prompt": 0.834,
+        "completion": 2.501
       },
       "alts": {
         "code": 37.4
@@ -2094,11 +2094,11 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent-hy.svg",
       "releaseDate": "2026-11-03",
-      "context": 1048576,
       "pricing": {
-        "prompt": 0.417,
-        "completion": 1.2505
+        "prompt": 0.834,
+        "completion": 2.501
       },
+      "context": 1048576,
       "alts": {
         "chat": 34.6
       }
@@ -6504,36 +6504,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1793879496704
+      "updatedAt": 1793907002240
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1793879496704
+      "updatedAt": 1793907002240
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1793879496704
+      "updatedAt": 1793907002240
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1793879496704
+      "updatedAt": 1793907002240
     }
   },
   "schemaVersion": 2,
   "sources": {
+    "openrouter": "ok (454)",
     "arena_video": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_code": "err: http 403",
+    "arena_text": "err: http 403",
     "arena_image": "err: http 403",
-    "openrouter": "ok (455)",
     "aa_llm": "ok (96)",
     "aa_code": "ok (28)",
     "aa_image": "ok (106)",
     "aa_video": "ok (31)"
   },
-  "updatedAt": 1793879496704,
+  "updatedAt": 1793907002240,
   "errors": []
 }
