@@ -73,8 +73,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 4,
-        "completion": 20
+        "prompt": 2,
+        "completion": 10
       },
       "alts": {
         "code": 65.2
@@ -113,8 +113,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 4,
-        "completion": 20
+        "prompt": 2,
+        "completion": 10
       },
       "alts": {
         "code": 65.2
@@ -273,8 +273,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 4,
-        "completion": 20
+        "prompt": 2,
+        "completion": 10
       },
       "alts": {
         "code": 65.2
@@ -433,8 +433,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 4,
-        "completion": 20
+        "prompt": 2,
+        "completion": 10
       }
     },
     {
@@ -2129,8 +2129,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "releaseDate": "2026-10-28",
       "pricing": {
-        "prompt": 4,
-        "completion": 20
+        "prompt": 2,
+        "completion": 10
       },
       "alts": {
         "chat": 60
@@ -7160,36 +7160,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794515915215
+      "updatedAt": 1794534050539
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794515915215
+      "updatedAt": 1794534050539
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794515915215
+      "updatedAt": 1794534050539
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794515915215
+      "updatedAt": 1794534050539
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "openrouter": "ok (473)",
     "arena_image": "err: http 403",
-    "arena_text": "err: http 403",
-    "arena_code": "err: http 403",
     "arena_video": "err: http 403",
+    "arena_code": "err: http 403",
+    "arena_text": "err: http 403",
+    "openrouter": "ok (475)",
     "aa_llm": "ok (111)",
     "aa_code": "ok (28)",
     "aa_image": "ok (112)",
     "aa_video": "ok (34)"
   },
-  "updatedAt": 1794515915215,
+  "updatedAt": 1794534050539,
   "errors": []
 }
