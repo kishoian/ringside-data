@@ -1784,7 +1784,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 0.175,
+        "prompt": 0.2,
         "completion": 0.5
       },
       "alts": {
@@ -1856,7 +1856,7 @@
       "context": 262144,
       "pricing": {
         "prompt": 0.6,
-        "completion": 2.7
+        "completion": 2.4
       }
     },
     {
@@ -1962,8 +1962,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg",
       "context": 131072,
       "pricing": {
-        "prompt": 0.3,
-        "completion": 1.2
+        "prompt": 0.32499999999999996,
+        "completion": 1.35
       }
     },
     {
@@ -2677,7 +2677,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "releaseDate": "2026-10-15",
       "pricing": {
-        "prompt": 0.175,
+        "prompt": 0.2,
         "completion": 0.5
       },
       "alts": {
@@ -7247,36 +7247,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794632335097
+      "updatedAt": 1794657671274
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794632335097
+      "updatedAt": 1794657671274
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794632335097
+      "updatedAt": 1794657671274
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794632335097
+      "updatedAt": 1794657671274
     }
   },
   "schemaVersion": 2,
   "sources": {
     "openrouter": "ok (471)",
-    "arena_code": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_image": "err: http 403",
+    "arena_code": "err: http 403",
     "arena_video": "err: http 403",
+    "arena_text": "err: http 403",
     "aa_llm": "ok (113)",
     "aa_code": "ok (28)",
     "aa_image": "ok (114)",
     "aa_video": "ok (34)"
   },
-  "updatedAt": 1794632335097,
+  "updatedAt": 1794657671274,
   "errors": []
 }
