@@ -631,6 +631,26 @@
       }
     },
     {
+      "id": "qwen4-max",
+      "name": "Qwen4 Max",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 42.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
+      "context": 983616,
+      "pricing": {
+        "prompt": 1.5,
+        "completion": 4.5
+      },
+      "alts": {
+        "code": 48.5
+      }
+    },
+    {
       "id": "gpt-6-1-terra-high",
       "name": "GPT-6.1 Terra (High)",
       "org": "OpenAI",
@@ -908,26 +928,6 @@
       },
       "alts": {
         "code": 40.9
-      }
-    },
-    {
-      "id": "qwen3-8-max-0902",
-      "name": "Qwen3.8 Max (0902)",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 33.7
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
-      "context": 983616,
-      "pricing": {
-        "prompt": 2,
-        "completion": 6
-      },
-      "alts": {
-        "code": 38.9
       }
     },
     {
@@ -2364,6 +2364,26 @@
       }
     },
     {
+      "id": "qwen4-max",
+      "name": "Qwen4 Max",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "code": 48.5
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
+      "releaseDate": "2026-11-16",
+      "pricing": {
+        "prompt": 1.5,
+        "completion": 4.5
+      },
+      "alts": {
+        "chat": 42.9
+      }
+    },
+    {
       "id": "glm-5-3-max",
       "name": "GLM-5.3 (Max)",
       "org": "Z AI",
@@ -2418,9 +2438,6 @@
       "pricing": {
         "prompt": 2,
         "completion": 6
-      },
-      "alts": {
-        "chat": 33.7
       }
     },
     {
@@ -4549,7 +4566,7 @@
       },
       "ranks": {
         "chat": 18,
-        "code": 18
+        "code": 19
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek.svg",
       "releaseDate": "2026-10-17",
@@ -4682,7 +4699,7 @@
       },
       "ranks": {
         "chat": 42,
-        "code": 28
+        "code": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "releaseDate": "2026-10-15"
@@ -4802,7 +4819,7 @@
       },
       "ranks": {
         "chat": 38,
-        "code": 27
+        "code": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
       "releaseDate": "2026-09-03"
@@ -4954,7 +4971,7 @@
       },
       "ranks": {
         "chat": 23,
-        "code": 20
+        "code": 21
       },
       "logo": "https://artificialanalysis.ai/img/logos/inclusionai.jpg",
       "releaseDate": "2026-10-22"
@@ -5395,8 +5412,8 @@
         "code": 32.8
       },
       "ranks": {
-        "chat": 13,
-        "code": 19
+        "chat": 14,
+        "code": 20
       },
       "logo": "https://artificialanalysis.ai/img/logos/anthropic.svg",
       "releaseDate": "2026-10-07",
@@ -5570,7 +5587,7 @@
       },
       "ranks": {
         "chat": 21,
-        "code": 23
+        "code": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg",
       "releaseDate": "2026-11-05",
@@ -5602,7 +5619,7 @@
       },
       "ranks": {
         "chat": 30,
-        "code": 22
+        "code": 23
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "releaseDate": "2026-10-29",
@@ -6018,7 +6035,7 @@
       },
       "ranks": {
         "chat": 22,
-        "code": 17
+        "code": 18
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi.svg",
       "releaseDate": "2026-09-21"
@@ -6563,27 +6580,11 @@
         "code": 37.4
       },
       "ranks": {
-        "chat": 16,
-        "code": 16
+        "chat": 17,
+        "code": 17
       },
       "logo": "https://artificialanalysis.ai/img/logos/tencent-hy.svg",
       "releaseDate": "2026-11-03"
-    },
-    {
-      "key": "qwen3-8-max",
-      "name": "Qwen3.8 Max",
-      "org": "Alibaba",
-      "color": "#ff7018",
-      "scores": {
-        "chat": 33.7,
-        "code": 38.9
-      },
-      "ranks": {
-        "chat": 17,
-        "code": 15
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
-      "releaseDate": "2026-09-02"
     },
     {
       "key": "qwen3-8-27b",
@@ -6596,7 +6597,7 @@
       },
       "ranks": {
         "chat": 35,
-        "code": 25
+        "code": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
       "releaseDate": "2026-08-14"
@@ -6629,6 +6630,20 @@
         "chat": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
+    },
+    {
+      "key": "qwen3-8-max",
+      "name": "Qwen3.8 Max",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "scores": {
+        "code": 38.9
+      },
+      "ranks": {
+        "code": 16
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
+      "releaseDate": "2026-09-02"
     },
     {
       "key": "gpt-image-2",
@@ -6845,8 +6860,8 @@
         "code": 40.9
       },
       "ranks": {
-        "chat": 14,
-        "code": 14
+        "chat": 15,
+        "code": 15
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg",
       "releaseDate": "2026-11-09"
@@ -6862,7 +6877,7 @@
       },
       "ranks": {
         "chat": 27,
-        "code": 24
+        "code": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "releaseDate": "2026-09-22",
@@ -6995,6 +7010,22 @@
       ]
     },
     {
+      "key": "qwen4-max",
+      "name": "Qwen4 Max",
+      "org": "Alibaba",
+      "color": "#ff7018",
+      "scores": {
+        "chat": 42.9,
+        "code": 48.5
+      },
+      "ranks": {
+        "chat": 13,
+        "code": 13
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
+      "releaseDate": "2026-11-16"
+    },
+    {
       "key": "flux-2-9b",
       "name": "FLUX.2 9B",
       "org": "Black Forest Labs",
@@ -7043,8 +7074,8 @@
         "code": 25.8
       },
       "ranks": {
-        "chat": 15,
-        "code": 21
+        "chat": 16,
+        "code": 22
       },
       "logo": "https://artificialanalysis.ai/img/logos/spacexai.svg",
       "releaseDate": "2026-09-21"
@@ -7060,7 +7091,7 @@
       },
       "ranks": {
         "chat": 39,
-        "code": 26
+        "code": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/reflection.svg",
       "releaseDate": "2026-10-16"
@@ -7115,7 +7146,7 @@
       },
       "ranks": {
         "chat": 19,
-        "code": 13
+        "code": 14
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai.svg",
       "releaseDate": "2026-08-18",
@@ -7247,36 +7278,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794781738542
+      "updatedAt": 1794796418908
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794781738542
+      "updatedAt": 1794796418908
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794781738542
+      "updatedAt": 1794796418908
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794781738542
+      "updatedAt": 1794796418908
     }
   },
   "schemaVersion": 2,
   "sources": {
     "openrouter": "ok (467)",
-    "arena_image": "err: http 403",
-    "arena_code": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_video": "err: http 403",
+    "arena_image": "err: http 403",
+    "arena_text": "err: http 403",
+    "arena_code": "err: http 403",
     "aa_llm": "ok (113)",
-    "aa_code": "ok (28)",
+    "aa_code": "ok (29)",
     "aa_image": "ok (114)",
     "aa_video": "ok (34)"
   },
-  "updatedAt": 1794781738542,
+  "updatedAt": 1794796418908,
   "errors": []
 }
