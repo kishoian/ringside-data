@@ -1011,23 +1011,6 @@
       }
     },
     {
-      "id": "gemini-3-8-flash-high",
-      "name": "Gemini 3.8 Flash (High)",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 30.8
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
-      "context": 1000000,
-      "pricing": {
-        "prompt": 0.75,
-        "completion": 3.75
-      }
-    },
-    {
       "id": "inkling-2-small",
       "name": "Inkling 2 Small",
       "org": "Thinking Machines",
@@ -1065,23 +1048,6 @@
       },
       "alts": {
         "code": 55.6
-      }
-    },
-    {
-      "id": "gemini-3-8-flash-medium",
-      "name": "Gemini 3.8 Flash (Medium)",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 30.1
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
-      "context": 1000000,
-      "pricing": {
-        "prompt": 0.75,
-        "completion": 3.75
       }
     },
     {
@@ -1481,23 +1447,6 @@
       }
     },
     {
-      "id": "gemini-3-8-flash-low",
-      "name": "Gemini 3.8 Flash (Low)",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 22.5
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
-      "context": 1000000,
-      "pricing": {
-        "prompt": 0.75,
-        "completion": 3.75
-      }
-    },
-    {
       "id": "gpt-6-luna-high",
       "name": "GPT-6 Luna (High)",
       "org": "OpenAI",
@@ -1792,23 +1741,6 @@
       }
     },
     {
-      "id": "inkling-small",
-      "name": "Inkling Small",
-      "org": "Thinking Machines",
-      "color": "#676767",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "chat": 12.9
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg",
-      "context": 1000000,
-      "pricing": {
-        "prompt": 0.3,
-        "completion": 1.2
-      }
-    },
-    {
       "id": "deepseek-v4-pro-0813-non-reasoning",
       "name": "DeepSeek V4 Pro 0813 (Non-reasoning)",
       "org": "DeepSeek",
@@ -2015,6 +1947,23 @@
       "pricing": {
         "prompt": 0.06,
         "completion": 0.25
+      }
+    },
+    {
+      "id": "gemma-4-e4b-reasoning",
+      "name": "Gemma 4 E4B (Reasoning)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 4.8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
+      "context": 128000,
+      "pricing": {
+        "prompt": 0.02,
+        "completion": 0.1
       }
     },
     {
@@ -4522,7 +4471,7 @@
         "chat": 11.8
       },
       "ranks": {
-        "chat": 44
+        "chat": 42
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4535,7 +4484,7 @@
         "chat": 1.8
       },
       "ranks": {
-        "chat": 57
+        "chat": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4612,7 +4561,7 @@
         "chat": 19
       },
       "ranks": {
-        "chat": 36
+        "chat": 35
       },
       "logo": "https://artificialanalysis.ai/img/logos/china-mobile.png",
       "aliases": [
@@ -4629,7 +4578,7 @@
         "chat": 5.5
       },
       "ranks": {
-        "chat": 49
+        "chat": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "aliases": [
@@ -4698,7 +4647,7 @@
         "code": 0
       },
       "ranks": {
-        "chat": 42,
+        "chat": 41,
         "code": 29
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
@@ -4713,7 +4662,7 @@
         "chat": 11.7
       },
       "ranks": {
-        "chat": 45
+        "chat": 43
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -4801,7 +4750,7 @@
         "chat": 23.1
       },
       "ranks": {
-        "chat": 33
+        "chat": 32
       },
       "logo": "https://artificialanalysis.ai/img/logos/deepseek.svg",
       "aliases": [
@@ -4818,7 +4767,7 @@
         "code": 1.5
       },
       "ranks": {
-        "chat": 38,
+        "chat": 37,
         "code": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
@@ -4970,7 +4919,7 @@
         "code": 32.8
       },
       "ranks": {
-        "chat": 23,
+        "chat": 22,
         "code": 21
       },
       "logo": "https://artificialanalysis.ai/img/logos/inclusionai.jpg",
@@ -4985,7 +4934,7 @@
         "chat": 24
       },
       "ranks": {
-        "chat": 32
+        "chat": 31
       },
       "logo": "https://artificialanalysis.ai/img/logos/sapiens.svg"
     },
@@ -5071,7 +5020,7 @@
         "chat": 29.1
       },
       "ranks": {
-        "chat": 24
+        "chat": 23
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax.svg"
     },
@@ -5084,7 +5033,7 @@
         "chat": 28.6
       },
       "ranks": {
-        "chat": 25
+        "chat": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg"
     },
@@ -5097,7 +5046,7 @@
         "chat": 4.6
       },
       "ranks": {
-        "chat": 52
+        "chat": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5422,22 +5371,6 @@
       ]
     },
     {
-      "key": "gemini-3-8-flash",
-      "name": "Gemini 3.8 Flash",
-      "org": "Google",
-      "color": "#34A853",
-      "scores": {
-        "chat": 30.8
-      },
-      "ranks": {
-        "chat": 20
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
-      "aliases": [
-        "Gemini Flash 3.8"
-      ]
-    },
-    {
       "key": "claude-fable-5-1",
       "name": "Claude Fable 5.1",
       "org": "Anthropic",
@@ -5586,7 +5519,7 @@
         "code": 13.1
       },
       "ranks": {
-        "chat": 21,
+        "chat": 20,
         "code": 24
       },
       "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg",
@@ -5604,7 +5537,7 @@
         "chat": 26.7
       },
       "ranks": {
-        "chat": 29
+        "chat": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi.svg"
     },
@@ -5618,7 +5551,7 @@
         "code": 24.7
       },
       "ranks": {
-        "chat": 30,
+        "chat": 29,
         "code": 23
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
@@ -5637,7 +5570,7 @@
         "chat": 24.9
       },
       "ranks": {
-        "chat": 31
+        "chat": 30
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg"
     },
@@ -5650,7 +5583,7 @@
         "chat": 20.4
       },
       "ranks": {
-        "chat": 34
+        "chat": 33
       },
       "logo": "https://artificialanalysis.ai/img/logos/nanbeige.png",
       "aliases": [
@@ -5667,7 +5600,7 @@
         "chat": 4.3
       },
       "ranks": {
-        "chat": 54
+        "chat": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5684,7 +5617,7 @@
         "chat": 3.4
       },
       "ranks": {
-        "chat": 56
+        "chat": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -5788,7 +5721,7 @@
         "chat": 28.5
       },
       "ranks": {
-        "chat": 26
+        "chat": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/stepfun.svg",
       "aliases": [
@@ -5804,7 +5737,7 @@
         "chat": 5.1
       },
       "ranks": {
-        "chat": 50
+        "chat": 48
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -5817,7 +5750,7 @@
         "chat": 4.7
       },
       "ranks": {
-        "chat": 51
+        "chat": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -6034,7 +5967,7 @@
         "code": 34.8
       },
       "ranks": {
-        "chat": 22,
+        "chat": 21,
         "code": 18
       },
       "logo": "https://artificialanalysis.ai/img/logos/xiaomi.svg",
@@ -6049,26 +5982,13 @@
         "chat": 27.8
       },
       "ranks": {
-        "chat": 28
+        "chat": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/zai.svg",
       "aliases": [
         "GLM 5.3-Flash",
         "GLM5.3-Flash"
       ]
-    },
-    {
-      "key": "inkling-small",
-      "name": "Inkling Small",
-      "org": "Thinking Machines",
-      "color": "#676767",
-      "scores": {
-        "chat": 12.9
-      },
-      "ranks": {
-        "chat": 43
-      },
-      "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg"
     },
     {
       "key": "mai-image-2-6",
@@ -6249,7 +6169,7 @@
         "chat": 7.6
       },
       "ranks": {
-        "chat": 46
+        "chat": 44
       },
       "logo": "https://artificialanalysis.ai/img/logos/lg.png"
     },
@@ -6262,7 +6182,7 @@
         "chat": 6.3
       },
       "ranks": {
-        "chat": 47
+        "chat": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg"
     },
@@ -6275,7 +6195,7 @@
         "chat": 3.8
       },
       "ranks": {
-        "chat": 55
+        "chat": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "aliases": [
@@ -6596,7 +6516,7 @@
         "code": 5.6
       },
       "ranks": {
-        "chat": 35,
+        "chat": 34,
         "code": 26
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
@@ -6611,12 +6531,25 @@
         "chat": 14.2
       },
       "ranks": {
-        "chat": 40
+        "chat": 39
       },
       "logo": "https://artificialanalysis.ai/img/logos/upstage.svg",
       "aliases": [
         "Solar 4 Pro"
       ]
+    },
+    {
+      "key": "gemma-4-e4b",
+      "name": "Gemma 4 E4B",
+      "org": "Google",
+      "color": "#34A853",
+      "scores": {
+        "chat": 4.8
+      },
+      "ranks": {
+        "chat": 49
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
     {
       "key": "gemma-4-31b",
@@ -6627,7 +6560,7 @@
         "chat": 4.4
       },
       "ranks": {
-        "chat": 53
+        "chat": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -6876,7 +6809,7 @@
         "code": 12.6
       },
       "ranks": {
-        "chat": 27,
+        "chat": 26,
         "code": 25
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
@@ -6894,7 +6827,7 @@
         "chat": 18.9
       },
       "ranks": {
-        "chat": 37
+        "chat": 36
       },
       "logo": "https://artificialanalysis.ai/img/logos/minimax.svg"
     },
@@ -6907,7 +6840,7 @@
         "chat": 13.7
       },
       "ranks": {
-        "chat": 41
+        "chat": 40
       },
       "logo": "https://artificialanalysis.ai/img/logos/apodex.svg"
     },
@@ -6920,7 +6853,7 @@
         "chat": 6.2
       },
       "ranks": {
-        "chat": 48
+        "chat": 46
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -7090,7 +7023,7 @@
         "code": 3
       },
       "ranks": {
-        "chat": 39,
+        "chat": 38,
         "code": 27
       },
       "logo": "https://artificialanalysis.ai/img/logos/reflection.svg",
@@ -7278,36 +7211,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794862094411
+      "updatedAt": 1794885833763
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794862094411
+      "updatedAt": 1794885833763
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794862094411
+      "updatedAt": 1794885833763
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794862094411
+      "updatedAt": 1794885833763
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_code": "err: http 403",
+    "openrouter": "ok (470)",
     "arena_text": "err: http 403",
-    "arena_video": "err: http 403",
-    "openrouter": "ok (469)",
     "arena_image": "err: http 403",
-    "aa_llm": "ok (113)",
+    "arena_video": "err: http 403",
+    "arena_code": "err: http 403",
+    "aa_llm": "ok (110)",
     "aa_code": "ok (29)",
     "aa_image": "ok (114)",
     "aa_video": "ok (34)"
   },
-  "updatedAt": 1794862094411,
+  "updatedAt": 1794885833763,
   "errors": []
 }
