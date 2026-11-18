@@ -133,8 +133,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 2,
-        "completion": 10
+        "prompt": 4,
+        "completion": 20
       },
       "alts": {
         "code": 65.2
@@ -173,8 +173,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 2,
-        "completion": 10
+        "prompt": 4,
+        "completion": 20
       },
       "alts": {
         "code": 65.2
@@ -333,8 +333,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 2,
-        "completion": 10
+        "prompt": 4,
+        "completion": 20
       },
       "alts": {
         "code": 65.2
@@ -1202,6 +1202,23 @@
       }
     },
     {
+      "id": "joyai-vl-preview",
+      "name": "JoyAI-VL-Preview",
+      "org": "Joy Future Academy",
+      "color": "#E1251B",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 28
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/joy-ai.svg",
+      "context": 1048576,
+      "pricing": {
+        "prompt": 0,
+        "completion": 0
+      }
+    },
+    {
       "id": "gpt-6-luna-max",
       "name": "GPT-6 Luna (Max)",
       "org": "OpenAI",
@@ -1704,6 +1721,32 @@
       }
     },
     {
+      "id": "k2-horizon-32b",
+      "name": "K2 Horizon 32B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 13.9
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "context": 524288
+    },
+    {
+      "id": "k2-horizon-mova-36b-a4b",
+      "name": "K2 Horizon MoVA 36B A4B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 13.8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "context": 524288
+    },
+    {
       "id": "apodex-1-1",
       "name": "Apodex 1.1",
       "org": "Apodex",
@@ -1826,6 +1869,19 @@
       }
     },
     {
+      "id": "k2-horizon-7b",
+      "name": "K2 Horizon 7B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 10.6
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "context": 524288
+    },
+    {
       "id": "qwen3-8-27b-non-reasoning",
       "name": "Qwen3.8 27B (Non-reasoning)",
       "org": "Alibaba",
@@ -1897,6 +1953,19 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/sktelecom.svg",
       "context": 262144
+    },
+    {
+      "id": "k2-horizon-3-7b",
+      "name": "K2 Horizon 3.7B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 8
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "context": 524288
     },
     {
       "id": "k-exaone-2-0",
@@ -2112,6 +2181,19 @@
       }
     },
     {
+      "id": "k2-horizon-0-9b",
+      "name": "K2 Horizon 0.9B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 2.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "context": 131072
+    },
+    {
       "id": "nvidia-nemotron-3-nano-4b",
       "name": "NVIDIA Nemotron 3 Nano 4B",
       "org": "NVIDIA",
@@ -2176,8 +2258,8 @@
       "logo": "https://artificialanalysis.ai/img/logos/google.svg",
       "releaseDate": "2026-10-28",
       "pricing": {
-        "prompt": 2,
-        "completion": 10
+        "prompt": 4,
+        "completion": 20
       },
       "alts": {
         "chat": 60
@@ -4554,7 +4636,7 @@
         "chat": 11.8
       },
       "ranks": {
-        "chat": 42
+        "chat": 44
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4567,7 +4649,7 @@
         "chat": 1.8
       },
       "ranks": {
-        "chat": 58
+        "chat": 63
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4636,6 +4718,19 @@
       "releaseDate": "2026-05-31"
     },
     {
+      "key": "k2-horizon-mova-36b-a4b",
+      "name": "K2 Horizon MoVA 36B A4B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "scores": {
+        "chat": 13.8
+      },
+      "ranks": {
+        "chat": 41
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg"
+    },
+    {
       "key": "jt-4-1-flash-236b-a21b",
       "name": "JT-4.1 Flash 236B A21B",
       "org": "China Mobile",
@@ -4661,7 +4756,7 @@
         "chat": 5.5
       },
       "ranks": {
-        "chat": 49
+        "chat": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "aliases": [
@@ -4730,7 +4825,7 @@
         "code": 0
       },
       "ranks": {
-        "chat": 41,
+        "chat": 43,
         "code": 28
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
@@ -4745,7 +4840,7 @@
         "chat": 11.7
       },
       "ranks": {
-        "chat": 43
+        "chat": 45
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -5146,7 +5241,7 @@
         "chat": 4.6
       },
       "ranks": {
-        "chat": 53
+        "chat": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5675,6 +5770,22 @@
       ]
     },
     {
+      "key": "k2-horizon-3-7b",
+      "name": "K2 Horizon 3.7B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "scores": {
+        "chat": 8
+      },
+      "ranks": {
+        "chat": 48
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "aliases": [
+        "K2 3.7B Horizon"
+      ]
+    },
+    {
       "key": "mistral-small-4",
       "name": "Mistral Small 4",
       "org": "Mistral",
@@ -5683,7 +5794,7 @@
         "chat": 4.3
       },
       "ranks": {
-        "chat": 55
+        "chat": 59
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5700,9 +5811,25 @@
         "chat": 3.4
       },
       "ranks": {
-        "chat": 57
+        "chat": 61
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
+    },
+    {
+      "key": "k2-horizon-0-9b",
+      "name": "K2 Horizon 0.9B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "scores": {
+        "chat": 2.7
+      },
+      "ranks": {
+        "chat": 62
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "aliases": [
+        "K2 0.9B Horizon"
+      ]
     },
     {
       "key": "kling-image-4-0",
@@ -5812,6 +5939,22 @@
       ]
     },
     {
+      "key": "k2-horizon-32b",
+      "name": "K2 Horizon 32B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "scores": {
+        "chat": 13.9
+      },
+      "ranks": {
+        "chat": 40
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "aliases": [
+        "K2 32B Horizon"
+      ]
+    },
+    {
       "key": "granite-4-2-8b",
       "name": "Granite 4.2 8B",
       "org": "IBM",
@@ -5820,7 +5963,7 @@
         "chat": 5.1
       },
       "ranks": {
-        "chat": 50
+        "chat": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -5833,7 +5976,7 @@
         "chat": 4.7
       },
       "ranks": {
-        "chat": 52
+        "chat": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -6094,6 +6237,22 @@
       ]
     },
     {
+      "key": "k2-horizon-7b",
+      "name": "K2 Horizon 7B",
+      "org": "Institute of Foundation Models",
+      "color": "#1521a9",
+      "scores": {
+        "chat": 10.6
+      },
+      "ranks": {
+        "chat": 46
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
+      "aliases": [
+        "K2 7B Horizon"
+      ]
+    },
+    {
       "key": "mai-image-2-7",
       "name": "MAI-Image-2.7",
       "org": "Microsoft AI",
@@ -6289,7 +6448,7 @@
         "chat": 7.6
       },
       "ranks": {
-        "chat": 45
+        "chat": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/lg.png"
     },
@@ -6302,7 +6461,7 @@
         "chat": 6.3
       },
       "ranks": {
-        "chat": 46
+        "chat": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/meta.svg"
     },
@@ -6315,7 +6474,7 @@
         "chat": 3.8
       },
       "ranks": {
-        "chat": 56
+        "chat": 60
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "aliases": [
@@ -6661,7 +6820,7 @@
         "chat": 4.8
       },
       "ranks": {
-        "chat": 51
+        "chat": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -6674,7 +6833,7 @@
         "chat": 4.4
       },
       "ranks": {
-        "chat": 54
+        "chat": 58
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -6954,7 +7113,7 @@
         "chat": 13.7
       },
       "ranks": {
-        "chat": 40
+        "chat": 42
       },
       "logo": "https://artificialanalysis.ai/img/logos/apodex.svg"
     },
@@ -6967,7 +7126,7 @@
         "chat": 6.2
       },
       "ranks": {
-        "chat": 47
+        "chat": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -6980,7 +7139,7 @@
         "chat": 1.7
       },
       "ranks": {
-        "chat": 59
+        "chat": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
       "aliases": [
@@ -7098,7 +7257,7 @@
         "chat": 6
       },
       "ranks": {
-        "chat": 48
+        "chat": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
       "aliases": [
@@ -7310,7 +7469,7 @@
         "chat": 9
       },
       "ranks": {
-        "chat": 44
+        "chat": 47
       },
       "logo": "https://artificialanalysis.ai/img/logos/sktelecom.svg"
     },
@@ -7372,22 +7531,22 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794971926999
+      "updatedAt": 1795005558876
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794971926999
+      "updatedAt": 1795005558876
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794971926999
+      "updatedAt": 1795005558876
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794971926999
+      "updatedAt": 1795005558876
     }
   },
   "schemaVersion": 2,
@@ -7395,13 +7554,13 @@
     "arena_code": "err: http 403",
     "arena_video": "err: http 403",
     "arena_text": "err: http 403",
-    "arena_image": "err: http 403",
     "openrouter": "ok (478)",
-    "aa_llm": "ok (114)",
+    "arena_image": "err: http 403",
+    "aa_llm": "ok (120)",
     "aa_code": "ok (28)",
     "aa_image": "ok (116)",
     "aa_video": "ok (35)"
   },
-  "updatedAt": 1794971926999,
+  "updatedAt": 1795005558876,
   "errors": []
 }
