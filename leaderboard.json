@@ -1733,7 +1733,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "context": 1000000,
       "pricing": {
-        "prompt": 0.2,
+        "prompt": 0.15,
         "completion": 0.5
       },
       "alts": {
@@ -1806,6 +1806,23 @@
       "pricing": {
         "prompt": 0.3,
         "completion": 2.5
+      }
+    },
+    {
+      "id": "inkling-high",
+      "name": "Inkling (High)",
+      "org": "Thinking Machines",
+      "color": "#676767",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 11
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/thinking-machines.svg",
+      "context": 1000000,
+      "pricing": {
+        "prompt": 1,
+        "completion": 4.05
       }
     },
     {
@@ -1926,6 +1943,23 @@
       "pricing": {
         "prompt": 0,
         "completion": 0
+      }
+    },
+    {
+      "id": "lfm3-1-7b",
+      "name": "LFM3-1.7B",
+      "org": "Liquid AI",
+      "color": "#7B3AED",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 6
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
+      "context": 262144,
+      "pricing": {
+        "prompt": 0.08,
+        "completion": 0.2
       }
     },
     {
@@ -2089,6 +2123,23 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "context": 262000
+    },
+    {
+      "id": "lfm3-vl-2b",
+      "name": "LFM3-VL-2B",
+      "org": "Liquid AI",
+      "color": "#7B3AED",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 1.7
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
+      "context": 128000,
+      "pricing": {
+        "prompt": 0.1,
+        "completion": 0.5
+      }
     }
   ],
   "code": [
@@ -2639,7 +2690,7 @@
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "releaseDate": "2026-10-15",
       "pricing": {
-        "prompt": 0.2,
+        "prompt": 0.15,
         "completion": 0.5
       },
       "alts": {
@@ -4516,7 +4567,7 @@
         "chat": 1.8
       },
       "ranks": {
-        "chat": 57
+        "chat": 58
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -4610,7 +4661,7 @@
         "chat": 5.5
       },
       "ranks": {
-        "chat": 48
+        "chat": 49
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg",
       "aliases": [
@@ -5095,7 +5146,7 @@
         "chat": 4.6
       },
       "ranks": {
-        "chat": 52
+        "chat": 53
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5632,7 +5683,7 @@
         "chat": 4.3
       },
       "ranks": {
-        "chat": 54
+        "chat": 55
       },
       "logo": "https://artificialanalysis.ai/img/logos/mistral.svg",
       "aliases": [
@@ -5649,7 +5700,7 @@
         "chat": 3.4
       },
       "ranks": {
-        "chat": 56
+        "chat": 57
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -5769,7 +5820,7 @@
         "chat": 5.1
       },
       "ranks": {
-        "chat": 49
+        "chat": 50
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -5782,7 +5833,7 @@
         "chat": 4.7
       },
       "ranks": {
-        "chat": 51
+        "chat": 52
       },
       "logo": "https://artificialanalysis.ai/img/logos/ibm.svg"
     },
@@ -6264,7 +6315,7 @@
         "chat": 3.8
       },
       "ranks": {
-        "chat": 55
+        "chat": 56
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "aliases": [
@@ -6610,7 +6661,7 @@
         "chat": 4.8
       },
       "ranks": {
-        "chat": 50
+        "chat": 51
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -6623,7 +6674,7 @@
         "chat": 4.4
       },
       "ranks": {
-        "chat": 53
+        "chat": 54
       },
       "logo": "https://artificialanalysis.ai/img/logos/google.svg"
     },
@@ -6921,6 +6972,23 @@
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
     {
+      "key": "lfm3-vl-2b",
+      "name": "LFM3-VL-2B",
+      "org": "Liquid AI",
+      "color": "#7B3AED",
+      "scores": {
+        "chat": 1.7
+      },
+      "ranks": {
+        "chat": 59
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
+      "aliases": [
+        "LFM3-VL 2B",
+        "LFM3-VL2B"
+      ]
+    },
+    {
       "key": "muse-image",
       "name": "Muse Image",
       "org": "Meta",
@@ -7020,6 +7088,23 @@
       },
       "logo": "https://artificialanalysis.ai/img/logos/alibaba.svg",
       "releaseDate": "2026-11-16"
+    },
+    {
+      "key": "lfm3-1-7b",
+      "name": "LFM3-1.7B",
+      "org": "Liquid AI",
+      "color": "#7B3AED",
+      "scores": {
+        "chat": 6
+      },
+      "ranks": {
+        "chat": 48
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
+      "aliases": [
+        "LFM3 1.7B",
+        "LFM31.7B"
+      ]
     },
     {
       "key": "flux-2-9b",
@@ -7287,36 +7372,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1794950995307
+      "updatedAt": 1794971926999
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1794950995307
+      "updatedAt": 1794971926999
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1794950995307
+      "updatedAt": 1794971926999
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1794950995307
+      "updatedAt": 1794971926999
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_image": "err: http 403",
+    "arena_code": "err: http 403",
     "arena_video": "err: http 403",
     "arena_text": "err: http 403",
-    "arena_code": "err: http 403",
-    "openrouter": "ok (474)",
-    "aa_llm": "ok (111)",
+    "arena_image": "err: http 403",
+    "openrouter": "ok (478)",
+    "aa_llm": "ok (114)",
     "aa_code": "ok (28)",
     "aa_image": "ok (116)",
     "aa_video": "ok (35)"
   },
-  "updatedAt": 1794950995307,
+  "updatedAt": 1794971926999,
   "errors": []
 }
