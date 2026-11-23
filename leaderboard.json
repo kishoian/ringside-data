@@ -4497,6 +4497,18 @@
       "releaseDate": "2026-06-22"
     },
     {
+      "id": "pixverse-v6-max",
+      "name": "PixVerse V6 Max",
+      "org": "PixVerse",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1041
+      },
+      "releaseDate": "2026-10-22"
+    },
+    {
       "id": "magi-2-preview",
       "name": "MAGI-2 Preview",
       "org": "Sand.ai",
@@ -4569,14 +4581,14 @@
       "releaseDate": "2026-08-26"
     },
     {
-      "id": "pixverse-v6-legacy",
-      "name": "PixVerse V6 (Legacy)",
+      "id": "pixverse-v6",
+      "name": "PixVerse V6",
       "org": "PixVerse",
       "color": "#000000",
       "votes": 0,
-      "delta": 0,
+      "delta": 4,
       "scores": {
-        "video": 981
+        "video": 983
       },
       "releaseDate": "2026-03-23"
     },
@@ -4728,7 +4740,7 @@
         "video": 989
       },
       "ranks": {
-        "video": 24
+        "video": 25
       },
       "releaseDate": "2026-08-26"
     },
@@ -5188,7 +5200,7 @@
         "video": 1016
       },
       "ranks": {
-        "video": 22
+        "video": 23
       },
       "releaseDate": "2026-02-04"
     },
@@ -6012,6 +6024,22 @@
       ]
     },
     {
+      "key": "pixverse-v6-max",
+      "name": "PixVerse V6 Max",
+      "org": "PixVerse",
+      "color": "#000000",
+      "scores": {
+        "video": 1041
+      },
+      "ranks": {
+        "video": 19
+      },
+      "releaseDate": "2026-10-22",
+      "aliases": [
+        "PixVerse Max V6"
+      ]
+    },
+    {
       "key": "kling-3-0-1080p",
       "name": "Kling 3.0 1080p",
       "org": "KlingAI",
@@ -6020,7 +6048,7 @@
         "video": 1000
       },
       "ranks": {
-        "video": 23
+        "video": 24
       },
       "releaseDate": "2026-02-04"
     },
@@ -6253,7 +6281,7 @@
         "video": 1038
       },
       "ranks": {
-        "video": 19
+        "video": 20
       },
       "releaseDate": "2026-09-12",
       "aliases": [
@@ -6269,7 +6297,7 @@
         "video": 1029
       },
       "ranks": {
-        "video": 21
+        "video": 22
       },
       "releaseDate": "2026-04-07",
       "aliases": [
@@ -6568,7 +6596,7 @@
         "video": 1034
       },
       "ranks": {
-        "video": 20
+        "video": 21
       },
       "releaseDate": "2026-06-12",
       "aliases": [
@@ -6585,7 +6613,7 @@
         "video": 904
       },
       "ranks": {
-        "video": 32
+        "video": 33
       },
       "releaseDate": "2026-02-09",
       "aliases": [
@@ -6823,7 +6851,7 @@
         "video": 954
       },
       "ranks": {
-        "video": 27
+        "video": 28
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -6839,7 +6867,7 @@
         "video": 952
       },
       "ranks": {
-        "video": 28
+        "video": 29
       },
       "releaseDate": "2026-03-31",
       "aliases": [
@@ -6855,7 +6883,7 @@
         "video": 936
       },
       "ranks": {
-        "video": 29
+        "video": 30
       },
       "releaseDate": "2026-08-11",
       "aliases": [
@@ -6872,7 +6900,7 @@
         "video": 834
       },
       "ranks": {
-        "video": 34
+        "video": 35
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -7138,10 +7166,10 @@
       "org": "PixVerse",
       "color": "#000000",
       "scores": {
-        "video": 981
+        "video": 983
       },
       "ranks": {
-        "video": 25
+        "video": 26
       },
       "releaseDate": "2026-03-23"
     },
@@ -7154,7 +7182,7 @@
         "video": 935
       },
       "ranks": {
-        "video": 30
+        "video": 31
       },
       "releaseDate": "2026-08-11",
       "aliases": [
@@ -7171,7 +7199,7 @@
         "video": 934
       },
       "ranks": {
-        "video": 31
+        "video": 32
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -7187,7 +7215,7 @@
         "video": 887
       },
       "ranks": {
-        "video": 33
+        "video": 34
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -7595,7 +7623,7 @@
         "video": 962
       },
       "ranks": {
-        "video": 26
+        "video": 27
       },
       "releaseDate": "2026-01-30"
     },
@@ -7670,36 +7698,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1795391950501
+      "updatedAt": 1795418325396
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1795391950501
+      "updatedAt": 1795418325396
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1795391950501
+      "updatedAt": 1795418325396
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1795391950501
+      "updatedAt": 1795418325396
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "openrouter": "ok (476)",
+    "openrouter": "ok (477)",
     "arena_code": "err: http 403",
-    "arena_video": "err: http 403",
-    "arena_text": "err: http 403",
     "arena_image": "err: http 403",
+    "arena_text": "err: http 403",
+    "arena_video": "err: http 403",
     "aa_llm": "ok (126)",
     "aa_code": "ok (28)",
     "aa_image": "ok (116)",
-    "aa_video": "ok (35)"
+    "aa_video": "ok (36)"
   },
-  "updatedAt": 1795391950501,
+  "updatedAt": 1795418325396,
   "errors": []
 }
