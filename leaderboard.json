@@ -2905,9 +2905,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 1264
+        "image": 1263
       },
       "releaseDate": "2026-11-04"
     },
@@ -2917,9 +2917,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1230
+        "image": 1229
       },
       "releaseDate": "2026-09-08"
     },
@@ -2941,9 +2941,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 1214
+        "image": 1215
       },
       "releaseDate": "2026-11-17"
     },
@@ -3037,9 +3037,9 @@
       "org": "Canva",
       "color": "#00C4CC",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1157
+        "image": 1158
       },
       "releaseDate": "2026-10-22"
     },
@@ -3061,9 +3061,9 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 1135
+        "image": 1134
       },
       "releaseDate": "2026-11-09"
     },
@@ -3097,9 +3097,9 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": 2,
+      "delta": 1,
       "scores": {
-        "image": 1126
+        "image": 1125
       },
       "releaseDate": "2026-09-04"
     },
@@ -3121,9 +3121,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 1118
+        "image": 1117
       },
       "releaseDate": "2025-11-20"
     },
@@ -3145,9 +3145,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1113
+        "image": 1114
       },
       "releaseDate": "2026-10-01"
     },
@@ -3157,9 +3157,9 @@
       "org": "Google",
       "color": "#34A853",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1109
+        "image": 1110
       },
       "releaseDate": "2026-06-30"
     },
@@ -3205,9 +3205,9 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1070
+        "image": 1071
       },
       "releaseDate": "2026-11-10"
     },
@@ -3265,9 +3265,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 1039
+        "image": 1040
       },
       "releaseDate": "2026-10-15"
     },
@@ -3277,11 +3277,23 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1036
+        "image": 1037
       },
       "releaseDate": "2026-10-20"
+    },
+    {
+      "id": "krea-2-large",
+      "name": "Krea 2 Large",
+      "org": "Krea",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1035
+      },
+      "releaseDate": "2026-05-26"
     },
     {
       "id": "qwen-image-2-0-pro-2026-04-22",
@@ -3296,26 +3308,14 @@
       "releaseDate": "2026-04-22"
     },
     {
-      "id": "krea-2-large",
-      "name": "Krea 2 Large",
-      "org": "Krea",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
-      "scores": {
-        "image": 1034
-      },
-      "releaseDate": "2026-05-26"
-    },
-    {
       "id": "mai-image-2-5-flash",
       "name": "MAI-Image-2.5-Flash",
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1033
+        "image": 1034
       },
       "releaseDate": "2026-06-02"
     },
@@ -3349,23 +3349,11 @@
       "org": "Ideogram",
       "color": "#18181B",
       "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1027
-      },
-      "releaseDate": "2026-06-03"
-    },
-    {
-      "id": "recraft-v4-1-utility",
-      "name": "Recraft V4.1 Utility",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
         "image": 1026
       },
-      "releaseDate": "2026-05-14"
+      "releaseDate": "2026-06-03"
     },
     {
       "id": "qwen-image-2-1-turbo",
@@ -3378,6 +3366,18 @@
         "image": 1026
       },
       "releaseDate": "2026-10-09"
+    },
+    {
+      "id": "recraft-v4-1-utility",
+      "name": "Recraft V4.1 Utility",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": -2,
+      "scores": {
+        "image": 1025
+      },
+      "releaseDate": "2026-05-14"
     },
     {
       "id": "wan-2-6-image",
@@ -3397,9 +3397,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 1024
+        "image": 1025
       },
       "releaseDate": "2026-05-05"
     },
@@ -3452,6 +3452,18 @@
       "releaseDate": "2026-06-03"
     },
     {
+      "id": "hidream-o1-image-1-5",
+      "name": "HiDream-O1-Image-1.5",
+      "org": "HiDream",
+      "color": "#1d8eff",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 1020
+      },
+      "releaseDate": "2026-06-04"
+    },
+    {
       "id": "seedream-5-0-lite",
       "name": "Seedream 5.0 Lite",
       "org": "ByteDance Seed",
@@ -3464,30 +3476,6 @@
       "releaseDate": "2026-02-13"
     },
     {
-      "id": "hidream-o1-image-1-5",
-      "name": "HiDream-O1-Image-1.5",
-      "org": "HiDream",
-      "color": "#1d8eff",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1019
-      },
-      "releaseDate": "2026-06-04"
-    },
-    {
-      "id": "ideogram-4-5-high",
-      "name": "Ideogram 4.5 (High)",
-      "org": "Ideogram",
-      "color": "#18181B",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 1018
-      },
-      "releaseDate": "2026-09-30"
-    },
-    {
       "id": "gpt-image-1-high",
       "name": "GPT Image 1 (high)",
       "org": "OpenAI",
@@ -3498,6 +3486,18 @@
         "image": 1018
       },
       "releaseDate": "2025-04-23"
+    },
+    {
+      "id": "ideogram-4-5-high",
+      "name": "Ideogram 4.5 (High)",
+      "org": "Ideogram",
+      "color": "#18181B",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1017
+      },
+      "releaseDate": "2026-09-30"
     },
     {
       "id": "wan2-6-text-to-image",
@@ -3601,11 +3601,23 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
+      "scores": {
+        "image": 997
+      },
+      "releaseDate": "2025-12-21"
+    },
+    {
+      "id": "cosmos3-super-text2image-agentic",
+      "name": "Cosmos3-Super-Text2Image (agentic)",
+      "org": "NVIDIA",
+      "color": "#76b900",
+      "votes": 0,
+      "delta": 1,
       "scores": {
         "image": 996
       },
-      "releaseDate": "2025-12-21"
+      "releaseDate": "2026-05-31"
     },
     {
       "id": "p-image-ideogram-very-high",
@@ -3620,26 +3632,14 @@
       "releaseDate": "2026-07-30"
     },
     {
-      "id": "cosmos3-super-text2image-agentic",
-      "name": "Cosmos3-Super-Text2Image (agentic)",
-      "org": "NVIDIA",
-      "color": "#76b900",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 995
-      },
-      "releaseDate": "2026-05-31"
-    },
-    {
       "id": "hunyuanimage-3-0-tencent-cloud",
       "name": "HunyuanImage 3.0 (Tencent Cloud)",
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 993
+        "image": 994
       },
       "releaseDate": "2025-09-28"
     },
@@ -3656,26 +3656,14 @@
       "releaseDate": "2026-03-03"
     },
     {
-      "id": "nano-banana-gemini-2-5-flash-image",
-      "name": "Nano Banana (Gemini 2.5 Flash Image)",
-      "org": "Google",
-      "color": "#34A853",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 988
-      },
-      "releaseDate": "2025-08-26"
-    },
-    {
       "id": "wan-2-7",
       "name": "Wan 2.7",
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 987
+        "image": 988
       },
       "releaseDate": "2026-04-03"
     },
@@ -3685,11 +3673,23 @@
       "org": "NVIDIA",
       "color": "#76b900",
       "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 988
+      },
+      "releaseDate": "2026-05-31"
+    },
+    {
+      "id": "nano-banana-gemini-2-5-flash-image",
+      "name": "Nano Banana (Gemini 2.5 Flash Image)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
       "delta": -1,
       "scores": {
         "image": 987
       },
-      "releaseDate": "2026-05-31"
+      "releaseDate": "2025-08-26"
     },
     {
       "id": "hunyuanimage-3-0-instruct",
@@ -3721,9 +3721,33 @@
       "org": "Fal",
       "color": "#FF6B35",
       "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 985
+      },
+      "releaseDate": "2026-07-13"
+    },
+    {
+      "id": "ideogram-4-6-high",
+      "name": "Ideogram 4.6 (High)",
+      "org": "Ideogram",
+      "color": "#18181B",
+      "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 984
+        "image": 985
+      },
+      "releaseDate": "2026-11-19"
+    },
+    {
+      "id": "ideogram-4-0-fast-quality",
+      "name": "Ideogram 4.0 Fast (Quality)",
+      "org": "Fal",
+      "color": "#FF6B35",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 983
       },
       "releaseDate": "2026-07-13"
     },
@@ -3740,26 +3764,14 @@
       "releaseDate": "2026-04-03"
     },
     {
-      "id": "ideogram-4-0-fast-quality",
-      "name": "Ideogram 4.0 Fast (Quality)",
-      "org": "Fal",
-      "color": "#FF6B35",
-      "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 983
-      },
-      "releaseDate": "2026-07-13"
-    },
-    {
       "id": "hidream-o1-image",
       "name": "HiDream-O1-Image",
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 979
+        "image": 978
       },
       "releaseDate": "2026-05-08"
     },
@@ -3769,9 +3781,9 @@
       "org": "Pruna AI",
       "color": "#9334E9",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "image": 976
+        "image": 978
       },
       "releaseDate": "2026-07-30"
     },
@@ -3793,9 +3805,9 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 971
+        "image": 972
       },
       "releaseDate": "2026-09-22"
     },
@@ -3817,9 +3829,9 @@
       "org": "Pruna AI",
       "color": "#9334E9",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 965
+        "image": 966
       },
       "releaseDate": "2026-07-30"
     },
@@ -3829,9 +3841,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -2,
+      "delta": -1,
       "scores": {
-        "image": 956
+        "image": 957
       },
       "releaseDate": "2026-01-16"
     },
@@ -3841,9 +3853,9 @@
       "org": "Recraft",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 948
+        "image": 949
       },
       "releaseDate": "2026-09-23"
     },
@@ -3853,9 +3865,9 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "votes": 0,
-      "delta": 1,
+      "delta": 2,
       "scores": {
-        "image": 939
+        "image": 940
       },
       "releaseDate": "2025-10-06"
     },
@@ -3865,9 +3877,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 936
+        "image": 937
       },
       "releaseDate": "2025-12-02"
     },
@@ -3889,9 +3901,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 932
+        "image": 931
       },
       "releaseDate": "2025-05-29"
     },
@@ -3913,9 +3925,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 929
+        "image": 928
       },
       "releaseDate": "2025-08-01"
     },
@@ -3937,9 +3949,9 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "votes": 0,
-      "delta": -2,
+      "delta": 0,
       "scores": {
-        "image": 923
+        "image": 925
       },
       "releaseDate": "2026-02-04"
     },
@@ -3949,9 +3961,9 @@
       "org": "Baidu",
       "color": "#2436d8",
       "votes": 0,
-      "delta": 1,
+      "delta": 0,
       "scores": {
-        "image": 916
+        "image": 915
       },
       "releaseDate": "2026-04-15"
     },
@@ -3973,9 +3985,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 2,
+      "delta": 3,
       "scores": {
-        "image": 910
+        "image": 911
       },
       "releaseDate": "2025-08-04"
     },
@@ -3985,23 +3997,11 @@
       "org": "Apple",
       "color": "#080808",
       "votes": 0,
-      "delta": 1,
-      "scores": {
-        "image": 910
-      },
-      "releaseDate": "2026-09-14"
-    },
-    {
-      "id": "ideogram-3-0",
-      "name": "Ideogram 3.0",
-      "org": "Ideogram",
-      "color": "#18181B",
-      "votes": 0,
       "delta": 0,
       "scores": {
-        "image": 908
+        "image": 909
       },
-      "releaseDate": "2025-03-26"
+      "releaseDate": "2026-09-14"
     },
     {
       "id": "ernie-image",
@@ -4009,11 +4009,23 @@
       "org": "Baidu",
       "color": "#2436d8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 908
+        "image": 909
       },
       "releaseDate": "2026-04-15"
+    },
+    {
+      "id": "ideogram-3-0",
+      "name": "Ideogram 3.0",
+      "org": "Ideogram",
+      "color": "#18181B",
+      "votes": 0,
+      "delta": -1,
+      "scores": {
+        "image": 907
+      },
+      "releaseDate": "2025-03-26"
     },
     {
       "id": "vidu-q2",
@@ -4021,9 +4033,9 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "votes": 0,
-      "delta": -2,
+      "delta": 0,
       "scores": {
-        "image": 896
+        "image": 898
       },
       "releaseDate": "2025-11-28"
     },
@@ -4033,9 +4045,9 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "votes": 0,
-      "delta": 1,
+      "delta": 3,
       "scores": {
-        "image": 895
+        "image": 897
       },
       "releaseDate": "2026-01-27"
     },
@@ -4057,9 +4069,9 @@
       "org": "Z AI",
       "color": "#1c7ff8",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 890
+        "image": 891
       },
       "releaseDate": "2026-01-13"
     },
@@ -4069,9 +4081,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 877
+        "image": 878
       },
       "releaseDate": "2025-08-05"
     },
@@ -4081,9 +4093,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 0,
+      "delta": -3,
       "scores": {
-        "image": 875
+        "image": 872
       },
       "releaseDate": "2024-10-02"
     },
@@ -4093,9 +4105,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": -1,
+      "delta": 1,
       "scores": {
-        "image": 869
+        "image": 871
       },
       "releaseDate": "2025-07-31"
     },
@@ -4105,9 +4117,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": -1,
       "scores": {
-        "image": 867
+        "image": 866
       },
       "releaseDate": "2025-08-05"
     },
@@ -4141,9 +4153,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": -1,
+      "delta": 0,
       "scores": {
-        "image": 853
+        "image": 854
       },
       "releaseDate": "2025-10-30"
     },
@@ -4160,18 +4172,6 @@
       "releaseDate": "2026-01-15"
     },
     {
-      "id": "srpo",
-      "name": "SRPO",
-      "org": "Tencent",
-      "color": "#5CB9FF",
-      "votes": 0,
-      "delta": 4,
-      "scores": {
-        "image": 840
-      },
-      "releaseDate": "2025-09-11"
-    },
-    {
       "id": "luma-photon",
       "name": "Luma Photon",
       "org": "Luma Labs",
@@ -4184,14 +4184,26 @@
       "releaseDate": "2024-12-02"
     },
     {
+      "id": "srpo",
+      "name": "SRPO",
+      "org": "Tencent",
+      "color": "#5CB9FF",
+      "votes": 0,
+      "delta": 1,
+      "scores": {
+        "image": 837
+      },
+      "releaseDate": "2025-09-11"
+    },
+    {
       "id": "phoenix-0-9-ultra",
       "name": "Phoenix 0.9 Ultra",
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 837
+        "image": 836
       },
       "releaseDate": "2024-06-13"
     },
@@ -4201,9 +4213,9 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "votes": 0,
-      "delta": 0,
+      "delta": -3,
       "scores": {
-        "image": 827
+        "image": 824
       },
       "releaseDate": "2024-12-18"
     },
@@ -4213,9 +4225,9 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "votes": 0,
-      "delta": 3,
+      "delta": 2,
       "scores": {
-        "image": 819
+        "image": 818
       },
       "releaseDate": "2024-08-01"
     },
@@ -4225,9 +4237,9 @@
       "org": "Bria",
       "color": "#5200c8",
       "votes": 0,
-      "delta": 0,
+      "delta": 1,
       "scores": {
-        "image": 815
+        "image": 816
       },
       "releaseDate": "2025-11-27"
     },
@@ -4237,9 +4249,9 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "votes": 0,
-      "delta": -2,
+      "delta": -3,
       "scores": {
-        "image": 808
+        "image": 807
       },
       "releaseDate": "2026-05-08"
     },
@@ -4249,9 +4261,9 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "votes": 0,
-      "delta": -2,
+      "delta": 1,
       "scores": {
-        "image": 772
+        "image": 775
       },
       "releaseDate": "2024-12-02"
     },
@@ -4273,9 +4285,9 @@
       "org": "VectorSpaceLab",
       "color": "#000000",
       "votes": 0,
-      "delta": -1,
+      "delta": -2,
       "scores": {
-        "image": 699
+        "image": 698
       },
       "releaseDate": "2025-06-16"
     },
@@ -4285,9 +4297,9 @@
       "org": "Bytedance",
       "color": "#3c8bff",
       "votes": 0,
-      "delta": 0,
+      "delta": 2,
       "scores": {
-        "image": 604
+        "image": 606
       },
       "releaseDate": "2025-05-20"
     }
@@ -4472,6 +4484,18 @@
         "video": 1123
       },
       "releaseDate": "2026-08-28"
+    },
+    {
+      "id": "dreamina-seedance-2-5-flash-720p",
+      "name": "Dreamina Seedance 2.5 Flash (720p)",
+      "org": "ByteDance Seed",
+      "color": "#3c8bff",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "video": 1120
+      },
+      "releaseDate": "2026-11-12"
     },
     {
       "id": "agnes-video-2-5",
@@ -4736,13 +4760,26 @@
         "image": 973
       },
       "ranks": {
-        "image": 64
+        "image": 65
       },
       "releaseDate": "2026-07-20",
       "aliases": [
         "Cosmos3-Super-Text2Image 4Step",
         "Cosmos3-Super-Text2Image4Step"
       ]
+    },
+    {
+      "key": "dreamina-seedance-2-5-flash",
+      "name": "Dreamina Seedance 2.5 Flash",
+      "org": "ByteDance Seed",
+      "color": "#3c8bff",
+      "scores": {
+        "video": 1120
+      },
+      "ranks": {
+        "video": 16
+      },
+      "releaseDate": "2026-11-12"
     },
     {
       "key": "grok-imagine-video-1-5-lite",
@@ -4753,7 +4790,7 @@
         "video": 988
       },
       "ranks": {
-        "video": 25
+        "video": 26
       },
       "releaseDate": "2026-08-26"
     },
@@ -4840,7 +4877,7 @@
       "org": "NVIDIA",
       "color": "#76b900",
       "scores": {
-        "image": 995
+        "image": 996
       },
       "ranks": {
         "image": 53
@@ -4899,7 +4936,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1264
+        "image": 1263
       },
       "ranks": {
         "image": 1
@@ -4912,7 +4949,7 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 1230
+        "image": 1229
       },
       "ranks": {
         "image": 2
@@ -4941,7 +4978,7 @@
         "video": 1049
       },
       "ranks": {
-        "video": 17
+        "video": 18
       },
       "releaseDate": "2026-05-30"
     },
@@ -5082,23 +5119,6 @@
       "releaseDate": "2026-09-03"
     },
     {
-      "key": "recraft-v4-1-utility",
-      "name": "Recraft V4.1 Utility",
-      "org": "Recraft",
-      "color": "#000000",
-      "scores": {
-        "image": 1026
-      },
-      "ranks": {
-        "image": 38
-      },
-      "releaseDate": "2026-05-14",
-      "aliases": [
-        "Recraft Utility V4.1",
-        "V4.1 Utility"
-      ]
-    },
-    {
       "key": "qwen-image-2-1-turbo",
       "name": "Qwen-Image-2.1-Turbo",
       "org": "Alibaba",
@@ -5107,7 +5127,7 @@
         "image": 1026
       },
       "ranks": {
-        "image": 39
+        "image": 38
       },
       "releaseDate": "2026-10-09",
       "aliases": [
@@ -5116,15 +5136,32 @@
       ]
     },
     {
+      "key": "recraft-v4-1-utility",
+      "name": "Recraft V4.1 Utility",
+      "org": "Recraft",
+      "color": "#000000",
+      "scores": {
+        "image": 1025
+      },
+      "ranks": {
+        "image": 39
+      },
+      "releaseDate": "2026-05-14",
+      "aliases": [
+        "Recraft Utility V4.1",
+        "V4.1 Utility"
+      ]
+    },
+    {
       "key": "hidream-o1-image-1-5",
       "name": "HiDream-O1-Image-1.5",
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 1019
+        "image": 1020
       },
       "ranks": {
-        "image": 45
+        "image": 44
       },
       "releaseDate": "2026-06-04",
       "aliases": [
@@ -5151,7 +5188,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 984
+        "image": 985
       },
       "ranks": {
         "image": 60
@@ -5168,10 +5205,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 956
+        "image": 957
       },
       "ranks": {
-        "image": 66
+        "image": 67
       },
       "releaseDate": "2026-01-16",
       "aliases": [
@@ -5184,10 +5221,10 @@
       "org": "KlingAI",
       "color": "#ff3417",
       "scores": {
-        "image": 923
+        "image": 925
       },
       "ranks": {
-        "image": 73
+        "image": 74
       },
       "releaseDate": "2026-02-04"
     },
@@ -5197,10 +5234,10 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 808
+        "image": 807
       },
       "ranks": {
-        "image": 93
+        "image": 94
       },
       "releaseDate": "2026-05-08"
     },
@@ -5213,7 +5250,7 @@
         "video": 1015
       },
       "ranks": {
-        "video": 23
+        "video": 24
       },
       "releaseDate": "2026-02-04"
     },
@@ -5295,7 +5332,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1126
+        "image": 1125
       },
       "ranks": {
         "image": 17
@@ -5312,7 +5349,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1033
+        "image": 1034
       },
       "ranks": {
         "image": 34
@@ -5385,7 +5422,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1109
+        "image": 1110
       },
       "ranks": {
         "image": 22
@@ -5415,7 +5452,7 @@
       "org": "MiniMax",
       "color": "#EB3568",
       "scores": {
-        "image": 1070
+        "image": 1071
       },
       "ranks": {
         "image": 26
@@ -5445,7 +5482,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1039
+        "image": 1040
       },
       "ranks": {
         "image": 30
@@ -5461,7 +5498,7 @@
         "image": 1034
       },
       "ranks": {
-        "image": 32
+        "image": 33
       },
       "releaseDate": "2026-04-22",
       "aliases": [
@@ -5474,10 +5511,10 @@
       "org": "Recraft",
       "color": "#000000",
       "scores": {
-        "image": 948
+        "image": 949
       },
       "ranks": {
-        "image": 67
+        "image": 68
       },
       "releaseDate": "2026-09-23",
       "aliases": [
@@ -5491,10 +5528,10 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 877
+        "image": 878
       },
       "ranks": {
-        "image": 81
+        "image": 82
       },
       "releaseDate": "2025-08-05"
     },
@@ -5562,7 +5599,7 @@
         "image": 1019
       },
       "ranks": {
-        "image": 44
+        "image": 45
       },
       "releaseDate": "2026-02-13",
       "aliases": [
@@ -5592,10 +5629,10 @@
       "org": "Baidu",
       "color": "#2436d8",
       "scores": {
-        "image": 916
+        "image": 915
       },
       "ranks": {
-        "image": 74
+        "image": 75
       },
       "releaseDate": "2026-04-15"
     },
@@ -5605,10 +5642,10 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 867
+        "image": 866
       },
       "ranks": {
-        "image": 84
+        "image": 85
       },
       "releaseDate": "2025-08-05"
     },
@@ -5618,10 +5655,10 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 837
+        "image": 836
       },
       "ranks": {
-        "image": 89
+        "image": 90
       },
       "releaseDate": "2024-06-13",
       "aliases": [
@@ -5634,10 +5671,10 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 772
+        "image": 775
       },
       "ranks": {
-        "image": 94
+        "image": 95
       },
       "releaseDate": "2024-12-02"
     },
@@ -5717,7 +5754,7 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 993
+        "image": 994
       },
       "ranks": {
         "image": 54
@@ -5730,10 +5767,10 @@
       "org": "HiDream",
       "color": "#1d8eff",
       "scores": {
-        "image": 979
+        "image": 978
       },
       "ranks": {
-        "image": 63
+        "image": 64
       },
       "releaseDate": "2026-05-08"
     },
@@ -5743,10 +5780,10 @@
       "org": "Tencent",
       "color": "#5CB9FF",
       "scores": {
-        "image": 971
+        "image": 972
       },
       "ranks": {
-        "image": 65
+        "image": 66
       },
       "releaseDate": "2026-09-22"
     },
@@ -5756,10 +5793,10 @@
       "org": "OpenAI",
       "color": "#1f1f1f",
       "scores": {
-        "image": 939
+        "image": 940
       },
       "ranks": {
-        "image": 68
+        "image": 69
       },
       "releaseDate": "2025-10-06"
     },
@@ -5769,10 +5806,10 @@
       "org": "Leonardo.Ai",
       "color": "#016db6",
       "scores": {
-        "image": 827
+        "image": 824
       },
       "ranks": {
-        "image": 90
+        "image": 91
       },
       "releaseDate": "2024-12-18",
       "aliases": [
@@ -6012,7 +6049,7 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 1118
+        "image": 1117
       },
       "ranks": {
         "image": 19
@@ -6028,7 +6065,7 @@
         "video": 1065
       },
       "ranks": {
-        "video": 16
+        "video": 17
       },
       "releaseDate": "2026-08-22",
       "aliases": [
@@ -6045,7 +6082,7 @@
         "video": 1039
       },
       "ranks": {
-        "video": 19
+        "video": 20
       },
       "releaseDate": "2026-10-22",
       "aliases": [
@@ -6061,7 +6098,7 @@
         "video": 1000
       },
       "ranks": {
-        "video": 24
+        "video": 25
       },
       "releaseDate": "2026-02-04"
     },
@@ -6195,7 +6232,7 @@
       "org": "Luma Labs",
       "color": "#3face6",
       "scores": {
-        "image": 1024
+        "image": 1025
       },
       "ranks": {
         "image": 41
@@ -6228,10 +6265,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 932
+        "image": 931
       },
       "ranks": {
-        "image": 70
+        "image": 71
       },
       "releaseDate": "2025-05-29"
     },
@@ -6277,7 +6314,7 @@
         "video": 1046
       },
       "ranks": {
-        "video": 18
+        "video": 19
       },
       "releaseDate": "2026-06-22",
       "aliases": [
@@ -6294,7 +6331,7 @@
         "video": 1037
       },
       "ranks": {
-        "video": 20
+        "video": 21
       },
       "releaseDate": "2026-09-12",
       "aliases": [
@@ -6310,7 +6347,7 @@
         "video": 1029
       },
       "ranks": {
-        "video": 22
+        "video": 23
       },
       "releaseDate": "2026-04-07",
       "aliases": [
@@ -6452,7 +6489,7 @@
       "org": "Microsoft AI",
       "color": "#5F4E41",
       "scores": {
-        "image": 1214
+        "image": 1215
       },
       "ranks": {
         "image": 4
@@ -6551,10 +6588,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 936
+        "image": 937
       },
       "ranks": {
-        "image": 69
+        "image": 70
       },
       "releaseDate": "2025-12-02"
     },
@@ -6567,7 +6604,7 @@
         "image": 862
       },
       "ranks": {
-        "image": 85
+        "image": 86
       },
       "releaseDate": "2025-12-05"
     },
@@ -6580,7 +6617,7 @@
         "image": 854
       },
       "ranks": {
-        "image": 86
+        "image": 87
       },
       "releaseDate": "2024-11-06"
     },
@@ -6609,7 +6646,7 @@
         "video": 1032
       },
       "ranks": {
-        "video": 21
+        "video": 22
       },
       "releaseDate": "2026-06-12",
       "aliases": [
@@ -6626,7 +6663,7 @@
         "video": 903
       },
       "ranks": {
-        "video": 33
+        "video": 34
       },
       "releaseDate": "2026-02-09",
       "aliases": [
@@ -6699,7 +6736,7 @@
       "org": "ByteDance Seed",
       "color": "#3c8bff",
       "scores": {
-        "image": 1135
+        "image": 1134
       },
       "ranks": {
         "image": 14
@@ -6712,7 +6749,7 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 1113
+        "image": 1114
       },
       "ranks": {
         "image": 21
@@ -6728,10 +6765,10 @@
       "org": "Krea",
       "color": "#000000",
       "scores": {
-        "image": 1034
+        "image": 1035
       },
       "ranks": {
-        "image": 33
+        "image": 32
       },
       "releaseDate": "2026-05-26",
       "aliases": [
@@ -6757,7 +6794,7 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1027
+        "image": 1026
       },
       "ranks": {
         "image": 37
@@ -6770,10 +6807,10 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 1018
+        "image": 1017
       },
       "ranks": {
-        "image": 46
+        "image": 47
       },
       "releaseDate": "2026-09-30"
     },
@@ -6783,7 +6820,7 @@
       "org": "Fal",
       "color": "#FF6B35",
       "scores": {
-        "image": 996
+        "image": 997
       },
       "ranks": {
         "image": 52
@@ -6804,15 +6841,28 @@
       "releaseDate": "2025-12-21"
     },
     {
+      "key": "ideogram-4-6",
+      "name": "Ideogram 4.6",
+      "org": "Ideogram",
+      "color": "#18181B",
+      "scores": {
+        "image": 985
+      },
+      "ranks": {
+        "image": 61
+      },
+      "releaseDate": "2026-11-19"
+    },
+    {
       "key": "dreamina-3-1",
       "name": "Dreamina 3.1",
       "org": "Bytedance",
       "color": "#3c8bff",
       "scores": {
-        "image": 929
+        "image": 928
       },
       "ranks": {
-        "image": 72
+        "image": 73
       },
       "releaseDate": "2025-08-01"
     },
@@ -6822,10 +6872,10 @@
       "org": "Ideogram",
       "color": "#18181B",
       "scores": {
-        "image": 908
+        "image": 907
       },
       "ranks": {
-        "image": 77
+        "image": 79
       },
       "releaseDate": "2025-03-26"
     },
@@ -6835,10 +6885,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 895
+        "image": 897
       },
       "ranks": {
-        "image": 80
+        "image": 81
       },
       "releaseDate": "2026-01-27"
     },
@@ -6881,7 +6931,7 @@
         "video": 953
       },
       "ranks": {
-        "video": 28
+        "video": 29
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -6897,7 +6947,7 @@
         "video": 950
       },
       "ranks": {
-        "video": 29
+        "video": 30
       },
       "releaseDate": "2026-03-31",
       "aliases": [
@@ -6913,7 +6963,7 @@
         "video": 935
       },
       "ranks": {
-        "video": 30
+        "video": 31
       },
       "releaseDate": "2026-08-11",
       "aliases": [
@@ -6930,7 +6980,7 @@
         "video": 832
       },
       "ranks": {
-        "video": 35
+        "video": 36
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -7070,7 +7120,7 @@
       "org": "Canva",
       "color": "#00C4CC",
       "scores": {
-        "image": 1157
+        "image": 1158
       },
       "ranks": {
         "image": 12
@@ -7086,7 +7136,7 @@
         "image": 1018
       },
       "ranks": {
-        "image": 47
+        "image": 46
       },
       "releaseDate": "2025-04-23",
       "aliases": [
@@ -7099,10 +7149,10 @@
       "org": "Google",
       "color": "#34A853",
       "scores": {
-        "image": 988
+        "image": 987
       },
       "ranks": {
-        "image": 56
+        "image": 57
       },
       "releaseDate": "2025-08-26"
     },
@@ -7115,7 +7165,7 @@
         "image": 983
       },
       "ranks": {
-        "image": 61
+        "image": 63
       },
       "releaseDate": "2026-04-03",
       "aliases": [
@@ -7128,10 +7178,10 @@
       "org": "Apple",
       "color": "#080808",
       "scores": {
-        "image": 910
+        "image": 909
       },
       "ranks": {
-        "image": 76
+        "image": 77
       },
       "releaseDate": "2026-09-14",
       "aliases": [
@@ -7144,7 +7194,7 @@
       "org": "Baidu",
       "color": "#2436d8",
       "scores": {
-        "image": 908
+        "image": 909
       },
       "ranks": {
         "image": 78
@@ -7157,10 +7207,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 869
+        "image": 871
       },
       "ranks": {
-        "image": 83
+        "image": 84
       },
       "releaseDate": "2025-07-31"
     },
@@ -7173,7 +7223,7 @@
         "image": 838
       },
       "ranks": {
-        "image": 88
+        "image": 89
       },
       "releaseDate": "2024-12-02"
     },
@@ -7199,7 +7249,7 @@
         "video": 980
       },
       "ranks": {
-        "video": 26
+        "video": 27
       },
       "releaseDate": "2026-03-23"
     },
@@ -7212,7 +7262,7 @@
         "video": 933
       },
       "ranks": {
-        "video": 31
+        "video": 32
       },
       "releaseDate": "2026-01-30",
       "aliases": [
@@ -7228,7 +7278,7 @@
         "video": 932
       },
       "ranks": {
-        "video": 32
+        "video": 33
       },
       "releaseDate": "2026-08-11",
       "aliases": [
@@ -7245,7 +7295,7 @@
         "video": 885
       },
       "ranks": {
-        "video": 34
+        "video": 35
       },
       "releaseDate": "2026-03-05",
       "aliases": [
@@ -7380,10 +7430,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 910
+        "image": 911
       },
       "ranks": {
-        "image": 75
+        "image": 76
       },
       "releaseDate": "2025-08-04"
     },
@@ -7393,10 +7443,10 @@
       "org": "VectorSpaceLab",
       "color": "#000000",
       "scores": {
-        "image": 699
+        "image": 698
       },
       "ranks": {
-        "image": 95
+        "image": 96
       },
       "releaseDate": "2025-06-16"
     },
@@ -7471,7 +7521,7 @@
         "image": 931
       },
       "ranks": {
-        "image": 71
+        "image": 72
       },
       "releaseDate": "2026-01-15"
     },
@@ -7484,7 +7534,7 @@
         "image": 840
       },
       "ranks": {
-        "image": 87
+        "image": 88
       },
       "releaseDate": "2026-01-15"
     },
@@ -7494,10 +7544,10 @@
       "org": "Bria",
       "color": "#5200c8",
       "scores": {
-        "image": 815
+        "image": 816
       },
       "ranks": {
-        "image": 92
+        "image": 93
       },
       "releaseDate": "2025-11-27"
     },
@@ -7552,7 +7602,7 @@
       "org": "Bria",
       "color": "#5200c8",
       "scores": {
-        "image": 1036
+        "image": 1037
       },
       "ranks": {
         "image": 31
@@ -7598,10 +7648,10 @@
       "org": "Alibaba",
       "color": "#ff7018",
       "scores": {
-        "image": 987
+        "image": 988
       },
       "ranks": {
-        "image": 57
+        "image": 56
       },
       "releaseDate": "2026-04-03"
     },
@@ -7611,10 +7661,10 @@
       "org": "Vidu",
       "color": "#1fcfff",
       "scores": {
-        "image": 896
+        "image": 898
       },
       "ranks": {
-        "image": 79
+        "image": 80
       },
       "releaseDate": "2025-11-28"
     },
@@ -7624,10 +7674,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 875
+        "image": 872
       },
       "ranks": {
-        "image": 82
+        "image": 83
       },
       "releaseDate": "2024-10-02"
     },
@@ -7653,7 +7703,7 @@
         "video": 961
       },
       "ranks": {
-        "video": 27
+        "video": 28
       },
       "releaseDate": "2026-01-30"
     },
@@ -7702,10 +7752,10 @@
       "org": "Black Forest Labs",
       "color": "#272727",
       "scores": {
-        "image": 819
+        "image": 818
       },
       "ranks": {
-        "image": 91
+        "image": 92
       },
       "releaseDate": "2024-08-02"
     },
@@ -7728,36 +7778,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1795463430152
+      "updatedAt": 1795494963194
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1795463430152
+      "updatedAt": 1795494963194
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1795463430152
+      "updatedAt": 1795494963194
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1795463430152
+      "updatedAt": 1795494963194
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_video": "err: http 403",
+    "openrouter": "ok (474)",
     "arena_code": "err: http 403",
+    "arena_video": "err: http 403",
     "arena_image": "err: http 403",
     "arena_text": "err: http 403",
     "aa_llm": "ok (127)",
     "aa_code": "ok (28)",
-    "aa_image": "ok (116)",
-    "aa_video": "ok (36)",
-    "openrouter": "ok (476)"
+    "aa_image": "ok (117)",
+    "aa_video": "ok (37)"
   },
-  "updatedAt": 1795463430152,
+  "updatedAt": 1795494963194,
   "errors": []
 }
