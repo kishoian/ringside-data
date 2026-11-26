@@ -2219,6 +2219,23 @@
       }
     },
     {
+      "id": "gemma-4-26b-a4b-reasoning",
+      "name": "Gemma 4 26B A4B (Reasoning)",
+      "org": "Google",
+      "color": "#34A853",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "chat": 4
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google.svg",
+      "context": 256000,
+      "pricing": {
+        "prompt": 0.095,
+        "completion": 0.32
+      }
+    },
+    {
       "id": "gpt-oss-120b-high",
       "name": "gpt-oss-120b (High)",
       "org": "OpenAI",
@@ -4809,7 +4826,7 @@
         "chat": 1.8
       },
       "ranks": {
-        "chat": 64
+        "chat": 65
       },
       "logo": "https://artificialanalysis.ai/img/logos/nvidia.svg"
     },
@@ -5980,6 +5997,19 @@
       ]
     },
     {
+      "key": "gemma-4-26b-a4b",
+      "name": "Gemma 4 26B A4B",
+      "org": "Google",
+      "color": "#34A853",
+      "scores": {
+        "chat": 4
+      },
+      "ranks": {
+        "chat": 61
+      },
+      "logo": "https://artificialanalysis.ai/img/logos/google.svg"
+    },
+    {
       "key": "north-mini-code",
       "name": "North Mini Code",
       "org": "Cohere",
@@ -5988,7 +6018,7 @@
         "chat": 3.4
       },
       "ranks": {
-        "chat": 62
+        "chat": 63
       },
       "logo": "https://artificialanalysis.ai/img/logos/cohere.svg"
     },
@@ -6001,7 +6031,7 @@
         "chat": 2.7
       },
       "ranks": {
-        "chat": 63
+        "chat": 64
       },
       "logo": "https://artificialanalysis.ai/img/logos/ifm.svg",
       "aliases": [
@@ -6693,7 +6723,7 @@
         "chat": 3.8
       },
       "ranks": {
-        "chat": 61
+        "chat": 62
       },
       "logo": "https://artificialanalysis.ai/img/logos/openai.svg",
       "aliases": [
@@ -7357,7 +7387,7 @@
         "chat": 1.7
       },
       "ranks": {
-        "chat": 65
+        "chat": 66
       },
       "logo": "https://artificialanalysis.ai/img/logos/liquidai.svg",
       "aliases": [
@@ -7778,36 +7808,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1795694064070
+      "updatedAt": 1795726574542
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1795694064070
+      "updatedAt": 1795726574542
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1795694064070
+      "updatedAt": 1795726574542
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1795694064070
+      "updatedAt": 1795726574542
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "arena_video": "err: http 403",
-    "arena_image": "err: http 403",
+    "openrouter": "ok (477)",
     "arena_code": "err: http 403",
+    "arena_video": "err: http 403",
     "arena_text": "err: http 403",
-    "openrouter": "ok (474)",
-    "aa_llm": "ok (124)",
+    "arena_image": "err: http 403",
+    "aa_llm": "ok (125)",
     "aa_code": "ok (28)",
     "aa_image": "ok (118)",
     "aa_video": "ok (39)"
   },
-  "updatedAt": 1795694064070,
+  "updatedAt": 1795726574542,
   "errors": []
 }
