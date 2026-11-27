@@ -3376,18 +3376,6 @@
       "releaseDate": "2026-06-03"
     },
     {
-      "id": "recraft-v4-1-utility",
-      "name": "Recraft V4.1 Utility",
-      "org": "Recraft",
-      "color": "#000000",
-      "votes": 0,
-      "delta": 0,
-      "scores": {
-        "image": 1026
-      },
-      "releaseDate": "2026-05-14"
-    },
-    {
       "id": "qwen-image-2-1-turbo",
       "name": "Qwen-Image-2.1-Turbo",
       "org": "Alibaba",
@@ -3398,6 +3386,18 @@
         "image": 1026
       },
       "releaseDate": "2026-10-09"
+    },
+    {
+      "id": "recraft-v4-1-utility",
+      "name": "Recraft V4.1 Utility",
+      "org": "Recraft",
+      "color": "#000000",
+      "votes": 0,
+      "delta": 0,
+      "scores": {
+        "image": 1026
+      },
+      "releaseDate": "2026-05-14"
     },
     {
       "id": "luma-uni-1-max",
@@ -5193,23 +5193,6 @@
       "releaseDate": "2026-09-03"
     },
     {
-      "key": "recraft-v4-1-utility",
-      "name": "Recraft V4.1 Utility",
-      "org": "Recraft",
-      "color": "#000000",
-      "scores": {
-        "image": 1026
-      },
-      "ranks": {
-        "image": 39
-      },
-      "releaseDate": "2026-05-14",
-      "aliases": [
-        "Recraft Utility V4.1",
-        "V4.1 Utility"
-      ]
-    },
-    {
       "key": "qwen-image-2-1-turbo",
       "name": "Qwen-Image-2.1-Turbo",
       "org": "Alibaba",
@@ -5218,12 +5201,29 @@
         "image": 1026
       },
       "ranks": {
-        "image": 40
+        "image": 39
       },
       "releaseDate": "2026-10-09",
       "aliases": [
         "Qwen-Image 2.1-Turbo",
         "Qwen-Image2.1-Turbo"
+      ]
+    },
+    {
+      "key": "recraft-v4-1-utility",
+      "name": "Recraft V4.1 Utility",
+      "org": "Recraft",
+      "color": "#000000",
+      "scores": {
+        "image": 1026
+      },
+      "ranks": {
+        "image": 40
+      },
+      "releaseDate": "2026-05-14",
+      "aliases": [
+        "Recraft Utility V4.1",
+        "V4.1 Utility"
       ]
     },
     {
@@ -7868,36 +7868,36 @@
       "label": "AA Intelligence Index v5.0",
       "url": "https://artificialanalysis.ai/leaderboards/models",
       "version": "5.0",
-      "updatedAt": 1795786141281
+      "updatedAt": 1795818546684
     },
     "code": {
       "label": "Terminal-Bench 4.0 (%)",
       "url": "https://artificialanalysis.ai/evaluations/terminalbench-4-0",
-      "updatedAt": 1795786141281
+      "updatedAt": 1795818546684
     },
     "image": {
       "label": "AA Text-to-Image Elo",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "updatedAt": 1795786141281
+      "updatedAt": 1795818546684
     },
     "video": {
       "label": "AA Text-to-Video Elo (audio)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "updatedAt": 1795786141281
+      "updatedAt": 1795818546684
     }
   },
   "schemaVersion": 2,
   "sources": {
-    "openrouter": "ok (477)",
+    "openrouter": "ok (476)",
+    "arena_code": "err: http 403",
+    "arena_text": "err: http 403",
+    "arena_image": "err: http 403",
+    "arena_video": "err: http 403",
     "aa_llm": "ok (127)",
     "aa_code": "ok (28)",
     "aa_image": "ok (118)",
-    "aa_video": "ok (39)",
-    "arena_code": "err: http 403",
-    "arena_image": "err: http 403",
-    "arena_video": "err: http 403",
-    "arena_text": "err: http 403"
+    "aa_video": "ok (39)"
   },
-  "updatedAt": 1795786141281,
+  "updatedAt": 1795818546684,
   "errors": []
 }
